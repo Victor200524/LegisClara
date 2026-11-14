@@ -24,6 +24,11 @@ async function iniciar() {
       $("#etapas").textContent = et.length ? "Etapas: " + et.join(" → ") : "Imagem enviada sem alterações.";
     };
     sel.onchange();
+    if (estado.info.correcao_disponivel === false) {
+      $("#corrigir").checked = false;
+      $("#corrigir").disabled = true;
+      $("#corrigir").parentElement.title = "Correção desativada neste servidor (pouca memória)";
+    }
   } catch (e) {
     $("#versoes").textContent = "servidor indisponível";
   }

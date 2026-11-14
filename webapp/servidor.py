@@ -43,6 +43,7 @@ PASTA_EXECUCOES = RAIZ / "resultados_web"
 PASTA_ESTATICA = Path(__file__).parent / "static"
 LIMITE_BYTES = 30 * 1024 * 1024
 MAX_PAGINAS_PDF = 20
+USAR_CORRECAO = os.environ.get("LEGIS_CORRECAO", "1") != "0"  # 0 = sem correção (máquinas com ~1 GB de RAM)
 USAR_CONTEXTO = os.environ.get("LEGIS_CONTEXTO", "1") != "0"  # 0 = sem BERTimbau (economiza ~1 GB de RAM)
 
 _motor: ocr.MotorOCR | None = None
@@ -75,7 +76,8 @@ async def ciclo_de_vida(_app: FastAPI):
             correcao.obter_corretor(usar_contexto=USAR_CONTEXTO)
         print("[webapp] corretor (dicionário + BERTimbau) pronto", flush=True)
 
-    threading.Thread(target=_carregar_corretor, daemon=True).start()
+    if USAR_CORRECAO:
+        threading.Thread(target=_carregar_corretor, daemon=True).start()
     yield
 
 
@@ -196,6 +198,7 @@ def info():
         "parametros_paddleocr": m.parametros,
         "versoes": m.versoes(),
         "formatos": sorted(ocr.EXTENSOES_IMAGEM | ocr.EXTENSOES_PDF),
+        "correcao_disponivel": USAR_CORRECAO,
     }
 
 
@@ -261,7 +264,7 @@ def executar_ocr(
                     limiar_confianca=limiar, detectar_colunas=detectar_colunas, salvar_imagem_processada=False)
                 registros.append(reg)
         ocr.gravar_consolidado(registros, pasta)
-        if corrigir and any(r.get("status") == "ok" for r in registros):
+        if corrigir and USAR_CORRECAO and any(r.get("status") == "ok" for r in registros):
             from scripts import correcao
             ok = [r for r in registros if r.get("status") == "ok"]
             with _trava_corretor:
