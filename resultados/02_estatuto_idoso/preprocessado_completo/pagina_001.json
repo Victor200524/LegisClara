@@ -1,0 +1,271 @@
+{
+  "documento": "02_estatuto_idoso",
+  "pagina": 1,
+  "imagem_origem": "pagina_001_estatuto-do-idoso-exemplar.jpg",
+  "perfil_preprocessamento": "completo",
+  "etapas_preprocessamento": [
+    "redimensionar",
+    "cinza",
+    "contraste",
+    "ruido",
+    "inclinacao",
+    "binarizar"
+  ],
+  "limiar_confianca_revisao": 0.8,
+  "parametros_paddleocr": {
+    "lang": "pt",
+    "device": "cpu",
+    "use_doc_orientation_classify": false,
+    "use_doc_unwarping": false,
+    "use_textline_orientation": false
+  },
+  "versoes": {
+    "paddleocr": "3.4.1",
+    "paddlepaddle": "3.2.2"
+  },
+  "tempo_preprocessamento_s": 0.4767,
+  "dimensoes_imagem": {
+    "largura": 1600,
+    "altura": 1144
+  },
+  "tempo_ocr_s": 4.906,
+  "status": "ok",
+  "layout": {
+    "colunas": 1
+  },
+  "quantidade_caracteres": 21,
+  "quantidade_palavras": 4,
+  "quantidade_fragmentos": 3,
+  "confianca_media": 0.6691,
+  "confianca_minima": 0.379,
+  "necessita_revisao_humana": true,
+  "revisao_humana": [
+    {
+      "linha_txt": 1,
+      "indice_paddleocr": 0,
+      "texto_bruto": "45",
+      "confianca": 0.6332767009735107,
+      "motivos": [
+        "confiança 0.633 abaixo do limiar 0.8"
+      ]
+    },
+    {
+      "linha_txt": 2,
+      "indice_paddleocr": 2,
+      "texto_bruto": ")",
+      "confianca": 0.37901240587234497,
+      "motivos": [
+        "confiança 0.379 abaixo do limiar 0.8"
+      ]
+    }
+  ],
+  "texto": "45 ESTATUTO DOIDOSO\n)",
+  "linhas_ordenadas": [
+    [
+      {
+        "indice_paddleocr": 0,
+        "texto": "45",
+        "confianca": 0.6332767009735107,
+        "caixa": [
+          132.0,
+          376.0,
+          154.0,
+          421.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 1,
+        "texto": "ESTATUTO DOIDOSO",
+        "confianca": 0.9950087070465088,
+        "caixa": [
+          384.0,
+          338.0,
+          912.0,
+          633.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 2,
+        "texto": ")",
+        "confianca": 0.37901240587234497,
+        "caixa": [
+          1235.0,
+          718.0,
+          1256.0,
+          733.0
+        ],
+        "coluna": 1
+      }
+    ]
+  ],
+  "resultado_bruto_paddleocr": {
+    "input_path": null,
+    "page_index": null,
+    "model_settings": {
+      "use_doc_preprocessor": false,
+      "use_textline_orientation": false
+    },
+    "dt_polys": [
+      [
+        [
+          132,
+          376
+        ],
+        [
+          154,
+          376
+        ],
+        [
+          154,
+          421
+        ],
+        [
+          132,
+          421
+        ]
+      ],
+      [
+        [
+          384,
+          568
+        ],
+        [
+          881,
+          338
+        ],
+        [
+          912,
+          403
+        ],
+        [
+          414,
+          633
+        ]
+      ],
+      [
+        [
+          1235,
+          723
+        ],
+        [
+          1253,
+          718
+        ],
+        [
+          1256,
+          727
+        ],
+        [
+          1238,
+          733
+        ]
+      ]
+    ],
+    "text_det_params": {
+      "limit_side_len": 64,
+      "limit_type": "min",
+      "thresh": 0.3,
+      "max_side_limit": 4000,
+      "box_thresh": 0.6,
+      "unclip_ratio": 1.5
+    },
+    "text_type": "general",
+    "textline_orientation_angles": [
+      -1,
+      -1,
+      -1
+    ],
+    "text_rec_score_thresh": 0.0,
+    "return_word_box": false,
+    "rec_texts": [
+      "45",
+      "ESTATUTO DOIDOSO",
+      ")"
+    ],
+    "rec_scores": [
+      0.6332767009735107,
+      0.9950087070465088,
+      0.37901240587234497
+    ],
+    "rec_polys": [
+      [
+        [
+          132,
+          376
+        ],
+        [
+          154,
+          376
+        ],
+        [
+          154,
+          421
+        ],
+        [
+          132,
+          421
+        ]
+      ],
+      [
+        [
+          384,
+          568
+        ],
+        [
+          881,
+          338
+        ],
+        [
+          912,
+          403
+        ],
+        [
+          414,
+          633
+        ]
+      ],
+      [
+        [
+          1235,
+          723
+        ],
+        [
+          1253,
+          718
+        ],
+        [
+          1256,
+          727
+        ],
+        [
+          1238,
+          733
+        ]
+      ]
+    ],
+    "rec_boxes": [
+      [
+        132,
+        376,
+        154,
+        421
+      ],
+      [
+        384,
+        338,
+        912,
+        633
+      ],
+      [
+        1235,
+        718,
+        1256,
+        733
+      ]
+    ]
+  }
+}

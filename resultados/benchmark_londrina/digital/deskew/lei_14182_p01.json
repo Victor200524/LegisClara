@@ -1,0 +1,2497 @@
+{
+  "documento": "lei_14182_digital",
+  "pagina": 1,
+  "imagem_origem": "lei_14182_p01.png",
+  "perfil_preprocessamento": "deskew",
+  "etapas_preprocessamento": [
+    "redimensionar",
+    "inclinacao"
+  ],
+  "limiar_confianca_revisao": 0.8,
+  "parametros_paddleocr": {
+    "lang": "pt",
+    "device": "cpu",
+    "use_doc_orientation_classify": false,
+    "use_doc_unwarping": false,
+    "use_textline_orientation": false
+  },
+  "versoes": {
+    "paddleocr": "3.4.1",
+    "paddlepaddle": "3.2.2"
+  },
+  "tempo_preprocessamento_s": 0.2086,
+  "dimensoes_imagem": {
+    "largura": 2481,
+    "altura": 3508
+  },
+  "tempo_ocr_s": 25.4882,
+  "status": "ok",
+  "layout": {
+    "colunas": 1
+  },
+  "quantidade_caracteres": 2186,
+  "quantidade_palavras": 326,
+  "quantidade_fragmentos": 41,
+  "confianca_media": 0.923,
+  "confianca_minima": 0.2318,
+  "necessita_revisao_humana": true,
+  "revisao_humana": [
+    {
+      "linha_txt": 2,
+      "indice_paddleocr": 2,
+      "texto_bruto": "te",
+      "confianca": 0.23182415962219238,
+      "motivos": [
+        "confiança 0.232 abaixo do limiar 0.8"
+      ]
+    },
+    {
+      "linha_txt": 2,
+      "indice_paddleocr": 4,
+      "texto_bruto": "62",
+      "confianca": 0.41501253843307495,
+      "motivos": [
+        "confiança 0.415 abaixo do limiar 0.8"
+      ]
+    },
+    {
+      "linha_txt": 25,
+      "indice_paddleocr": 25,
+      "texto_bruto": "tte ro orr crm or co rnnie a aro",
+      "confianca": 0.26152026653289795,
+      "motivos": [
+        "confiança 0.262 abaixo do limiar 0.8"
+      ]
+    },
+    {
+      "linha_txt": 25,
+      "indice_paddleocr": 14,
+      "texto_bruto": "Ctteae cer e e  cecorderrte  m  ce ",
+      "confianca": 0.24383732676506042,
+      "motivos": [
+        "confiança 0.244 abaixo do limiar 0.8"
+      ]
+    }
+  ],
+  "texto": "Prefeitura do Município de Londrina\nte 62 Estado do Paraná\nLONDRINA\nLEI N.º 14182, DE 22 DE JUNHO DE 2026\nSúmula: Estabelece diretrizes para a implantação de\nSalas de Autorregulação nas escolas da rede pública\nmunicipal de Londrina, destinadas à atenção de\nestudantes com Transtorno do Espectro Autista\n(TEA) e outras condições neuroatípicas e dá outras\nprovidências.\nA CÂMARA MUNICIPAL DE LONDRINA, ESTADO DO PARANÁ, APROVOU E EU,\nPREFEITO DO MUNICÍPIO, SANCIONO A SEGUINTE LEI:\nArt. 1º Fica instituída, no âmbito da rede pública municipal de ensino de Londrina, a diretriz de\nimplantação de Salas de Autorregulação, destinadas ao acolhimento e apoio de estudantes com\nTranstorno do Espectro Autista (TEA) e demais condições neuroatípicas.\n§ 1º A implementação das Salas de Autorregulação observará critérios de viabilidade técnica,\ndemanda escolar e disponibilidade orçamentária, conforme planejamento da Secretaria\nMunicipal de Educação. (8-\n§ 2º As Salas de Autorregulação deverão observar os seguintes parâmetros: *** ***\nI- ambiente calmo e acolhedor, com controle de estímulos sensoriais como som, luz e texturas;\nIl - materiais e recursos voltados à autorregulação emocional e sensorial, conforme orientação\nde profissionais especializados;\nIII - utilização com acompanhamento de profissional capacitado, sob ciência da coordenação\npedagógica;\nIV - disponibilidade conforme as necessidades individuais dos estudantes durante o período letivo. Art. 3º O Poder Executivo regulamentará o previsto nesta Lei, no que couber, no prazo de até Art. 4º As despesas decorrentes da aplicação desta Lei correrão por conta de dotações Art. 5º Esta Lei entra em vigor na data de sua publicação, revogadas as disposições contrárias. Art. 2º O Poder Executivo poderá firmar parcerias com instituições especializadas, públicas ou privadas, para apoio técnico, formação continuada e orientação quanto ao uso dos espaços. educacional. orçamentárias próprias, podendo ser suplementadas, se necessário. 180 (cento e oitenta) dias, considerados os princípios da inclusão, acessibilidade e diversidade Londrina, 22 de junho de 2026. tte ro orr crm or co rnnie a aro Ctteae cer e e  cecorderrte  m  ce ",
+  "linhas_ordenadas": [
+    [
+      {
+        "indice_paddleocr": 0,
+        "texto": "Prefeitura do Município de Londrina",
+        "confianca": 0.9910691380500793,
+        "caixa": [
+          637.0,
+          184.0,
+          2089.0,
+          287.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 2,
+        "texto": "te",
+        "confianca": 0.23182415962219238,
+        "caixa": [
+          311.0,
+          340.0,
+          360.0,
+          364.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 4,
+        "texto": "62",
+        "confianca": 0.41501253843307495,
+        "caixa": [
+          475.0,
+          338.0,
+          524.0,
+          363.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 1,
+        "texto": "Estado do Paraná",
+        "confianca": 0.9892402291297913,
+        "caixa": [
+          1111.0,
+          294.0,
+          1617.0,
+          355.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 3,
+        "texto": "LONDRINA",
+        "confianca": 0.980044960975647,
+        "caixa": [
+          357.0,
+          353.0,
+          476.0,
+          383.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 5,
+        "texto": "LEI N.º 14182, DE 22 DE JUNHO DE 2026",
+        "confianca": 0.9989386796951294,
+        "caixa": [
+          289.0,
+          560.0,
+          1382.0,
+          623.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 6,
+        "texto": "Súmula: Estabelece diretrizes para a implantação de",
+        "confianca": 0.997353196144104,
+        "caixa": [
+          1140.0,
+          708.0,
+          2187.0,
+          758.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 7,
+        "texto": "Salas de Autorregulação nas escolas da rede pública",
+        "confianca": 0.9952086806297302,
+        "caixa": [
+          1139.0,
+          766.0,
+          2190.0,
+          817.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 8,
+        "texto": "municipal de Londrina, destinadas à atenção de",
+        "confianca": 0.9953255653381348,
+        "caixa": [
+          1141.0,
+          826.0,
+          2189.0,
+          876.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 9,
+        "texto": "estudantes com Transtorno do Espectro Autista",
+        "confianca": 0.9998177289962769,
+        "caixa": [
+          1140.0,
+          885.0,
+          2188.0,
+          932.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 10,
+        "texto": "(TEA) e outras condições neuroatípicas e dá outras",
+        "confianca": 0.9994565844535828,
+        "caixa": [
+          1143.0,
+          942.0,
+          2188.0,
+          991.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 11,
+        "texto": "providências.",
+        "confianca": 0.9999212026596069,
+        "caixa": [
+          1142.0,
+          1001.0,
+          1406.0,
+          1049.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 12,
+        "texto": "A CÂMARA MUNICIPAL DE LONDRINA, ESTADO DO PARANÁ, APROVOU E EU,",
+        "confianca": 0.9996611475944519,
+        "caixa": [
+          401.0,
+          1165.0,
+          2075.0,
+          1223.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 13,
+        "texto": "PREFEITO DO MUNICÍPIO, SANCIONO A SEGUINTE LEI:",
+        "confianca": 0.9930363893508911,
+        "caixa": [
+          649.0,
+          1231.0,
+          1830.0,
+          1280.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 15,
+        "texto": "Art. 1º Fica instituída, no âmbito da rede pública municipal de ensino de Londrina, a diretriz de",
+        "confianca": 0.9917501211166382,
+        "caixa": [
+          290.0,
+          1406.0,
+          2187.0,
+          1456.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 16,
+        "texto": "implantação de Salas de Autorregulação, destinadas ao acolhimento e apoio de estudantes com",
+        "confianca": 0.9964984655380249,
+        "caixa": [
+          292.0,
+          1468.0,
+          2187.0,
+          1512.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 17,
+        "texto": "Transtorno do Espectro Autista (TEA) e demais condições neuroatípicas.",
+        "confianca": 0.9837895035743713,
+        "caixa": [
+          289.0,
+          1522.0,
+          1713.0,
+          1574.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 18,
+        "texto": "§ 1º A implementação das Salas de Autorregulação observará critérios de viabilidade técnica,",
+        "confianca": 0.9983081221580505,
+        "caixa": [
+          290.0,
+          1640.0,
+          2187.0,
+          1690.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 19,
+        "texto": "demanda escolar e disponibilidade orçamentária, conforme planejamento da Secretaria",
+        "confianca": 0.9952088594436646,
+        "caixa": [
+          290.0,
+          1697.0,
+          2189.0,
+          1747.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 20,
+        "texto": "Municipal de Educação.",
+        "confianca": 0.9950194954872131,
+        "caixa": [
+          291.0,
+          1755.0,
+          777.0,
+          1805.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 21,
+        "texto": "(8-",
+        "confianca": 0.9571757912635803,
+        "caixa": [
+          2361.0,
+          1752.0,
+          2403.0,
+          1829.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 23,
+        "texto": "§ 2º As Salas de Autorregulação deverão observar os seguintes parâmetros:",
+        "confianca": 0.9978296756744385,
+        "caixa": [
+          288.0,
+          1870.0,
+          1787.0,
+          1922.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 22,
+        "texto": "*** ***",
+        "confianca": 0.9757242798805237,
+        "caixa": [
+          2360.0,
+          1822.0,
+          2387.0,
+          1939.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 24,
+        "texto": "I- ambiente calmo e acolhedor, com controle de estímulos sensoriais como som, luz e texturas;",
+        "confianca": 0.9876577854156494,
+        "caixa": [
+          288.0,
+          1930.0,
+          2164.0,
+          1979.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 26,
+        "texto": "Il - materiais e recursos voltados à autorregulação emocional e sensorial, conforme orientação",
+        "confianca": 0.9836614727973938,
+        "caixa": [
+          284.0,
+          1986.0,
+          2188.0,
+          2042.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 27,
+        "texto": "de profissionais especializados;",
+        "confianca": 0.9825762510299683,
+        "caixa": [
+          291.0,
+          2051.0,
+          914.0,
+          2098.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 28,
+        "texto": "III - utilização com acompanhamento de profissional capacitado, sob ciência da coordenação",
+        "confianca": 0.9764916300773621,
+        "caixa": [
+          285.0,
+          2104.0,
+          2188.0,
+          2162.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 29,
+        "texto": "pedagógica;",
+        "confianca": 0.9998088479042053,
+        "caixa": [
+          290.0,
+          2169.0,
+          537.0,
+          2217.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 30,
+        "texto": "IV - disponibilidade conforme as necessidades individuais dos estudantes durante o período",
+        "confianca": 0.9947009682655334,
+        "caixa": [
+          286.0,
+          2222.0,
+          2188.0,
+          2275.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 31,
+        "texto": "letivo.",
+        "confianca": 0.9998242259025574,
+        "caixa": [
+          286.0,
+          2281.0,
+          413.0,
+          2331.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 34,
+        "texto": "Art. 3º O Poder Executivo regulamentará o previsto nesta Lei, no que couber, no prazo de até",
+        "confianca": 0.9926450848579407,
+        "caixa": [
+          290.0,
+          2572.0,
+          2189.0,
+          2623.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 37,
+        "texto": "Art. 4º As despesas decorrentes da aplicação desta Lei correrão por conta de dotações",
+        "confianca": 0.9934218525886536,
+        "caixa": [
+          290.0,
+          2806.0,
+          2189.0,
+          2855.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 39,
+        "texto": "Art. 5º Esta Lei entra em vigor na data de sua publicação, revogadas as disposições contrárias.",
+        "confianca": 0.9844465851783752,
+        "caixa": [
+          290.0,
+          2980.0,
+          2154.0,
+          3031.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 32,
+        "texto": "Art. 2º O Poder Executivo poderá firmar parcerias com instituições especializadas, públicas ou",
+        "confianca": 0.9952102899551392,
+        "caixa": [
+          291.0,
+          2399.0,
+          2189.0,
+          2448.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 33,
+        "texto": "privadas, para apoio técnico, formação continuada e orientação quanto ao uso dos espaços.",
+        "confianca": 0.9957042932510376,
+        "caixa": [
+          291.0,
+          2457.0,
+          2089.0,
+          2508.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 36,
+        "texto": "educacional.",
+        "confianca": 0.9999788403511047,
+        "caixa": [
+          291.0,
+          2692.0,
+          543.0,
+          2736.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 38,
+        "texto": "orçamentárias próprias, podendo ser suplementadas, se necessário.",
+        "confianca": 0.9956862330436707,
+        "caixa": [
+          291.0,
+          2863.0,
+          1626.0,
+          2914.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 35,
+        "texto": "180 (cento e oitenta) dias, considerados os princípios da inclusão, acessibilidade e diversidade",
+        "confianca": 0.9928803443908691,
+        "caixa": [
+          292.0,
+          2632.0,
+          2187.0,
+          2680.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 40,
+        "texto": "Londrina, 22 de junho de 2026.",
+        "confianca": 0.9869711399078369,
+        "caixa": [
+          1576.0,
+          3154.0,
+          2186.0,
+          3201.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 25,
+        "texto": "tte ro orr crm or co rnnie a aro",
+        "confianca": 0.26152026653289795,
+        "caixa": [
+          2362.0,
+          1939.0,
+          2405.0,
+          3343.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 14,
+        "texto": "Ctteae cer e e  cecorderrte  m  ce ",
+        "confianca": 0.24383732676506042,
+        "caixa": [
+          2400.0,
+          1236.0,
+          2453.0,
+          3347.0
+        ],
+        "coluna": 1
+      }
+    ]
+  ],
+  "resultado_bruto_paddleocr": {
+    "input_path": null,
+    "page_index": null,
+    "model_settings": {
+      "use_doc_preprocessor": false,
+      "use_textline_orientation": false
+    },
+    "dt_polys": [
+      [
+        [
+          637,
+          184
+        ],
+        [
+          2089,
+          186
+        ],
+        [
+          2089,
+          287
+        ],
+        [
+          637,
+          285
+        ]
+      ],
+      [
+        [
+          1111,
+          294
+        ],
+        [
+          1617,
+          294
+        ],
+        [
+          1617,
+          355
+        ],
+        [
+          1111,
+          355
+        ]
+      ],
+      [
+        [
+          314,
+          340
+        ],
+        [
+          360,
+          348
+        ],
+        [
+          357,
+          364
+        ],
+        [
+          311,
+          356
+        ]
+      ],
+      [
+        [
+          357,
+          353
+        ],
+        [
+          476,
+          355
+        ],
+        [
+          476,
+          383
+        ],
+        [
+          357,
+          381
+        ]
+      ],
+      [
+        [
+          475,
+          344
+        ],
+        [
+          521,
+          338
+        ],
+        [
+          524,
+          356
+        ],
+        [
+          478,
+          363
+        ]
+      ],
+      [
+        [
+          289,
+          562
+        ],
+        [
+          1382,
+          560
+        ],
+        [
+          1382,
+          621
+        ],
+        [
+          289,
+          623
+        ]
+      ],
+      [
+        [
+          1140,
+          708
+        ],
+        [
+          2187,
+          711
+        ],
+        [
+          2187,
+          758
+        ],
+        [
+          1140,
+          755
+        ]
+      ],
+      [
+        [
+          1139,
+          766
+        ],
+        [
+          2190,
+          767
+        ],
+        [
+          2190,
+          817
+        ],
+        [
+          1139,
+          816
+        ]
+      ],
+      [
+        [
+          1141,
+          826
+        ],
+        [
+          2189,
+          826
+        ],
+        [
+          2189,
+          876
+        ],
+        [
+          1141,
+          876
+        ]
+      ],
+      [
+        [
+          1140,
+          885
+        ],
+        [
+          2188,
+          885
+        ],
+        [
+          2188,
+          932
+        ],
+        [
+          1140,
+          932
+        ]
+      ],
+      [
+        [
+          1143,
+          943
+        ],
+        [
+          2188,
+          942
+        ],
+        [
+          2188,
+          990
+        ],
+        [
+          1143,
+          991
+        ]
+      ],
+      [
+        [
+          1142,
+          1001
+        ],
+        [
+          1406,
+          1001
+        ],
+        [
+          1406,
+          1049
+        ],
+        [
+          1142,
+          1049
+        ]
+      ],
+      [
+        [
+          401,
+          1165
+        ],
+        [
+          2075,
+          1169
+        ],
+        [
+          2075,
+          1223
+        ],
+        [
+          401,
+          1219
+        ]
+      ],
+      [
+        [
+          649,
+          1231
+        ],
+        [
+          1830,
+          1233
+        ],
+        [
+          1830,
+          1280
+        ],
+        [
+          649,
+          1278
+        ]
+      ],
+      [
+        [
+          2400,
+          1236
+        ],
+        [
+          2453,
+          1236
+        ],
+        [
+          2453,
+          3347
+        ],
+        [
+          2400,
+          3347
+        ]
+      ],
+      [
+        [
+          290,
+          1406
+        ],
+        [
+          2187,
+          1409
+        ],
+        [
+          2187,
+          1456
+        ],
+        [
+          290,
+          1453
+        ]
+      ],
+      [
+        [
+          292,
+          1468
+        ],
+        [
+          2187,
+          1468
+        ],
+        [
+          2187,
+          1512
+        ],
+        [
+          292,
+          1512
+        ]
+      ],
+      [
+        [
+          289,
+          1522
+        ],
+        [
+          1713,
+          1524
+        ],
+        [
+          1713,
+          1574
+        ],
+        [
+          289,
+          1572
+        ]
+      ],
+      [
+        [
+          290,
+          1640
+        ],
+        [
+          2187,
+          1640
+        ],
+        [
+          2187,
+          1690
+        ],
+        [
+          290,
+          1690
+        ]
+      ],
+      [
+        [
+          290,
+          1697
+        ],
+        [
+          2189,
+          1699
+        ],
+        [
+          2189,
+          1747
+        ],
+        [
+          290,
+          1745
+        ]
+      ],
+      [
+        [
+          291,
+          1755
+        ],
+        [
+          777,
+          1757
+        ],
+        [
+          777,
+          1805
+        ],
+        [
+          291,
+          1803
+        ]
+      ],
+      [
+        [
+          2361,
+          1752
+        ],
+        [
+          2403,
+          1752
+        ],
+        [
+          2403,
+          1829
+        ],
+        [
+          2361,
+          1829
+        ]
+      ],
+      [
+        [
+          2360,
+          1822
+        ],
+        [
+          2384,
+          1822
+        ],
+        [
+          2387,
+          1938
+        ],
+        [
+          2362,
+          1939
+        ]
+      ],
+      [
+        [
+          288,
+          1870
+        ],
+        [
+          1787,
+          1870
+        ],
+        [
+          1787,
+          1922
+        ],
+        [
+          288,
+          1922
+        ]
+      ],
+      [
+        [
+          288,
+          1930
+        ],
+        [
+          2164,
+          1932
+        ],
+        [
+          2164,
+          1979
+        ],
+        [
+          288,
+          1977
+        ]
+      ],
+      [
+        [
+          2362,
+          1939
+        ],
+        [
+          2405,
+          1939
+        ],
+        [
+          2405,
+          3343
+        ],
+        [
+          2362,
+          3343
+        ]
+      ],
+      [
+        [
+          284,
+          1986
+        ],
+        [
+          2188,
+          1988
+        ],
+        [
+          2188,
+          2042
+        ],
+        [
+          284,
+          2040
+        ]
+      ],
+      [
+        [
+          291,
+          2051
+        ],
+        [
+          914,
+          2051
+        ],
+        [
+          914,
+          2098
+        ],
+        [
+          291,
+          2098
+        ]
+      ],
+      [
+        [
+          285,
+          2104
+        ],
+        [
+          2188,
+          2107
+        ],
+        [
+          2188,
+          2162
+        ],
+        [
+          285,
+          2159
+        ]
+      ],
+      [
+        [
+          290,
+          2169
+        ],
+        [
+          537,
+          2169
+        ],
+        [
+          537,
+          2217
+        ],
+        [
+          290,
+          2217
+        ]
+      ],
+      [
+        [
+          286,
+          2222
+        ],
+        [
+          2188,
+          2224
+        ],
+        [
+          2188,
+          2275
+        ],
+        [
+          286,
+          2273
+        ]
+      ],
+      [
+        [
+          287,
+          2281
+        ],
+        [
+          413,
+          2283
+        ],
+        [
+          412,
+          2331
+        ],
+        [
+          286,
+          2329
+        ]
+      ],
+      [
+        [
+          291,
+          2399
+        ],
+        [
+          2189,
+          2401
+        ],
+        [
+          2189,
+          2448
+        ],
+        [
+          291,
+          2446
+        ]
+      ],
+      [
+        [
+          291,
+          2457
+        ],
+        [
+          2089,
+          2458
+        ],
+        [
+          2089,
+          2508
+        ],
+        [
+          291,
+          2507
+        ]
+      ],
+      [
+        [
+          290,
+          2572
+        ],
+        [
+          2189,
+          2573
+        ],
+        [
+          2189,
+          2623
+        ],
+        [
+          290,
+          2622
+        ]
+      ],
+      [
+        [
+          292,
+          2632
+        ],
+        [
+          2187,
+          2633
+        ],
+        [
+          2187,
+          2680
+        ],
+        [
+          292,
+          2679
+        ]
+      ],
+      [
+        [
+          291,
+          2692
+        ],
+        [
+          543,
+          2692
+        ],
+        [
+          543,
+          2736
+        ],
+        [
+          291,
+          2736
+        ]
+      ],
+      [
+        [
+          290,
+          2806
+        ],
+        [
+          2189,
+          2808
+        ],
+        [
+          2189,
+          2855
+        ],
+        [
+          290,
+          2853
+        ]
+      ],
+      [
+        [
+          291,
+          2867
+        ],
+        [
+          1626,
+          2863
+        ],
+        [
+          1626,
+          2910
+        ],
+        [
+          291,
+          2914
+        ]
+      ],
+      [
+        [
+          290,
+          2980
+        ],
+        [
+          2154,
+          2981
+        ],
+        [
+          2154,
+          3031
+        ],
+        [
+          290,
+          3030
+        ]
+      ],
+      [
+        [
+          1576,
+          3156
+        ],
+        [
+          2186,
+          3154
+        ],
+        [
+          2186,
+          3199
+        ],
+        [
+          1577,
+          3201
+        ]
+      ]
+    ],
+    "text_det_params": {
+      "limit_side_len": 64,
+      "limit_type": "min",
+      "thresh": 0.3,
+      "max_side_limit": 4000,
+      "box_thresh": 0.6,
+      "unclip_ratio": 1.5
+    },
+    "text_type": "general",
+    "textline_orientation_angles": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "text_rec_score_thresh": 0.0,
+    "return_word_box": false,
+    "rec_texts": [
+      "Prefeitura do Município de Londrina",
+      "Estado do Paraná",
+      "te",
+      "LONDRINA",
+      "62",
+      "LEI N.º 14182, DE 22 DE JUNHO DE 2026",
+      "Súmula: Estabelece diretrizes para a implantação de",
+      "Salas de Autorregulação nas escolas da rede pública",
+      "municipal de Londrina, destinadas à atenção de",
+      "estudantes com Transtorno do Espectro Autista",
+      "(TEA) e outras condições neuroatípicas e dá outras",
+      "providências.",
+      "A CÂMARA MUNICIPAL DE LONDRINA, ESTADO DO PARANÁ, APROVOU E EU,",
+      "PREFEITO DO MUNICÍPIO, SANCIONO A SEGUINTE LEI:",
+      "Ctteae cer e e  cecorderrte  m  ce ",
+      "Art. 1º Fica instituída, no âmbito da rede pública municipal de ensino de Londrina, a diretriz de",
+      "implantação de Salas de Autorregulação, destinadas ao acolhimento e apoio de estudantes com",
+      "Transtorno do Espectro Autista (TEA) e demais condições neuroatípicas.",
+      "§ 1º A implementação das Salas de Autorregulação observará critérios de viabilidade técnica,",
+      "demanda escolar e disponibilidade orçamentária, conforme planejamento da Secretaria",
+      "Municipal de Educação.",
+      "(8-",
+      "*** ***",
+      "§ 2º As Salas de Autorregulação deverão observar os seguintes parâmetros:",
+      "I- ambiente calmo e acolhedor, com controle de estímulos sensoriais como som, luz e texturas;",
+      "tte ro orr crm or co rnnie a aro",
+      "Il - materiais e recursos voltados à autorregulação emocional e sensorial, conforme orientação",
+      "de profissionais especializados;",
+      "III - utilização com acompanhamento de profissional capacitado, sob ciência da coordenação",
+      "pedagógica;",
+      "IV - disponibilidade conforme as necessidades individuais dos estudantes durante o período",
+      "letivo.",
+      "Art. 2º O Poder Executivo poderá firmar parcerias com instituições especializadas, públicas ou",
+      "privadas, para apoio técnico, formação continuada e orientação quanto ao uso dos espaços.",
+      "Art. 3º O Poder Executivo regulamentará o previsto nesta Lei, no que couber, no prazo de até",
+      "180 (cento e oitenta) dias, considerados os princípios da inclusão, acessibilidade e diversidade",
+      "educacional.",
+      "Art. 4º As despesas decorrentes da aplicação desta Lei correrão por conta de dotações",
+      "orçamentárias próprias, podendo ser suplementadas, se necessário.",
+      "Art. 5º Esta Lei entra em vigor na data de sua publicação, revogadas as disposições contrárias.",
+      "Londrina, 22 de junho de 2026."
+    ],
+    "rec_scores": [
+      0.9910691380500793,
+      0.9892402291297913,
+      0.23182415962219238,
+      0.980044960975647,
+      0.41501253843307495,
+      0.9989386796951294,
+      0.997353196144104,
+      0.9952086806297302,
+      0.9953255653381348,
+      0.9998177289962769,
+      0.9994565844535828,
+      0.9999212026596069,
+      0.9996611475944519,
+      0.9930363893508911,
+      0.24383732676506042,
+      0.9917501211166382,
+      0.9964984655380249,
+      0.9837895035743713,
+      0.9983081221580505,
+      0.9952088594436646,
+      0.9950194954872131,
+      0.9571757912635803,
+      0.9757242798805237,
+      0.9978296756744385,
+      0.9876577854156494,
+      0.26152026653289795,
+      0.9836614727973938,
+      0.9825762510299683,
+      0.9764916300773621,
+      0.9998088479042053,
+      0.9947009682655334,
+      0.9998242259025574,
+      0.9952102899551392,
+      0.9957042932510376,
+      0.9926450848579407,
+      0.9928803443908691,
+      0.9999788403511047,
+      0.9934218525886536,
+      0.9956862330436707,
+      0.9844465851783752,
+      0.9869711399078369
+    ],
+    "rec_polys": [
+      [
+        [
+          637,
+          184
+        ],
+        [
+          2089,
+          186
+        ],
+        [
+          2089,
+          287
+        ],
+        [
+          637,
+          285
+        ]
+      ],
+      [
+        [
+          1111,
+          294
+        ],
+        [
+          1617,
+          294
+        ],
+        [
+          1617,
+          355
+        ],
+        [
+          1111,
+          355
+        ]
+      ],
+      [
+        [
+          314,
+          340
+        ],
+        [
+          360,
+          348
+        ],
+        [
+          357,
+          364
+        ],
+        [
+          311,
+          356
+        ]
+      ],
+      [
+        [
+          357,
+          353
+        ],
+        [
+          476,
+          355
+        ],
+        [
+          476,
+          383
+        ],
+        [
+          357,
+          381
+        ]
+      ],
+      [
+        [
+          475,
+          344
+        ],
+        [
+          521,
+          338
+        ],
+        [
+          524,
+          356
+        ],
+        [
+          478,
+          363
+        ]
+      ],
+      [
+        [
+          289,
+          562
+        ],
+        [
+          1382,
+          560
+        ],
+        [
+          1382,
+          621
+        ],
+        [
+          289,
+          623
+        ]
+      ],
+      [
+        [
+          1140,
+          708
+        ],
+        [
+          2187,
+          711
+        ],
+        [
+          2187,
+          758
+        ],
+        [
+          1140,
+          755
+        ]
+      ],
+      [
+        [
+          1139,
+          766
+        ],
+        [
+          2190,
+          767
+        ],
+        [
+          2190,
+          817
+        ],
+        [
+          1139,
+          816
+        ]
+      ],
+      [
+        [
+          1141,
+          826
+        ],
+        [
+          2189,
+          826
+        ],
+        [
+          2189,
+          876
+        ],
+        [
+          1141,
+          876
+        ]
+      ],
+      [
+        [
+          1140,
+          885
+        ],
+        [
+          2188,
+          885
+        ],
+        [
+          2188,
+          932
+        ],
+        [
+          1140,
+          932
+        ]
+      ],
+      [
+        [
+          1143,
+          943
+        ],
+        [
+          2188,
+          942
+        ],
+        [
+          2188,
+          990
+        ],
+        [
+          1143,
+          991
+        ]
+      ],
+      [
+        [
+          1142,
+          1001
+        ],
+        [
+          1406,
+          1001
+        ],
+        [
+          1406,
+          1049
+        ],
+        [
+          1142,
+          1049
+        ]
+      ],
+      [
+        [
+          401,
+          1165
+        ],
+        [
+          2075,
+          1169
+        ],
+        [
+          2075,
+          1223
+        ],
+        [
+          401,
+          1219
+        ]
+      ],
+      [
+        [
+          649,
+          1231
+        ],
+        [
+          1830,
+          1233
+        ],
+        [
+          1830,
+          1280
+        ],
+        [
+          649,
+          1278
+        ]
+      ],
+      [
+        [
+          2400,
+          1236
+        ],
+        [
+          2453,
+          1236
+        ],
+        [
+          2453,
+          3347
+        ],
+        [
+          2400,
+          3347
+        ]
+      ],
+      [
+        [
+          290,
+          1406
+        ],
+        [
+          2187,
+          1409
+        ],
+        [
+          2187,
+          1456
+        ],
+        [
+          290,
+          1453
+        ]
+      ],
+      [
+        [
+          292,
+          1468
+        ],
+        [
+          2187,
+          1468
+        ],
+        [
+          2187,
+          1512
+        ],
+        [
+          292,
+          1512
+        ]
+      ],
+      [
+        [
+          289,
+          1522
+        ],
+        [
+          1713,
+          1524
+        ],
+        [
+          1713,
+          1574
+        ],
+        [
+          289,
+          1572
+        ]
+      ],
+      [
+        [
+          290,
+          1640
+        ],
+        [
+          2187,
+          1640
+        ],
+        [
+          2187,
+          1690
+        ],
+        [
+          290,
+          1690
+        ]
+      ],
+      [
+        [
+          290,
+          1697
+        ],
+        [
+          2189,
+          1699
+        ],
+        [
+          2189,
+          1747
+        ],
+        [
+          290,
+          1745
+        ]
+      ],
+      [
+        [
+          291,
+          1755
+        ],
+        [
+          777,
+          1757
+        ],
+        [
+          777,
+          1805
+        ],
+        [
+          291,
+          1803
+        ]
+      ],
+      [
+        [
+          2361,
+          1752
+        ],
+        [
+          2403,
+          1752
+        ],
+        [
+          2403,
+          1829
+        ],
+        [
+          2361,
+          1829
+        ]
+      ],
+      [
+        [
+          2360,
+          1822
+        ],
+        [
+          2384,
+          1822
+        ],
+        [
+          2387,
+          1938
+        ],
+        [
+          2362,
+          1939
+        ]
+      ],
+      [
+        [
+          288,
+          1870
+        ],
+        [
+          1787,
+          1870
+        ],
+        [
+          1787,
+          1922
+        ],
+        [
+          288,
+          1922
+        ]
+      ],
+      [
+        [
+          288,
+          1930
+        ],
+        [
+          2164,
+          1932
+        ],
+        [
+          2164,
+          1979
+        ],
+        [
+          288,
+          1977
+        ]
+      ],
+      [
+        [
+          2362,
+          1939
+        ],
+        [
+          2405,
+          1939
+        ],
+        [
+          2405,
+          3343
+        ],
+        [
+          2362,
+          3343
+        ]
+      ],
+      [
+        [
+          284,
+          1986
+        ],
+        [
+          2188,
+          1988
+        ],
+        [
+          2188,
+          2042
+        ],
+        [
+          284,
+          2040
+        ]
+      ],
+      [
+        [
+          291,
+          2051
+        ],
+        [
+          914,
+          2051
+        ],
+        [
+          914,
+          2098
+        ],
+        [
+          291,
+          2098
+        ]
+      ],
+      [
+        [
+          285,
+          2104
+        ],
+        [
+          2188,
+          2107
+        ],
+        [
+          2188,
+          2162
+        ],
+        [
+          285,
+          2159
+        ]
+      ],
+      [
+        [
+          290,
+          2169
+        ],
+        [
+          537,
+          2169
+        ],
+        [
+          537,
+          2217
+        ],
+        [
+          290,
+          2217
+        ]
+      ],
+      [
+        [
+          286,
+          2222
+        ],
+        [
+          2188,
+          2224
+        ],
+        [
+          2188,
+          2275
+        ],
+        [
+          286,
+          2273
+        ]
+      ],
+      [
+        [
+          287,
+          2281
+        ],
+        [
+          413,
+          2283
+        ],
+        [
+          412,
+          2331
+        ],
+        [
+          286,
+          2329
+        ]
+      ],
+      [
+        [
+          291,
+          2399
+        ],
+        [
+          2189,
+          2401
+        ],
+        [
+          2189,
+          2448
+        ],
+        [
+          291,
+          2446
+        ]
+      ],
+      [
+        [
+          291,
+          2457
+        ],
+        [
+          2089,
+          2458
+        ],
+        [
+          2089,
+          2508
+        ],
+        [
+          291,
+          2507
+        ]
+      ],
+      [
+        [
+          290,
+          2572
+        ],
+        [
+          2189,
+          2573
+        ],
+        [
+          2189,
+          2623
+        ],
+        [
+          290,
+          2622
+        ]
+      ],
+      [
+        [
+          292,
+          2632
+        ],
+        [
+          2187,
+          2633
+        ],
+        [
+          2187,
+          2680
+        ],
+        [
+          292,
+          2679
+        ]
+      ],
+      [
+        [
+          291,
+          2692
+        ],
+        [
+          543,
+          2692
+        ],
+        [
+          543,
+          2736
+        ],
+        [
+          291,
+          2736
+        ]
+      ],
+      [
+        [
+          290,
+          2806
+        ],
+        [
+          2189,
+          2808
+        ],
+        [
+          2189,
+          2855
+        ],
+        [
+          290,
+          2853
+        ]
+      ],
+      [
+        [
+          291,
+          2867
+        ],
+        [
+          1626,
+          2863
+        ],
+        [
+          1626,
+          2910
+        ],
+        [
+          291,
+          2914
+        ]
+      ],
+      [
+        [
+          290,
+          2980
+        ],
+        [
+          2154,
+          2981
+        ],
+        [
+          2154,
+          3031
+        ],
+        [
+          290,
+          3030
+        ]
+      ],
+      [
+        [
+          1576,
+          3156
+        ],
+        [
+          2186,
+          3154
+        ],
+        [
+          2186,
+          3199
+        ],
+        [
+          1577,
+          3201
+        ]
+      ]
+    ],
+    "rec_boxes": [
+      [
+        637,
+        184,
+        2089,
+        287
+      ],
+      [
+        1111,
+        294,
+        1617,
+        355
+      ],
+      [
+        311,
+        340,
+        360,
+        364
+      ],
+      [
+        357,
+        353,
+        476,
+        383
+      ],
+      [
+        475,
+        338,
+        524,
+        363
+      ],
+      [
+        289,
+        560,
+        1382,
+        623
+      ],
+      [
+        1140,
+        708,
+        2187,
+        758
+      ],
+      [
+        1139,
+        766,
+        2190,
+        817
+      ],
+      [
+        1141,
+        826,
+        2189,
+        876
+      ],
+      [
+        1140,
+        885,
+        2188,
+        932
+      ],
+      [
+        1143,
+        942,
+        2188,
+        991
+      ],
+      [
+        1142,
+        1001,
+        1406,
+        1049
+      ],
+      [
+        401,
+        1165,
+        2075,
+        1223
+      ],
+      [
+        649,
+        1231,
+        1830,
+        1280
+      ],
+      [
+        2400,
+        1236,
+        2453,
+        3347
+      ],
+      [
+        290,
+        1406,
+        2187,
+        1456
+      ],
+      [
+        292,
+        1468,
+        2187,
+        1512
+      ],
+      [
+        289,
+        1522,
+        1713,
+        1574
+      ],
+      [
+        290,
+        1640,
+        2187,
+        1690
+      ],
+      [
+        290,
+        1697,
+        2189,
+        1747
+      ],
+      [
+        291,
+        1755,
+        777,
+        1805
+      ],
+      [
+        2361,
+        1752,
+        2403,
+        1829
+      ],
+      [
+        2360,
+        1822,
+        2387,
+        1939
+      ],
+      [
+        288,
+        1870,
+        1787,
+        1922
+      ],
+      [
+        288,
+        1930,
+        2164,
+        1979
+      ],
+      [
+        2362,
+        1939,
+        2405,
+        3343
+      ],
+      [
+        284,
+        1986,
+        2188,
+        2042
+      ],
+      [
+        291,
+        2051,
+        914,
+        2098
+      ],
+      [
+        285,
+        2104,
+        2188,
+        2162
+      ],
+      [
+        290,
+        2169,
+        537,
+        2217
+      ],
+      [
+        286,
+        2222,
+        2188,
+        2275
+      ],
+      [
+        286,
+        2281,
+        413,
+        2331
+      ],
+      [
+        291,
+        2399,
+        2189,
+        2448
+      ],
+      [
+        291,
+        2457,
+        2089,
+        2508
+      ],
+      [
+        290,
+        2572,
+        2189,
+        2623
+      ],
+      [
+        292,
+        2632,
+        2187,
+        2680
+      ],
+      [
+        291,
+        2692,
+        543,
+        2736
+      ],
+      [
+        290,
+        2806,
+        2189,
+        2855
+      ],
+      [
+        291,
+        2863,
+        1626,
+        2914
+      ],
+      [
+        290,
+        2980,
+        2154,
+        3031
+      ],
+      [
+        1576,
+        3154,
+        2186,
+        3201
+      ]
+    ]
+  }
+}

@@ -1,0 +1,2268 @@
+{
+  "documento": "lei_14065_digital",
+  "pagina": 1,
+  "imagem_origem": "lei_14065_p03.png",
+  "perfil_preprocessamento": "deskew",
+  "etapas_preprocessamento": [
+    "redimensionar",
+    "inclinacao"
+  ],
+  "limiar_confianca_revisao": 0.8,
+  "parametros_paddleocr": {
+    "lang": "pt",
+    "device": "cpu",
+    "use_doc_orientation_classify": false,
+    "use_doc_unwarping": false,
+    "use_textline_orientation": false
+  },
+  "versoes": {
+    "paddleocr": "3.4.1",
+    "paddlepaddle": "3.2.2"
+  },
+  "tempo_preprocessamento_s": 0.2074,
+  "dimensoes_imagem": {
+    "largura": 2481,
+    "altura": 3508
+  },
+  "tempo_ocr_s": 25.658,
+  "status": "ok",
+  "layout": {
+    "colunas": 1
+  },
+  "quantidade_caracteres": 1832,
+  "quantidade_palavras": 304,
+  "quantidade_fragmentos": 37,
+  "confianca_media": 0.8973,
+  "confianca_minima": 0.2028,
+  "necessita_revisao_humana": true,
+  "revisao_humana": [
+    {
+      "linha_txt": 2,
+      "indice_paddleocr": 2,
+      "texto_bruto": "-",
+      "confianca": 0.29686716198921204,
+      "motivos": [
+        "confiança 0.297 abaixo do limiar 0.8"
+      ]
+    },
+    {
+      "linha_txt": 2,
+      "indice_paddleocr": 3,
+      "texto_bruto": "62",
+      "confianca": 0.20276927947998047,
+      "motivos": [
+        "confiança 0.203 abaixo do limiar 0.8"
+      ]
+    },
+    {
+      "linha_txt": 16,
+      "indice_paddleocr": 15,
+      "texto_bruto": "*89 2400/11/24 * (8-******",
+      "confianca": 0.5095232129096985,
+      "motivos": [
+        "confiança 0.510 abaixo do limiar 0.8"
+      ]
+    },
+    {
+      "linha_txt": 20,
+      "indice_paddleocr": 23,
+      "texto_bruto": "tte io crr cr or ce rnir r nr",
+      "confianca": 0.26082316040992737,
+      "motivos": [
+        "confiança 0.261 abaixo do limiar 0.8"
+      ]
+    },
+    {
+      "linha_txt": 20,
+      "indice_paddleocr": 13,
+      "texto_bruto": "El ce e e  c cdtme    c ",
+      "confianca": 0.2974337637424469,
+      "motivos": [
+        "confiança 0.297 abaixo do limiar 0.8"
+      ]
+    }
+  ],
+  "texto": "Prefeitura do Município de Londrina\n- 62 Estado do Paraná\nLONDRINA\nAnexo IV - PPA Criança;\nAnexo V - Demonstrativo dos Objetivos e Ações;\nAnexo VI - Lei de Diretrizes Orçamentárias / Anexo I - Metas Fiscais - Demonstrativo 1 - Metas\nAnuais e Demonstrativo 7 - Estimativa e Compensação da Renúncia de Receita; e\nAnexo VII - Lei de Diretrizes Orçamentárias / Anexo III - Metas e Prioridades - 2026.\nCAPÍTULO III\nDA INTEGRAÇÃO COM OS ORÇAMENTOS\nArt. 7º Os programas e ações deste Plano serão observados nas leis de diretrizes\norçamentárias, nas leis orçamentárias anuais e nas leis que as modifiquem.\nArt. 8º O valor anual dos Programas e as Metas não se constituem em limites à programação e\nà execução das despesas expressas nas leis orçamentárias e nas leis que as modifiquem.\n§1º A antecipação de metas físicas, bem como a transposição de metas remanescentes,\nconstantes deste Plano, poderão ser remanejadas por Decreto do Poder Executivo, limitadas às disponibilidades orçamentárias e financeiras. §2º As metas financeiras, constantes deste Plano, serão atualizadas pelas leis orçamentárias anuais e leis que as modifiquem. *89 2400/11/24 * (8-******\nArt. 9º Os orçamentos anuais, de forma articulada com o PPA 2026 - 2029 serão orientados\npara o alcance dos Objetivos constantes deste Plano.\nCAPÍTULO IV\npopulacionais mais vulneráveis, buscando o aperfeiçoamento: I - dos mecanismos de implementação e integração das políticas públicas; Il - dos mecanismos de monitoramento, avaliação e revisão do PPA 2026 - 2029 Art. 10. A gestão do PPA 2026 - 2029 consiste na articulação dos meios necessários para viabilizar a consecução das suas metas, sobretudo, para a garantia de acesso aos segmentos Do Monitoramento e Avaliação DA GESTÃO DO PLANO Aspectos Gerais Sessão I Seção II tte io crr cr or ce rnir r nr El ce e e  c cdtme    c ",
+  "linhas_ordenadas": [
+    [
+      {
+        "indice_paddleocr": 0,
+        "texto": "Prefeitura do Município de Londrina",
+        "confianca": 0.9985842108726501,
+        "caixa": [
+          636.0,
+          183.0,
+          2088.0,
+          287.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 2,
+        "texto": "-",
+        "confianca": 0.29686716198921204,
+        "caixa": [
+          310.0,
+          339.0,
+          360.0,
+          363.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 3,
+        "texto": "62",
+        "confianca": 0.20276927947998047,
+        "caixa": [
+          475.0,
+          338.0,
+          525.0,
+          362.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 1,
+        "texto": "Estado do Paraná",
+        "confianca": 0.992842435836792,
+        "caixa": [
+          1111.0,
+          294.0,
+          1616.0,
+          355.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 4,
+        "texto": "LONDRINA",
+        "confianca": 0.9815578460693359,
+        "caixa": [
+          359.0,
+          355.0,
+          475.0,
+          380.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 5,
+        "texto": "Anexo IV - PPA Criança;",
+        "confianca": 0.9970676302909851,
+        "caixa": [
+          290.0,
+          558.0,
+          777.0,
+          608.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 6,
+        "texto": "Anexo V - Demonstrativo dos Objetivos e Ações;",
+        "confianca": 0.9841494560241699,
+        "caixa": [
+          289.0,
+          614.0,
+          1244.0,
+          667.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 7,
+        "texto": "Anexo VI - Lei de Diretrizes Orçamentárias / Anexo I - Metas Fiscais - Demonstrativo 1 - Metas",
+        "confianca": 0.9884642958641052,
+        "caixa": [
+          292.0,
+          677.0,
+          2187.0,
+          721.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 8,
+        "texto": "Anuais e Demonstrativo 7 - Estimativa e Compensação da Renúncia de Receita; e",
+        "confianca": 0.9950144290924072,
+        "caixa": [
+          290.0,
+          730.0,
+          1899.0,
+          780.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 9,
+        "texto": "Anexo VII - Lei de Diretrizes Orçamentárias / Anexo III - Metas e Prioridades - 2026.",
+        "confianca": 0.9727350473403931,
+        "caixa": [
+          291.0,
+          790.0,
+          1925.0,
+          837.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 10,
+        "texto": "CAPÍTULO III",
+        "confianca": 0.9858559966087341,
+        "caixa": [
+          1099.0,
+          961.0,
+          1378.0,
+          1009.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 11,
+        "texto": "DA INTEGRAÇÃO COM OS ORÇAMENTOS",
+        "confianca": 0.9994608163833618,
+        "caixa": [
+          792.0,
+          1021.0,
+          1688.0,
+          1070.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 12,
+        "texto": "Art. 7º Os programas e ações deste Plano serão observados nas leis de diretrizes",
+        "confianca": 0.9928350448608398,
+        "caixa": [
+          289.0,
+          1196.0,
+          2190.0,
+          1249.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 14,
+        "texto": "orçamentárias, nas leis orçamentárias anuais e nas leis que as modifiquem.",
+        "confianca": 0.9960525035858154,
+        "caixa": [
+          292.0,
+          1259.0,
+          1850.0,
+          1306.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 16,
+        "texto": "Art. 8º O valor anual dos Programas e as Metas não se constituem em limites à programação e",
+        "confianca": 0.9806452989578247,
+        "caixa": [
+          290.0,
+          1372.0,
+          2188.0,
+          1422.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 17,
+        "texto": "à execução das despesas expressas nas leis orçamentárias e nas leis que as modifiquem.",
+        "confianca": 0.9860947132110596,
+        "caixa": [
+          289.0,
+          1430.0,
+          2055.0,
+          1482.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 18,
+        "texto": "§1º A antecipação de metas físicas, bem como a transposição de metas remanescentes,",
+        "confianca": 0.9883254766464233,
+        "caixa": [
+          292.0,
+          1550.0,
+          2187.0,
+          1597.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 19,
+        "texto": "constantes deste Plano, poderão ser remanejadas por Decreto do Poder Executivo, limitadas às",
+        "confianca": 0.9993894696235657,
+        "caixa": [
+          292.0,
+          1608.0,
+          2187.0,
+          1652.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 20,
+        "texto": "disponibilidades orçamentárias e financeiras.",
+        "confianca": 0.9889490008354187,
+        "caixa": [
+          292.0,
+          1663.0,
+          1170.0,
+          1713.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 21,
+        "texto": "§2º As metas financeiras, constantes deste Plano, serão atualizadas pelas leis orçamentárias",
+        "confianca": 0.9866397976875305,
+        "caixa": [
+          292.0,
+          1781.0,
+          2189.0,
+          1828.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 22,
+        "texto": "anuais e leis que as modifiquem.",
+        "confianca": 0.9995957612991333,
+        "caixa": [
+          293.0,
+          1842.0,
+          932.0,
+          1886.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 15,
+        "texto": "*89 2400/11/24 * (8-******",
+        "confianca": 0.5095232129096985,
+        "caixa": [
+          2349.0,
+          1337.0,
+          2404.0,
+          1945.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 24,
+        "texto": "Art. 9º Os orçamentos anuais, de forma articulada com o PPA 2026 - 2029 serão orientados",
+        "confianca": 0.9992305636405945,
+        "caixa": [
+          292.0,
+          1956.0,
+          2188.0,
+          2003.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 25,
+        "texto": "para o alcance dos Objetivos constantes deste Plano.",
+        "confianca": 0.9976711273193359,
+        "caixa": [
+          291.0,
+          2012.0,
+          1341.0,
+          2064.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 26,
+        "texto": "CAPÍTULO IV",
+        "confianca": 0.970625102519989,
+        "caixa": [
+          1095.0,
+          2123.0,
+          1383.0,
+          2175.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 32,
+        "texto": "populacionais mais vulneráveis, buscando o aperfeiçoamento:",
+        "confianca": 0.9942933917045593,
+        "caixa": [
+          289.0,
+          2597.0,
+          1505.0,
+          2650.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 33,
+        "texto": "I - dos mecanismos de implementação e integração das políticas públicas;",
+        "confianca": 0.9848563075065613,
+        "caixa": [
+          289.0,
+          2714.0,
+          1740.0,
+          2763.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 34,
+        "texto": "Il - dos mecanismos de monitoramento, avaliação e revisão do PPA 2026 - 2029",
+        "confianca": 0.9897660613059998,
+        "caixa": [
+          290.0,
+          2771.0,
+          1859.0,
+          2818.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 30,
+        "texto": "Art. 10. A gestão do PPA 2026 - 2029 consiste na articulação dos meios necessários para",
+        "confianca": 0.9978557229042053,
+        "caixa": [
+          291.0,
+          2480.0,
+          2189.0,
+          2531.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 31,
+        "texto": "viabilizar a consecução das suas metas, sobretudo, para a garantia de acesso aos segmentos",
+        "confianca": 0.9910744428634644,
+        "caixa": [
+          292.0,
+          2541.0,
+          2188.0,
+          2588.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 36,
+        "texto": "Do Monitoramento e Avaliação",
+        "confianca": 0.9731001257896423,
+        "caixa": [
+          916.0,
+          3004.0,
+          1562.0,
+          3054.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 27,
+        "texto": "DA GESTÃO DO PLANO",
+        "confianca": 0.9554571509361267,
+        "caixa": [
+          986.0,
+          2184.0,
+          1492.0,
+          2234.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 29,
+        "texto": "Aspectos Gerais",
+        "confianca": 0.9999074339866638,
+        "caixa": [
+          1065.0,
+          2365.0,
+          1416.0,
+          2415.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 28,
+        "texto": "Sessão I",
+        "confianca": 0.9901175498962402,
+        "caixa": [
+          1147.0,
+          2306.0,
+          1334.0,
+          2352.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 35,
+        "texto": "Seção II",
+        "confianca": 0.9762291312217712,
+        "caixa": [
+          1151.0,
+          2943.0,
+          1329.0,
+          2996.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 23,
+        "texto": "tte io crr cr or ce rnir r nr",
+        "confianca": 0.26082316040992737,
+        "caixa": [
+          2355.0,
+          1935.0,
+          2402.0,
+          3343.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 13,
+        "texto": "El ce e e  c cdtme    c ",
+        "confianca": 0.2974337637424469,
+        "caixa": [
+          2396.0,
+          1236.0,
+          2453.0,
+          3347.0
+        ],
+        "coluna": 1
+      }
+    ]
+  ],
+  "resultado_bruto_paddleocr": {
+    "input_path": null,
+    "page_index": null,
+    "model_settings": {
+      "use_doc_preprocessor": false,
+      "use_textline_orientation": false
+    },
+    "dt_polys": [
+      [
+        [
+          636,
+          183
+        ],
+        [
+          2088,
+          186
+        ],
+        [
+          2088,
+          287
+        ],
+        [
+          636,
+          284
+        ]
+      ],
+      [
+        [
+          1111,
+          294
+        ],
+        [
+          1616,
+          294
+        ],
+        [
+          1616,
+          355
+        ],
+        [
+          1111,
+          355
+        ]
+      ],
+      [
+        [
+          313,
+          339
+        ],
+        [
+          360,
+          348
+        ],
+        [
+          358,
+          363
+        ],
+        [
+          310,
+          354
+        ]
+      ],
+      [
+        [
+          475,
+          344
+        ],
+        [
+          522,
+          338
+        ],
+        [
+          525,
+          356
+        ],
+        [
+          478,
+          362
+        ]
+      ],
+      [
+        [
+          359,
+          355
+        ],
+        [
+          475,
+          355
+        ],
+        [
+          475,
+          380
+        ],
+        [
+          359,
+          380
+        ]
+      ],
+      [
+        [
+          290,
+          558
+        ],
+        [
+          777,
+          561
+        ],
+        [
+          777,
+          608
+        ],
+        [
+          290,
+          605
+        ]
+      ],
+      [
+        [
+          289,
+          614
+        ],
+        [
+          1244,
+          619
+        ],
+        [
+          1243,
+          667
+        ],
+        [
+          289,
+          662
+        ]
+      ],
+      [
+        [
+          292,
+          677
+        ],
+        [
+          2187,
+          677
+        ],
+        [
+          2187,
+          721
+        ],
+        [
+          292,
+          721
+        ]
+      ],
+      [
+        [
+          290,
+          730
+        ],
+        [
+          1899,
+          734
+        ],
+        [
+          1898,
+          780
+        ],
+        [
+          290,
+          777
+        ]
+      ],
+      [
+        [
+          291,
+          790
+        ],
+        [
+          1925,
+          790
+        ],
+        [
+          1925,
+          837
+        ],
+        [
+          291,
+          837
+        ]
+      ],
+      [
+        [
+          1099,
+          961
+        ],
+        [
+          1378,
+          961
+        ],
+        [
+          1378,
+          1009
+        ],
+        [
+          1099,
+          1009
+        ]
+      ],
+      [
+        [
+          792,
+          1021
+        ],
+        [
+          1688,
+          1021
+        ],
+        [
+          1688,
+          1070
+        ],
+        [
+          792,
+          1070
+        ]
+      ],
+      [
+        [
+          289,
+          1196
+        ],
+        [
+          2190,
+          1198
+        ],
+        [
+          2190,
+          1249
+        ],
+        [
+          289,
+          1247
+        ]
+      ],
+      [
+        [
+          2396,
+          1236
+        ],
+        [
+          2450,
+          1236
+        ],
+        [
+          2453,
+          3346
+        ],
+        [
+          2400,
+          3347
+        ]
+      ],
+      [
+        [
+          292,
+          1259
+        ],
+        [
+          1850,
+          1259
+        ],
+        [
+          1850,
+          1306
+        ],
+        [
+          292,
+          1306
+        ]
+      ],
+      [
+        [
+          2353,
+          1337
+        ],
+        [
+          2404,
+          1338
+        ],
+        [
+          2399,
+          1945
+        ],
+        [
+          2349,
+          1945
+        ]
+      ],
+      [
+        [
+          290,
+          1372
+        ],
+        [
+          2188,
+          1375
+        ],
+        [
+          2188,
+          1422
+        ],
+        [
+          290,
+          1419
+        ]
+      ],
+      [
+        [
+          289,
+          1430
+        ],
+        [
+          2055,
+          1432
+        ],
+        [
+          2055,
+          1482
+        ],
+        [
+          289,
+          1480
+        ]
+      ],
+      [
+        [
+          292,
+          1550
+        ],
+        [
+          2187,
+          1550
+        ],
+        [
+          2187,
+          1597
+        ],
+        [
+          292,
+          1597
+        ]
+      ],
+      [
+        [
+          292,
+          1608
+        ],
+        [
+          2187,
+          1608
+        ],
+        [
+          2187,
+          1652
+        ],
+        [
+          292,
+          1652
+        ]
+      ],
+      [
+        [
+          292,
+          1665
+        ],
+        [
+          1170,
+          1663
+        ],
+        [
+          1170,
+          1711
+        ],
+        [
+          292,
+          1713
+        ]
+      ],
+      [
+        [
+          292,
+          1781
+        ],
+        [
+          2189,
+          1781
+        ],
+        [
+          2189,
+          1828
+        ],
+        [
+          292,
+          1828
+        ]
+      ],
+      [
+        [
+          293,
+          1842
+        ],
+        [
+          932,
+          1842
+        ],
+        [
+          932,
+          1886
+        ],
+        [
+          293,
+          1886
+        ]
+      ],
+      [
+        [
+          2355,
+          1935
+        ],
+        [
+          2401,
+          1935
+        ],
+        [
+          2402,
+          3343
+        ],
+        [
+          2356,
+          3343
+        ]
+      ],
+      [
+        [
+          292,
+          1956
+        ],
+        [
+          2188,
+          1956
+        ],
+        [
+          2188,
+          2003
+        ],
+        [
+          292,
+          2003
+        ]
+      ],
+      [
+        [
+          291,
+          2017
+        ],
+        [
+          1341,
+          2012
+        ],
+        [
+          1341,
+          2059
+        ],
+        [
+          291,
+          2064
+        ]
+      ],
+      [
+        [
+          1095,
+          2123
+        ],
+        [
+          1383,
+          2123
+        ],
+        [
+          1383,
+          2175
+        ],
+        [
+          1095,
+          2175
+        ]
+      ],
+      [
+        [
+          986,
+          2187
+        ],
+        [
+          1492,
+          2184
+        ],
+        [
+          1492,
+          2232
+        ],
+        [
+          986,
+          2234
+        ]
+      ],
+      [
+        [
+          1147,
+          2306
+        ],
+        [
+          1334,
+          2306
+        ],
+        [
+          1334,
+          2352
+        ],
+        [
+          1147,
+          2352
+        ]
+      ],
+      [
+        [
+          1065,
+          2367
+        ],
+        [
+          1415,
+          2365
+        ],
+        [
+          1416,
+          2413
+        ],
+        [
+          1066,
+          2415
+        ]
+      ],
+      [
+        [
+          291,
+          2480
+        ],
+        [
+          2189,
+          2484
+        ],
+        [
+          2189,
+          2531
+        ],
+        [
+          291,
+          2528
+        ]
+      ],
+      [
+        [
+          292,
+          2541
+        ],
+        [
+          2188,
+          2544
+        ],
+        [
+          2188,
+          2588
+        ],
+        [
+          292,
+          2585
+        ]
+      ],
+      [
+        [
+          289,
+          2599
+        ],
+        [
+          1505,
+          2597
+        ],
+        [
+          1505,
+          2648
+        ],
+        [
+          289,
+          2650
+        ]
+      ],
+      [
+        [
+          289,
+          2714
+        ],
+        [
+          1740,
+          2716
+        ],
+        [
+          1739,
+          2763
+        ],
+        [
+          289,
+          2761
+        ]
+      ],
+      [
+        [
+          290,
+          2771
+        ],
+        [
+          1859,
+          2772
+        ],
+        [
+          1859,
+          2818
+        ],
+        [
+          290,
+          2817
+        ]
+      ],
+      [
+        [
+          1151,
+          2943
+        ],
+        [
+          1329,
+          2943
+        ],
+        [
+          1329,
+          2996
+        ],
+        [
+          1151,
+          2996
+        ]
+      ],
+      [
+        [
+          916,
+          3004
+        ],
+        [
+          1562,
+          3004
+        ],
+        [
+          1562,
+          3054
+        ],
+        [
+          916,
+          3054
+        ]
+      ]
+    ],
+    "text_det_params": {
+      "limit_side_len": 64,
+      "limit_type": "min",
+      "thresh": 0.3,
+      "max_side_limit": 4000,
+      "box_thresh": 0.6,
+      "unclip_ratio": 1.5
+    },
+    "text_type": "general",
+    "textline_orientation_angles": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "text_rec_score_thresh": 0.0,
+    "return_word_box": false,
+    "rec_texts": [
+      "Prefeitura do Município de Londrina",
+      "Estado do Paraná",
+      "-",
+      "62",
+      "LONDRINA",
+      "Anexo IV - PPA Criança;",
+      "Anexo V - Demonstrativo dos Objetivos e Ações;",
+      "Anexo VI - Lei de Diretrizes Orçamentárias / Anexo I - Metas Fiscais - Demonstrativo 1 - Metas",
+      "Anuais e Demonstrativo 7 - Estimativa e Compensação da Renúncia de Receita; e",
+      "Anexo VII - Lei de Diretrizes Orçamentárias / Anexo III - Metas e Prioridades - 2026.",
+      "CAPÍTULO III",
+      "DA INTEGRAÇÃO COM OS ORÇAMENTOS",
+      "Art. 7º Os programas e ações deste Plano serão observados nas leis de diretrizes",
+      "El ce e e  c cdtme    c ",
+      "orçamentárias, nas leis orçamentárias anuais e nas leis que as modifiquem.",
+      "*89 2400/11/24 * (8-******",
+      "Art. 8º O valor anual dos Programas e as Metas não se constituem em limites à programação e",
+      "à execução das despesas expressas nas leis orçamentárias e nas leis que as modifiquem.",
+      "§1º A antecipação de metas físicas, bem como a transposição de metas remanescentes,",
+      "constantes deste Plano, poderão ser remanejadas por Decreto do Poder Executivo, limitadas às",
+      "disponibilidades orçamentárias e financeiras.",
+      "§2º As metas financeiras, constantes deste Plano, serão atualizadas pelas leis orçamentárias",
+      "anuais e leis que as modifiquem.",
+      "tte io crr cr or ce rnir r nr",
+      "Art. 9º Os orçamentos anuais, de forma articulada com o PPA 2026 - 2029 serão orientados",
+      "para o alcance dos Objetivos constantes deste Plano.",
+      "CAPÍTULO IV",
+      "DA GESTÃO DO PLANO",
+      "Sessão I",
+      "Aspectos Gerais",
+      "Art. 10. A gestão do PPA 2026 - 2029 consiste na articulação dos meios necessários para",
+      "viabilizar a consecução das suas metas, sobretudo, para a garantia de acesso aos segmentos",
+      "populacionais mais vulneráveis, buscando o aperfeiçoamento:",
+      "I - dos mecanismos de implementação e integração das políticas públicas;",
+      "Il - dos mecanismos de monitoramento, avaliação e revisão do PPA 2026 - 2029",
+      "Seção II",
+      "Do Monitoramento e Avaliação"
+    ],
+    "rec_scores": [
+      0.9985842108726501,
+      0.992842435836792,
+      0.29686716198921204,
+      0.20276927947998047,
+      0.9815578460693359,
+      0.9970676302909851,
+      0.9841494560241699,
+      0.9884642958641052,
+      0.9950144290924072,
+      0.9727350473403931,
+      0.9858559966087341,
+      0.9994608163833618,
+      0.9928350448608398,
+      0.2974337637424469,
+      0.9960525035858154,
+      0.5095232129096985,
+      0.9806452989578247,
+      0.9860947132110596,
+      0.9883254766464233,
+      0.9993894696235657,
+      0.9889490008354187,
+      0.9866397976875305,
+      0.9995957612991333,
+      0.26082316040992737,
+      0.9992305636405945,
+      0.9976711273193359,
+      0.970625102519989,
+      0.9554571509361267,
+      0.9901175498962402,
+      0.9999074339866638,
+      0.9978557229042053,
+      0.9910744428634644,
+      0.9942933917045593,
+      0.9848563075065613,
+      0.9897660613059998,
+      0.9762291312217712,
+      0.9731001257896423
+    ],
+    "rec_polys": [
+      [
+        [
+          636,
+          183
+        ],
+        [
+          2088,
+          186
+        ],
+        [
+          2088,
+          287
+        ],
+        [
+          636,
+          284
+        ]
+      ],
+      [
+        [
+          1111,
+          294
+        ],
+        [
+          1616,
+          294
+        ],
+        [
+          1616,
+          355
+        ],
+        [
+          1111,
+          355
+        ]
+      ],
+      [
+        [
+          313,
+          339
+        ],
+        [
+          360,
+          348
+        ],
+        [
+          358,
+          363
+        ],
+        [
+          310,
+          354
+        ]
+      ],
+      [
+        [
+          475,
+          344
+        ],
+        [
+          522,
+          338
+        ],
+        [
+          525,
+          356
+        ],
+        [
+          478,
+          362
+        ]
+      ],
+      [
+        [
+          359,
+          355
+        ],
+        [
+          475,
+          355
+        ],
+        [
+          475,
+          380
+        ],
+        [
+          359,
+          380
+        ]
+      ],
+      [
+        [
+          290,
+          558
+        ],
+        [
+          777,
+          561
+        ],
+        [
+          777,
+          608
+        ],
+        [
+          290,
+          605
+        ]
+      ],
+      [
+        [
+          289,
+          614
+        ],
+        [
+          1244,
+          619
+        ],
+        [
+          1243,
+          667
+        ],
+        [
+          289,
+          662
+        ]
+      ],
+      [
+        [
+          292,
+          677
+        ],
+        [
+          2187,
+          677
+        ],
+        [
+          2187,
+          721
+        ],
+        [
+          292,
+          721
+        ]
+      ],
+      [
+        [
+          290,
+          730
+        ],
+        [
+          1899,
+          734
+        ],
+        [
+          1898,
+          780
+        ],
+        [
+          290,
+          777
+        ]
+      ],
+      [
+        [
+          291,
+          790
+        ],
+        [
+          1925,
+          790
+        ],
+        [
+          1925,
+          837
+        ],
+        [
+          291,
+          837
+        ]
+      ],
+      [
+        [
+          1099,
+          961
+        ],
+        [
+          1378,
+          961
+        ],
+        [
+          1378,
+          1009
+        ],
+        [
+          1099,
+          1009
+        ]
+      ],
+      [
+        [
+          792,
+          1021
+        ],
+        [
+          1688,
+          1021
+        ],
+        [
+          1688,
+          1070
+        ],
+        [
+          792,
+          1070
+        ]
+      ],
+      [
+        [
+          289,
+          1196
+        ],
+        [
+          2190,
+          1198
+        ],
+        [
+          2190,
+          1249
+        ],
+        [
+          289,
+          1247
+        ]
+      ],
+      [
+        [
+          2396,
+          1236
+        ],
+        [
+          2450,
+          1236
+        ],
+        [
+          2453,
+          3346
+        ],
+        [
+          2400,
+          3347
+        ]
+      ],
+      [
+        [
+          292,
+          1259
+        ],
+        [
+          1850,
+          1259
+        ],
+        [
+          1850,
+          1306
+        ],
+        [
+          292,
+          1306
+        ]
+      ],
+      [
+        [
+          2353,
+          1337
+        ],
+        [
+          2404,
+          1338
+        ],
+        [
+          2399,
+          1945
+        ],
+        [
+          2349,
+          1945
+        ]
+      ],
+      [
+        [
+          290,
+          1372
+        ],
+        [
+          2188,
+          1375
+        ],
+        [
+          2188,
+          1422
+        ],
+        [
+          290,
+          1419
+        ]
+      ],
+      [
+        [
+          289,
+          1430
+        ],
+        [
+          2055,
+          1432
+        ],
+        [
+          2055,
+          1482
+        ],
+        [
+          289,
+          1480
+        ]
+      ],
+      [
+        [
+          292,
+          1550
+        ],
+        [
+          2187,
+          1550
+        ],
+        [
+          2187,
+          1597
+        ],
+        [
+          292,
+          1597
+        ]
+      ],
+      [
+        [
+          292,
+          1608
+        ],
+        [
+          2187,
+          1608
+        ],
+        [
+          2187,
+          1652
+        ],
+        [
+          292,
+          1652
+        ]
+      ],
+      [
+        [
+          292,
+          1665
+        ],
+        [
+          1170,
+          1663
+        ],
+        [
+          1170,
+          1711
+        ],
+        [
+          292,
+          1713
+        ]
+      ],
+      [
+        [
+          292,
+          1781
+        ],
+        [
+          2189,
+          1781
+        ],
+        [
+          2189,
+          1828
+        ],
+        [
+          292,
+          1828
+        ]
+      ],
+      [
+        [
+          293,
+          1842
+        ],
+        [
+          932,
+          1842
+        ],
+        [
+          932,
+          1886
+        ],
+        [
+          293,
+          1886
+        ]
+      ],
+      [
+        [
+          2355,
+          1935
+        ],
+        [
+          2401,
+          1935
+        ],
+        [
+          2402,
+          3343
+        ],
+        [
+          2356,
+          3343
+        ]
+      ],
+      [
+        [
+          292,
+          1956
+        ],
+        [
+          2188,
+          1956
+        ],
+        [
+          2188,
+          2003
+        ],
+        [
+          292,
+          2003
+        ]
+      ],
+      [
+        [
+          291,
+          2017
+        ],
+        [
+          1341,
+          2012
+        ],
+        [
+          1341,
+          2059
+        ],
+        [
+          291,
+          2064
+        ]
+      ],
+      [
+        [
+          1095,
+          2123
+        ],
+        [
+          1383,
+          2123
+        ],
+        [
+          1383,
+          2175
+        ],
+        [
+          1095,
+          2175
+        ]
+      ],
+      [
+        [
+          986,
+          2187
+        ],
+        [
+          1492,
+          2184
+        ],
+        [
+          1492,
+          2232
+        ],
+        [
+          986,
+          2234
+        ]
+      ],
+      [
+        [
+          1147,
+          2306
+        ],
+        [
+          1334,
+          2306
+        ],
+        [
+          1334,
+          2352
+        ],
+        [
+          1147,
+          2352
+        ]
+      ],
+      [
+        [
+          1065,
+          2367
+        ],
+        [
+          1415,
+          2365
+        ],
+        [
+          1416,
+          2413
+        ],
+        [
+          1066,
+          2415
+        ]
+      ],
+      [
+        [
+          291,
+          2480
+        ],
+        [
+          2189,
+          2484
+        ],
+        [
+          2189,
+          2531
+        ],
+        [
+          291,
+          2528
+        ]
+      ],
+      [
+        [
+          292,
+          2541
+        ],
+        [
+          2188,
+          2544
+        ],
+        [
+          2188,
+          2588
+        ],
+        [
+          292,
+          2585
+        ]
+      ],
+      [
+        [
+          289,
+          2599
+        ],
+        [
+          1505,
+          2597
+        ],
+        [
+          1505,
+          2648
+        ],
+        [
+          289,
+          2650
+        ]
+      ],
+      [
+        [
+          289,
+          2714
+        ],
+        [
+          1740,
+          2716
+        ],
+        [
+          1739,
+          2763
+        ],
+        [
+          289,
+          2761
+        ]
+      ],
+      [
+        [
+          290,
+          2771
+        ],
+        [
+          1859,
+          2772
+        ],
+        [
+          1859,
+          2818
+        ],
+        [
+          290,
+          2817
+        ]
+      ],
+      [
+        [
+          1151,
+          2943
+        ],
+        [
+          1329,
+          2943
+        ],
+        [
+          1329,
+          2996
+        ],
+        [
+          1151,
+          2996
+        ]
+      ],
+      [
+        [
+          916,
+          3004
+        ],
+        [
+          1562,
+          3004
+        ],
+        [
+          1562,
+          3054
+        ],
+        [
+          916,
+          3054
+        ]
+      ]
+    ],
+    "rec_boxes": [
+      [
+        636,
+        183,
+        2088,
+        287
+      ],
+      [
+        1111,
+        294,
+        1616,
+        355
+      ],
+      [
+        310,
+        339,
+        360,
+        363
+      ],
+      [
+        475,
+        338,
+        525,
+        362
+      ],
+      [
+        359,
+        355,
+        475,
+        380
+      ],
+      [
+        290,
+        558,
+        777,
+        608
+      ],
+      [
+        289,
+        614,
+        1244,
+        667
+      ],
+      [
+        292,
+        677,
+        2187,
+        721
+      ],
+      [
+        290,
+        730,
+        1899,
+        780
+      ],
+      [
+        291,
+        790,
+        1925,
+        837
+      ],
+      [
+        1099,
+        961,
+        1378,
+        1009
+      ],
+      [
+        792,
+        1021,
+        1688,
+        1070
+      ],
+      [
+        289,
+        1196,
+        2190,
+        1249
+      ],
+      [
+        2396,
+        1236,
+        2453,
+        3347
+      ],
+      [
+        292,
+        1259,
+        1850,
+        1306
+      ],
+      [
+        2349,
+        1337,
+        2404,
+        1945
+      ],
+      [
+        290,
+        1372,
+        2188,
+        1422
+      ],
+      [
+        289,
+        1430,
+        2055,
+        1482
+      ],
+      [
+        292,
+        1550,
+        2187,
+        1597
+      ],
+      [
+        292,
+        1608,
+        2187,
+        1652
+      ],
+      [
+        292,
+        1663,
+        1170,
+        1713
+      ],
+      [
+        292,
+        1781,
+        2189,
+        1828
+      ],
+      [
+        293,
+        1842,
+        932,
+        1886
+      ],
+      [
+        2355,
+        1935,
+        2402,
+        3343
+      ],
+      [
+        292,
+        1956,
+        2188,
+        2003
+      ],
+      [
+        291,
+        2012,
+        1341,
+        2064
+      ],
+      [
+        1095,
+        2123,
+        1383,
+        2175
+      ],
+      [
+        986,
+        2184,
+        1492,
+        2234
+      ],
+      [
+        1147,
+        2306,
+        1334,
+        2352
+      ],
+      [
+        1065,
+        2365,
+        1416,
+        2415
+      ],
+      [
+        291,
+        2480,
+        2189,
+        2531
+      ],
+      [
+        292,
+        2541,
+        2188,
+        2588
+      ],
+      [
+        289,
+        2597,
+        1505,
+        2650
+      ],
+      [
+        289,
+        2714,
+        1740,
+        2763
+      ],
+      [
+        290,
+        2771,
+        1859,
+        2818
+      ],
+      [
+        1151,
+        2943,
+        1329,
+        2996
+      ],
+      [
+        916,
+        3004,
+        1562,
+        3054
+      ]
+    ]
+  }
+}

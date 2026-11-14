@@ -1,0 +1,5913 @@
+{
+  "documento": "02_estatuto_idoso",
+  "pagina": 2,
+  "imagem_origem": "pagina_002_estatuto-do-idoso-interna-antes.jpg",
+  "perfil_preprocessamento": "binarizado",
+  "etapas_preprocessamento": [
+    "redimensionar",
+    "cinza",
+    "ruido",
+    "binarizar"
+  ],
+  "limiar_confianca_revisao": 0.8,
+  "parametros_paddleocr": {
+    "lang": "pt",
+    "device": "cpu",
+    "use_doc_orientation_classify": false,
+    "use_doc_unwarping": false,
+    "use_textline_orientation": false
+  },
+  "versoes": {
+    "paddleocr": "3.4.1",
+    "paddlepaddle": "3.2.2"
+  },
+  "tempo_preprocessamento_s": 0.8179,
+  "dimensoes_imagem": {
+    "largura": 1600,
+    "altura": 2291
+  },
+  "tempo_ocr_s": 13.3383,
+  "status": "ok",
+  "layout": {
+    "colunas": 2,
+    "divisoria_x": [
+      791.0,
+      809.0
+    ]
+  },
+  "quantidade_caracteres": 4258,
+  "quantidade_palavras": 686,
+  "quantidade_fragmentos": 97,
+  "confianca_media": 0.9781,
+  "confianca_minima": 0.6478,
+  "necessita_revisao_humana": true,
+  "revisao_humana": [
+    {
+      "linha_txt": 1,
+      "indice_paddleocr": 0,
+      "texto_bruto": "ESTATUTO DO IDOSO 5'EDIÇÃO",
+      "confianca": 0.9575350284576416,
+      "motivos": [
+        "mistura de letras e dígitos em '5'EDIÇÃO' (ex.: O/0, l/1, S/5)"
+      ]
+    },
+    {
+      "linha_txt": 2,
+      "indice_paddleocr": 1,
+      "texto_bruto": "LEI N° 10.741, DE 1° DE OUTUBRO DE 2003'",
+      "confianca": 0.9774125814437866,
+      "motivos": [
+        "símbolo de grau '°' em possível posição de ordinal 'º' (Art. 1º, nº, § 1º)"
+      ]
+    },
+    {
+      "linha_txt": 13,
+      "indice_paddleocr": 27,
+      "texto_bruto": "Art 2*O idoso goza de todos os direitos fundamentais",
+      "confianca": 0.9770672917366028,
+      "motivos": [
+        "mistura de letras e dígitos em '2*O' (ex.: O/0, l/1, S/5)"
+      ]
+    },
+    {
+      "linha_txt": 48,
+      "indice_paddleocr": 94,
+      "texto_bruto": "1    ,,3-10-203",
+      "confianca": 0.6478087306022644,
+      "motivos": [
+        "confiança 0.648 abaixo do limiar 0.8"
+      ]
+    },
+    {
+      "linha_txt": 52,
+      "indice_paddleocr": 5,
+      "texto_bruto": "Art. 4° Nenhum idoso será objeto de qualquer tipo de",
+      "confianca": 0.983667254447937,
+      "motivos": [
+        "símbolo de grau '°' em possível posição de ordinal 'º' (Art. 1º, nº, § 1º)"
+      ]
+    },
+    {
+      "linha_txt": 56,
+      "indice_paddleocr": 11,
+      "texto_bruto": "§ 1° É dever de todos prevenir a ameaça ou violação",
+      "confianca": 0.9764736294746399,
+      "motivos": [
+        "símbolo de grau '°' em possível posição de ordinal 'º' (Art. 1º, nº, § 1º)"
+      ]
+    },
+    {
+      "linha_txt": 58,
+      "indice_paddleocr": 15,
+      "texto_bruto": "§ 2° As obrigações previstas nesta lei não excluem da",
+      "confianca": 0.9871077537536621,
+      "motivos": [
+        "símbolo de grau '°' em possível posição de ordinal 'º' (Art. 1º, nº, § 1º)"
+      ]
+    },
+    {
+      "linha_txt": 61,
+      "indice_paddleocr": 20,
+      "texto_bruto": "Art. 5° A inobservāncia das normas de prevenção im-",
+      "confianca": 0.9727264642715454,
+      "motivos": [
+        "símbolo de grau '°' em possível posição de ordinal 'º' (Art. 1º, nº, § 1º)"
+      ]
+    },
+    {
+      "linha_txt": 64,
+      "indice_paddleocr": 26,
+      "texto_bruto": "Art. 6° Todo cidadão tem o dever de comunicar à",
+      "confianca": 0.9686651229858398,
+      "motivos": [
+        "símbolo de grau '°' em possível posição de ordinal 'º' (Art. 1º, nº, § 1º)"
+      ]
+    },
+    {
+      "linha_txt": 69,
+      "indice_paddleocr": 37,
+      "texto_bruto": "Federal e municipais do idoso, previstos na Lein°8.842.",
+      "confianca": 0.974023699760437,
+      "motivos": [
+        "mistura de letras e dígitos em 'Lein°8.842.' (ex.: O/0, l/1, S/5)",
+        "símbolo de grau '°' em possível posição de ordinal 'º' (Art. 1º, nº, § 1º)"
+      ]
+    },
+    {
+      "linha_txt": 88,
+      "indice_paddleocr": 78,
+      "texto_bruto": "§ 1° O direito à liberdade compreende, entre outros,",
+      "confianca": 0.9837852716445923,
+      "motivos": [
+        "símbolo de grau '°' em possível posição de ordinal 'º' (Art. 1º, nº, § 1º)"
+      ]
+    },
+    {
+      "linha_txt": 97,
+      "indice_paddleocr": 95,
+      "texto_bruto": "2 ma*oodopaleπ11 765, de 58-2008",
+      "confianca": 0.7588497996330261,
+      "motivos": [
+        "confiança 0.759 abaixo do limiar 0.8",
+        "mistura de letras e dígitos em 'ma*oodopaleπ11' (ex.: O/0, l/1, S/5)"
+      ]
+    }
+  ],
+  "texto": "ESTATUTO DO IDOSO 5'EDIÇÃO\nLEI N° 10.741, DE 1° DE OUTUBRO DE 2003'\n(Estatuto do Idoso)\nDispõe sobre o Estatuto do Idoso e dá outras\nprovdências.\nO presidente da República\nFaço saber que o Congresso Nacional decreta e eu\nsanciono a seguinte lei:\nTÍTULOI - DISPOSIÇÕES PRELIMINARES\nArt. 1• É instituido o Estatuto do Idoso, destinado a\nregular os direitos assegurados às pessoas comidade\nigual ou superior a sessenta anos.\nArt 2*O idoso goza de todos os direitos fundamentais\ninerentes à pessoa humana, sem prejuízo da prote ção\nintegral de que trata esta lei, assegurando-se-lhe, por\nlei ou por outros meios, todas as oportunidades e faci-\nlidades, para preservação de sua saúde física e mental\ne seu aperfeiçoamento moral, intelectual, espiritual e\nsocial, em condições de liberdade e dignidade.\nArt 3* É obrigação da familia, da comunidade, da so-\nciedade e do poder público assegurar ao idoso, com\nabsoluta prioridade, a efetivação do direito à vida, à\nsaúde, à alimentação, à e ducação, à cultura, ao esporte,\nao lazer, ao trabalho, à cidadania, à liberdade, à digni-\ndade, ao respeito e à convivéncia familiare comunitária.\nParágrafo único. A garantia de prioridade compreende:\nl- atendimento preferencial imediato e individualizado\njunto aos órgãos públicos e privados prestadores de\nserviços à população;\nIl - pre ferência naformulação e na execução de políticas\nsociais públicas especificas;\nIII - destinação privilegiada de recursos públicos nas\náreas relacionadas com a proteção ao idoso;\nV - viabilização de formas alternativas de participação,\nocupação e convivio do idoso com as demais gerações;\nV- priorização do atendimento do idoso porsuaprópria\nfamilia, em detrimento do atendimento asilar, exceto\ndos que não a possuam ou careçam de condições de\nmanutenção da própria sobrevivência;\nVI - capacitação e reciclagem dos recursos humanos\nnas áreas de geriatria e gerontologia e na prestação\nde serviços aos idosos;\nVil-estabelecimento de mecanismos que favoreçam a\ndivulgação de informações de caráter educativo sobre\nos aspectos biopsicossociais de envelhecimento;\nVIII - garantia de acesso à rede de serviços de saúde\ne de assistência social locais;\n1    ,,3-10-203\n9\nX - prioridade no recebimento da restituição do im-\nposto de renda.\nArt. 4° Nenhum idoso será objeto de qualquer tipo de\nnegligéncia, discriminação, violência, crueldade ou\nopressão, e todo atentado aos seus direitos, por ação\nou omissão, será punido na forma da lei.\n§ 1° É dever de todos prevenir a ameaça ou violação\naos direitos do idoso.\n§ 2° As obrigações previstas nesta lei não excluem da\nprevenção outras decorrentes dos princípios por ela\nadotados.\nArt. 5° A inobservāncia das normas de prevenção im-\nportará emresponsabilidade à pessoa física ou jurídica\nnos termos da lei.\nArt. 6° Todo cidadão tem o dever de comunicar à\nautoridade competente qualquer forma de violação\na esta lei que tenha testemunhado ou de que tenha\nconhecimento.\nArt 7* Os conselhos nacional, estaduais, do Distrito\nFederal e municipais do idoso, previstos na Lein°8.842.\nde 4 de janeiro de 1994, zelarão pelo cumprimento dos\ndireítos do idoso, definidos nesta lei.\nTÍTULO II - DOS DIREITOS FUNDAMENTAIS\nCAPÍTULO I - DO DIRENTO À VIDA\nArt. 8' O envelhecimento é um direito personalíssimo\ne a sua proteção um direito social, nos termos desta\nlei e da legislação vigente.\nArt. 9' É obrigação do Estado garantir à pessoa idosa\na proteção à vida e à saúde, mediante efetivação de\npolíticas sociais públicas que permitam um envelheci-\nmento saudável e em condições de dignidade.\nCAPÍTULO 1I - DO DIREITO À LIBERDADE,\nAO RESPEITO E À DIGNIDADE\nArt. 10. É obrigação do Estado e da sociedade assegurar\nà pessoa idosa a liberdade, o respeito e a dignidade,\ncomo pessoa humana e sujeito de direitos civis, poli-\nticos, individuais e sociais, garantidos na Constituição\ne nas leis.\n§ 1° O direito à liberdade compreende, entre outros,\nos seguintes aspectos:\nI-faculdade de ir, vir e estar nos logradouros públicos e\nespaços comunitários, ressalvadas as restrições legais;\nIl  opinião e expressão;\nIII - crença e culto religioso;\nN - prática de esportes e de diversões;\nV - participação na vida familiar e comunitária;\nVI - participação na vida politica, na forma da le;\n2 ma*oodopaleπ11 765, de 58-2008",
+  "linhas_ordenadas": [
+    [
+      {
+        "indice_paddleocr": 0,
+        "texto": "ESTATUTO DO IDOSO 5'EDIÇÃO",
+        "confianca": 0.9575350284576416,
+        "caixa": [
+          664.0,
+          95.0,
+          932.0,
+          122.0
+        ],
+        "coluna": 0
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 1,
+        "texto": "LEI N° 10.741, DE 1° DE OUTUBRO DE 2003'",
+        "confianca": 0.9774125814437866,
+        "caixa": [
+          134.0,
+          176.0,
+          769.0,
+          213.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 4,
+        "texto": "(Estatuto do Idoso)",
+        "confianca": 0.9993036985397339,
+        "caixa": [
+          331.0,
+          250.0,
+          571.0,
+          287.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 7,
+        "texto": "Dispõe sobre o Estatuto do Idoso e dá outras",
+        "confianca": 0.9920156002044678,
+        "caixa": [
+          188.0,
+          326.0,
+          785.0,
+          359.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 9,
+        "texto": "provdências.",
+        "confianca": 0.9731721878051758,
+        "caixa": [
+          626.0,
+          362.0,
+          790.0,
+          398.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 12,
+        "texto": "O presidente da República",
+        "confianca": 0.9909999966621399,
+        "caixa": [
+          118.0,
+          431.0,
+          456.0,
+          468.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 14,
+        "texto": "Faço saber que o Congresso Nacional decreta e eu",
+        "confianca": 0.9924676418304443,
+        "caixa": [
+          119.0,
+          469.0,
+          784.0,
+          502.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 16,
+        "texto": "sanciono a seguinte lei:",
+        "confianca": 0.9964259266853333,
+        "caixa": [
+          118.0,
+          504.0,
+          414.0,
+          540.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 19,
+        "texto": "TÍTULOI - DISPOSIÇÕES PRELIMINARES",
+        "confianca": 0.9688167572021484,
+        "caixa": [
+          231.0,
+          572.0,
+          668.0,
+          615.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 21,
+        "texto": "Art. 1• É instituido o Estatuto do Idoso, destinado a",
+        "confianca": 0.9770418405532837,
+        "caixa": [
+          115.0,
+          627.0,
+          783.0,
+          662.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 23,
+        "texto": "regular os direitos assegurados às pessoas comidade",
+        "confianca": 0.9964404106140137,
+        "caixa": [
+          117.0,
+          665.0,
+          783.0,
+          700.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 25,
+        "texto": "igual ou superior a sessenta anos.",
+        "confianca": 0.9970139861106873,
+        "caixa": [
+          119.0,
+          706.0,
+          543.0,
+          737.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 27,
+        "texto": "Art 2*O idoso goza de todos os direitos fundamentais",
+        "confianca": 0.9770672917366028,
+        "caixa": [
+          116.0,
+          756.0,
+          782.0,
+          790.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 29,
+        "texto": "inerentes à pessoa humana, sem prejuízo da prote ção",
+        "confianca": 0.9720507264137268,
+        "caixa": [
+          117.0,
+          793.0,
+          781.0,
+          825.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 31,
+        "texto": "integral de que trata esta lei, assegurando-se-lhe, por",
+        "confianca": 0.994765043258667,
+        "caixa": [
+          118.0,
+          829.0,
+          786.0,
+          862.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 33,
+        "texto": "lei ou por outros meios, todas as oportunidades e faci-",
+        "confianca": 0.9913195371627808,
+        "caixa": [
+          117.0,
+          863.0,
+          789.0,
+          899.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 34,
+        "texto": "lidades, para preservação de sua saúde física e mental",
+        "confianca": 0.9963991641998291,
+        "caixa": [
+          119.0,
+          900.0,
+          784.0,
+          932.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 36,
+        "texto": "e seu aperfeiçoamento moral, intelectual, espiritual e",
+        "confianca": 0.9980206489562988,
+        "caixa": [
+          118.0,
+          935.0,
+          784.0,
+          970.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 38,
+        "texto": "social, em condições de liberdade e dignidade.",
+        "confianca": 0.9984866976737976,
+        "caixa": [
+          119.0,
+          972.0,
+          710.0,
+          1004.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 41,
+        "texto": "Art 3* É obrigação da familia, da comunidade, da so-",
+        "confianca": 0.9739598035812378,
+        "caixa": [
+          116.0,
+          1024.0,
+          789.0,
+          1057.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 42,
+        "texto": "ciedade e do poder público assegurar ao idoso, com",
+        "confianca": 0.9900705218315125,
+        "caixa": [
+          119.0,
+          1062.0,
+          784.0,
+          1095.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 44,
+        "texto": "absoluta prioridade, a efetivação do direito à vida, à",
+        "confianca": 0.9854801297187805,
+        "caixa": [
+          120.0,
+          1098.0,
+          784.0,
+          1131.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 45,
+        "texto": "saúde, à alimentação, à e ducação, à cultura, ao esporte,",
+        "confianca": 0.9887773394584656,
+        "caixa": [
+          119.0,
+          1135.0,
+          789.0,
+          1167.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 47,
+        "texto": "ao lazer, ao trabalho, à cidadania, à liberdade, à digni-",
+        "confianca": 0.9965160489082336,
+        "caixa": [
+          119.0,
+          1171.0,
+          789.0,
+          1204.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 49,
+        "texto": "dade, ao respeito e à convivéncia familiare comunitária.",
+        "confianca": 0.9848018884658813,
+        "caixa": [
+          120.0,
+          1206.0,
+          786.0,
+          1238.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 51,
+        "texto": "Parágrafo único. A garantia de prioridade compreende:",
+        "confianca": 0.9784296751022339,
+        "caixa": [
+          118.0,
+          1240.0,
+          785.0,
+          1274.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 53,
+        "texto": "l- atendimento preferencial imediato e individualizado",
+        "confianca": 0.9897049069404602,
+        "caixa": [
+          117.0,
+          1277.0,
+          782.0,
+          1309.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 54,
+        "texto": "junto aos órgãos públicos e privados prestadores de",
+        "confianca": 0.9973458051681519,
+        "caixa": [
+          116.0,
+          1313.0,
+          784.0,
+          1348.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 56,
+        "texto": "serviços à população;",
+        "confianca": 0.9771893620491028,
+        "caixa": [
+          120.0,
+          1352.0,
+          391.0,
+          1383.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 58,
+        "texto": "Il - pre ferência naformulação e na execução de políticas",
+        "confianca": 0.9564881324768066,
+        "caixa": [
+          118.0,
+          1385.0,
+          782.0,
+          1418.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 60,
+        "texto": "sociais públicas especificas;",
+        "confianca": 0.9886278510093689,
+        "caixa": [
+          119.0,
+          1424.0,
+          468.0,
+          1455.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 62,
+        "texto": "III - destinação privilegiada de recursos públicos nas",
+        "confianca": 0.9480195045471191,
+        "caixa": [
+          118.0,
+          1457.0,
+          783.0,
+          1490.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 64,
+        "texto": "áreas relacionadas com a proteção ao idoso;",
+        "confianca": 0.9994975328445435,
+        "caixa": [
+          118.0,
+          1493.0,
+          675.0,
+          1524.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 66,
+        "texto": "V - viabilização de formas alternativas de participação,",
+        "confianca": 0.9882550835609436,
+        "caixa": [
+          118.0,
+          1529.0,
+          786.0,
+          1562.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 67,
+        "texto": "ocupação e convivio do idoso com as demais gerações;",
+        "confianca": 0.9774067401885986,
+        "caixa": [
+          118.0,
+          1566.0,
+          784.0,
+          1599.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 69,
+        "texto": "V- priorização do atendimento do idoso porsuaprópria",
+        "confianca": 0.9905901551246643,
+        "caixa": [
+          115.0,
+          1604.0,
+          782.0,
+          1634.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 71,
+        "texto": "familia, em detrimento do atendimento asilar, exceto",
+        "confianca": 0.9950053095817566,
+        "caixa": [
+          117.0,
+          1637.0,
+          782.0,
+          1670.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 73,
+        "texto": "dos que não a possuam ou careçam de condições de",
+        "confianca": 0.9852085113525391,
+        "caixa": [
+          119.0,
+          1673.0,
+          784.0,
+          1705.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 75,
+        "texto": "manutenção da própria sobrevivência;",
+        "confianca": 0.9824349880218506,
+        "caixa": [
+          119.0,
+          1710.0,
+          600.0,
+          1740.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 77,
+        "texto": "VI - capacitação e reciclagem dos recursos humanos",
+        "confianca": 0.9677732586860657,
+        "caixa": [
+          116.0,
+          1745.0,
+          783.0,
+          1778.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 79,
+        "texto": "nas áreas de geriatria e gerontologia e na prestação",
+        "confianca": 0.9843704700469971,
+        "caixa": [
+          118.0,
+          1782.0,
+          782.0,
+          1815.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 81,
+        "texto": "de serviços aos idosos;",
+        "confianca": 0.9922444820404053,
+        "caixa": [
+          117.0,
+          1816.0,
+          410.0,
+          1852.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 83,
+        "texto": "Vil-estabelecimento de mecanismos que favoreçam a",
+        "confianca": 0.9890217185020447,
+        "caixa": [
+          115.0,
+          1853.0,
+          782.0,
+          1885.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 85,
+        "texto": "divulgação de informações de caráter educativo sobre",
+        "confianca": 0.9826253056526184,
+        "caixa": [
+          119.0,
+          1889.0,
+          785.0,
+          1922.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 87,
+        "texto": "os aspectos biopsicossociais de envelhecimento;",
+        "confianca": 0.9938228130340576,
+        "caixa": [
+          118.0,
+          1924.0,
+          731.0,
+          1957.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 89,
+        "texto": "VIII - garantia de acesso à rede de serviços de saúde",
+        "confianca": 0.9705830216407776,
+        "caixa": [
+          115.0,
+          1960.0,
+          783.0,
+          1992.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 91,
+        "texto": "e de assistência social locais;",
+        "confianca": 0.9993947744369507,
+        "caixa": [
+          119.0,
+          1998.0,
+          478.0,
+          2027.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 94,
+        "texto": "1    ,,3-10-203",
+        "confianca": 0.6478087306022644,
+        "caixa": [
+          118.0,
+          2109.0,
+          573.0,
+          2132.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 96,
+        "texto": "9",
+        "confianca": 0.9995275735855103,
+        "caixa": [
+          789.0,
+          2170.0,
+          807.0,
+          2189.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 2,
+        "texto": "X - prioridade no recebimento da restituição do im-",
+        "confianca": 0.9757053852081299,
+        "caixa": [
+          812.0,
+          179.0,
+          1486.0,
+          218.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 3,
+        "texto": "posto de renda.",
+        "confianca": 0.9815160632133484,
+        "caixa": [
+          813.0,
+          216.0,
+          1016.0,
+          253.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 5,
+        "texto": "Art. 4° Nenhum idoso será objeto de qualquer tipo de",
+        "confianca": 0.983667254447937,
+        "caixa": [
+          812.0,
+          271.0,
+          1476.0,
+          304.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 6,
+        "texto": "negligéncia, discriminação, violência, crueldade ou",
+        "confianca": 0.9774721264839172,
+        "caixa": [
+          813.0,
+          309.0,
+          1478.0,
+          342.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 8,
+        "texto": "opressão, e todo atentado aos seus direitos, por ação",
+        "confianca": 0.9970554709434509,
+        "caixa": [
+          812.0,
+          343.0,
+          1478.0,
+          376.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 10,
+        "texto": "ou omissão, será punido na forma da lei.",
+        "confianca": 0.9968773722648621,
+        "caixa": [
+          813.0,
+          380.0,
+          1319.0,
+          411.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 11,
+        "texto": "§ 1° É dever de todos prevenir a ameaça ou violação",
+        "confianca": 0.9764736294746399,
+        "caixa": [
+          811.0,
+          413.0,
+          1478.0,
+          449.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 13,
+        "texto": "aos direitos do idoso.",
+        "confianca": 0.9957621097564697,
+        "caixa": [
+          813.0,
+          452.0,
+          1084.0,
+          482.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 15,
+        "texto": "§ 2° As obrigações previstas nesta lei não excluem da",
+        "confianca": 0.9871077537536621,
+        "caixa": [
+          812.0,
+          487.0,
+          1478.0,
+          521.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 17,
+        "texto": "prevenção outras decorrentes dos princípios por ela",
+        "confianca": 0.9874823093414307,
+        "caixa": [
+          814.0,
+          525.0,
+          1476.0,
+          558.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 18,
+        "texto": "adotados.",
+        "confianca": 0.999904215335846,
+        "caixa": [
+          811.0,
+          557.0,
+          945.0,
+          591.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 20,
+        "texto": "Art. 5° A inobservāncia das normas de prevenção im-",
+        "confianca": 0.9727264642715454,
+        "caixa": [
+          811.0,
+          613.0,
+          1483.0,
+          646.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 22,
+        "texto": "portará emresponsabilidade à pessoa física ou jurídica",
+        "confianca": 0.9825518727302551,
+        "caixa": [
+          813.0,
+          649.0,
+          1478.0,
+          685.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 24,
+        "texto": "nos termos da lei.",
+        "confianca": 0.997588038444519,
+        "caixa": [
+          811.0,
+          683.0,
+          1037.0,
+          717.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 26,
+        "texto": "Art. 6° Todo cidadão tem o dever de comunicar à",
+        "confianca": 0.9686651229858398,
+        "caixa": [
+          812.0,
+          741.0,
+          1478.0,
+          771.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 28,
+        "texto": "autoridade competente qualquer forma de violação",
+        "confianca": 0.9983580708503723,
+        "caixa": [
+          812.0,
+          777.0,
+          1478.0,
+          809.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 30,
+        "texto": "a esta lei que tenha testemunhado ou de que tenha",
+        "confianca": 0.9961681962013245,
+        "caixa": [
+          811.0,
+          809.0,
+          1478.0,
+          844.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 32,
+        "texto": "conhecimento.",
+        "confianca": 0.999567449092865,
+        "caixa": [
+          811.0,
+          844.0,
+          1004.0,
+          878.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 35,
+        "texto": "Art 7* Os conselhos nacional, estaduais, do Distrito",
+        "confianca": 0.9807062149047852,
+        "caixa": [
+          811.0,
+          899.0,
+          1477.0,
+          931.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 37,
+        "texto": "Federal e municipais do idoso, previstos na Lein°8.842.",
+        "confianca": 0.974023699760437,
+        "caixa": [
+          814.0,
+          936.0,
+          1484.0,
+          969.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 39,
+        "texto": "de 4 de janeiro de 1994, zelarão pelo cumprimento dos",
+        "confianca": 0.9864955544471741,
+        "caixa": [
+          813.0,
+          972.0,
+          1479.0,
+          1005.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 40,
+        "texto": "direítos do idoso, definidos nesta lei.",
+        "confianca": 0.973167896270752,
+        "caixa": [
+          814.0,
+          1009.0,
+          1274.0,
+          1040.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 43,
+        "texto": "TÍTULO II - DOS DIREITOS FUNDAMENTAIS",
+        "confianca": 0.9598180651664734,
+        "caixa": [
+          915.0,
+          1077.0,
+          1376.0,
+          1117.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 46,
+        "texto": "CAPÍTULO I - DO DIRENTO À VIDA",
+        "confianca": 0.9212872385978699,
+        "caixa": [
+          974.0,
+          1131.0,
+          1319.0,
+          1167.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 48,
+        "texto": "Art. 8' O envelhecimento é um direito personalíssimo",
+        "confianca": 0.9707600474357605,
+        "caixa": [
+          812.0,
+          1187.0,
+          1478.0,
+          1220.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 50,
+        "texto": "e a sua proteção um direito social, nos termos desta",
+        "confianca": 0.9960752725601196,
+        "caixa": [
+          811.0,
+          1223.0,
+          1478.0,
+          1259.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 52,
+        "texto": "lei e da legislação vigente.",
+        "confianca": 0.9931836724281311,
+        "caixa": [
+          814.0,
+          1258.0,
+          1146.0,
+          1295.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 55,
+        "texto": "Art. 9' É obrigação do Estado garantir à pessoa idosa",
+        "confianca": 0.9759469628334045,
+        "caixa": [
+          811.0,
+          1312.0,
+          1478.0,
+          1346.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 57,
+        "texto": "a proteção à vida e à saúde, mediante efetivação de",
+        "confianca": 0.9886638522148132,
+        "caixa": [
+          812.0,
+          1348.0,
+          1477.0,
+          1384.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 59,
+        "texto": "políticas sociais públicas que permitam um envelheci-",
+        "confianca": 0.9873589277267456,
+        "caixa": [
+          813.0,
+          1385.0,
+          1485.0,
+          1420.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 61,
+        "texto": "mento saudável e em condições de dignidade.",
+        "confianca": 0.9799717664718628,
+        "caixa": [
+          812.0,
+          1421.0,
+          1398.0,
+          1457.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 63,
+        "texto": "CAPÍTULO 1I - DO DIREITO À LIBERDADE,",
+        "confianca": 0.9520962834358215,
+        "caixa": [
+          935.0,
+          1472.0,
+          1363.0,
+          1510.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 65,
+        "texto": "AO RESPEITO E À DIGNIDADE",
+        "confianca": 0.9952545166015625,
+        "caixa": [
+          993.0,
+          1510.0,
+          1300.0,
+          1544.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 68,
+        "texto": "Art. 10. É obrigação do Estado e da sociedade assegurar",
+        "confianca": 0.9763443470001221,
+        "caixa": [
+          810.0,
+          1561.0,
+          1482.0,
+          1600.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 70,
+        "texto": "à pessoa idosa a liberdade, o respeito e a dignidade,",
+        "confianca": 0.979823648929596,
+        "caixa": [
+          812.0,
+          1602.0,
+          1482.0,
+          1635.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 72,
+        "texto": "como pessoa humana e sujeito de direitos civis, poli-",
+        "confianca": 0.9825889468193054,
+        "caixa": [
+          811.0,
+          1637.0,
+          1485.0,
+          1672.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 74,
+        "texto": "ticos, individuais e sociais, garantidos na Constituição",
+        "confianca": 0.9950364232063293,
+        "caixa": [
+          812.0,
+          1672.0,
+          1478.0,
+          1704.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 76,
+        "texto": "e nas leis.",
+        "confianca": 0.9971910119056702,
+        "caixa": [
+          810.0,
+          1706.0,
+          938.0,
+          1740.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 78,
+        "texto": "§ 1° O direito à liberdade compreende, entre outros,",
+        "confianca": 0.9837852716445923,
+        "caixa": [
+          810.0,
+          1743.0,
+          1482.0,
+          1778.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 80,
+        "texto": "os seguintes aspectos:",
+        "confianca": 0.9994022250175476,
+        "caixa": [
+          812.0,
+          1784.0,
+          1099.0,
+          1814.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 82,
+        "texto": "I-faculdade de ir, vir e estar nos logradouros públicos e",
+        "confianca": 0.9829359650611877,
+        "caixa": [
+          814.0,
+          1817.0,
+          1477.0,
+          1849.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 84,
+        "texto": "espaços comunitários, ressalvadas as restrições legais;",
+        "confianca": 0.990678608417511,
+        "caixa": [
+          812.0,
+          1854.0,
+          1480.0,
+          1887.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 86,
+        "texto": "Il  opinião e expressão;",
+        "confianca": 0.9877352118492126,
+        "caixa": [
+          814.0,
+          1890.0,
+          1112.0,
+          1923.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 88,
+        "texto": "III - crença e culto religioso;",
+        "confianca": 0.9629643559455872,
+        "caixa": [
+          814.0,
+          1922.0,
+          1156.0,
+          1959.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 90,
+        "texto": "N - prática de esportes e de diversões;",
+        "confianca": 0.9902107119560242,
+        "caixa": [
+          814.0,
+          1961.0,
+          1302.0,
+          1992.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 92,
+        "texto": "V - participação na vida familiar e comunitária;",
+        "confianca": 0.9765594601631165,
+        "caixa": [
+          810.0,
+          1997.0,
+          1390.0,
+          2029.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 93,
+        "texto": "VI - participação na vida politica, na forma da le;",
+        "confianca": 0.9584823250770569,
+        "caixa": [
+          811.0,
+          2031.0,
+          1416.0,
+          2065.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 95,
+        "texto": "2 ma*oodopaleπ11 765, de 58-2008",
+        "confianca": 0.7588497996330261,
+        "caixa": [
+          815.0,
+          2109.0,
+          1191.0,
+          2132.0
+        ],
+        "coluna": 2
+      }
+    ]
+  ],
+  "resultado_bruto_paddleocr": {
+    "input_path": null,
+    "page_index": null,
+    "model_settings": {
+      "use_doc_preprocessor": false,
+      "use_textline_orientation": false
+    },
+    "dt_polys": [
+      [
+        [
+          664,
+          95
+        ],
+        [
+          932,
+          95
+        ],
+        [
+          932,
+          122
+        ],
+        [
+          664,
+          122
+        ]
+      ],
+      [
+        [
+          134,
+          176
+        ],
+        [
+          769,
+          176
+        ],
+        [
+          769,
+          213
+        ],
+        [
+          134,
+          213
+        ]
+      ],
+      [
+        [
+          812,
+          179
+        ],
+        [
+          1486,
+          181
+        ],
+        [
+          1486,
+          218
+        ],
+        [
+          812,
+          216
+        ]
+      ],
+      [
+        [
+          813,
+          218
+        ],
+        [
+          1016,
+          216
+        ],
+        [
+          1016,
+          251
+        ],
+        [
+          813,
+          253
+        ]
+      ],
+      [
+        [
+          331,
+          250
+        ],
+        [
+          571,
+          250
+        ],
+        [
+          571,
+          287
+        ],
+        [
+          331,
+          287
+        ]
+      ],
+      [
+        [
+          812,
+          271
+        ],
+        [
+          1476,
+          273
+        ],
+        [
+          1476,
+          304
+        ],
+        [
+          812,
+          302
+        ]
+      ],
+      [
+        [
+          813,
+          309
+        ],
+        [
+          1478,
+          309
+        ],
+        [
+          1478,
+          342
+        ],
+        [
+          813,
+          342
+        ]
+      ],
+      [
+        [
+          188,
+          326
+        ],
+        [
+          785,
+          326
+        ],
+        [
+          785,
+          359
+        ],
+        [
+          188,
+          359
+        ]
+      ],
+      [
+        [
+          812,
+          343
+        ],
+        [
+          1478,
+          343
+        ],
+        [
+          1478,
+          376
+        ],
+        [
+          812,
+          376
+        ]
+      ],
+      [
+        [
+          626,
+          364
+        ],
+        [
+          790,
+          362
+        ],
+        [
+          790,
+          396
+        ],
+        [
+          626,
+          398
+        ]
+      ],
+      [
+        [
+          813,
+          380
+        ],
+        [
+          1319,
+          380
+        ],
+        [
+          1319,
+          411
+        ],
+        [
+          813,
+          411
+        ]
+      ],
+      [
+        [
+          811,
+          413
+        ],
+        [
+          1478,
+          416
+        ],
+        [
+          1478,
+          449
+        ],
+        [
+          811,
+          446
+        ]
+      ],
+      [
+        [
+          118,
+          434
+        ],
+        [
+          456,
+          431
+        ],
+        [
+          456,
+          466
+        ],
+        [
+          118,
+          468
+        ]
+      ],
+      [
+        [
+          813,
+          452
+        ],
+        [
+          1084,
+          452
+        ],
+        [
+          1084,
+          482
+        ],
+        [
+          813,
+          482
+        ]
+      ],
+      [
+        [
+          119,
+          469
+        ],
+        [
+          784,
+          469
+        ],
+        [
+          784,
+          502
+        ],
+        [
+          119,
+          502
+        ]
+      ],
+      [
+        [
+          812,
+          487
+        ],
+        [
+          1478,
+          487
+        ],
+        [
+          1478,
+          521
+        ],
+        [
+          812,
+          521
+        ]
+      ],
+      [
+        [
+          118,
+          506
+        ],
+        [
+          414,
+          504
+        ],
+        [
+          414,
+          538
+        ],
+        [
+          118,
+          540
+        ]
+      ],
+      [
+        [
+          814,
+          527
+        ],
+        [
+          1476,
+          525
+        ],
+        [
+          1476,
+          556
+        ],
+        [
+          814,
+          558
+        ]
+      ],
+      [
+        [
+          811,
+          557
+        ],
+        [
+          945,
+          559
+        ],
+        [
+          945,
+          591
+        ],
+        [
+          811,
+          589
+        ]
+      ],
+      [
+        [
+          231,
+          572
+        ],
+        [
+          668,
+          575
+        ],
+        [
+          668,
+          615
+        ],
+        [
+          231,
+          611
+        ]
+      ],
+      [
+        [
+          811,
+          613
+        ],
+        [
+          1483,
+          616
+        ],
+        [
+          1483,
+          646
+        ],
+        [
+          811,
+          644
+        ]
+      ],
+      [
+        [
+          115,
+          627
+        ],
+        [
+          783,
+          628
+        ],
+        [
+          783,
+          662
+        ],
+        [
+          115,
+          661
+        ]
+      ],
+      [
+        [
+          813,
+          651
+        ],
+        [
+          1478,
+          649
+        ],
+        [
+          1478,
+          683
+        ],
+        [
+          813,
+          685
+        ]
+      ],
+      [
+        [
+          117,
+          666
+        ],
+        [
+          783,
+          665
+        ],
+        [
+          783,
+          699
+        ],
+        [
+          117,
+          700
+        ]
+      ],
+      [
+        [
+          811,
+          686
+        ],
+        [
+          1037,
+          683
+        ],
+        [
+          1037,
+          714
+        ],
+        [
+          811,
+          717
+        ]
+      ],
+      [
+        [
+          119,
+          706
+        ],
+        [
+          543,
+          706
+        ],
+        [
+          543,
+          737
+        ],
+        [
+          119,
+          737
+        ]
+      ],
+      [
+        [
+          812,
+          741
+        ],
+        [
+          1478,
+          741
+        ],
+        [
+          1478,
+          771
+        ],
+        [
+          812,
+          771
+        ]
+      ],
+      [
+        [
+          116,
+          756
+        ],
+        [
+          782,
+          757
+        ],
+        [
+          782,
+          790
+        ],
+        [
+          116,
+          789
+        ]
+      ],
+      [
+        [
+          812,
+          777
+        ],
+        [
+          1478,
+          777
+        ],
+        [
+          1478,
+          809
+        ],
+        [
+          812,
+          809
+        ]
+      ],
+      [
+        [
+          117,
+          793
+        ],
+        [
+          781,
+          795
+        ],
+        [
+          781,
+          825
+        ],
+        [
+          117,
+          824
+        ]
+      ],
+      [
+        [
+          811,
+          811
+        ],
+        [
+          1478,
+          809
+        ],
+        [
+          1478,
+          842
+        ],
+        [
+          811,
+          844
+        ]
+      ],
+      [
+        [
+          118,
+          829
+        ],
+        [
+          786,
+          829
+        ],
+        [
+          786,
+          862
+        ],
+        [
+          118,
+          862
+        ]
+      ],
+      [
+        [
+          811,
+          844
+        ],
+        [
+          1004,
+          846
+        ],
+        [
+          1004,
+          878
+        ],
+        [
+          811,
+          876
+        ]
+      ],
+      [
+        [
+          117,
+          865
+        ],
+        [
+          789,
+          863
+        ],
+        [
+          789,
+          897
+        ],
+        [
+          117,
+          899
+        ]
+      ],
+      [
+        [
+          119,
+          901
+        ],
+        [
+          784,
+          900
+        ],
+        [
+          784,
+          931
+        ],
+        [
+          119,
+          932
+        ]
+      ],
+      [
+        [
+          811,
+          899
+        ],
+        [
+          1477,
+          901
+        ],
+        [
+          1477,
+          931
+        ],
+        [
+          811,
+          929
+        ]
+      ],
+      [
+        [
+          118,
+          937
+        ],
+        [
+          784,
+          935
+        ],
+        [
+          784,
+          967
+        ],
+        [
+          118,
+          970
+        ]
+      ],
+      [
+        [
+          814,
+          936
+        ],
+        [
+          1484,
+          936
+        ],
+        [
+          1484,
+          969
+        ],
+        [
+          814,
+          969
+        ]
+      ],
+      [
+        [
+          119,
+          973
+        ],
+        [
+          710,
+          972
+        ],
+        [
+          710,
+          1003
+        ],
+        [
+          119,
+          1004
+        ]
+      ],
+      [
+        [
+          813,
+          972
+        ],
+        [
+          1479,
+          972
+        ],
+        [
+          1479,
+          1005
+        ],
+        [
+          813,
+          1005
+        ]
+      ],
+      [
+        [
+          814,
+          1009
+        ],
+        [
+          1274,
+          1009
+        ],
+        [
+          1274,
+          1040
+        ],
+        [
+          814,
+          1040
+        ]
+      ],
+      [
+        [
+          116,
+          1024
+        ],
+        [
+          789,
+          1024
+        ],
+        [
+          789,
+          1057
+        ],
+        [
+          116,
+          1057
+        ]
+      ],
+      [
+        [
+          119,
+          1062
+        ],
+        [
+          784,
+          1064
+        ],
+        [
+          784,
+          1095
+        ],
+        [
+          119,
+          1093
+        ]
+      ],
+      [
+        [
+          915,
+          1077
+        ],
+        [
+          1376,
+          1080
+        ],
+        [
+          1376,
+          1117
+        ],
+        [
+          915,
+          1114
+        ]
+      ],
+      [
+        [
+          120,
+          1098
+        ],
+        [
+          784,
+          1098
+        ],
+        [
+          784,
+          1131
+        ],
+        [
+          120,
+          1131
+        ]
+      ],
+      [
+        [
+          119,
+          1135
+        ],
+        [
+          789,
+          1137
+        ],
+        [
+          789,
+          1167
+        ],
+        [
+          119,
+          1165
+        ]
+      ],
+      [
+        [
+          974,
+          1131
+        ],
+        [
+          1319,
+          1131
+        ],
+        [
+          1319,
+          1167
+        ],
+        [
+          974,
+          1167
+        ]
+      ],
+      [
+        [
+          119,
+          1171
+        ],
+        [
+          789,
+          1171
+        ],
+        [
+          789,
+          1204
+        ],
+        [
+          119,
+          1204
+        ]
+      ],
+      [
+        [
+          812,
+          1187
+        ],
+        [
+          1478,
+          1187
+        ],
+        [
+          1478,
+          1220
+        ],
+        [
+          812,
+          1220
+        ]
+      ],
+      [
+        [
+          120,
+          1207
+        ],
+        [
+          786,
+          1206
+        ],
+        [
+          786,
+          1237
+        ],
+        [
+          120,
+          1238
+        ]
+      ],
+      [
+        [
+          811,
+          1225
+        ],
+        [
+          1478,
+          1223
+        ],
+        [
+          1478,
+          1257
+        ],
+        [
+          811,
+          1259
+        ]
+      ],
+      [
+        [
+          118,
+          1241
+        ],
+        [
+          785,
+          1240
+        ],
+        [
+          785,
+          1273
+        ],
+        [
+          118,
+          1274
+        ]
+      ],
+      [
+        [
+          814,
+          1258
+        ],
+        [
+          1146,
+          1261
+        ],
+        [
+          1146,
+          1295
+        ],
+        [
+          814,
+          1292
+        ]
+      ],
+      [
+        [
+          117,
+          1278
+        ],
+        [
+          782,
+          1277
+        ],
+        [
+          782,
+          1308
+        ],
+        [
+          117,
+          1309
+        ]
+      ],
+      [
+        [
+          116,
+          1316
+        ],
+        [
+          784,
+          1313
+        ],
+        [
+          784,
+          1345
+        ],
+        [
+          116,
+          1348
+        ]
+      ],
+      [
+        [
+          811,
+          1312
+        ],
+        [
+          1478,
+          1313
+        ],
+        [
+          1478,
+          1346
+        ],
+        [
+          811,
+          1345
+        ]
+      ],
+      [
+        [
+          120,
+          1352
+        ],
+        [
+          391,
+          1352
+        ],
+        [
+          391,
+          1383
+        ],
+        [
+          120,
+          1383
+        ]
+      ],
+      [
+        [
+          812,
+          1350
+        ],
+        [
+          1477,
+          1348
+        ],
+        [
+          1477,
+          1382
+        ],
+        [
+          812,
+          1384
+        ]
+      ],
+      [
+        [
+          118,
+          1385
+        ],
+        [
+          782,
+          1385
+        ],
+        [
+          782,
+          1418
+        ],
+        [
+          118,
+          1418
+        ]
+      ],
+      [
+        [
+          813,
+          1386
+        ],
+        [
+          1485,
+          1385
+        ],
+        [
+          1485,
+          1419
+        ],
+        [
+          813,
+          1420
+        ]
+      ],
+      [
+        [
+          119,
+          1424
+        ],
+        [
+          468,
+          1424
+        ],
+        [
+          468,
+          1455
+        ],
+        [
+          119,
+          1455
+        ]
+      ],
+      [
+        [
+          812,
+          1423
+        ],
+        [
+          1398,
+          1421
+        ],
+        [
+          1398,
+          1455
+        ],
+        [
+          812,
+          1457
+        ]
+      ],
+      [
+        [
+          118,
+          1457
+        ],
+        [
+          783,
+          1457
+        ],
+        [
+          783,
+          1490
+        ],
+        [
+          118,
+          1490
+        ]
+      ],
+      [
+        [
+          935,
+          1472
+        ],
+        [
+          1363,
+          1474
+        ],
+        [
+          1363,
+          1510
+        ],
+        [
+          935,
+          1508
+        ]
+      ],
+      [
+        [
+          118,
+          1493
+        ],
+        [
+          675,
+          1494
+        ],
+        [
+          675,
+          1524
+        ],
+        [
+          118,
+          1523
+        ]
+      ],
+      [
+        [
+          993,
+          1510
+        ],
+        [
+          1300,
+          1510
+        ],
+        [
+          1300,
+          1544
+        ],
+        [
+          993,
+          1544
+        ]
+      ],
+      [
+        [
+          118,
+          1529
+        ],
+        [
+          786,
+          1529
+        ],
+        [
+          786,
+          1562
+        ],
+        [
+          118,
+          1562
+        ]
+      ],
+      [
+        [
+          118,
+          1566
+        ],
+        [
+          784,
+          1566
+        ],
+        [
+          784,
+          1599
+        ],
+        [
+          118,
+          1599
+        ]
+      ],
+      [
+        [
+          810,
+          1561
+        ],
+        [
+          1482,
+          1564
+        ],
+        [
+          1482,
+          1600
+        ],
+        [
+          810,
+          1597
+        ]
+      ],
+      [
+        [
+          115,
+          1604
+        ],
+        [
+          782,
+          1604
+        ],
+        [
+          782,
+          1634
+        ],
+        [
+          115,
+          1634
+        ]
+      ],
+      [
+        [
+          812,
+          1602
+        ],
+        [
+          1482,
+          1602
+        ],
+        [
+          1482,
+          1635
+        ],
+        [
+          812,
+          1635
+        ]
+      ],
+      [
+        [
+          117,
+          1637
+        ],
+        [
+          782,
+          1639
+        ],
+        [
+          782,
+          1670
+        ],
+        [
+          117,
+          1668
+        ]
+      ],
+      [
+        [
+          811,
+          1638
+        ],
+        [
+          1485,
+          1637
+        ],
+        [
+          1485,
+          1671
+        ],
+        [
+          811,
+          1672
+        ]
+      ],
+      [
+        [
+          119,
+          1673
+        ],
+        [
+          784,
+          1673
+        ],
+        [
+          784,
+          1705
+        ],
+        [
+          119,
+          1705
+        ]
+      ],
+      [
+        [
+          812,
+          1672
+        ],
+        [
+          1478,
+          1674
+        ],
+        [
+          1478,
+          1704
+        ],
+        [
+          812,
+          1703
+        ]
+      ],
+      [
+        [
+          119,
+          1710
+        ],
+        [
+          600,
+          1710
+        ],
+        [
+          600,
+          1740
+        ],
+        [
+          119,
+          1740
+        ]
+      ],
+      [
+        [
+          810,
+          1708
+        ],
+        [
+          938,
+          1706
+        ],
+        [
+          938,
+          1738
+        ],
+        [
+          810,
+          1740
+        ]
+      ],
+      [
+        [
+          116,
+          1745
+        ],
+        [
+          783,
+          1745
+        ],
+        [
+          783,
+          1778
+        ],
+        [
+          116,
+          1778
+        ]
+      ],
+      [
+        [
+          810,
+          1743
+        ],
+        [
+          1482,
+          1745
+        ],
+        [
+          1482,
+          1778
+        ],
+        [
+          810,
+          1776
+        ]
+      ],
+      [
+        [
+          118,
+          1782
+        ],
+        [
+          782,
+          1782
+        ],
+        [
+          782,
+          1815
+        ],
+        [
+          118,
+          1815
+        ]
+      ],
+      [
+        [
+          812,
+          1784
+        ],
+        [
+          1099,
+          1784
+        ],
+        [
+          1099,
+          1814
+        ],
+        [
+          812,
+          1814
+        ]
+      ],
+      [
+        [
+          117,
+          1816
+        ],
+        [
+          410,
+          1818
+        ],
+        [
+          410,
+          1852
+        ],
+        [
+          117,
+          1849
+        ]
+      ],
+      [
+        [
+          814,
+          1817
+        ],
+        [
+          1477,
+          1818
+        ],
+        [
+          1477,
+          1849
+        ],
+        [
+          814,
+          1848
+        ]
+      ],
+      [
+        [
+          115,
+          1853
+        ],
+        [
+          782,
+          1854
+        ],
+        [
+          782,
+          1885
+        ],
+        [
+          115,
+          1884
+        ]
+      ],
+      [
+        [
+          812,
+          1854
+        ],
+        [
+          1480,
+          1854
+        ],
+        [
+          1480,
+          1887
+        ],
+        [
+          812,
+          1887
+        ]
+      ],
+      [
+        [
+          119,
+          1889
+        ],
+        [
+          785,
+          1889
+        ],
+        [
+          785,
+          1922
+        ],
+        [
+          119,
+          1922
+        ]
+      ],
+      [
+        [
+          814,
+          1890
+        ],
+        [
+          1112,
+          1892
+        ],
+        [
+          1112,
+          1923
+        ],
+        [
+          814,
+          1921
+        ]
+      ],
+      [
+        [
+          118,
+          1926
+        ],
+        [
+          731,
+          1924
+        ],
+        [
+          731,
+          1955
+        ],
+        [
+          118,
+          1957
+        ]
+      ],
+      [
+        [
+          814,
+          1922
+        ],
+        [
+          1156,
+          1925
+        ],
+        [
+          1156,
+          1959
+        ],
+        [
+          814,
+          1956
+        ]
+      ],
+      [
+        [
+          115,
+          1961
+        ],
+        [
+          783,
+          1960
+        ],
+        [
+          783,
+          1991
+        ],
+        [
+          115,
+          1992
+        ]
+      ],
+      [
+        [
+          814,
+          1961
+        ],
+        [
+          1302,
+          1961
+        ],
+        [
+          1302,
+          1992
+        ],
+        [
+          814,
+          1992
+        ]
+      ],
+      [
+        [
+          119,
+          1998
+        ],
+        [
+          478,
+          1998
+        ],
+        [
+          478,
+          2027
+        ],
+        [
+          119,
+          2027
+        ]
+      ],
+      [
+        [
+          810,
+          1997
+        ],
+        [
+          1390,
+          1997
+        ],
+        [
+          1390,
+          2029
+        ],
+        [
+          810,
+          2029
+        ]
+      ],
+      [
+        [
+          811,
+          2032
+        ],
+        [
+          1416,
+          2031
+        ],
+        [
+          1416,
+          2064
+        ],
+        [
+          811,
+          2065
+        ]
+      ],
+      [
+        [
+          118,
+          2109
+        ],
+        [
+          573,
+          2109
+        ],
+        [
+          573,
+          2132
+        ],
+        [
+          118,
+          2132
+        ]
+      ],
+      [
+        [
+          815,
+          2109
+        ],
+        [
+          1191,
+          2109
+        ],
+        [
+          1191,
+          2132
+        ],
+        [
+          815,
+          2132
+        ]
+      ],
+      [
+        [
+          789,
+          2170
+        ],
+        [
+          807,
+          2170
+        ],
+        [
+          807,
+          2189
+        ],
+        [
+          789,
+          2189
+        ]
+      ]
+    ],
+    "text_det_params": {
+      "limit_side_len": 64,
+      "limit_type": "min",
+      "thresh": 0.3,
+      "max_side_limit": 4000,
+      "box_thresh": 0.6,
+      "unclip_ratio": 1.5
+    },
+    "text_type": "general",
+    "textline_orientation_angles": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "text_rec_score_thresh": 0.0,
+    "return_word_box": false,
+    "rec_texts": [
+      "ESTATUTO DO IDOSO 5'EDIÇÃO",
+      "LEI N° 10.741, DE 1° DE OUTUBRO DE 2003'",
+      "X - prioridade no recebimento da restituição do im-",
+      "posto de renda.",
+      "(Estatuto do Idoso)",
+      "Art. 4° Nenhum idoso será objeto de qualquer tipo de",
+      "negligéncia, discriminação, violência, crueldade ou",
+      "Dispõe sobre o Estatuto do Idoso e dá outras",
+      "opressão, e todo atentado aos seus direitos, por ação",
+      "provdências.",
+      "ou omissão, será punido na forma da lei.",
+      "§ 1° É dever de todos prevenir a ameaça ou violação",
+      "O presidente da República",
+      "aos direitos do idoso.",
+      "Faço saber que o Congresso Nacional decreta e eu",
+      "§ 2° As obrigações previstas nesta lei não excluem da",
+      "sanciono a seguinte lei:",
+      "prevenção outras decorrentes dos princípios por ela",
+      "adotados.",
+      "TÍTULOI - DISPOSIÇÕES PRELIMINARES",
+      "Art. 5° A inobservāncia das normas de prevenção im-",
+      "Art. 1• É instituido o Estatuto do Idoso, destinado a",
+      "portará emresponsabilidade à pessoa física ou jurídica",
+      "regular os direitos assegurados às pessoas comidade",
+      "nos termos da lei.",
+      "igual ou superior a sessenta anos.",
+      "Art. 6° Todo cidadão tem o dever de comunicar à",
+      "Art 2*O idoso goza de todos os direitos fundamentais",
+      "autoridade competente qualquer forma de violação",
+      "inerentes à pessoa humana, sem prejuízo da prote ção",
+      "a esta lei que tenha testemunhado ou de que tenha",
+      "integral de que trata esta lei, assegurando-se-lhe, por",
+      "conhecimento.",
+      "lei ou por outros meios, todas as oportunidades e faci-",
+      "lidades, para preservação de sua saúde física e mental",
+      "Art 7* Os conselhos nacional, estaduais, do Distrito",
+      "e seu aperfeiçoamento moral, intelectual, espiritual e",
+      "Federal e municipais do idoso, previstos na Lein°8.842.",
+      "social, em condições de liberdade e dignidade.",
+      "de 4 de janeiro de 1994, zelarão pelo cumprimento dos",
+      "direítos do idoso, definidos nesta lei.",
+      "Art 3* É obrigação da familia, da comunidade, da so-",
+      "ciedade e do poder público assegurar ao idoso, com",
+      "TÍTULO II - DOS DIREITOS FUNDAMENTAIS",
+      "absoluta prioridade, a efetivação do direito à vida, à",
+      "saúde, à alimentação, à e ducação, à cultura, ao esporte,",
+      "CAPÍTULO I - DO DIRENTO À VIDA",
+      "ao lazer, ao trabalho, à cidadania, à liberdade, à digni-",
+      "Art. 8' O envelhecimento é um direito personalíssimo",
+      "dade, ao respeito e à convivéncia familiare comunitária.",
+      "e a sua proteção um direito social, nos termos desta",
+      "Parágrafo único. A garantia de prioridade compreende:",
+      "lei e da legislação vigente.",
+      "l- atendimento preferencial imediato e individualizado",
+      "junto aos órgãos públicos e privados prestadores de",
+      "Art. 9' É obrigação do Estado garantir à pessoa idosa",
+      "serviços à população;",
+      "a proteção à vida e à saúde, mediante efetivação de",
+      "Il - pre ferência naformulação e na execução de políticas",
+      "políticas sociais públicas que permitam um envelheci-",
+      "sociais públicas especificas;",
+      "mento saudável e em condições de dignidade.",
+      "III - destinação privilegiada de recursos públicos nas",
+      "CAPÍTULO 1I - DO DIREITO À LIBERDADE,",
+      "áreas relacionadas com a proteção ao idoso;",
+      "AO RESPEITO E À DIGNIDADE",
+      "V - viabilização de formas alternativas de participação,",
+      "ocupação e convivio do idoso com as demais gerações;",
+      "Art. 10. É obrigação do Estado e da sociedade assegurar",
+      "V- priorização do atendimento do idoso porsuaprópria",
+      "à pessoa idosa a liberdade, o respeito e a dignidade,",
+      "familia, em detrimento do atendimento asilar, exceto",
+      "como pessoa humana e sujeito de direitos civis, poli-",
+      "dos que não a possuam ou careçam de condições de",
+      "ticos, individuais e sociais, garantidos na Constituição",
+      "manutenção da própria sobrevivência;",
+      "e nas leis.",
+      "VI - capacitação e reciclagem dos recursos humanos",
+      "§ 1° O direito à liberdade compreende, entre outros,",
+      "nas áreas de geriatria e gerontologia e na prestação",
+      "os seguintes aspectos:",
+      "de serviços aos idosos;",
+      "I-faculdade de ir, vir e estar nos logradouros públicos e",
+      "Vil-estabelecimento de mecanismos que favoreçam a",
+      "espaços comunitários, ressalvadas as restrições legais;",
+      "divulgação de informações de caráter educativo sobre",
+      "Il  opinião e expressão;",
+      "os aspectos biopsicossociais de envelhecimento;",
+      "III - crença e culto religioso;",
+      "VIII - garantia de acesso à rede de serviços de saúde",
+      "N - prática de esportes e de diversões;",
+      "e de assistência social locais;",
+      "V - participação na vida familiar e comunitária;",
+      "VI - participação na vida politica, na forma da le;",
+      "1    ,,3-10-203",
+      "2 ma*oodopaleπ11 765, de 58-2008",
+      "9"
+    ],
+    "rec_scores": [
+      0.9575350284576416,
+      0.9774125814437866,
+      0.9757053852081299,
+      0.9815160632133484,
+      0.9993036985397339,
+      0.983667254447937,
+      0.9774721264839172,
+      0.9920156002044678,
+      0.9970554709434509,
+      0.9731721878051758,
+      0.9968773722648621,
+      0.9764736294746399,
+      0.9909999966621399,
+      0.9957621097564697,
+      0.9924676418304443,
+      0.9871077537536621,
+      0.9964259266853333,
+      0.9874823093414307,
+      0.999904215335846,
+      0.9688167572021484,
+      0.9727264642715454,
+      0.9770418405532837,
+      0.9825518727302551,
+      0.9964404106140137,
+      0.997588038444519,
+      0.9970139861106873,
+      0.9686651229858398,
+      0.9770672917366028,
+      0.9983580708503723,
+      0.9720507264137268,
+      0.9961681962013245,
+      0.994765043258667,
+      0.999567449092865,
+      0.9913195371627808,
+      0.9963991641998291,
+      0.9807062149047852,
+      0.9980206489562988,
+      0.974023699760437,
+      0.9984866976737976,
+      0.9864955544471741,
+      0.973167896270752,
+      0.9739598035812378,
+      0.9900705218315125,
+      0.9598180651664734,
+      0.9854801297187805,
+      0.9887773394584656,
+      0.9212872385978699,
+      0.9965160489082336,
+      0.9707600474357605,
+      0.9848018884658813,
+      0.9960752725601196,
+      0.9784296751022339,
+      0.9931836724281311,
+      0.9897049069404602,
+      0.9973458051681519,
+      0.9759469628334045,
+      0.9771893620491028,
+      0.9886638522148132,
+      0.9564881324768066,
+      0.9873589277267456,
+      0.9886278510093689,
+      0.9799717664718628,
+      0.9480195045471191,
+      0.9520962834358215,
+      0.9994975328445435,
+      0.9952545166015625,
+      0.9882550835609436,
+      0.9774067401885986,
+      0.9763443470001221,
+      0.9905901551246643,
+      0.979823648929596,
+      0.9950053095817566,
+      0.9825889468193054,
+      0.9852085113525391,
+      0.9950364232063293,
+      0.9824349880218506,
+      0.9971910119056702,
+      0.9677732586860657,
+      0.9837852716445923,
+      0.9843704700469971,
+      0.9994022250175476,
+      0.9922444820404053,
+      0.9829359650611877,
+      0.9890217185020447,
+      0.990678608417511,
+      0.9826253056526184,
+      0.9877352118492126,
+      0.9938228130340576,
+      0.9629643559455872,
+      0.9705830216407776,
+      0.9902107119560242,
+      0.9993947744369507,
+      0.9765594601631165,
+      0.9584823250770569,
+      0.6478087306022644,
+      0.7588497996330261,
+      0.9995275735855103
+    ],
+    "rec_polys": [
+      [
+        [
+          664,
+          95
+        ],
+        [
+          932,
+          95
+        ],
+        [
+          932,
+          122
+        ],
+        [
+          664,
+          122
+        ]
+      ],
+      [
+        [
+          134,
+          176
+        ],
+        [
+          769,
+          176
+        ],
+        [
+          769,
+          213
+        ],
+        [
+          134,
+          213
+        ]
+      ],
+      [
+        [
+          812,
+          179
+        ],
+        [
+          1486,
+          181
+        ],
+        [
+          1486,
+          218
+        ],
+        [
+          812,
+          216
+        ]
+      ],
+      [
+        [
+          813,
+          218
+        ],
+        [
+          1016,
+          216
+        ],
+        [
+          1016,
+          251
+        ],
+        [
+          813,
+          253
+        ]
+      ],
+      [
+        [
+          331,
+          250
+        ],
+        [
+          571,
+          250
+        ],
+        [
+          571,
+          287
+        ],
+        [
+          331,
+          287
+        ]
+      ],
+      [
+        [
+          812,
+          271
+        ],
+        [
+          1476,
+          273
+        ],
+        [
+          1476,
+          304
+        ],
+        [
+          812,
+          302
+        ]
+      ],
+      [
+        [
+          813,
+          309
+        ],
+        [
+          1478,
+          309
+        ],
+        [
+          1478,
+          342
+        ],
+        [
+          813,
+          342
+        ]
+      ],
+      [
+        [
+          188,
+          326
+        ],
+        [
+          785,
+          326
+        ],
+        [
+          785,
+          359
+        ],
+        [
+          188,
+          359
+        ]
+      ],
+      [
+        [
+          812,
+          343
+        ],
+        [
+          1478,
+          343
+        ],
+        [
+          1478,
+          376
+        ],
+        [
+          812,
+          376
+        ]
+      ],
+      [
+        [
+          626,
+          364
+        ],
+        [
+          790,
+          362
+        ],
+        [
+          790,
+          396
+        ],
+        [
+          626,
+          398
+        ]
+      ],
+      [
+        [
+          813,
+          380
+        ],
+        [
+          1319,
+          380
+        ],
+        [
+          1319,
+          411
+        ],
+        [
+          813,
+          411
+        ]
+      ],
+      [
+        [
+          811,
+          413
+        ],
+        [
+          1478,
+          416
+        ],
+        [
+          1478,
+          449
+        ],
+        [
+          811,
+          446
+        ]
+      ],
+      [
+        [
+          118,
+          434
+        ],
+        [
+          456,
+          431
+        ],
+        [
+          456,
+          466
+        ],
+        [
+          118,
+          468
+        ]
+      ],
+      [
+        [
+          813,
+          452
+        ],
+        [
+          1084,
+          452
+        ],
+        [
+          1084,
+          482
+        ],
+        [
+          813,
+          482
+        ]
+      ],
+      [
+        [
+          119,
+          469
+        ],
+        [
+          784,
+          469
+        ],
+        [
+          784,
+          502
+        ],
+        [
+          119,
+          502
+        ]
+      ],
+      [
+        [
+          812,
+          487
+        ],
+        [
+          1478,
+          487
+        ],
+        [
+          1478,
+          521
+        ],
+        [
+          812,
+          521
+        ]
+      ],
+      [
+        [
+          118,
+          506
+        ],
+        [
+          414,
+          504
+        ],
+        [
+          414,
+          538
+        ],
+        [
+          118,
+          540
+        ]
+      ],
+      [
+        [
+          814,
+          527
+        ],
+        [
+          1476,
+          525
+        ],
+        [
+          1476,
+          556
+        ],
+        [
+          814,
+          558
+        ]
+      ],
+      [
+        [
+          811,
+          557
+        ],
+        [
+          945,
+          559
+        ],
+        [
+          945,
+          591
+        ],
+        [
+          811,
+          589
+        ]
+      ],
+      [
+        [
+          231,
+          572
+        ],
+        [
+          668,
+          575
+        ],
+        [
+          668,
+          615
+        ],
+        [
+          231,
+          611
+        ]
+      ],
+      [
+        [
+          811,
+          613
+        ],
+        [
+          1483,
+          616
+        ],
+        [
+          1483,
+          646
+        ],
+        [
+          811,
+          644
+        ]
+      ],
+      [
+        [
+          115,
+          627
+        ],
+        [
+          783,
+          628
+        ],
+        [
+          783,
+          662
+        ],
+        [
+          115,
+          661
+        ]
+      ],
+      [
+        [
+          813,
+          651
+        ],
+        [
+          1478,
+          649
+        ],
+        [
+          1478,
+          683
+        ],
+        [
+          813,
+          685
+        ]
+      ],
+      [
+        [
+          117,
+          666
+        ],
+        [
+          783,
+          665
+        ],
+        [
+          783,
+          699
+        ],
+        [
+          117,
+          700
+        ]
+      ],
+      [
+        [
+          811,
+          686
+        ],
+        [
+          1037,
+          683
+        ],
+        [
+          1037,
+          714
+        ],
+        [
+          811,
+          717
+        ]
+      ],
+      [
+        [
+          119,
+          706
+        ],
+        [
+          543,
+          706
+        ],
+        [
+          543,
+          737
+        ],
+        [
+          119,
+          737
+        ]
+      ],
+      [
+        [
+          812,
+          741
+        ],
+        [
+          1478,
+          741
+        ],
+        [
+          1478,
+          771
+        ],
+        [
+          812,
+          771
+        ]
+      ],
+      [
+        [
+          116,
+          756
+        ],
+        [
+          782,
+          757
+        ],
+        [
+          782,
+          790
+        ],
+        [
+          116,
+          789
+        ]
+      ],
+      [
+        [
+          812,
+          777
+        ],
+        [
+          1478,
+          777
+        ],
+        [
+          1478,
+          809
+        ],
+        [
+          812,
+          809
+        ]
+      ],
+      [
+        [
+          117,
+          793
+        ],
+        [
+          781,
+          795
+        ],
+        [
+          781,
+          825
+        ],
+        [
+          117,
+          824
+        ]
+      ],
+      [
+        [
+          811,
+          811
+        ],
+        [
+          1478,
+          809
+        ],
+        [
+          1478,
+          842
+        ],
+        [
+          811,
+          844
+        ]
+      ],
+      [
+        [
+          118,
+          829
+        ],
+        [
+          786,
+          829
+        ],
+        [
+          786,
+          862
+        ],
+        [
+          118,
+          862
+        ]
+      ],
+      [
+        [
+          811,
+          844
+        ],
+        [
+          1004,
+          846
+        ],
+        [
+          1004,
+          878
+        ],
+        [
+          811,
+          876
+        ]
+      ],
+      [
+        [
+          117,
+          865
+        ],
+        [
+          789,
+          863
+        ],
+        [
+          789,
+          897
+        ],
+        [
+          117,
+          899
+        ]
+      ],
+      [
+        [
+          119,
+          901
+        ],
+        [
+          784,
+          900
+        ],
+        [
+          784,
+          931
+        ],
+        [
+          119,
+          932
+        ]
+      ],
+      [
+        [
+          811,
+          899
+        ],
+        [
+          1477,
+          901
+        ],
+        [
+          1477,
+          931
+        ],
+        [
+          811,
+          929
+        ]
+      ],
+      [
+        [
+          118,
+          937
+        ],
+        [
+          784,
+          935
+        ],
+        [
+          784,
+          967
+        ],
+        [
+          118,
+          970
+        ]
+      ],
+      [
+        [
+          814,
+          936
+        ],
+        [
+          1484,
+          936
+        ],
+        [
+          1484,
+          969
+        ],
+        [
+          814,
+          969
+        ]
+      ],
+      [
+        [
+          119,
+          973
+        ],
+        [
+          710,
+          972
+        ],
+        [
+          710,
+          1003
+        ],
+        [
+          119,
+          1004
+        ]
+      ],
+      [
+        [
+          813,
+          972
+        ],
+        [
+          1479,
+          972
+        ],
+        [
+          1479,
+          1005
+        ],
+        [
+          813,
+          1005
+        ]
+      ],
+      [
+        [
+          814,
+          1009
+        ],
+        [
+          1274,
+          1009
+        ],
+        [
+          1274,
+          1040
+        ],
+        [
+          814,
+          1040
+        ]
+      ],
+      [
+        [
+          116,
+          1024
+        ],
+        [
+          789,
+          1024
+        ],
+        [
+          789,
+          1057
+        ],
+        [
+          116,
+          1057
+        ]
+      ],
+      [
+        [
+          119,
+          1062
+        ],
+        [
+          784,
+          1064
+        ],
+        [
+          784,
+          1095
+        ],
+        [
+          119,
+          1093
+        ]
+      ],
+      [
+        [
+          915,
+          1077
+        ],
+        [
+          1376,
+          1080
+        ],
+        [
+          1376,
+          1117
+        ],
+        [
+          915,
+          1114
+        ]
+      ],
+      [
+        [
+          120,
+          1098
+        ],
+        [
+          784,
+          1098
+        ],
+        [
+          784,
+          1131
+        ],
+        [
+          120,
+          1131
+        ]
+      ],
+      [
+        [
+          119,
+          1135
+        ],
+        [
+          789,
+          1137
+        ],
+        [
+          789,
+          1167
+        ],
+        [
+          119,
+          1165
+        ]
+      ],
+      [
+        [
+          974,
+          1131
+        ],
+        [
+          1319,
+          1131
+        ],
+        [
+          1319,
+          1167
+        ],
+        [
+          974,
+          1167
+        ]
+      ],
+      [
+        [
+          119,
+          1171
+        ],
+        [
+          789,
+          1171
+        ],
+        [
+          789,
+          1204
+        ],
+        [
+          119,
+          1204
+        ]
+      ],
+      [
+        [
+          812,
+          1187
+        ],
+        [
+          1478,
+          1187
+        ],
+        [
+          1478,
+          1220
+        ],
+        [
+          812,
+          1220
+        ]
+      ],
+      [
+        [
+          120,
+          1207
+        ],
+        [
+          786,
+          1206
+        ],
+        [
+          786,
+          1237
+        ],
+        [
+          120,
+          1238
+        ]
+      ],
+      [
+        [
+          811,
+          1225
+        ],
+        [
+          1478,
+          1223
+        ],
+        [
+          1478,
+          1257
+        ],
+        [
+          811,
+          1259
+        ]
+      ],
+      [
+        [
+          118,
+          1241
+        ],
+        [
+          785,
+          1240
+        ],
+        [
+          785,
+          1273
+        ],
+        [
+          118,
+          1274
+        ]
+      ],
+      [
+        [
+          814,
+          1258
+        ],
+        [
+          1146,
+          1261
+        ],
+        [
+          1146,
+          1295
+        ],
+        [
+          814,
+          1292
+        ]
+      ],
+      [
+        [
+          117,
+          1278
+        ],
+        [
+          782,
+          1277
+        ],
+        [
+          782,
+          1308
+        ],
+        [
+          117,
+          1309
+        ]
+      ],
+      [
+        [
+          116,
+          1316
+        ],
+        [
+          784,
+          1313
+        ],
+        [
+          784,
+          1345
+        ],
+        [
+          116,
+          1348
+        ]
+      ],
+      [
+        [
+          811,
+          1312
+        ],
+        [
+          1478,
+          1313
+        ],
+        [
+          1478,
+          1346
+        ],
+        [
+          811,
+          1345
+        ]
+      ],
+      [
+        [
+          120,
+          1352
+        ],
+        [
+          391,
+          1352
+        ],
+        [
+          391,
+          1383
+        ],
+        [
+          120,
+          1383
+        ]
+      ],
+      [
+        [
+          812,
+          1350
+        ],
+        [
+          1477,
+          1348
+        ],
+        [
+          1477,
+          1382
+        ],
+        [
+          812,
+          1384
+        ]
+      ],
+      [
+        [
+          118,
+          1385
+        ],
+        [
+          782,
+          1385
+        ],
+        [
+          782,
+          1418
+        ],
+        [
+          118,
+          1418
+        ]
+      ],
+      [
+        [
+          813,
+          1386
+        ],
+        [
+          1485,
+          1385
+        ],
+        [
+          1485,
+          1419
+        ],
+        [
+          813,
+          1420
+        ]
+      ],
+      [
+        [
+          119,
+          1424
+        ],
+        [
+          468,
+          1424
+        ],
+        [
+          468,
+          1455
+        ],
+        [
+          119,
+          1455
+        ]
+      ],
+      [
+        [
+          812,
+          1423
+        ],
+        [
+          1398,
+          1421
+        ],
+        [
+          1398,
+          1455
+        ],
+        [
+          812,
+          1457
+        ]
+      ],
+      [
+        [
+          118,
+          1457
+        ],
+        [
+          783,
+          1457
+        ],
+        [
+          783,
+          1490
+        ],
+        [
+          118,
+          1490
+        ]
+      ],
+      [
+        [
+          935,
+          1472
+        ],
+        [
+          1363,
+          1474
+        ],
+        [
+          1363,
+          1510
+        ],
+        [
+          935,
+          1508
+        ]
+      ],
+      [
+        [
+          118,
+          1493
+        ],
+        [
+          675,
+          1494
+        ],
+        [
+          675,
+          1524
+        ],
+        [
+          118,
+          1523
+        ]
+      ],
+      [
+        [
+          993,
+          1510
+        ],
+        [
+          1300,
+          1510
+        ],
+        [
+          1300,
+          1544
+        ],
+        [
+          993,
+          1544
+        ]
+      ],
+      [
+        [
+          118,
+          1529
+        ],
+        [
+          786,
+          1529
+        ],
+        [
+          786,
+          1562
+        ],
+        [
+          118,
+          1562
+        ]
+      ],
+      [
+        [
+          118,
+          1566
+        ],
+        [
+          784,
+          1566
+        ],
+        [
+          784,
+          1599
+        ],
+        [
+          118,
+          1599
+        ]
+      ],
+      [
+        [
+          810,
+          1561
+        ],
+        [
+          1482,
+          1564
+        ],
+        [
+          1482,
+          1600
+        ],
+        [
+          810,
+          1597
+        ]
+      ],
+      [
+        [
+          115,
+          1604
+        ],
+        [
+          782,
+          1604
+        ],
+        [
+          782,
+          1634
+        ],
+        [
+          115,
+          1634
+        ]
+      ],
+      [
+        [
+          812,
+          1602
+        ],
+        [
+          1482,
+          1602
+        ],
+        [
+          1482,
+          1635
+        ],
+        [
+          812,
+          1635
+        ]
+      ],
+      [
+        [
+          117,
+          1637
+        ],
+        [
+          782,
+          1639
+        ],
+        [
+          782,
+          1670
+        ],
+        [
+          117,
+          1668
+        ]
+      ],
+      [
+        [
+          811,
+          1638
+        ],
+        [
+          1485,
+          1637
+        ],
+        [
+          1485,
+          1671
+        ],
+        [
+          811,
+          1672
+        ]
+      ],
+      [
+        [
+          119,
+          1673
+        ],
+        [
+          784,
+          1673
+        ],
+        [
+          784,
+          1705
+        ],
+        [
+          119,
+          1705
+        ]
+      ],
+      [
+        [
+          812,
+          1672
+        ],
+        [
+          1478,
+          1674
+        ],
+        [
+          1478,
+          1704
+        ],
+        [
+          812,
+          1703
+        ]
+      ],
+      [
+        [
+          119,
+          1710
+        ],
+        [
+          600,
+          1710
+        ],
+        [
+          600,
+          1740
+        ],
+        [
+          119,
+          1740
+        ]
+      ],
+      [
+        [
+          810,
+          1708
+        ],
+        [
+          938,
+          1706
+        ],
+        [
+          938,
+          1738
+        ],
+        [
+          810,
+          1740
+        ]
+      ],
+      [
+        [
+          116,
+          1745
+        ],
+        [
+          783,
+          1745
+        ],
+        [
+          783,
+          1778
+        ],
+        [
+          116,
+          1778
+        ]
+      ],
+      [
+        [
+          810,
+          1743
+        ],
+        [
+          1482,
+          1745
+        ],
+        [
+          1482,
+          1778
+        ],
+        [
+          810,
+          1776
+        ]
+      ],
+      [
+        [
+          118,
+          1782
+        ],
+        [
+          782,
+          1782
+        ],
+        [
+          782,
+          1815
+        ],
+        [
+          118,
+          1815
+        ]
+      ],
+      [
+        [
+          812,
+          1784
+        ],
+        [
+          1099,
+          1784
+        ],
+        [
+          1099,
+          1814
+        ],
+        [
+          812,
+          1814
+        ]
+      ],
+      [
+        [
+          117,
+          1816
+        ],
+        [
+          410,
+          1818
+        ],
+        [
+          410,
+          1852
+        ],
+        [
+          117,
+          1849
+        ]
+      ],
+      [
+        [
+          814,
+          1817
+        ],
+        [
+          1477,
+          1818
+        ],
+        [
+          1477,
+          1849
+        ],
+        [
+          814,
+          1848
+        ]
+      ],
+      [
+        [
+          115,
+          1853
+        ],
+        [
+          782,
+          1854
+        ],
+        [
+          782,
+          1885
+        ],
+        [
+          115,
+          1884
+        ]
+      ],
+      [
+        [
+          812,
+          1854
+        ],
+        [
+          1480,
+          1854
+        ],
+        [
+          1480,
+          1887
+        ],
+        [
+          812,
+          1887
+        ]
+      ],
+      [
+        [
+          119,
+          1889
+        ],
+        [
+          785,
+          1889
+        ],
+        [
+          785,
+          1922
+        ],
+        [
+          119,
+          1922
+        ]
+      ],
+      [
+        [
+          814,
+          1890
+        ],
+        [
+          1112,
+          1892
+        ],
+        [
+          1112,
+          1923
+        ],
+        [
+          814,
+          1921
+        ]
+      ],
+      [
+        [
+          118,
+          1926
+        ],
+        [
+          731,
+          1924
+        ],
+        [
+          731,
+          1955
+        ],
+        [
+          118,
+          1957
+        ]
+      ],
+      [
+        [
+          814,
+          1922
+        ],
+        [
+          1156,
+          1925
+        ],
+        [
+          1156,
+          1959
+        ],
+        [
+          814,
+          1956
+        ]
+      ],
+      [
+        [
+          115,
+          1961
+        ],
+        [
+          783,
+          1960
+        ],
+        [
+          783,
+          1991
+        ],
+        [
+          115,
+          1992
+        ]
+      ],
+      [
+        [
+          814,
+          1961
+        ],
+        [
+          1302,
+          1961
+        ],
+        [
+          1302,
+          1992
+        ],
+        [
+          814,
+          1992
+        ]
+      ],
+      [
+        [
+          119,
+          1998
+        ],
+        [
+          478,
+          1998
+        ],
+        [
+          478,
+          2027
+        ],
+        [
+          119,
+          2027
+        ]
+      ],
+      [
+        [
+          810,
+          1997
+        ],
+        [
+          1390,
+          1997
+        ],
+        [
+          1390,
+          2029
+        ],
+        [
+          810,
+          2029
+        ]
+      ],
+      [
+        [
+          811,
+          2032
+        ],
+        [
+          1416,
+          2031
+        ],
+        [
+          1416,
+          2064
+        ],
+        [
+          811,
+          2065
+        ]
+      ],
+      [
+        [
+          118,
+          2109
+        ],
+        [
+          573,
+          2109
+        ],
+        [
+          573,
+          2132
+        ],
+        [
+          118,
+          2132
+        ]
+      ],
+      [
+        [
+          815,
+          2109
+        ],
+        [
+          1191,
+          2109
+        ],
+        [
+          1191,
+          2132
+        ],
+        [
+          815,
+          2132
+        ]
+      ],
+      [
+        [
+          789,
+          2170
+        ],
+        [
+          807,
+          2170
+        ],
+        [
+          807,
+          2189
+        ],
+        [
+          789,
+          2189
+        ]
+      ]
+    ],
+    "rec_boxes": [
+      [
+        664,
+        95,
+        932,
+        122
+      ],
+      [
+        134,
+        176,
+        769,
+        213
+      ],
+      [
+        812,
+        179,
+        1486,
+        218
+      ],
+      [
+        813,
+        216,
+        1016,
+        253
+      ],
+      [
+        331,
+        250,
+        571,
+        287
+      ],
+      [
+        812,
+        271,
+        1476,
+        304
+      ],
+      [
+        813,
+        309,
+        1478,
+        342
+      ],
+      [
+        188,
+        326,
+        785,
+        359
+      ],
+      [
+        812,
+        343,
+        1478,
+        376
+      ],
+      [
+        626,
+        362,
+        790,
+        398
+      ],
+      [
+        813,
+        380,
+        1319,
+        411
+      ],
+      [
+        811,
+        413,
+        1478,
+        449
+      ],
+      [
+        118,
+        431,
+        456,
+        468
+      ],
+      [
+        813,
+        452,
+        1084,
+        482
+      ],
+      [
+        119,
+        469,
+        784,
+        502
+      ],
+      [
+        812,
+        487,
+        1478,
+        521
+      ],
+      [
+        118,
+        504,
+        414,
+        540
+      ],
+      [
+        814,
+        525,
+        1476,
+        558
+      ],
+      [
+        811,
+        557,
+        945,
+        591
+      ],
+      [
+        231,
+        572,
+        668,
+        615
+      ],
+      [
+        811,
+        613,
+        1483,
+        646
+      ],
+      [
+        115,
+        627,
+        783,
+        662
+      ],
+      [
+        813,
+        649,
+        1478,
+        685
+      ],
+      [
+        117,
+        665,
+        783,
+        700
+      ],
+      [
+        811,
+        683,
+        1037,
+        717
+      ],
+      [
+        119,
+        706,
+        543,
+        737
+      ],
+      [
+        812,
+        741,
+        1478,
+        771
+      ],
+      [
+        116,
+        756,
+        782,
+        790
+      ],
+      [
+        812,
+        777,
+        1478,
+        809
+      ],
+      [
+        117,
+        793,
+        781,
+        825
+      ],
+      [
+        811,
+        809,
+        1478,
+        844
+      ],
+      [
+        118,
+        829,
+        786,
+        862
+      ],
+      [
+        811,
+        844,
+        1004,
+        878
+      ],
+      [
+        117,
+        863,
+        789,
+        899
+      ],
+      [
+        119,
+        900,
+        784,
+        932
+      ],
+      [
+        811,
+        899,
+        1477,
+        931
+      ],
+      [
+        118,
+        935,
+        784,
+        970
+      ],
+      [
+        814,
+        936,
+        1484,
+        969
+      ],
+      [
+        119,
+        972,
+        710,
+        1004
+      ],
+      [
+        813,
+        972,
+        1479,
+        1005
+      ],
+      [
+        814,
+        1009,
+        1274,
+        1040
+      ],
+      [
+        116,
+        1024,
+        789,
+        1057
+      ],
+      [
+        119,
+        1062,
+        784,
+        1095
+      ],
+      [
+        915,
+        1077,
+        1376,
+        1117
+      ],
+      [
+        120,
+        1098,
+        784,
+        1131
+      ],
+      [
+        119,
+        1135,
+        789,
+        1167
+      ],
+      [
+        974,
+        1131,
+        1319,
+        1167
+      ],
+      [
+        119,
+        1171,
+        789,
+        1204
+      ],
+      [
+        812,
+        1187,
+        1478,
+        1220
+      ],
+      [
+        120,
+        1206,
+        786,
+        1238
+      ],
+      [
+        811,
+        1223,
+        1478,
+        1259
+      ],
+      [
+        118,
+        1240,
+        785,
+        1274
+      ],
+      [
+        814,
+        1258,
+        1146,
+        1295
+      ],
+      [
+        117,
+        1277,
+        782,
+        1309
+      ],
+      [
+        116,
+        1313,
+        784,
+        1348
+      ],
+      [
+        811,
+        1312,
+        1478,
+        1346
+      ],
+      [
+        120,
+        1352,
+        391,
+        1383
+      ],
+      [
+        812,
+        1348,
+        1477,
+        1384
+      ],
+      [
+        118,
+        1385,
+        782,
+        1418
+      ],
+      [
+        813,
+        1385,
+        1485,
+        1420
+      ],
+      [
+        119,
+        1424,
+        468,
+        1455
+      ],
+      [
+        812,
+        1421,
+        1398,
+        1457
+      ],
+      [
+        118,
+        1457,
+        783,
+        1490
+      ],
+      [
+        935,
+        1472,
+        1363,
+        1510
+      ],
+      [
+        118,
+        1493,
+        675,
+        1524
+      ],
+      [
+        993,
+        1510,
+        1300,
+        1544
+      ],
+      [
+        118,
+        1529,
+        786,
+        1562
+      ],
+      [
+        118,
+        1566,
+        784,
+        1599
+      ],
+      [
+        810,
+        1561,
+        1482,
+        1600
+      ],
+      [
+        115,
+        1604,
+        782,
+        1634
+      ],
+      [
+        812,
+        1602,
+        1482,
+        1635
+      ],
+      [
+        117,
+        1637,
+        782,
+        1670
+      ],
+      [
+        811,
+        1637,
+        1485,
+        1672
+      ],
+      [
+        119,
+        1673,
+        784,
+        1705
+      ],
+      [
+        812,
+        1672,
+        1478,
+        1704
+      ],
+      [
+        119,
+        1710,
+        600,
+        1740
+      ],
+      [
+        810,
+        1706,
+        938,
+        1740
+      ],
+      [
+        116,
+        1745,
+        783,
+        1778
+      ],
+      [
+        810,
+        1743,
+        1482,
+        1778
+      ],
+      [
+        118,
+        1782,
+        782,
+        1815
+      ],
+      [
+        812,
+        1784,
+        1099,
+        1814
+      ],
+      [
+        117,
+        1816,
+        410,
+        1852
+      ],
+      [
+        814,
+        1817,
+        1477,
+        1849
+      ],
+      [
+        115,
+        1853,
+        782,
+        1885
+      ],
+      [
+        812,
+        1854,
+        1480,
+        1887
+      ],
+      [
+        119,
+        1889,
+        785,
+        1922
+      ],
+      [
+        814,
+        1890,
+        1112,
+        1923
+      ],
+      [
+        118,
+        1924,
+        731,
+        1957
+      ],
+      [
+        814,
+        1922,
+        1156,
+        1959
+      ],
+      [
+        115,
+        1960,
+        783,
+        1992
+      ],
+      [
+        814,
+        1961,
+        1302,
+        1992
+      ],
+      [
+        119,
+        1998,
+        478,
+        2027
+      ],
+      [
+        810,
+        1997,
+        1390,
+        2029
+      ],
+      [
+        811,
+        2031,
+        1416,
+        2065
+      ],
+      [
+        118,
+        2109,
+        573,
+        2132
+      ],
+      [
+        815,
+        2109,
+        1191,
+        2132
+      ],
+      [
+        789,
+        2170,
+        807,
+        2189
+      ]
+    ]
+  }
+}

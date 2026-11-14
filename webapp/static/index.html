@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OCR de Leis</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topo">
+  <div>
+    <h1>OCR de Leis</h1>
+    <p class="sub">PaddleOCR 3.x em documentos jurídicos — mesmo pipeline do notebook</p>
+  </div>
+  <span id="versoes" class="chip">carregando modelo…</span>
+</header>
+
+<main>
+  <section class="painel" id="painel-envio">
+    <form id="form">
+      <label id="drop" class="drop">
+        <input type="file" id="arquivo" accept=".jpg,.jpeg,.png,.bmp,.tif,.tiff,.webp,.pdf" hidden>
+        <strong>Arraste uma imagem ou PDF aqui</strong>
+        <span>ou clique para escolher · JPG, PNG, TIFF, WEBP, PDF (até 20 páginas)</span>
+        <span id="nome-arquivo" class="nome-arquivo"></span>
+      </label>
+
+      <div class="opcoes">
+        <label>Pré-processamento
+          <select id="perfil"></select>
+          <small id="etapas"></small>
+        </label>
+        <label>Limiar de confiança para revisão: <b id="limiar-valor">0,80</b>
+          <input type="range" id="limiar" min="0.5" max="0.99" step="0.01" value="0.80">
+          <small>Trechos abaixo do limiar são marcados para revisão humana.</small>
+        </label>
+        <label class="check"><input type="checkbox" id="colunas" checked> Detectar duas colunas na ordem de leitura</label>
+        <label class="check"><input type="checkbox" id="corrigir" checked> Correção ortográfica e contextual (dicionário pt-BR + BERTimbau + regras jurídicas; o texto bruto é preservado)</label>
+        <details>
+          <summary>Texto de referência (opcional) — para medir a acurácia real</summary>
+          <textarea id="referencia-envio" rows="5" placeholder="Cole aqui a transcrição correta da 1ª página. Também é possível informar depois, na aba Acurácia."></textarea>
+        </details>
+      </div>
+      <button type="submit" id="botao" disabled>Reconhecer texto</button>
+      <p id="status" class="status" role="status"></p>
+    </form>
+
+    <div class="historico">
+      <h3>Execuções anteriores</h3>
+      <ul id="historico"></ul>
+    </div>
+  </section>
+
+  <section id="resultado" hidden>
+    <div class="cabecalho-resultado">
+      <div>
+        <h2 id="titulo-resultado"></h2>
+        <p class="sub" id="sub-resultado"></p>
+      </div>
+      <div class="downloads" id="downloads"></div>
+    </div>
+
+    <div class="cards" id="cards-documento"></div>
+
+    <nav class="paginas" id="abas-paginas"></nav>
+
+    <nav class="abas" role="tablist">
+      <button data-aba="visual" class="ativa">Visualização</button>
+      <button data-aba="metricas">Métricas</button>
+      <button data-aba="acuracia">Acurácia (referência)</button>
+      <button data-aba="metadados">Metadados jurídicos</button>
+      <button data-aba="json">JSON</button>
+    </nav>
+
+    <div class="aba" id="aba-visual">
+      <div class="barra-visual">
+        <label class="check"><input type="checkbox" id="mostrar-caixas" checked> Caixas</label>
+        <label class="check"><input type="checkbox" id="mostrar-ordem"> Ordem de leitura</label>
+        <span class="legenda"><i class="c-alta"></i>≥ 0,95 <i class="c-media"></i>limiar–0,95 <i class="c-baixa"></i>&lt; limiar</span>
+      </div>
+      <div class="lado-a-lado">
+        <div class="imagem-wrap" id="imagem-wrap">
+          <img id="imagem" alt="Imagem enviada ao OCR">
+          <svg id="sobreposicao"></svg>
+          <div id="dica" class="dica" hidden></div>
+        </div>
+        <div class="texto-wrap">
+          <div class="texto-topo">
+            <span id="titulo-texto">Texto reconhecido</span>
+            <span>
+              <select id="modo-texto" class="mini-select" hidden>
+                <option value="corrigido">Corrigido</option>
+                <option value="bruto">Bruto (OCR)</option>
+              </select>
+              <button class="mini" id="copiar">Copiar</button>
+            </span>
+          </div>
+          <div id="texto" class="texto"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="aba" id="aba-metricas" hidden>
+      <p class="aviso">Estas métricas vêm da <b>confiança que o próprio modelo</b> atribui a cada trecho. Elas mostram onde o
+        modelo tem dúvida, mas <b>não medem acerto</b>: um trecho pode ter confiança 0,99 e estar errado. Para a acurácia real,
+        use a aba <b>Acurácia (referência)</b>.</p>
+      <div class="cards" id="cards-confianca"></div>
+      <div class="grade-2">
+        <div class="caixa"><h3>Distribuição da confiança por trecho</h3><div id="histograma"></div></div>
+        <div class="caixa"><h3>Tempo e layout</h3><table id="tabela-tempo" class="tabela"></table></div>
+      </div>
+      <div class="caixa" id="caixa-correcoes" hidden><h3>Correções <span id="n-correcoes" class="chip"></span></h3>
+        <table class="tabela" id="tabela-correcoes"></table></div>
+      <div class="grade-2">
+        <div class="caixa"><h3>Trechos para revisão humana <span id="n-revisao" class="chip"></span></h3><ul id="lista-revisao" class="lista-revisao"></ul></div>
+        <div class="caixa"><h3>Elementos jurídicos encontrados</h3><div id="elementos"></div></div>
+      </div>
+    </div>
+
+    <div class="aba" id="aba-acuracia" hidden>
+      <p class="aviso">Cole a <b>transcrição correta</b> desta página. A comparação usa as mesmas definições de
+        <code>scripts/avaliacao.py</code>: <b>CER</b> = erros de caractere ÷ caracteres da referência; <b>WER</b> = erros de
+        palavra ÷ palavras da referência. Espaços e quebras de linha são ignorados; acentos, maiúsculas, pontuação, º/° e §
+        <b>contam</b> como erro.</p>
+      <textarea id="referencia" rows="8" placeholder="Transcrição correta desta página…"></textarea>
+      <div class="acoes">
+        <button id="calcular">Calcular acurácia</button>
+        <button id="usar-ocr" class="secundario" title="Copia o texto do OCR para você corrigir à mão">Começar a partir do texto do OCR</button>
+        <button id="limpar-ref" class="secundario">Remover referência</button>
+      </div>
+      <div id="resultado-acuracia"></div>
+    </div>
+
+    <div class="aba" id="aba-metadados" hidden>
+      <div id="metadados"></div>
+    </div>
+
+    <div class="aba" id="aba-json" hidden>
+      <div class="acoes">
+        <button class="secundario" data-json="pagina">JSON da página</button>
+        <button class="secundario" data-json="pacote">JSON completo (documento)</button>
+        <button class="secundario" data-json="metadados">metadados.json</button>
+      </div>
+      <pre id="json" class="json"></pre>
+    </div>
+  </section>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>

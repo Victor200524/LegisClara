@@ -1,0 +1,63 @@
+{
+  "resumo": {
+    "paginas": 3,
+    "paginas_com_erro": 0,
+    "paginas_avaliadas": 0,
+    "cer_medio": null,
+    "wer_medio": null,
+    "tempo_ocr_total_s": 28.891
+  },
+  "paginas": [
+    {
+      "documento": "02_estatuto_idoso",
+      "pagina": 1,
+      "imagem": "pagina_001_estatuto-do-idoso-exemplar.jpg",
+      "perfil": "cinza_contraste",
+      "status": "ok",
+      "quantidade_caracteres": 31,
+      "quantidade_palavras": 4,
+      "tempo_ocr_s": 5.0454,
+      "tempo_preprocessamento_s": 0.0089,
+      "confianca_media": 0.7406,
+      "trechos_para_revisao": 1,
+      "cer": null,
+      "wer": null,
+      "referencia": null,
+      "observacao": "sem transcrição de referência: CER/WER não calculados"
+    },
+    {
+      "documento": "02_estatuto_idoso",
+      "pagina": 2,
+      "imagem": "pagina_002_estatuto-do-idoso-interna-antes.jpg",
+      "perfil": "cinza_contraste",
+      "status": "ok",
+      "quantidade_caracteres": 4329,
+      "quantidade_palavras": 700,
+      "tempo_ocr_s": 13.4225,
+      "tempo_preprocessamento_s": 0.0335,
+      "confianca_media": 0.9853,
+      "trechos_para_revisao": 15,
+      "cer": null,
+      "wer": null,
+      "referencia": null,
+      "observacao": "sem transcrição de referência: CER/WER não calculados"
+    },
+    {
+      "documento": "02_estatuto_idoso",
+      "pagina": 3,
+      "imagem": "pagina_003_estatuto-do-idoso-pagina-interna.jpg",
+      "perfil": "cinza_contraste",
+      "status": "ok",
+      "quantidade_caracteres": 1107,
+      "quantidade_palavras": 181,
+      "tempo_ocr_s": 10.4227,
+      "tempo_preprocessamento_s": 0.0178,
+      "confianca_media": 0.9767,
+      "trechos_para_revisao": 2,
+      "cer": null,
+      "wer": null,
+      "referencia": null,
+      "observacao": "sem transcrição de referência: CER/WER não calculados"
+    }
+  ]
+}

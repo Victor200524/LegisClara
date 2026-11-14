@@ -1,0 +1,684 @@
+{
+  "documento": "lei_13990_digital",
+  "pagina": 1,
+  "imagem_origem": "lei_13990_p02.png",
+  "perfil_preprocessamento": "completo",
+  "etapas_preprocessamento": [
+    "redimensionar",
+    "cinza",
+    "contraste",
+    "ruido",
+    "inclinacao",
+    "binarizar"
+  ],
+  "limiar_confianca_revisao": 0.8,
+  "parametros_paddleocr": {
+    "lang": "pt",
+    "device": "cpu",
+    "use_doc_orientation_classify": false,
+    "use_doc_unwarping": false,
+    "use_textline_orientation": false
+  },
+  "versoes": {
+    "paddleocr": "3.4.1",
+    "paddlepaddle": "3.2.2"
+  },
+  "tempo_preprocessamento_s": 1.7531,
+  "dimensoes_imagem": {
+    "largura": 2481,
+    "altura": 3508
+  },
+  "tempo_ocr_s": 23.8935,
+  "status": "ok",
+  "layout": {
+    "colunas": 1
+  },
+  "quantidade_caracteres": 247,
+  "quantidade_palavras": 49,
+  "quantidade_fragmentos": 10,
+  "confianca_media": 0.8348,
+  "confianca_minima": 0.2667,
+  "necessita_revisao_humana": true,
+  "revisao_humana": [
+    {
+      "linha_txt": 9,
+      "indice_paddleocr": 9,
+      "texto_bruto": "trr le/re te le e tr ttr tre e ce te t tr",
+      "confianca": 0.2666877806186676,
+      "motivos": [
+        "confiança 0.267 abaixo do limiar 0.8"
+      ]
+    },
+    {
+      "linha_txt": 9,
+      "indice_paddleocr": 8,
+      "texto_bruto": "Cle r e  ce ceae : m  cme ",
+      "confianca": 0.2961122989654541,
+      "motivos": [
+        "confiança 0.296 abaixo do limiar 0.8"
+      ]
+    }
+  ],
+  "texto": "Prefeitura do Município de Londrina\nEstado do Paraná\nLONDRIHA\nJosé Tiago Camargo do Amaral\nPrefeito do Município\nRef.\nProjeto de Lei nº 111/2025\nAutoria: Sidnei Matias dos Santos\ntrr le/re te le e tr ttr tre e ce te t tr Cle r e  ce ceae : m  cme ",
+  "linhas_ordenadas": [
+    [
+      {
+        "indice_paddleocr": 0,
+        "texto": "Prefeitura do Município de Londrina",
+        "confianca": 0.996492326259613,
+        "caixa": [
+          638.0,
+          184.0,
+          2087.0,
+          287.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 1,
+        "texto": "Estado do Paraná",
+        "confianca": 0.9998432397842407,
+        "caixa": [
+          1111.0,
+          293.0,
+          1616.0,
+          356.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 2,
+        "texto": "LONDRIHA",
+        "confianca": 0.8315011262893677,
+        "caixa": [
+          357.0,
+          354.0,
+          477.0,
+          382.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 3,
+        "texto": "José Tiago Camargo do Amaral",
+        "confianca": 0.9865366816520691,
+        "caixa": [
+          910.0,
+          620.0,
+          1571.0,
+          667.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 4,
+        "texto": "Prefeito do Município",
+        "confianca": 0.9940345287322998,
+        "caixa": [
+          1015.0,
+          677.0,
+          1464.0,
+          728.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 5,
+        "texto": "Ref.",
+        "confianca": 0.9989774823188782,
+        "caixa": [
+          290.0,
+          788.0,
+          382.0,
+          842.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 6,
+        "texto": "Projeto de Lei nº 111/2025",
+        "confianca": 0.9868634343147278,
+        "caixa": [
+          291.0,
+          851.0,
+          837.0,
+          902.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 7,
+        "texto": "Autoria: Sidnei Matias dos Santos",
+        "confianca": 0.9907568693161011,
+        "caixa": [
+          293.0,
+          916.0,
+          986.0,
+          957.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 9,
+        "texto": "trr le/re te le e tr ttr tre e ce te t tr",
+        "confianca": 0.2666877806186676,
+        "caixa": [
+          2348.0,
+          1338.0,
+          2408.0,
+          3345.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 8,
+        "texto": "Cle r e  ce ceae : m  cme ",
+        "confianca": 0.2961122989654541,
+        "caixa": [
+          2397.0,
+          1223.0,
+          2452.0,
+          3346.0
+        ],
+        "coluna": 1
+      }
+    ]
+  ],
+  "resultado_bruto_paddleocr": {
+    "input_path": null,
+    "page_index": null,
+    "model_settings": {
+      "use_doc_preprocessor": false,
+      "use_textline_orientation": false
+    },
+    "dt_polys": [
+      [
+        [
+          638,
+          184
+        ],
+        [
+          2087,
+          188
+        ],
+        [
+          2087,
+          287
+        ],
+        [
+          638,
+          283
+        ]
+      ],
+      [
+        [
+          1111,
+          295
+        ],
+        [
+          1616,
+          293
+        ],
+        [
+          1616,
+          354
+        ],
+        [
+          1111,
+          356
+        ]
+      ],
+      [
+        [
+          357,
+          354
+        ],
+        [
+          477,
+          354
+        ],
+        [
+          477,
+          382
+        ],
+        [
+          357,
+          382
+        ]
+      ],
+      [
+        [
+          910,
+          620
+        ],
+        [
+          1571,
+          620
+        ],
+        [
+          1571,
+          667
+        ],
+        [
+          910,
+          667
+        ]
+      ],
+      [
+        [
+          1015,
+          677
+        ],
+        [
+          1464,
+          680
+        ],
+        [
+          1464,
+          728
+        ],
+        [
+          1015,
+          724
+        ]
+      ],
+      [
+        [
+          291,
+          788
+        ],
+        [
+          382,
+          791
+        ],
+        [
+          381,
+          842
+        ],
+        [
+          290,
+          839
+        ]
+      ],
+      [
+        [
+          291,
+          854
+        ],
+        [
+          837,
+          851
+        ],
+        [
+          837,
+          899
+        ],
+        [
+          291,
+          902
+        ]
+      ],
+      [
+        [
+          293,
+          916
+        ],
+        [
+          986,
+          916
+        ],
+        [
+          986,
+          957
+        ],
+        [
+          293,
+          957
+        ]
+      ],
+      [
+        [
+          2397,
+          1223
+        ],
+        [
+          2451,
+          1223
+        ],
+        [
+          2452,
+          3346
+        ],
+        [
+          2399,
+          3346
+        ]
+      ],
+      [
+        [
+          2348,
+          1339
+        ],
+        [
+          2401,
+          1338
+        ],
+        [
+          2408,
+          3344
+        ],
+        [
+          2355,
+          3345
+        ]
+      ]
+    ],
+    "text_det_params": {
+      "limit_side_len": 64,
+      "limit_type": "min",
+      "thresh": 0.3,
+      "max_side_limit": 4000,
+      "box_thresh": 0.6,
+      "unclip_ratio": 1.5
+    },
+    "text_type": "general",
+    "textline_orientation_angles": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "text_rec_score_thresh": 0.0,
+    "return_word_box": false,
+    "rec_texts": [
+      "Prefeitura do Município de Londrina",
+      "Estado do Paraná",
+      "LONDRIHA",
+      "José Tiago Camargo do Amaral",
+      "Prefeito do Município",
+      "Ref.",
+      "Projeto de Lei nº 111/2025",
+      "Autoria: Sidnei Matias dos Santos",
+      "Cle r e  ce ceae : m  cme ",
+      "trr le/re te le e tr ttr tre e ce te t tr"
+    ],
+    "rec_scores": [
+      0.996492326259613,
+      0.9998432397842407,
+      0.8315011262893677,
+      0.9865366816520691,
+      0.9940345287322998,
+      0.9989774823188782,
+      0.9868634343147278,
+      0.9907568693161011,
+      0.2961122989654541,
+      0.2666877806186676
+    ],
+    "rec_polys": [
+      [
+        [
+          638,
+          184
+        ],
+        [
+          2087,
+          188
+        ],
+        [
+          2087,
+          287
+        ],
+        [
+          638,
+          283
+        ]
+      ],
+      [
+        [
+          1111,
+          295
+        ],
+        [
+          1616,
+          293
+        ],
+        [
+          1616,
+          354
+        ],
+        [
+          1111,
+          356
+        ]
+      ],
+      [
+        [
+          357,
+          354
+        ],
+        [
+          477,
+          354
+        ],
+        [
+          477,
+          382
+        ],
+        [
+          357,
+          382
+        ]
+      ],
+      [
+        [
+          910,
+          620
+        ],
+        [
+          1571,
+          620
+        ],
+        [
+          1571,
+          667
+        ],
+        [
+          910,
+          667
+        ]
+      ],
+      [
+        [
+          1015,
+          677
+        ],
+        [
+          1464,
+          680
+        ],
+        [
+          1464,
+          728
+        ],
+        [
+          1015,
+          724
+        ]
+      ],
+      [
+        [
+          291,
+          788
+        ],
+        [
+          382,
+          791
+        ],
+        [
+          381,
+          842
+        ],
+        [
+          290,
+          839
+        ]
+      ],
+      [
+        [
+          291,
+          854
+        ],
+        [
+          837,
+          851
+        ],
+        [
+          837,
+          899
+        ],
+        [
+          291,
+          902
+        ]
+      ],
+      [
+        [
+          293,
+          916
+        ],
+        [
+          986,
+          916
+        ],
+        [
+          986,
+          957
+        ],
+        [
+          293,
+          957
+        ]
+      ],
+      [
+        [
+          2397,
+          1223
+        ],
+        [
+          2451,
+          1223
+        ],
+        [
+          2452,
+          3346
+        ],
+        [
+          2399,
+          3346
+        ]
+      ],
+      [
+        [
+          2348,
+          1339
+        ],
+        [
+          2401,
+          1338
+        ],
+        [
+          2408,
+          3344
+        ],
+        [
+          2355,
+          3345
+        ]
+      ]
+    ],
+    "rec_boxes": [
+      [
+        638,
+        184,
+        2087,
+        287
+      ],
+      [
+        1111,
+        293,
+        1616,
+        356
+      ],
+      [
+        357,
+        354,
+        477,
+        382
+      ],
+      [
+        910,
+        620,
+        1571,
+        667
+      ],
+      [
+        1015,
+        677,
+        1464,
+        728
+      ],
+      [
+        290,
+        788,
+        382,
+        842
+      ],
+      [
+        291,
+        851,
+        837,
+        902
+      ],
+      [
+        293,
+        916,
+        986,
+        957
+      ],
+      [
+        2397,
+        1223,
+        2452,
+        3346
+      ],
+      [
+        2348,
+        1338,
+        2408,
+        3345
+      ]
+    ]
+  }
+}

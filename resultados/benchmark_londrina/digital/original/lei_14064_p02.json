@@ -1,0 +1,1721 @@
+{
+  "documento": "lei_14064_digital",
+  "pagina": 1,
+  "imagem_origem": "lei_14064_p02.png",
+  "perfil_preprocessamento": "original",
+  "etapas_preprocessamento": [],
+  "limiar_confianca_revisao": 0.8,
+  "parametros_paddleocr": {
+    "lang": "pt",
+    "device": "cpu",
+    "use_doc_orientation_classify": false,
+    "use_doc_unwarping": false,
+    "use_textline_orientation": false
+  },
+  "versoes": {
+    "paddleocr": "3.4.1",
+    "paddlepaddle": "3.2.2"
+  },
+  "tempo_preprocessamento_s": 0.2455,
+  "dimensoes_imagem": {
+    "largura": 2481,
+    "altura": 3508
+  },
+  "tempo_ocr_s": 47.2188,
+  "status": "ok",
+  "layout": {
+    "colunas": 2,
+    "divisoria_x": [
+      838.0,
+      1013.0
+    ]
+  },
+  "quantidade_caracteres": 1192,
+  "quantidade_palavras": 199,
+  "quantidade_fragmentos": 27,
+  "confianca_media": 0.8695,
+  "confianca_minima": 0.2264,
+  "necessita_revisao_humana": true,
+  "revisao_humana": [
+    {
+      "linha_txt": 2,
+      "indice_paddleocr": 2,
+      "texto_bruto": "-n",
+      "confianca": 0.2264300286769867,
+      "motivos": [
+        "confiança 0.226 abaixo do limiar 0.8"
+      ]
+    },
+    {
+      "linha_txt": 2,
+      "indice_paddleocr": 3,
+      "texto_bruto": "g2",
+      "confianca": 0.3580218553543091,
+      "motivos": [
+        "confiança 0.358 abaixo do limiar 0.8",
+        "mistura de letras e dígitos em 'g2' (ex.: O/0, l/1, S/5)"
+      ]
+    },
+    {
+      "linha_txt": 6,
+      "indice_paddleocr": 6,
+      "texto_bruto": "montante de R$ 118.0oo,00 (cento e dezoito mil reais), será paga pelo particular à vista, em",
+      "confianca": 0.9801360964775085,
+      "motivos": [
+        "mistura de letras e dígitos em '118.0oo,00' (ex.: O/0, l/1, S/5)"
+      ]
+    },
+    {
+      "linha_txt": 14,
+      "indice_paddleocr": 14,
+      "texto_bruto": "Cltll cer e ete  c erdtre   e cem ",
+      "confianca": 0.2713426351547241,
+      "motivos": [
+        "confiança 0.271 abaixo do limiar 0.8"
+      ]
+    },
+    {
+      "linha_txt": 17,
+      "indice_paddleocr": 17,
+      "texto_bruto": "*0:84 *000/01/64 20 (8-*******",
+      "confianca": 0.5317245125770569,
+      "motivos": [
+        "confiança 0.532 abaixo do limiar 0.8"
+      ]
+    },
+    {
+      "linha_txt": 26,
+      "indice_paddleocr": 23,
+      "texto_bruto": "tre r cr rrrtrorcr rntr o r",
+      "confianca": 0.258282870054245,
+      "motivos": [
+        "confiança 0.258 abaixo do limiar 0.8"
+      ]
+    }
+  ],
+  "texto": "Prefeitura do Município de Londrina\n-n g2\nLONDRINA\nEstado do Paraná\ndos Laudos de Avaliação 137/2024, 138/2024 e 139/2024 em favor do Município de Londrina, no\nmontante de R$ 118.0oo,00 (cento e dezoito mil reais), será paga pelo particular à vista, em\nparcela única, após a assinatura da Escritura Pública.\nParágrafo único. Em caso de vencimento dos Laudos de Avaliação, estes devem\nser corrigidos pelo IPCA-E.\nArt. 5º As construções existentes nos imóveis que fazem parte desta permuta e que\nnão sejam passíveis de regularização, deverão ser objeto de demolição no prazo de 3 (três)\nmeses após o registro da escritura pública, com ônus ao futuro proprietário das áreas.\nArt. 6º Todas as despesas decorrentes da escrituração da permuta a que alude\nCltll cer e ete  c erdtre   e cem \nesta lei e do registro público das áreas que passarão ao domínio do particular correrão às suas\nexpensas.\n*0:84 *000/01/64 20 (8-*******\nArt. 7º Esta Lei entra em vigor na data de sua publicação, revogadas as\ndisposições em contrário.\nRef.\nProjeto de Lei nº 218/2025\nAutoria: Executivo Municipal\nLondrina, 19 de dezembro de 2025.\nJosé Tiago Camargo do Amaral\nPrefeito do Município\ntre r cr rrrtrorcr rntr o r",
+  "linhas_ordenadas": [
+    [
+      {
+        "indice_paddleocr": 0,
+        "texto": "Prefeitura do Município de Londrina",
+        "confianca": 0.9846473932266235,
+        "caixa": [
+          636.0,
+          183.0,
+          2088.0,
+          287.0
+        ],
+        "coluna": 0
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 2,
+        "texto": "-n",
+        "confianca": 0.2264300286769867,
+        "caixa": [
+          310.0,
+          339.0,
+          360.0,
+          363.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 3,
+        "texto": "g2",
+        "confianca": 0.3580218553543091,
+        "caixa": [
+          475.0,
+          338.0,
+          525.0,
+          363.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 4,
+        "texto": "LONDRINA",
+        "confianca": 0.9847519397735596,
+        "caixa": [
+          359.0,
+          355.0,
+          475.0,
+          380.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 1,
+        "texto": "Estado do Paraná",
+        "confianca": 0.9969030022621155,
+        "caixa": [
+          1111.0,
+          294.0,
+          1616.0,
+          355.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 5,
+        "texto": "dos Laudos de Avaliação 137/2024, 138/2024 e 139/2024 em favor do Município de Londrina, no",
+        "confianca": 0.9882944226264954,
+        "caixa": [
+          290.0,
+          557.0,
+          2188.0,
+          607.0
+        ],
+        "coluna": 0
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 6,
+        "texto": "montante de R$ 118.0oo,00 (cento e dezoito mil reais), será paga pelo particular à vista, em",
+        "confianca": 0.9801360964775085,
+        "caixa": [
+          291.0,
+          617.0,
+          2187.0,
+          666.0
+        ],
+        "coluna": 0
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 7,
+        "texto": "parcela única, após a assinatura da Escritura Pública.",
+        "confianca": 0.9930332899093628,
+        "caixa": [
+          291.0,
+          672.0,
+          1340.0,
+          727.0
+        ],
+        "coluna": 0
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 8,
+        "texto": "Parágrafo único. Em caso de vencimento dos Laudos de Avaliação, estes devem",
+        "confianca": 0.9942472577095032,
+        "caixa": [
+          542.0,
+          790.0,
+          2187.0,
+          840.0
+        ],
+        "coluna": 0
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 9,
+        "texto": "ser corrigidos pelo IPCA-E.",
+        "confianca": 0.9984671473503113,
+        "caixa": [
+          290.0,
+          849.0,
+          822.0,
+          899.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 10,
+        "texto": "Art. 5º As construções existentes nos imóveis que fazem parte desta permuta e que",
+        "confianca": 0.9872444868087769,
+        "caixa": [
+          542.0,
+          966.0,
+          2188.0,
+          1016.0
+        ],
+        "coluna": 0
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 11,
+        "texto": "não sejam passíveis de regularização, deverão ser objeto de demolição no prazo de 3 (três)",
+        "confianca": 0.9893448948860168,
+        "caixa": [
+          292.0,
+          1025.0,
+          2186.0,
+          1072.0
+        ],
+        "coluna": 0
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 12,
+        "texto": "meses após o registro da escritura pública, com ônus ao futuro proprietário das áreas.",
+        "confianca": 0.9966655373573303,
+        "caixa": [
+          291.0,
+          1081.0,
+          1967.0,
+          1133.0
+        ],
+        "coluna": 0
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 13,
+        "texto": "Art. 6º Todas as despesas decorrentes da escrituração da permuta a que alude",
+        "confianca": 0.9869989156723022,
+        "caixa": [
+          542.0,
+          1197.0,
+          2187.0,
+          1247.0
+        ],
+        "coluna": 0
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 14,
+        "texto": "Cltll cer e ete  c erdtre   e cem ",
+        "confianca": 0.2713426351547241,
+        "caixa": [
+          2397.0,
+          1234.0,
+          2452.0,
+          3347.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 15,
+        "texto": "esta lei e do registro público das áreas que passarão ao domínio do particular correrão às suas",
+        "confianca": 0.9941669702529907,
+        "caixa": [
+          291.0,
+          1257.0,
+          2188.0,
+          1305.0
+        ],
+        "coluna": 0
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 16,
+        "texto": "expensas.",
+        "confianca": 0.9999833703041077,
+        "caixa": [
+          291.0,
+          1321.0,
+          497.0,
+          1363.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 17,
+        "texto": "*0:84 *000/01/64 20 (8-*******",
+        "confianca": 0.5317245125770569,
+        "caixa": [
+          2349.0,
+          1342.0,
+          2404.0,
+          1946.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 18,
+        "texto": "Art. 7º Esta Lei entra em vigor na data de sua publicação, revogadas as",
+        "confianca": 0.9960355162620544,
+        "caixa": [
+          541.0,
+          1430.0,
+          2192.0,
+          1481.0
+        ],
+        "coluna": 0
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 19,
+        "texto": "disposições em contrário.",
+        "confianca": 0.9998255968093872,
+        "caixa": [
+          293.0,
+          1491.0,
+          792.0,
+          1538.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 24,
+        "texto": "Ref.",
+        "confianca": 0.9995208382606506,
+        "caixa": [
+          290.0,
+          2011.0,
+          382.0,
+          2061.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 25,
+        "texto": "Projeto de Lei nº 218/2025",
+        "confianca": 0.9859238862991333,
+        "caixa": [
+          291.0,
+          2071.0,
+          837.0,
+          2120.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 26,
+        "texto": "Autoria: Executivo Municipal",
+        "confianca": 0.9888283014297485,
+        "caixa": [
+          291.0,
+          2131.0,
+          846.0,
+          2179.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 20,
+        "texto": "Londrina, 19 de dezembro de 2025.",
+        "confianca": 0.9996834993362427,
+        "caixa": [
+          1491.0,
+          1608.0,
+          2185.0,
+          1648.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 21,
+        "texto": "José Tiago Camargo do Amaral",
+        "confianca": 0.9887273907661438,
+        "caixa": [
+          908.0,
+          1777.0,
+          1570.0,
+          1827.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 22,
+        "texto": "Prefeito do Município",
+        "confianca": 0.9984216094017029,
+        "caixa": [
+          1014.0,
+          1838.0,
+          1464.0,
+          1888.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 23,
+        "texto": "tre r cr rrrtrorcr rntr o r",
+        "confianca": 0.258282870054245,
+        "caixa": [
+          2356.0,
+          1935.0,
+          2400.0,
+          3342.0
+        ],
+        "coluna": 2
+      }
+    ]
+  ],
+  "resultado_bruto_paddleocr": {
+    "input_path": null,
+    "page_index": null,
+    "model_settings": {
+      "use_doc_preprocessor": false,
+      "use_textline_orientation": false
+    },
+    "dt_polys": [
+      [
+        [
+          636,
+          183
+        ],
+        [
+          2088,
+          186
+        ],
+        [
+          2088,
+          287
+        ],
+        [
+          636,
+          284
+        ]
+      ],
+      [
+        [
+          1111,
+          294
+        ],
+        [
+          1616,
+          294
+        ],
+        [
+          1616,
+          355
+        ],
+        [
+          1111,
+          355
+        ]
+      ],
+      [
+        [
+          313,
+          339
+        ],
+        [
+          360,
+          348
+        ],
+        [
+          358,
+          363
+        ],
+        [
+          310,
+          354
+        ]
+      ],
+      [
+        [
+          475,
+          345
+        ],
+        [
+          522,
+          338
+        ],
+        [
+          525,
+          356
+        ],
+        [
+          478,
+          363
+        ]
+      ],
+      [
+        [
+          359,
+          355
+        ],
+        [
+          475,
+          355
+        ],
+        [
+          475,
+          380
+        ],
+        [
+          359,
+          380
+        ]
+      ],
+      [
+        [
+          290,
+          557
+        ],
+        [
+          2188,
+          559
+        ],
+        [
+          2188,
+          607
+        ],
+        [
+          290,
+          605
+        ]
+      ],
+      [
+        [
+          291,
+          617
+        ],
+        [
+          2187,
+          619
+        ],
+        [
+          2187,
+          666
+        ],
+        [
+          291,
+          664
+        ]
+      ],
+      [
+        [
+          291,
+          677
+        ],
+        [
+          1340,
+          672
+        ],
+        [
+          1340,
+          721
+        ],
+        [
+          291,
+          727
+        ]
+      ],
+      [
+        [
+          542,
+          790
+        ],
+        [
+          2187,
+          790
+        ],
+        [
+          2187,
+          840
+        ],
+        [
+          542,
+          840
+        ]
+      ],
+      [
+        [
+          290,
+          854
+        ],
+        [
+          822,
+          849
+        ],
+        [
+          822,
+          894
+        ],
+        [
+          291,
+          899
+        ]
+      ],
+      [
+        [
+          542,
+          966
+        ],
+        [
+          2188,
+          969
+        ],
+        [
+          2188,
+          1016
+        ],
+        [
+          542,
+          1013
+        ]
+      ],
+      [
+        [
+          292,
+          1025
+        ],
+        [
+          2186,
+          1025
+        ],
+        [
+          2186,
+          1072
+        ],
+        [
+          292,
+          1072
+        ]
+      ],
+      [
+        [
+          291,
+          1083
+        ],
+        [
+          1967,
+          1081
+        ],
+        [
+          1967,
+          1131
+        ],
+        [
+          291,
+          1133
+        ]
+      ],
+      [
+        [
+          542,
+          1197
+        ],
+        [
+          2187,
+          1200
+        ],
+        [
+          2187,
+          1247
+        ],
+        [
+          542,
+          1244
+        ]
+      ],
+      [
+        [
+          2397,
+          1234
+        ],
+        [
+          2451,
+          1234
+        ],
+        [
+          2452,
+          3347
+        ],
+        [
+          2399,
+          3347
+        ]
+      ],
+      [
+        [
+          291,
+          1258
+        ],
+        [
+          2188,
+          1257
+        ],
+        [
+          2188,
+          1304
+        ],
+        [
+          291,
+          1305
+        ]
+      ],
+      [
+        [
+          291,
+          1321
+        ],
+        [
+          497,
+          1321
+        ],
+        [
+          497,
+          1363
+        ],
+        [
+          291,
+          1363
+        ]
+      ],
+      [
+        [
+          2353,
+          1342
+        ],
+        [
+          2404,
+          1343
+        ],
+        [
+          2399,
+          1946
+        ],
+        [
+          2349,
+          1946
+        ]
+      ],
+      [
+        [
+          541,
+          1430
+        ],
+        [
+          2192,
+          1434
+        ],
+        [
+          2192,
+          1481
+        ],
+        [
+          541,
+          1477
+        ]
+      ],
+      [
+        [
+          293,
+          1491
+        ],
+        [
+          792,
+          1491
+        ],
+        [
+          792,
+          1538
+        ],
+        [
+          293,
+          1538
+        ]
+      ],
+      [
+        [
+          1491,
+          1608
+        ],
+        [
+          2185,
+          1608
+        ],
+        [
+          2185,
+          1648
+        ],
+        [
+          1491,
+          1648
+        ]
+      ],
+      [
+        [
+          909,
+          1777
+        ],
+        [
+          1570,
+          1779
+        ],
+        [
+          1569,
+          1827
+        ],
+        [
+          908,
+          1825
+        ]
+      ],
+      [
+        [
+          1014,
+          1838
+        ],
+        [
+          1464,
+          1840
+        ],
+        [
+          1464,
+          1888
+        ],
+        [
+          1014,
+          1885
+        ]
+      ],
+      [
+        [
+          2356,
+          1935
+        ],
+        [
+          2399,
+          1935
+        ],
+        [
+          2400,
+          3342
+        ],
+        [
+          2357,
+          3342
+        ]
+      ],
+      [
+        [
+          290,
+          2011
+        ],
+        [
+          382,
+          2011
+        ],
+        [
+          382,
+          2061
+        ],
+        [
+          290,
+          2061
+        ]
+      ],
+      [
+        [
+          291,
+          2073
+        ],
+        [
+          837,
+          2071
+        ],
+        [
+          837,
+          2118
+        ],
+        [
+          291,
+          2120
+        ]
+      ],
+      [
+        [
+          291,
+          2131
+        ],
+        [
+          846,
+          2134
+        ],
+        [
+          846,
+          2179
+        ],
+        [
+          291,
+          2175
+        ]
+      ]
+    ],
+    "text_det_params": {
+      "limit_side_len": 64,
+      "limit_type": "min",
+      "thresh": 0.3,
+      "max_side_limit": 4000,
+      "box_thresh": 0.6,
+      "unclip_ratio": 1.5
+    },
+    "text_type": "general",
+    "textline_orientation_angles": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "text_rec_score_thresh": 0.0,
+    "return_word_box": false,
+    "rec_texts": [
+      "Prefeitura do Município de Londrina",
+      "Estado do Paraná",
+      "-n",
+      "g2",
+      "LONDRINA",
+      "dos Laudos de Avaliação 137/2024, 138/2024 e 139/2024 em favor do Município de Londrina, no",
+      "montante de R$ 118.0oo,00 (cento e dezoito mil reais), será paga pelo particular à vista, em",
+      "parcela única, após a assinatura da Escritura Pública.",
+      "Parágrafo único. Em caso de vencimento dos Laudos de Avaliação, estes devem",
+      "ser corrigidos pelo IPCA-E.",
+      "Art. 5º As construções existentes nos imóveis que fazem parte desta permuta e que",
+      "não sejam passíveis de regularização, deverão ser objeto de demolição no prazo de 3 (três)",
+      "meses após o registro da escritura pública, com ônus ao futuro proprietário das áreas.",
+      "Art. 6º Todas as despesas decorrentes da escrituração da permuta a que alude",
+      "Cltll cer e ete  c erdtre   e cem ",
+      "esta lei e do registro público das áreas que passarão ao domínio do particular correrão às suas",
+      "expensas.",
+      "*0:84 *000/01/64 20 (8-*******",
+      "Art. 7º Esta Lei entra em vigor na data de sua publicação, revogadas as",
+      "disposições em contrário.",
+      "Londrina, 19 de dezembro de 2025.",
+      "José Tiago Camargo do Amaral",
+      "Prefeito do Município",
+      "tre r cr rrrtrorcr rntr o r",
+      "Ref.",
+      "Projeto de Lei nº 218/2025",
+      "Autoria: Executivo Municipal"
+    ],
+    "rec_scores": [
+      0.9846473932266235,
+      0.9969030022621155,
+      0.2264300286769867,
+      0.3580218553543091,
+      0.9847519397735596,
+      0.9882944226264954,
+      0.9801360964775085,
+      0.9930332899093628,
+      0.9942472577095032,
+      0.9984671473503113,
+      0.9872444868087769,
+      0.9893448948860168,
+      0.9966655373573303,
+      0.9869989156723022,
+      0.2713426351547241,
+      0.9941669702529907,
+      0.9999833703041077,
+      0.5317245125770569,
+      0.9960355162620544,
+      0.9998255968093872,
+      0.9996834993362427,
+      0.9887273907661438,
+      0.9984216094017029,
+      0.258282870054245,
+      0.9995208382606506,
+      0.9859238862991333,
+      0.9888283014297485
+    ],
+    "rec_polys": [
+      [
+        [
+          636,
+          183
+        ],
+        [
+          2088,
+          186
+        ],
+        [
+          2088,
+          287
+        ],
+        [
+          636,
+          284
+        ]
+      ],
+      [
+        [
+          1111,
+          294
+        ],
+        [
+          1616,
+          294
+        ],
+        [
+          1616,
+          355
+        ],
+        [
+          1111,
+          355
+        ]
+      ],
+      [
+        [
+          313,
+          339
+        ],
+        [
+          360,
+          348
+        ],
+        [
+          358,
+          363
+        ],
+        [
+          310,
+          354
+        ]
+      ],
+      [
+        [
+          475,
+          345
+        ],
+        [
+          522,
+          338
+        ],
+        [
+          525,
+          356
+        ],
+        [
+          478,
+          363
+        ]
+      ],
+      [
+        [
+          359,
+          355
+        ],
+        [
+          475,
+          355
+        ],
+        [
+          475,
+          380
+        ],
+        [
+          359,
+          380
+        ]
+      ],
+      [
+        [
+          290,
+          557
+        ],
+        [
+          2188,
+          559
+        ],
+        [
+          2188,
+          607
+        ],
+        [
+          290,
+          605
+        ]
+      ],
+      [
+        [
+          291,
+          617
+        ],
+        [
+          2187,
+          619
+        ],
+        [
+          2187,
+          666
+        ],
+        [
+          291,
+          664
+        ]
+      ],
+      [
+        [
+          291,
+          677
+        ],
+        [
+          1340,
+          672
+        ],
+        [
+          1340,
+          721
+        ],
+        [
+          291,
+          727
+        ]
+      ],
+      [
+        [
+          542,
+          790
+        ],
+        [
+          2187,
+          790
+        ],
+        [
+          2187,
+          840
+        ],
+        [
+          542,
+          840
+        ]
+      ],
+      [
+        [
+          290,
+          854
+        ],
+        [
+          822,
+          849
+        ],
+        [
+          822,
+          894
+        ],
+        [
+          291,
+          899
+        ]
+      ],
+      [
+        [
+          542,
+          966
+        ],
+        [
+          2188,
+          969
+        ],
+        [
+          2188,
+          1016
+        ],
+        [
+          542,
+          1013
+        ]
+      ],
+      [
+        [
+          292,
+          1025
+        ],
+        [
+          2186,
+          1025
+        ],
+        [
+          2186,
+          1072
+        ],
+        [
+          292,
+          1072
+        ]
+      ],
+      [
+        [
+          291,
+          1083
+        ],
+        [
+          1967,
+          1081
+        ],
+        [
+          1967,
+          1131
+        ],
+        [
+          291,
+          1133
+        ]
+      ],
+      [
+        [
+          542,
+          1197
+        ],
+        [
+          2187,
+          1200
+        ],
+        [
+          2187,
+          1247
+        ],
+        [
+          542,
+          1244
+        ]
+      ],
+      [
+        [
+          2397,
+          1234
+        ],
+        [
+          2451,
+          1234
+        ],
+        [
+          2452,
+          3347
+        ],
+        [
+          2399,
+          3347
+        ]
+      ],
+      [
+        [
+          291,
+          1258
+        ],
+        [
+          2188,
+          1257
+        ],
+        [
+          2188,
+          1304
+        ],
+        [
+          291,
+          1305
+        ]
+      ],
+      [
+        [
+          291,
+          1321
+        ],
+        [
+          497,
+          1321
+        ],
+        [
+          497,
+          1363
+        ],
+        [
+          291,
+          1363
+        ]
+      ],
+      [
+        [
+          2353,
+          1342
+        ],
+        [
+          2404,
+          1343
+        ],
+        [
+          2399,
+          1946
+        ],
+        [
+          2349,
+          1946
+        ]
+      ],
+      [
+        [
+          541,
+          1430
+        ],
+        [
+          2192,
+          1434
+        ],
+        [
+          2192,
+          1481
+        ],
+        [
+          541,
+          1477
+        ]
+      ],
+      [
+        [
+          293,
+          1491
+        ],
+        [
+          792,
+          1491
+        ],
+        [
+          792,
+          1538
+        ],
+        [
+          293,
+          1538
+        ]
+      ],
+      [
+        [
+          1491,
+          1608
+        ],
+        [
+          2185,
+          1608
+        ],
+        [
+          2185,
+          1648
+        ],
+        [
+          1491,
+          1648
+        ]
+      ],
+      [
+        [
+          909,
+          1777
+        ],
+        [
+          1570,
+          1779
+        ],
+        [
+          1569,
+          1827
+        ],
+        [
+          908,
+          1825
+        ]
+      ],
+      [
+        [
+          1014,
+          1838
+        ],
+        [
+          1464,
+          1840
+        ],
+        [
+          1464,
+          1888
+        ],
+        [
+          1014,
+          1885
+        ]
+      ],
+      [
+        [
+          2356,
+          1935
+        ],
+        [
+          2399,
+          1935
+        ],
+        [
+          2400,
+          3342
+        ],
+        [
+          2357,
+          3342
+        ]
+      ],
+      [
+        [
+          290,
+          2011
+        ],
+        [
+          382,
+          2011
+        ],
+        [
+          382,
+          2061
+        ],
+        [
+          290,
+          2061
+        ]
+      ],
+      [
+        [
+          291,
+          2073
+        ],
+        [
+          837,
+          2071
+        ],
+        [
+          837,
+          2118
+        ],
+        [
+          291,
+          2120
+        ]
+      ],
+      [
+        [
+          291,
+          2131
+        ],
+        [
+          846,
+          2134
+        ],
+        [
+          846,
+          2179
+        ],
+        [
+          291,
+          2175
+        ]
+      ]
+    ],
+    "rec_boxes": [
+      [
+        636,
+        183,
+        2088,
+        287
+      ],
+      [
+        1111,
+        294,
+        1616,
+        355
+      ],
+      [
+        310,
+        339,
+        360,
+        363
+      ],
+      [
+        475,
+        338,
+        525,
+        363
+      ],
+      [
+        359,
+        355,
+        475,
+        380
+      ],
+      [
+        290,
+        557,
+        2188,
+        607
+      ],
+      [
+        291,
+        617,
+        2187,
+        666
+      ],
+      [
+        291,
+        672,
+        1340,
+        727
+      ],
+      [
+        542,
+        790,
+        2187,
+        840
+      ],
+      [
+        290,
+        849,
+        822,
+        899
+      ],
+      [
+        542,
+        966,
+        2188,
+        1016
+      ],
+      [
+        292,
+        1025,
+        2186,
+        1072
+      ],
+      [
+        291,
+        1081,
+        1967,
+        1133
+      ],
+      [
+        542,
+        1197,
+        2187,
+        1247
+      ],
+      [
+        2397,
+        1234,
+        2452,
+        3347
+      ],
+      [
+        291,
+        1257,
+        2188,
+        1305
+      ],
+      [
+        291,
+        1321,
+        497,
+        1363
+      ],
+      [
+        2349,
+        1342,
+        2404,
+        1946
+      ],
+      [
+        541,
+        1430,
+        2192,
+        1481
+      ],
+      [
+        293,
+        1491,
+        792,
+        1538
+      ],
+      [
+        1491,
+        1608,
+        2185,
+        1648
+      ],
+      [
+        908,
+        1777,
+        1570,
+        1827
+      ],
+      [
+        1014,
+        1838,
+        1464,
+        1888
+      ],
+      [
+        2356,
+        1935,
+        2400,
+        3342
+      ],
+      [
+        290,
+        2011,
+        382,
+        2061
+      ],
+      [
+        291,
+        2071,
+        837,
+        2120
+      ],
+      [
+        291,
+        2131,
+        846,
+        2179
+      ]
+    ]
+  }
+}

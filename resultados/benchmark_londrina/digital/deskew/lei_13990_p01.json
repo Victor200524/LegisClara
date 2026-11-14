@@ -1,0 +1,2498 @@
+{
+  "documento": "lei_13990_digital",
+  "pagina": 1,
+  "imagem_origem": "lei_13990_p01.png",
+  "perfil_preprocessamento": "deskew",
+  "etapas_preprocessamento": [
+    "redimensionar",
+    "inclinacao"
+  ],
+  "limiar_confianca_revisao": 0.8,
+  "parametros_paddleocr": {
+    "lang": "pt",
+    "device": "cpu",
+    "use_doc_orientation_classify": false,
+    "use_doc_unwarping": false,
+    "use_textline_orientation": false
+  },
+  "versoes": {
+    "paddleocr": "3.4.1",
+    "paddlepaddle": "3.2.2"
+  },
+  "tempo_preprocessamento_s": 0.2028,
+  "dimensoes_imagem": {
+    "largura": 2481,
+    "altura": 3508
+  },
+  "tempo_ocr_s": 25.7689,
+  "status": "ok",
+  "layout": {
+    "colunas": 1
+  },
+  "quantidade_caracteres": 2241,
+  "quantidade_palavras": 350,
+  "quantidade_fragmentos": 41,
+  "confianca_media": 0.9146,
+  "confianca_minima": 0.2318,
+  "necessita_revisao_humana": true,
+  "revisao_humana": [
+    {
+      "linha_txt": 2,
+      "indice_paddleocr": 2,
+      "texto_bruto": "te",
+      "confianca": 0.23182421922683716,
+      "motivos": [
+        "confiança 0.232 abaixo do limiar 0.8"
+      ]
+    },
+    {
+      "linha_txt": 2,
+      "indice_paddleocr": 4,
+      "texto_bruto": "62",
+      "confianca": 0.4150126576423645,
+      "motivos": [
+        "confiança 0.415 abaixo do limiar 0.8"
+      ]
+    },
+    {
+      "linha_txt": 15,
+      "indice_paddleocr": 14,
+      "texto_bruto": "***8 4000/60/642 (8-*******",
+      "confianca": 0.5201298594474792,
+      "motivos": [
+        "confiança 0.520 abaixo do limiar 0.8"
+      ]
+    },
+    {
+      "linha_txt": 21,
+      "indice_paddleocr": 24,
+      "texto_bruto": "tte r t rrr cr or ce rnir o ar",
+      "confianca": 0.27861133217811584,
+      "motivos": [
+        "confiança 0.279 abaixo do limiar 0.8"
+      ]
+    },
+    {
+      "linha_txt": 21,
+      "indice_paddleocr": 12,
+      "texto_bruto": "Cle tee  cee : m  m ",
+      "confianca": 0.33032113313674927,
+      "motivos": [
+        "confiança 0.330 abaixo do limiar 0.8"
+      ]
+    }
+  ],
+  "texto": "Prefeitura do Município de Londrina\nte 62 Estado do Paraná\nLONDRINA\nLEI N.º 13990, DE 25 DE SETEMBRO DE 2025\nsúMuLA: Institui no Calendário de Comemorações\nOficiais do Município de Londrina o Dia das Mães\nAtípicas, a ser comemorado anualmente em 23 de\nmaio, e dá outras providências.\nA CÂMARA MUNICIPAL DE LONDRINA, ESTADO DO PARANÁ, APROVOU E EU,\nPREFEITO DO MUNICÍPIO, SANCIONO A SEGUINTE LEI:\nArt. 1º Fica instituído, no Calendário de Comemorações Oficiais do Município de Londrina, o Dia\ndas Mães Atípicas, a ser celebrado anualmente no dia 23 de maio.\nParágrafo único. Para fins desta Lei, considera-se mãe atípica a mulher e/ou cuidadora que\nassume a responsabilidade principal pela criação e cuidado de filhos que demandam atenção\nTEA, Transtorno de Déficit de Atenção com Hiperatividade - TDAH, Transtorno Opositivo especializada e contínua, em razão de deficiência física, intelectual, sensorial ou múltipla, Desafiador - ToD), doenças raras, dislexia, entre outras condições que exijam cuidados síndromes, transtornos do neurodesenvolvimento (como o Transtorno do Espectro Autista - específicos. ***8 4000/60/642 (8-*******\nArt. 2º O Dia das Mães Atípicas tem como objetivo:\nI - reconhecer, valorizar e dar visibilidade às mães que cuidam de filhos com deficiência,\ndoenças raras, transtornos do espectro autista, distúrbios neurológicos ou outras condições que\ndemandem cuidados especiais;\nIl - promover a conscientização da sociedade sobre os desafios enfrentados por essas mães e\nII - incentivar a formulação de políticas públicas de apoio, acolhimento e cuidado às mães atípicas; IV - estimular ações intersetoriais nas áreas de saúde, educação, assistência social e direitos humanos voltadas a esse público. Art. 4º As despesas decorrentes da execução desta Lei correrão por conta de dotações suas famílias; Art. 3º No dia instituído por esta Lei, o Poder Público poderá promover, em parceria com orçamentárias próprias, suplementadas se necessário. Art. 5º Esta Lei entra em vigor na data de sua publicação. entidades da sociedade civil, eventos, campanhas educativas, palestras e outras atividades de apoio e valorização às mães atípicas. Londrina, 25 de setembro de 2025. tte r t rrr cr or ce rnir o ar Cle tee  cee : m  m ",
+  "linhas_ordenadas": [
+    [
+      {
+        "indice_paddleocr": 0,
+        "texto": "Prefeitura do Município de Londrina",
+        "confianca": 0.9998234510421753,
+        "caixa": [
+          638.0,
+          185.0,
+          2089.0,
+          286.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 2,
+        "texto": "te",
+        "confianca": 0.23182421922683716,
+        "caixa": [
+          311.0,
+          340.0,
+          360.0,
+          364.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 4,
+        "texto": "62",
+        "confianca": 0.4150126576423645,
+        "caixa": [
+          475.0,
+          338.0,
+          524.0,
+          363.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 1,
+        "texto": "Estado do Paraná",
+        "confianca": 0.9884517788887024,
+        "caixa": [
+          1111.0,
+          294.0,
+          1617.0,
+          355.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 3,
+        "texto": "LONDRINA",
+        "confianca": 0.980044960975647,
+        "caixa": [
+          357.0,
+          353.0,
+          476.0,
+          383.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 5,
+        "texto": "LEI N.º 13990, DE 25 DE SETEMBRO DE 2025",
+        "confianca": 0.9992345571517944,
+        "caixa": [
+          288.0,
+          560.0,
+          1503.0,
+          623.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 6,
+        "texto": "súMuLA: Institui no Calendário de Comemorações",
+        "confianca": 0.9659205079078674,
+        "caixa": [
+          1142.0,
+          705.0,
+          2187.0,
+          759.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 7,
+        "texto": "Oficiais do Município de Londrina o Dia das Mães",
+        "confianca": 0.9986798167228699,
+        "caixa": [
+          1141.0,
+          767.0,
+          2188.0,
+          815.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 8,
+        "texto": "Atípicas, a ser comemorado anualmente em 23 de",
+        "confianca": 0.9936904311180115,
+        "caixa": [
+          1142.0,
+          826.0,
+          2188.0,
+          875.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 9,
+        "texto": "maio, e dá outras providências.",
+        "confianca": 0.998283863067627,
+        "caixa": [
+          1142.0,
+          885.0,
+          1754.0,
+          934.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 10,
+        "texto": "A CÂMARA MUNICIPAL DE LONDRINA, ESTADO DO PARANÁ, APROVOU E EU,",
+        "confianca": 0.9996777772903442,
+        "caixa": [
+          400.0,
+          1108.0,
+          2076.0,
+          1167.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 11,
+        "texto": "PREFEITO DO MUNICÍPIO, SANCIONO A SEGUINTE LEI:",
+        "confianca": 0.9958276152610779,
+        "caixa": [
+          652.0,
+          1177.0,
+          1829.0,
+          1221.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 13,
+        "texto": "Art. 1º Fica instituído, no Calendário de Comemorações Oficiais do Município de Londrina, o Dia",
+        "confianca": 0.9911347031593323,
+        "caixa": [
+          291.0,
+          1294.0,
+          2189.0,
+          1341.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 15,
+        "texto": "das Mães Atípicas, a ser celebrado anualmente no dia 23 de maio.",
+        "confianca": 0.9861841201782227,
+        "caixa": [
+          292.0,
+          1354.0,
+          1593.0,
+          1398.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 16,
+        "texto": "Parágrafo único. Para fins desta Lei, considera-se mãe atípica a mulher e/ou cuidadora que",
+        "confianca": 0.9974755048751831,
+        "caixa": [
+          290.0,
+          1467.0,
+          2189.0,
+          1519.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 17,
+        "texto": "assume a responsabilidade principal pela criação e cuidado de filhos que demandam atenção",
+        "confianca": 0.9957762956619263,
+        "caixa": [
+          289.0,
+          1527.0,
+          2188.0,
+          1577.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 20,
+        "texto": "TEA, Transtorno de Déficit de Atenção com Hiperatividade - TDAH, Transtorno Opositivo",
+        "confianca": 0.9937019944190979,
+        "caixa": [
+          288.0,
+          1697.0,
+          2189.0,
+          1750.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 18,
+        "texto": "especializada e contínua, em razão de deficiência física, intelectual, sensorial ou múltipla,",
+        "confianca": 0.998881459236145,
+        "caixa": [
+          289.0,
+          1584.0,
+          2187.0,
+          1634.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 21,
+        "texto": "Desafiador - ToD), doenças raras, dislexia, entre outras condições que exijam cuidados",
+        "confianca": 0.98374342918396,
+        "caixa": [
+          289.0,
+          1756.0,
+          2189.0,
+          1808.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 19,
+        "texto": "síndromes, transtornos do neurodesenvolvimento (como o Transtorno do Espectro Autista -",
+        "confianca": 0.9961411952972412,
+        "caixa": [
+          290.0,
+          1641.0,
+          2187.0,
+          1690.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 22,
+        "texto": "específicos.",
+        "confianca": 0.9999556541442871,
+        "caixa": [
+          292.0,
+          1819.0,
+          528.0,
+          1864.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 14,
+        "texto": "***8 4000/60/642 (8-*******",
+        "confianca": 0.5201298594474792,
+        "caixa": [
+          2349.0,
+          1338.0,
+          2405.0,
+          1945.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 23,
+        "texto": "Art. 2º O Dia das Mães Atípicas tem como objetivo:",
+        "confianca": 0.982840895652771,
+        "caixa": [
+          290.0,
+          1932.0,
+          1298.0,
+          1981.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 25,
+        "texto": "I - reconhecer, valorizar e dar visibilidade às mães que cuidam de filhos com deficiência,",
+        "confianca": 0.9884161949157715,
+        "caixa": [
+          287.0,
+          1990.0,
+          2187.0,
+          2040.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 26,
+        "texto": "doenças raras, transtornos do espectro autista, distúrbios neurológicos ou outras condições que",
+        "confianca": 0.9919281601905823,
+        "caixa": [
+          290.0,
+          2049.0,
+          2189.0,
+          2103.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 27,
+        "texto": "demandem cuidados especiais;",
+        "confianca": 0.9844455122947693,
+        "caixa": [
+          291.0,
+          2110.0,
+          911.0,
+          2156.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 28,
+        "texto": "Il - promover a conscientização da sociedade sobre os desafios enfrentados por essas mães e",
+        "confianca": 0.9832819104194641,
+        "caixa": [
+          286.0,
+          2164.0,
+          2191.0,
+          2217.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 30,
+        "texto": "II - incentivar a formulação de políticas públicas de apoio, acolhimento e cuidado às mães",
+        "confianca": 0.9813200235366821,
+        "caixa": [
+          286.0,
+          2281.0,
+          2189.0,
+          2334.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 31,
+        "texto": "atípicas;",
+        "confianca": 0.9998142719268799,
+        "caixa": [
+          288.0,
+          2341.0,
+          464.0,
+          2396.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 32,
+        "texto": "IV - estimular ações intersetoriais nas áreas de saúde, educação, assistência social e direitos",
+        "confianca": 0.98906409740448,
+        "caixa": [
+          288.0,
+          2399.0,
+          2189.0,
+          2451.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 33,
+        "texto": "humanos voltadas a esse público.",
+        "confianca": 0.9991832971572876,
+        "caixa": [
+          289.0,
+          2460.0,
+          954.0,
+          2508.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 37,
+        "texto": "Art. 4º As despesas decorrentes da execução desta Lei correrão por conta de dotações",
+        "confianca": 0.9954944849014282,
+        "caixa": [
+          290.0,
+          2808.0,
+          2188.0,
+          2856.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 29,
+        "texto": "suas famílias;",
+        "confianca": 0.9997882843017578,
+        "caixa": [
+          291.0,
+          2227.0,
+          567.0,
+          2272.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 34,
+        "texto": "Art. 3º No dia instituído por esta Lei, o Poder Público poderá promover, em parceria com",
+        "confianca": 0.9878571033477783,
+        "caixa": [
+          291.0,
+          2575.0,
+          2188.0,
+          2624.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 38,
+        "texto": "orçamentárias próprias, suplementadas se necessário.",
+        "confianca": 0.9952742457389832,
+        "caixa": [
+          291.0,
+          2867.0,
+          1359.0,
+          2916.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 39,
+        "texto": "Art. 5º Esta Lei entra em vigor na data de sua publicação.",
+        "confianca": 0.993873655796051,
+        "caixa": [
+          291.0,
+          2983.0,
+          1418.0,
+          3033.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 35,
+        "texto": "entidades da sociedade civil, eventos, campanhas educativas, palestras e outras atividades de",
+        "confianca": 0.9923198819160461,
+        "caixa": [
+          293.0,
+          2637.0,
+          2188.0,
+          2681.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 36,
+        "texto": "apoio e valorização às mães atípicas.",
+        "confianca": 0.998635470867157,
+        "caixa": [
+          293.0,
+          2694.0,
+          1026.0,
+          2741.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 40,
+        "texto": "Londrina, 25 de setembro de 2025.",
+        "confianca": 0.9961020946502686,
+        "caixa": [
+          1502.0,
+          3100.0,
+          2186.0,
+          3142.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 24,
+        "texto": "tte r t rrr cr or ce rnir o ar",
+        "confianca": 0.27861133217811584,
+        "caixa": [
+          2355.0,
+          1934.0,
+          2402.0,
+          3343.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 12,
+        "texto": "Cle tee  cee : m  m ",
+        "confianca": 0.33032113313674927,
+        "caixa": [
+          2397.0,
+          1223.0,
+          2452.0,
+          3347.0
+        ],
+        "coluna": 1
+      }
+    ]
+  ],
+  "resultado_bruto_paddleocr": {
+    "input_path": null,
+    "page_index": null,
+    "model_settings": {
+      "use_doc_preprocessor": false,
+      "use_textline_orientation": false
+    },
+    "dt_polys": [
+      [
+        [
+          638,
+          185
+        ],
+        [
+          2089,
+          185
+        ],
+        [
+          2089,
+          286
+        ],
+        [
+          638,
+          286
+        ]
+      ],
+      [
+        [
+          1111,
+          294
+        ],
+        [
+          1617,
+          294
+        ],
+        [
+          1617,
+          355
+        ],
+        [
+          1111,
+          355
+        ]
+      ],
+      [
+        [
+          314,
+          340
+        ],
+        [
+          360,
+          348
+        ],
+        [
+          357,
+          364
+        ],
+        [
+          311,
+          356
+        ]
+      ],
+      [
+        [
+          357,
+          353
+        ],
+        [
+          476,
+          355
+        ],
+        [
+          476,
+          383
+        ],
+        [
+          357,
+          381
+        ]
+      ],
+      [
+        [
+          475,
+          344
+        ],
+        [
+          521,
+          338
+        ],
+        [
+          524,
+          356
+        ],
+        [
+          478,
+          363
+        ]
+      ],
+      [
+        [
+          288,
+          562
+        ],
+        [
+          1503,
+          560
+        ],
+        [
+          1503,
+          621
+        ],
+        [
+          288,
+          623
+        ]
+      ],
+      [
+        [
+          1142,
+          705
+        ],
+        [
+          2187,
+          712
+        ],
+        [
+          2187,
+          759
+        ],
+        [
+          1142,
+          753
+        ]
+      ],
+      [
+        [
+          1141,
+          767
+        ],
+        [
+          2188,
+          768
+        ],
+        [
+          2188,
+          815
+        ],
+        [
+          1141,
+          814
+        ]
+      ],
+      [
+        [
+          1142,
+          827
+        ],
+        [
+          2188,
+          826
+        ],
+        [
+          2188,
+          874
+        ],
+        [
+          1142,
+          875
+        ]
+      ],
+      [
+        [
+          1142,
+          885
+        ],
+        [
+          1754,
+          887
+        ],
+        [
+          1754,
+          934
+        ],
+        [
+          1142,
+          932
+        ]
+      ],
+      [
+        [
+          400,
+          1108
+        ],
+        [
+          2076,
+          1114
+        ],
+        [
+          2075,
+          1167
+        ],
+        [
+          400,
+          1161
+        ]
+      ],
+      [
+        [
+          652,
+          1177
+        ],
+        [
+          1829,
+          1177
+        ],
+        [
+          1829,
+          1221
+        ],
+        [
+          652,
+          1221
+        ]
+      ],
+      [
+        [
+          2397,
+          1223
+        ],
+        [
+          2451,
+          1223
+        ],
+        [
+          2452,
+          3347
+        ],
+        [
+          2399,
+          3347
+        ]
+      ],
+      [
+        [
+          291,
+          1294
+        ],
+        [
+          2189,
+          1295
+        ],
+        [
+          2189,
+          1341
+        ],
+        [
+          291,
+          1340
+        ]
+      ],
+      [
+        [
+          2354,
+          1338
+        ],
+        [
+          2405,
+          1339
+        ],
+        [
+          2399,
+          1945
+        ],
+        [
+          2349,
+          1945
+        ]
+      ],
+      [
+        [
+          292,
+          1354
+        ],
+        [
+          1593,
+          1354
+        ],
+        [
+          1593,
+          1398
+        ],
+        [
+          292,
+          1398
+        ]
+      ],
+      [
+        [
+          290,
+          1467
+        ],
+        [
+          2189,
+          1469
+        ],
+        [
+          2189,
+          1519
+        ],
+        [
+          290,
+          1517
+        ]
+      ],
+      [
+        [
+          289,
+          1527
+        ],
+        [
+          2188,
+          1527
+        ],
+        [
+          2188,
+          1577
+        ],
+        [
+          289,
+          1577
+        ]
+      ],
+      [
+        [
+          289,
+          1584
+        ],
+        [
+          2187,
+          1585
+        ],
+        [
+          2187,
+          1634
+        ],
+        [
+          289,
+          1633
+        ]
+      ],
+      [
+        [
+          290,
+          1641
+        ],
+        [
+          2187,
+          1643
+        ],
+        [
+          2187,
+          1690
+        ],
+        [
+          290,
+          1688
+        ]
+      ],
+      [
+        [
+          288,
+          1697
+        ],
+        [
+          2189,
+          1699
+        ],
+        [
+          2189,
+          1750
+        ],
+        [
+          288,
+          1748
+        ]
+      ],
+      [
+        [
+          289,
+          1756
+        ],
+        [
+          2189,
+          1757
+        ],
+        [
+          2189,
+          1808
+        ],
+        [
+          289,
+          1807
+        ]
+      ],
+      [
+        [
+          292,
+          1819
+        ],
+        [
+          528,
+          1819
+        ],
+        [
+          528,
+          1864
+        ],
+        [
+          292,
+          1864
+        ]
+      ],
+      [
+        [
+          290,
+          1932
+        ],
+        [
+          1298,
+          1934
+        ],
+        [
+          1298,
+          1981
+        ],
+        [
+          290,
+          1979
+        ]
+      ],
+      [
+        [
+          2355,
+          1934
+        ],
+        [
+          2401,
+          1934
+        ],
+        [
+          2402,
+          3343
+        ],
+        [
+          2356,
+          3343
+        ]
+      ],
+      [
+        [
+          287,
+          1990
+        ],
+        [
+          2187,
+          1992
+        ],
+        [
+          2187,
+          2040
+        ],
+        [
+          287,
+          2038
+        ]
+      ],
+      [
+        [
+          290,
+          2049
+        ],
+        [
+          2189,
+          2052
+        ],
+        [
+          2189,
+          2103
+        ],
+        [
+          290,
+          2100
+        ]
+      ],
+      [
+        [
+          291,
+          2110
+        ],
+        [
+          911,
+          2112
+        ],
+        [
+          910,
+          2156
+        ],
+        [
+          291,
+          2154
+        ]
+      ],
+      [
+        [
+          286,
+          2164
+        ],
+        [
+          2191,
+          2164
+        ],
+        [
+          2191,
+          2217
+        ],
+        [
+          286,
+          2217
+        ]
+      ],
+      [
+        [
+          291,
+          2227
+        ],
+        [
+          567,
+          2227
+        ],
+        [
+          567,
+          2272
+        ],
+        [
+          291,
+          2272
+        ]
+      ],
+      [
+        [
+          286,
+          2281
+        ],
+        [
+          2189,
+          2283
+        ],
+        [
+          2189,
+          2334
+        ],
+        [
+          286,
+          2332
+        ]
+      ],
+      [
+        [
+          289,
+          2341
+        ],
+        [
+          464,
+          2343
+        ],
+        [
+          464,
+          2396
+        ],
+        [
+          288,
+          2394
+        ]
+      ],
+      [
+        [
+          288,
+          2399
+        ],
+        [
+          2189,
+          2401
+        ],
+        [
+          2189,
+          2451
+        ],
+        [
+          288,
+          2449
+        ]
+      ],
+      [
+        [
+          289,
+          2460
+        ],
+        [
+          954,
+          2462
+        ],
+        [
+          954,
+          2508
+        ],
+        [
+          289,
+          2506
+        ]
+      ],
+      [
+        [
+          291,
+          2575
+        ],
+        [
+          2188,
+          2577
+        ],
+        [
+          2188,
+          2624
+        ],
+        [
+          291,
+          2622
+        ]
+      ],
+      [
+        [
+          293,
+          2637
+        ],
+        [
+          2188,
+          2637
+        ],
+        [
+          2188,
+          2681
+        ],
+        [
+          293,
+          2681
+        ]
+      ],
+      [
+        [
+          293,
+          2694
+        ],
+        [
+          1026,
+          2694
+        ],
+        [
+          1026,
+          2741
+        ],
+        [
+          293,
+          2741
+        ]
+      ],
+      [
+        [
+          290,
+          2808
+        ],
+        [
+          2188,
+          2809
+        ],
+        [
+          2188,
+          2856
+        ],
+        [
+          290,
+          2855
+        ]
+      ],
+      [
+        [
+          291,
+          2869
+        ],
+        [
+          1359,
+          2867
+        ],
+        [
+          1359,
+          2914
+        ],
+        [
+          291,
+          2916
+        ]
+      ],
+      [
+        [
+          291,
+          2983
+        ],
+        [
+          1418,
+          2986
+        ],
+        [
+          1418,
+          3033
+        ],
+        [
+          291,
+          3030
+        ]
+      ],
+      [
+        [
+          1502,
+          3101
+        ],
+        [
+          2186,
+          3100
+        ],
+        [
+          2186,
+          3141
+        ],
+        [
+          1502,
+          3142
+        ]
+      ]
+    ],
+    "text_det_params": {
+      "limit_side_len": 64,
+      "limit_type": "min",
+      "thresh": 0.3,
+      "max_side_limit": 4000,
+      "box_thresh": 0.6,
+      "unclip_ratio": 1.5
+    },
+    "text_type": "general",
+    "textline_orientation_angles": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "text_rec_score_thresh": 0.0,
+    "return_word_box": false,
+    "rec_texts": [
+      "Prefeitura do Município de Londrina",
+      "Estado do Paraná",
+      "te",
+      "LONDRINA",
+      "62",
+      "LEI N.º 13990, DE 25 DE SETEMBRO DE 2025",
+      "súMuLA: Institui no Calendário de Comemorações",
+      "Oficiais do Município de Londrina o Dia das Mães",
+      "Atípicas, a ser comemorado anualmente em 23 de",
+      "maio, e dá outras providências.",
+      "A CÂMARA MUNICIPAL DE LONDRINA, ESTADO DO PARANÁ, APROVOU E EU,",
+      "PREFEITO DO MUNICÍPIO, SANCIONO A SEGUINTE LEI:",
+      "Cle tee  cee : m  m ",
+      "Art. 1º Fica instituído, no Calendário de Comemorações Oficiais do Município de Londrina, o Dia",
+      "***8 4000/60/642 (8-*******",
+      "das Mães Atípicas, a ser celebrado anualmente no dia 23 de maio.",
+      "Parágrafo único. Para fins desta Lei, considera-se mãe atípica a mulher e/ou cuidadora que",
+      "assume a responsabilidade principal pela criação e cuidado de filhos que demandam atenção",
+      "especializada e contínua, em razão de deficiência física, intelectual, sensorial ou múltipla,",
+      "síndromes, transtornos do neurodesenvolvimento (como o Transtorno do Espectro Autista -",
+      "TEA, Transtorno de Déficit de Atenção com Hiperatividade - TDAH, Transtorno Opositivo",
+      "Desafiador - ToD), doenças raras, dislexia, entre outras condições que exijam cuidados",
+      "específicos.",
+      "Art. 2º O Dia das Mães Atípicas tem como objetivo:",
+      "tte r t rrr cr or ce rnir o ar",
+      "I - reconhecer, valorizar e dar visibilidade às mães que cuidam de filhos com deficiência,",
+      "doenças raras, transtornos do espectro autista, distúrbios neurológicos ou outras condições que",
+      "demandem cuidados especiais;",
+      "Il - promover a conscientização da sociedade sobre os desafios enfrentados por essas mães e",
+      "suas famílias;",
+      "II - incentivar a formulação de políticas públicas de apoio, acolhimento e cuidado às mães",
+      "atípicas;",
+      "IV - estimular ações intersetoriais nas áreas de saúde, educação, assistência social e direitos",
+      "humanos voltadas a esse público.",
+      "Art. 3º No dia instituído por esta Lei, o Poder Público poderá promover, em parceria com",
+      "entidades da sociedade civil, eventos, campanhas educativas, palestras e outras atividades de",
+      "apoio e valorização às mães atípicas.",
+      "Art. 4º As despesas decorrentes da execução desta Lei correrão por conta de dotações",
+      "orçamentárias próprias, suplementadas se necessário.",
+      "Art. 5º Esta Lei entra em vigor na data de sua publicação.",
+      "Londrina, 25 de setembro de 2025."
+    ],
+    "rec_scores": [
+      0.9998234510421753,
+      0.9884517788887024,
+      0.23182421922683716,
+      0.980044960975647,
+      0.4150126576423645,
+      0.9992345571517944,
+      0.9659205079078674,
+      0.9986798167228699,
+      0.9936904311180115,
+      0.998283863067627,
+      0.9996777772903442,
+      0.9958276152610779,
+      0.33032113313674927,
+      0.9911347031593323,
+      0.5201298594474792,
+      0.9861841201782227,
+      0.9974755048751831,
+      0.9957762956619263,
+      0.998881459236145,
+      0.9961411952972412,
+      0.9937019944190979,
+      0.98374342918396,
+      0.9999556541442871,
+      0.982840895652771,
+      0.27861133217811584,
+      0.9884161949157715,
+      0.9919281601905823,
+      0.9844455122947693,
+      0.9832819104194641,
+      0.9997882843017578,
+      0.9813200235366821,
+      0.9998142719268799,
+      0.98906409740448,
+      0.9991832971572876,
+      0.9878571033477783,
+      0.9923198819160461,
+      0.998635470867157,
+      0.9954944849014282,
+      0.9952742457389832,
+      0.993873655796051,
+      0.9961020946502686
+    ],
+    "rec_polys": [
+      [
+        [
+          638,
+          185
+        ],
+        [
+          2089,
+          185
+        ],
+        [
+          2089,
+          286
+        ],
+        [
+          638,
+          286
+        ]
+      ],
+      [
+        [
+          1111,
+          294
+        ],
+        [
+          1617,
+          294
+        ],
+        [
+          1617,
+          355
+        ],
+        [
+          1111,
+          355
+        ]
+      ],
+      [
+        [
+          314,
+          340
+        ],
+        [
+          360,
+          348
+        ],
+        [
+          357,
+          364
+        ],
+        [
+          311,
+          356
+        ]
+      ],
+      [
+        [
+          357,
+          353
+        ],
+        [
+          476,
+          355
+        ],
+        [
+          476,
+          383
+        ],
+        [
+          357,
+          381
+        ]
+      ],
+      [
+        [
+          475,
+          344
+        ],
+        [
+          521,
+          338
+        ],
+        [
+          524,
+          356
+        ],
+        [
+          478,
+          363
+        ]
+      ],
+      [
+        [
+          288,
+          562
+        ],
+        [
+          1503,
+          560
+        ],
+        [
+          1503,
+          621
+        ],
+        [
+          288,
+          623
+        ]
+      ],
+      [
+        [
+          1142,
+          705
+        ],
+        [
+          2187,
+          712
+        ],
+        [
+          2187,
+          759
+        ],
+        [
+          1142,
+          753
+        ]
+      ],
+      [
+        [
+          1141,
+          767
+        ],
+        [
+          2188,
+          768
+        ],
+        [
+          2188,
+          815
+        ],
+        [
+          1141,
+          814
+        ]
+      ],
+      [
+        [
+          1142,
+          827
+        ],
+        [
+          2188,
+          826
+        ],
+        [
+          2188,
+          874
+        ],
+        [
+          1142,
+          875
+        ]
+      ],
+      [
+        [
+          1142,
+          885
+        ],
+        [
+          1754,
+          887
+        ],
+        [
+          1754,
+          934
+        ],
+        [
+          1142,
+          932
+        ]
+      ],
+      [
+        [
+          400,
+          1108
+        ],
+        [
+          2076,
+          1114
+        ],
+        [
+          2075,
+          1167
+        ],
+        [
+          400,
+          1161
+        ]
+      ],
+      [
+        [
+          652,
+          1177
+        ],
+        [
+          1829,
+          1177
+        ],
+        [
+          1829,
+          1221
+        ],
+        [
+          652,
+          1221
+        ]
+      ],
+      [
+        [
+          2397,
+          1223
+        ],
+        [
+          2451,
+          1223
+        ],
+        [
+          2452,
+          3347
+        ],
+        [
+          2399,
+          3347
+        ]
+      ],
+      [
+        [
+          291,
+          1294
+        ],
+        [
+          2189,
+          1295
+        ],
+        [
+          2189,
+          1341
+        ],
+        [
+          291,
+          1340
+        ]
+      ],
+      [
+        [
+          2354,
+          1338
+        ],
+        [
+          2405,
+          1339
+        ],
+        [
+          2399,
+          1945
+        ],
+        [
+          2349,
+          1945
+        ]
+      ],
+      [
+        [
+          292,
+          1354
+        ],
+        [
+          1593,
+          1354
+        ],
+        [
+          1593,
+          1398
+        ],
+        [
+          292,
+          1398
+        ]
+      ],
+      [
+        [
+          290,
+          1467
+        ],
+        [
+          2189,
+          1469
+        ],
+        [
+          2189,
+          1519
+        ],
+        [
+          290,
+          1517
+        ]
+      ],
+      [
+        [
+          289,
+          1527
+        ],
+        [
+          2188,
+          1527
+        ],
+        [
+          2188,
+          1577
+        ],
+        [
+          289,
+          1577
+        ]
+      ],
+      [
+        [
+          289,
+          1584
+        ],
+        [
+          2187,
+          1585
+        ],
+        [
+          2187,
+          1634
+        ],
+        [
+          289,
+          1633
+        ]
+      ],
+      [
+        [
+          290,
+          1641
+        ],
+        [
+          2187,
+          1643
+        ],
+        [
+          2187,
+          1690
+        ],
+        [
+          290,
+          1688
+        ]
+      ],
+      [
+        [
+          288,
+          1697
+        ],
+        [
+          2189,
+          1699
+        ],
+        [
+          2189,
+          1750
+        ],
+        [
+          288,
+          1748
+        ]
+      ],
+      [
+        [
+          289,
+          1756
+        ],
+        [
+          2189,
+          1757
+        ],
+        [
+          2189,
+          1808
+        ],
+        [
+          289,
+          1807
+        ]
+      ],
+      [
+        [
+          292,
+          1819
+        ],
+        [
+          528,
+          1819
+        ],
+        [
+          528,
+          1864
+        ],
+        [
+          292,
+          1864
+        ]
+      ],
+      [
+        [
+          290,
+          1932
+        ],
+        [
+          1298,
+          1934
+        ],
+        [
+          1298,
+          1981
+        ],
+        [
+          290,
+          1979
+        ]
+      ],
+      [
+        [
+          2355,
+          1934
+        ],
+        [
+          2401,
+          1934
+        ],
+        [
+          2402,
+          3343
+        ],
+        [
+          2356,
+          3343
+        ]
+      ],
+      [
+        [
+          287,
+          1990
+        ],
+        [
+          2187,
+          1992
+        ],
+        [
+          2187,
+          2040
+        ],
+        [
+          287,
+          2038
+        ]
+      ],
+      [
+        [
+          290,
+          2049
+        ],
+        [
+          2189,
+          2052
+        ],
+        [
+          2189,
+          2103
+        ],
+        [
+          290,
+          2100
+        ]
+      ],
+      [
+        [
+          291,
+          2110
+        ],
+        [
+          911,
+          2112
+        ],
+        [
+          910,
+          2156
+        ],
+        [
+          291,
+          2154
+        ]
+      ],
+      [
+        [
+          286,
+          2164
+        ],
+        [
+          2191,
+          2164
+        ],
+        [
+          2191,
+          2217
+        ],
+        [
+          286,
+          2217
+        ]
+      ],
+      [
+        [
+          291,
+          2227
+        ],
+        [
+          567,
+          2227
+        ],
+        [
+          567,
+          2272
+        ],
+        [
+          291,
+          2272
+        ]
+      ],
+      [
+        [
+          286,
+          2281
+        ],
+        [
+          2189,
+          2283
+        ],
+        [
+          2189,
+          2334
+        ],
+        [
+          286,
+          2332
+        ]
+      ],
+      [
+        [
+          289,
+          2341
+        ],
+        [
+          464,
+          2343
+        ],
+        [
+          464,
+          2396
+        ],
+        [
+          288,
+          2394
+        ]
+      ],
+      [
+        [
+          288,
+          2399
+        ],
+        [
+          2189,
+          2401
+        ],
+        [
+          2189,
+          2451
+        ],
+        [
+          288,
+          2449
+        ]
+      ],
+      [
+        [
+          289,
+          2460
+        ],
+        [
+          954,
+          2462
+        ],
+        [
+          954,
+          2508
+        ],
+        [
+          289,
+          2506
+        ]
+      ],
+      [
+        [
+          291,
+          2575
+        ],
+        [
+          2188,
+          2577
+        ],
+        [
+          2188,
+          2624
+        ],
+        [
+          291,
+          2622
+        ]
+      ],
+      [
+        [
+          293,
+          2637
+        ],
+        [
+          2188,
+          2637
+        ],
+        [
+          2188,
+          2681
+        ],
+        [
+          293,
+          2681
+        ]
+      ],
+      [
+        [
+          293,
+          2694
+        ],
+        [
+          1026,
+          2694
+        ],
+        [
+          1026,
+          2741
+        ],
+        [
+          293,
+          2741
+        ]
+      ],
+      [
+        [
+          290,
+          2808
+        ],
+        [
+          2188,
+          2809
+        ],
+        [
+          2188,
+          2856
+        ],
+        [
+          290,
+          2855
+        ]
+      ],
+      [
+        [
+          291,
+          2869
+        ],
+        [
+          1359,
+          2867
+        ],
+        [
+          1359,
+          2914
+        ],
+        [
+          291,
+          2916
+        ]
+      ],
+      [
+        [
+          291,
+          2983
+        ],
+        [
+          1418,
+          2986
+        ],
+        [
+          1418,
+          3033
+        ],
+        [
+          291,
+          3030
+        ]
+      ],
+      [
+        [
+          1502,
+          3101
+        ],
+        [
+          2186,
+          3100
+        ],
+        [
+          2186,
+          3141
+        ],
+        [
+          1502,
+          3142
+        ]
+      ]
+    ],
+    "rec_boxes": [
+      [
+        638,
+        185,
+        2089,
+        286
+      ],
+      [
+        1111,
+        294,
+        1617,
+        355
+      ],
+      [
+        311,
+        340,
+        360,
+        364
+      ],
+      [
+        357,
+        353,
+        476,
+        383
+      ],
+      [
+        475,
+        338,
+        524,
+        363
+      ],
+      [
+        288,
+        560,
+        1503,
+        623
+      ],
+      [
+        1142,
+        705,
+        2187,
+        759
+      ],
+      [
+        1141,
+        767,
+        2188,
+        815
+      ],
+      [
+        1142,
+        826,
+        2188,
+        875
+      ],
+      [
+        1142,
+        885,
+        1754,
+        934
+      ],
+      [
+        400,
+        1108,
+        2076,
+        1167
+      ],
+      [
+        652,
+        1177,
+        1829,
+        1221
+      ],
+      [
+        2397,
+        1223,
+        2452,
+        3347
+      ],
+      [
+        291,
+        1294,
+        2189,
+        1341
+      ],
+      [
+        2349,
+        1338,
+        2405,
+        1945
+      ],
+      [
+        292,
+        1354,
+        1593,
+        1398
+      ],
+      [
+        290,
+        1467,
+        2189,
+        1519
+      ],
+      [
+        289,
+        1527,
+        2188,
+        1577
+      ],
+      [
+        289,
+        1584,
+        2187,
+        1634
+      ],
+      [
+        290,
+        1641,
+        2187,
+        1690
+      ],
+      [
+        288,
+        1697,
+        2189,
+        1750
+      ],
+      [
+        289,
+        1756,
+        2189,
+        1808
+      ],
+      [
+        292,
+        1819,
+        528,
+        1864
+      ],
+      [
+        290,
+        1932,
+        1298,
+        1981
+      ],
+      [
+        2355,
+        1934,
+        2402,
+        3343
+      ],
+      [
+        287,
+        1990,
+        2187,
+        2040
+      ],
+      [
+        290,
+        2049,
+        2189,
+        2103
+      ],
+      [
+        291,
+        2110,
+        911,
+        2156
+      ],
+      [
+        286,
+        2164,
+        2191,
+        2217
+      ],
+      [
+        291,
+        2227,
+        567,
+        2272
+      ],
+      [
+        286,
+        2281,
+        2189,
+        2334
+      ],
+      [
+        288,
+        2341,
+        464,
+        2396
+      ],
+      [
+        288,
+        2399,
+        2189,
+        2451
+      ],
+      [
+        289,
+        2460,
+        954,
+        2508
+      ],
+      [
+        291,
+        2575,
+        2188,
+        2624
+      ],
+      [
+        293,
+        2637,
+        2188,
+        2681
+      ],
+      [
+        293,
+        2694,
+        1026,
+        2741
+      ],
+      [
+        290,
+        2808,
+        2188,
+        2856
+      ],
+      [
+        291,
+        2867,
+        1359,
+        2916
+      ],
+      [
+        291,
+        2983,
+        1418,
+        3033
+      ],
+      [
+        1502,
+        3100,
+        2186,
+        3142
+      ]
+    ]
+  }
+}

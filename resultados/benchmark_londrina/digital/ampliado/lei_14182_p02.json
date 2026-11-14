@@ -1,0 +1,1001 @@
+{
+  "documento": "lei_14182_digital",
+  "pagina": 1,
+  "imagem_origem": "lei_14182_p02.png",
+  "perfil_preprocessamento": "ampliado",
+  "etapas_preprocessamento": [
+    "redimensionar"
+  ],
+  "limiar_confianca_revisao": 0.8,
+  "parametros_paddleocr": {
+    "lang": "pt",
+    "device": "cpu",
+    "use_doc_orientation_classify": false,
+    "use_doc_unwarping": false,
+    "use_textline_orientation": false
+  },
+  "versoes": {
+    "paddleocr": "3.4.1",
+    "paddlepaddle": "3.2.2"
+  },
+  "tempo_preprocessamento_s": 0.08,
+  "dimensoes_imagem": {
+    "largura": 2481,
+    "altura": 3508
+  },
+  "tempo_ocr_s": 22.7234,
+  "status": "ok",
+  "layout": {
+    "colunas": 2,
+    "divisoria_x": [
+      826.0,
+      1110.0
+    ]
+  },
+  "quantidade_caracteres": 304,
+  "quantidade_palavras": 55,
+  "quantidade_fragmentos": 15,
+  "confianca_media": 0.7936,
+  "confianca_minima": 0.2565,
+  "necessita_revisao_humana": true,
+  "revisao_humana": [
+    {
+      "linha_txt": 2,
+      "indice_paddleocr": 2,
+      "texto_bruto": "ts",
+      "confianca": 0.29834792017936707,
+      "motivos": [
+        "confiança 0.298 abaixo do limiar 0.8"
+      ]
+    },
+    {
+      "linha_txt": 2,
+      "indice_paddleocr": 4,
+      "texto_bruto": "62",
+      "confianca": 0.41501253843307495,
+      "motivos": [
+        "confiança 0.415 abaixo do limiar 0.8"
+      ]
+    },
+    {
+      "linha_txt": 11,
+      "indice_paddleocr": 12,
+      "texto_bruto": "(8-.",
+      "confianca": 0.7496302127838135,
+      "motivos": [
+        "confiança 0.750 abaixo do limiar 0.8"
+      ]
+    },
+    {
+      "linha_txt": 12,
+      "indice_paddleocr": 14,
+      "texto_bruto": "ctte ro rrr orm or cerrntir re nr",
+      "confianca": 0.2565114200115204,
+      "motivos": [
+        "confiança 0.257 abaixo do limiar 0.8"
+      ]
+    },
+    {
+      "linha_txt": 12,
+      "indice_paddleocr": 11,
+      "texto_bruto": "Ceee ere e et  co coerre    cem ",
+      "confianca": 0.27583861351013184,
+      "motivos": [
+        "confiança 0.276 abaixo do limiar 0.8"
+      ]
+    }
+  ],
+  "texto": "Prefeitura do Município de Londrina\nts 62\nLONDRINA\nRef.:\nPROJETO DE LEI Nº 187/2025\nAutoria: Sidnei Matias dos Santos\nAprovado na forma do Substitutivo nº 1\nEstado do Paraná\nJosé Tiago Camargo do Amaral\nPrefeito do Município\n(8-.\n*** *** ctte ro rrr orm or cerrntir re nr Ceee ere e et  co coerre    cem ",
+  "linhas_ordenadas": [
+    [
+      {
+        "indice_paddleocr": 0,
+        "texto": "Prefeitura do Município de Londrina",
+        "confianca": 0.998668909072876,
+        "caixa": [
+          636.0,
+          183.0,
+          2088.0,
+          287.0
+        ],
+        "coluna": 0
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 2,
+        "texto": "ts",
+        "confianca": 0.29834792017936707,
+        "caixa": [
+          310.0,
+          338.0,
+          361.0,
+          365.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 4,
+        "texto": "62",
+        "confianca": 0.41501253843307495,
+        "caixa": [
+          475.0,
+          338.0,
+          524.0,
+          363.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 3,
+        "texto": "LONDRINA",
+        "confianca": 0.9773807525634766,
+        "caixa": [
+          357.0,
+          352.0,
+          476.0,
+          382.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 7,
+        "texto": "Ref.:",
+        "confianca": 0.9975794553756714,
+        "caixa": [
+          290.0,
+          847.0,
+          381.0,
+          894.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 8,
+        "texto": "PROJETO DE LEI Nº 187/2025",
+        "confianca": 0.9966692328453064,
+        "caixa": [
+          292.0,
+          903.0,
+          825.0,
+          941.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 9,
+        "texto": "Autoria: Sidnei Matias dos Santos",
+        "confianca": 0.9900978803634644,
+        "caixa": [
+          294.0,
+          957.0,
+          888.0,
+          991.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 10,
+        "texto": "Aprovado na forma do Substitutivo nº 1",
+        "confianca": 0.9950504302978516,
+        "caixa": [
+          292.0,
+          1004.0,
+          945.0,
+          1045.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 1,
+        "texto": "Estado do Paraná",
+        "confianca": 0.9853709936141968,
+        "caixa": [
+          1111.0,
+          294.0,
+          1617.0,
+          355.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 5,
+        "texto": "José Tiago Camargo do Amaral",
+        "confianca": 0.9936155080795288,
+        "caixa": [
+          908.0,
+          618.0,
+          1571.0,
+          668.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 6,
+        "texto": "Prefeito do Município",
+        "confianca": 0.9973613023757935,
+        "caixa": [
+          1014.0,
+          677.0,
+          1464.0,
+          728.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 12,
+        "texto": "(8-.",
+        "confianca": 0.7496302127838135,
+        "caixa": [
+          2360.0,
+          1751.0,
+          2404.0,
+          1832.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 13,
+        "texto": "*** ***",
+        "confianca": 0.9762774109840393,
+        "caixa": [
+          2360.0,
+          1822.0,
+          2387.0,
+          1940.0
+        ],
+        "coluna": 2
+      },
+      {
+        "indice_paddleocr": 14,
+        "texto": "ctte ro rrr orm or cerrntir re nr",
+        "confianca": 0.2565114200115204,
+        "caixa": [
+          2360.0,
+          1936.0,
+          2407.0,
+          3344.0
+        ],
+        "coluna": 2
+      },
+      {
+        "indice_paddleocr": 11,
+        "texto": "Ceee ere e et  co coerre    cem ",
+        "confianca": 0.27583861351013184,
+        "caixa": [
+          2398.0,
+          1234.0,
+          2453.0,
+          3348.0
+        ],
+        "coluna": 2
+      }
+    ]
+  ],
+  "resultado_bruto_paddleocr": {
+    "input_path": null,
+    "page_index": null,
+    "model_settings": {
+      "use_doc_preprocessor": false,
+      "use_textline_orientation": false
+    },
+    "dt_polys": [
+      [
+        [
+          636,
+          183
+        ],
+        [
+          2088,
+          186
+        ],
+        [
+          2088,
+          287
+        ],
+        [
+          636,
+          284
+        ]
+      ],
+      [
+        [
+          1111,
+          294
+        ],
+        [
+          1617,
+          294
+        ],
+        [
+          1617,
+          355
+        ],
+        [
+          1111,
+          355
+        ]
+      ],
+      [
+        [
+          313,
+          338
+        ],
+        [
+          361,
+          347
+        ],
+        [
+          358,
+          365
+        ],
+        [
+          310,
+          356
+        ]
+      ],
+      [
+        [
+          357,
+          352
+        ],
+        [
+          476,
+          354
+        ],
+        [
+          476,
+          382
+        ],
+        [
+          357,
+          380
+        ]
+      ],
+      [
+        [
+          475,
+          344
+        ],
+        [
+          521,
+          338
+        ],
+        [
+          524,
+          356
+        ],
+        [
+          478,
+          363
+        ]
+      ],
+      [
+        [
+          909,
+          618
+        ],
+        [
+          1571,
+          620
+        ],
+        [
+          1570,
+          668
+        ],
+        [
+          908,
+          666
+        ]
+      ],
+      [
+        [
+          1014,
+          677
+        ],
+        [
+          1464,
+          680
+        ],
+        [
+          1464,
+          728
+        ],
+        [
+          1014,
+          724
+        ]
+      ],
+      [
+        [
+          291,
+          847
+        ],
+        [
+          381,
+          849
+        ],
+        [
+          380,
+          894
+        ],
+        [
+          290,
+          892
+        ]
+      ],
+      [
+        [
+          292,
+          903
+        ],
+        [
+          825,
+          904
+        ],
+        [
+          825,
+          941
+        ],
+        [
+          292,
+          940
+        ]
+      ],
+      [
+        [
+          294,
+          957
+        ],
+        [
+          888,
+          957
+        ],
+        [
+          888,
+          991
+        ],
+        [
+          294,
+          991
+        ]
+      ],
+      [
+        [
+          292,
+          1006
+        ],
+        [
+          945,
+          1004
+        ],
+        [
+          945,
+          1043
+        ],
+        [
+          292,
+          1045
+        ]
+      ],
+      [
+        [
+          2398,
+          1234
+        ],
+        [
+          2452,
+          1234
+        ],
+        [
+          2453,
+          3348
+        ],
+        [
+          2399,
+          3348
+        ]
+      ],
+      [
+        [
+          2360,
+          1751
+        ],
+        [
+          2404,
+          1751
+        ],
+        [
+          2404,
+          1832
+        ],
+        [
+          2360,
+          1832
+        ]
+      ],
+      [
+        [
+          2360,
+          1822
+        ],
+        [
+          2384,
+          1822
+        ],
+        [
+          2387,
+          1939
+        ],
+        [
+          2362,
+          1940
+        ]
+      ],
+      [
+        [
+          2360,
+          1936
+        ],
+        [
+          2406,
+          1936
+        ],
+        [
+          2407,
+          3344
+        ],
+        [
+          2361,
+          3344
+        ]
+      ]
+    ],
+    "text_det_params": {
+      "limit_side_len": 64,
+      "limit_type": "min",
+      "thresh": 0.3,
+      "max_side_limit": 4000,
+      "box_thresh": 0.6,
+      "unclip_ratio": 1.5
+    },
+    "text_type": "general",
+    "textline_orientation_angles": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "text_rec_score_thresh": 0.0,
+    "return_word_box": false,
+    "rec_texts": [
+      "Prefeitura do Município de Londrina",
+      "Estado do Paraná",
+      "ts",
+      "LONDRINA",
+      "62",
+      "José Tiago Camargo do Amaral",
+      "Prefeito do Município",
+      "Ref.:",
+      "PROJETO DE LEI Nº 187/2025",
+      "Autoria: Sidnei Matias dos Santos",
+      "Aprovado na forma do Substitutivo nº 1",
+      "Ceee ere e et  co coerre    cem ",
+      "(8-.",
+      "*** ***",
+      "ctte ro rrr orm or cerrntir re nr"
+    ],
+    "rec_scores": [
+      0.998668909072876,
+      0.9853709936141968,
+      0.29834792017936707,
+      0.9773807525634766,
+      0.41501253843307495,
+      0.9936155080795288,
+      0.9973613023757935,
+      0.9975794553756714,
+      0.9966692328453064,
+      0.9900978803634644,
+      0.9950504302978516,
+      0.27583861351013184,
+      0.7496302127838135,
+      0.9762774109840393,
+      0.2565114200115204
+    ],
+    "rec_polys": [
+      [
+        [
+          636,
+          183
+        ],
+        [
+          2088,
+          186
+        ],
+        [
+          2088,
+          287
+        ],
+        [
+          636,
+          284
+        ]
+      ],
+      [
+        [
+          1111,
+          294
+        ],
+        [
+          1617,
+          294
+        ],
+        [
+          1617,
+          355
+        ],
+        [
+          1111,
+          355
+        ]
+      ],
+      [
+        [
+          313,
+          338
+        ],
+        [
+          361,
+          347
+        ],
+        [
+          358,
+          365
+        ],
+        [
+          310,
+          356
+        ]
+      ],
+      [
+        [
+          357,
+          352
+        ],
+        [
+          476,
+          354
+        ],
+        [
+          476,
+          382
+        ],
+        [
+          357,
+          380
+        ]
+      ],
+      [
+        [
+          475,
+          344
+        ],
+        [
+          521,
+          338
+        ],
+        [
+          524,
+          356
+        ],
+        [
+          478,
+          363
+        ]
+      ],
+      [
+        [
+          909,
+          618
+        ],
+        [
+          1571,
+          620
+        ],
+        [
+          1570,
+          668
+        ],
+        [
+          908,
+          666
+        ]
+      ],
+      [
+        [
+          1014,
+          677
+        ],
+        [
+          1464,
+          680
+        ],
+        [
+          1464,
+          728
+        ],
+        [
+          1014,
+          724
+        ]
+      ],
+      [
+        [
+          291,
+          847
+        ],
+        [
+          381,
+          849
+        ],
+        [
+          380,
+          894
+        ],
+        [
+          290,
+          892
+        ]
+      ],
+      [
+        [
+          292,
+          903
+        ],
+        [
+          825,
+          904
+        ],
+        [
+          825,
+          941
+        ],
+        [
+          292,
+          940
+        ]
+      ],
+      [
+        [
+          294,
+          957
+        ],
+        [
+          888,
+          957
+        ],
+        [
+          888,
+          991
+        ],
+        [
+          294,
+          991
+        ]
+      ],
+      [
+        [
+          292,
+          1006
+        ],
+        [
+          945,
+          1004
+        ],
+        [
+          945,
+          1043
+        ],
+        [
+          292,
+          1045
+        ]
+      ],
+      [
+        [
+          2398,
+          1234
+        ],
+        [
+          2452,
+          1234
+        ],
+        [
+          2453,
+          3348
+        ],
+        [
+          2399,
+          3348
+        ]
+      ],
+      [
+        [
+          2360,
+          1751
+        ],
+        [
+          2404,
+          1751
+        ],
+        [
+          2404,
+          1832
+        ],
+        [
+          2360,
+          1832
+        ]
+      ],
+      [
+        [
+          2360,
+          1822
+        ],
+        [
+          2384,
+          1822
+        ],
+        [
+          2387,
+          1939
+        ],
+        [
+          2362,
+          1940
+        ]
+      ],
+      [
+        [
+          2360,
+          1936
+        ],
+        [
+          2406,
+          1936
+        ],
+        [
+          2407,
+          3344
+        ],
+        [
+          2361,
+          3344
+        ]
+      ]
+    ],
+    "rec_boxes": [
+      [
+        636,
+        183,
+        2088,
+        287
+      ],
+      [
+        1111,
+        294,
+        1617,
+        355
+      ],
+      [
+        310,
+        338,
+        361,
+        365
+      ],
+      [
+        357,
+        352,
+        476,
+        382
+      ],
+      [
+        475,
+        338,
+        524,
+        363
+      ],
+      [
+        908,
+        618,
+        1571,
+        668
+      ],
+      [
+        1014,
+        677,
+        1464,
+        728
+      ],
+      [
+        290,
+        847,
+        381,
+        894
+      ],
+      [
+        292,
+        903,
+        825,
+        941
+      ],
+      [
+        294,
+        957,
+        888,
+        991
+      ],
+      [
+        292,
+        1004,
+        945,
+        1045
+      ],
+      [
+        2398,
+        1234,
+        2453,
+        3348
+      ],
+      [
+        2360,
+        1751,
+        2404,
+        1832
+      ],
+      [
+        2360,
+        1822,
+        2387,
+        1940
+      ],
+      [
+        2360,
+        1936,
+        2407,
+        3344
+      ]
+    ]
+  }
+}

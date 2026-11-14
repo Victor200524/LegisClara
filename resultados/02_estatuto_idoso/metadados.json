@@ -1,0 +1,904 @@
+{
+  "documento": "02_estatuto_idoso",
+  "gerado_em": "2026-11-14T03:33:17",
+  "aviso": "Textos são a saída bruta do OCR. Campos *_normalizado só são preenchidos quando o bruto é inequívoco; caso contrário ficam null e o motivo aparece em 'pendencias'.",
+  "processamento": {
+    "perfil_preprocessamento": "original",
+    "versoes": {
+      "paddleocr": "3.4.1",
+      "paddlepaddle": "3.2.2"
+    },
+    "parametros_paddleocr": {
+      "lang": "pt",
+      "device": "cpu",
+      "use_doc_orientation_classify": false,
+      "use_doc_unwarping": false,
+      "use_textline_orientation": false
+    },
+    "paginas": [
+      {
+        "pagina": 1,
+        "imagem_origem": "pagina_001_estatuto-do-idoso-exemplar.jpg",
+        "status": "ok",
+        "colunas": 1,
+        "confianca_media": 0.8628,
+        "trechos_para_revisao": 1,
+        "tempo_ocr_s": 0.5594
+      },
+      {
+        "pagina": 2,
+        "imagem_origem": "pagina_002_estatuto-do-idoso-interna-antes.jpg",
+        "status": "ok",
+        "colunas": 2,
+        "confianca_media": 0.982,
+        "trechos_para_revisao": 17,
+        "tempo_ocr_s": 4.5775
+      },
+      {
+        "pagina": 3,
+        "imagem_origem": "pagina_003_estatuto-do-idoso-pagina-interna.jpg",
+        "status": "ok",
+        "colunas": 1,
+        "confianca_media": 0.9867,
+        "trechos_para_revisao": 1,
+        "tempo_ocr_s": 1.1031
+      }
+    ]
+  },
+  "norma": {
+    "identificacoes": [
+      {
+        "tipo_bruto": "LEI",
+        "numero_bruto": "10.741",
+        "data_bruta": "1° DE OUTUBRO DE 2003",
+        "numero_normalizado": "10741",
+        "data_normalizada": "2003-10-01",
+        "pagina": 2,
+        "linha": 2,
+        "texto_bruto": "LEI N° 10.741, DE 1° DE OUTUBRO DE 2003",
+        "pendencias": [],
+        "revisao_humana": [
+          {
+            "texto_bruto": "LEI N° 10.741, DE 1° DE OUTUBRO DE 2003",
+            "confianca": 0.9595305323600769,
+            "motivos": [
+              "símbolo de grau '°' em possível posição de ordinal 'º' (Art. 1º, nº, § 1º)"
+            ]
+          }
+        ]
+      },
+      {
+        "tipo_bruto": "LEI",
+        "numero_bruto": "10.741",
+        "data_bruta": "1º DE 0UTUBRO DE 2003",
+        "numero_normalizado": "10741",
+        "data_normalizada": null,
+        "pagina": 3,
+        "linha": 1,
+        "texto_bruto": "LEI N° 10.741, DE 1º DE 0UTUBRO DE 2003",
+        "pendencias": [
+          "mês '0UTUBRO' não é um nome de mês válido (possível erro de OCR)"
+        ],
+        "revisao_humana": [
+          {
+            "texto_bruto": "LEI N° 10.741, DE 1º DE 0UTUBRO DE 2003",
+            "confianca": 0.9624240398406982,
+            "motivos": [
+              "mistura de letras e dígitos em '0UTUBRO' (ex.: O/0, l/1, S/5)",
+              "símbolo de grau '°' em possível posição de ordinal 'º' (Art. 1º, nº, § 1º)"
+            ]
+          }
+        ]
+      }
+    ],
+    "divergencias_entre_ocorrencias": {
+      "data_bruta": [
+        "1° DE OUTUBRO DE 2003",
+        "1º DE 0UTUBRO DE 2003"
+      ]
+    },
+    "apelidos": [
+      {
+        "texto_bruto": "Estatuto do Idoso",
+        "pagina": 2,
+        "linha": 3
+      },
+      {
+        "texto_bruto": "ESTATUTO DO IDOSO",
+        "pagina": 3,
+        "linha": 2
+      }
+    ],
+    "ementas": [
+      {
+        "texto_bruto": "Dispõe sobre o Estatuto do Idoso e dá outras\nprovidências.",
+        "pagina": 2,
+        "linha": 4,
+        "revisao_humana": []
+      },
+      {
+        "texto_bruto": "Dispõe sobre o Estatuto do Idoso e dá outras providências.",
+        "pagina": 3,
+        "linha": 3,
+        "revisao_humana": []
+      }
+    ]
+  },
+  "estrutura": [
+    {
+      "tipo": "TÍTULO",
+      "rotulo_bruto": "I",
+      "nome_bruto": "DISPOSICÕES PRELIMINARES",
+      "pagina": 2,
+      "linha": 9,
+      "revisao_humana": []
+    },
+    {
+      "tipo": "TÍTULO",
+      "rotulo_bruto": "II",
+      "nome_bruto": "DOS DIREITOS FUNDAMENTAIS",
+      "pagina": 2,
+      "linha": 71,
+      "revisao_humana": []
+    },
+    {
+      "tipo": "CAPÍTULO",
+      "rotulo_bruto": "I",
+      "nome_bruto": "DO DIREITO À VIDA",
+      "pagina": 2,
+      "linha": 72,
+      "revisao_humana": []
+    },
+    {
+      "tipo": "CAPÍTULO",
+      "rotulo_bruto": "II",
+      "nome_bruto": "DO DIREITO À LIBERDADE, AO RESPEITO E À DIGNIDADE",
+      "pagina": 2,
+      "linha": 80,
+      "revisao_humana": []
+    },
+    {
+      "tipo": "TÍTULO",
+      "rotulo_bruto": "I",
+      "nome_bruto": "DISPOSICÕES PRELIMINARES",
+      "pagina": 3,
+      "linha": 7,
+      "revisao_humana": []
+    }
+  ],
+  "artigos": [
+    {
+      "tipo": "artigo",
+      "rotulo_bruto": "1°",
+      "pagina": 2,
+      "linha_inicio": 10,
+      "pendencias": [
+        "artigo '1°' usa o símbolo de grau '°' em vez do ordinal 'º'"
+      ],
+      "revisao_humana": [
+        {
+          "texto_bruto": "Art. 1° É instituído o Estatuto do Idoso, destinado a",
+          "confianca": 0.964881956577301,
+          "motivos": [
+            "símbolo de grau '°' em possível posição de ordinal 'º' (Art. 1º, nº, § 1º)"
+          ]
+        }
+      ],
+      "numero": 1,
+      "localizacao": {
+        "TITULO": "TÍTULO I - DISPOSICÕES PRELIMINARES"
+      },
+      "paragrafos": [],
+      "incisos": [],
+      "texto_bruto": "É instituído o Estatuto do Idoso, destinado a\nregular os direitos assegurados às pessoas comidade\nigual ou superior a sessenta anos."
+    },
+    {
+      "tipo": "artigo",
+      "rotulo_bruto": "2°",
+      "pagina": 2,
+      "linha_inicio": 13,
+      "pendencias": [
+        "artigo '2°' usa o símbolo de grau '°' em vez do ordinal 'º'"
+      ],
+      "revisao_humana": [
+        {
+          "texto_bruto": "Art. 2° O idoso goza de todos os direitos fundamentais",
+          "confianca": 0.9635023474693298,
+          "motivos": [
+            "símbolo de grau '°' em possível posição de ordinal 'º' (Art. 1º, nº, § 1º)"
+          ]
+        }
+      ],
+      "numero": 2,
+      "localizacao": {
+        "TITULO": "TÍTULO I - DISPOSICÕES PRELIMINARES"
+      },
+      "paragrafos": [],
+      "incisos": [],
+      "texto_bruto": "O idoso goza de todos os direitos fundamentais\ninerentes à pessoa humana, sem prejuízo da proteção\nintegral de que trata esta lei, assegurando-se-lhe, por\nlei ou por outros meios, todas as oportunidades e faci-\nlidades, para preservação de sua saúde física e mental\ne seu aperfeiçoamento moral, intelectual, espiritual e\nsocial, em condicões de liberdade e dignidade."
+    },
+    {
+      "tipo": "artigo",
+      "rotulo_bruto": "3°",
+      "pagina": 2,
+      "linha_inicio": 20,
+      "pendencias": [
+        "artigo '3°' usa o símbolo de grau '°' em vez do ordinal 'º'"
+      ],
+      "revisao_humana": [
+        {
+          "texto_bruto": "Art. 3° É obrigação da familia, da comunidade, da so-",
+          "confianca": 0.9748818278312683,
+          "motivos": [
+            "símbolo de grau '°' em possível posição de ordinal 'º' (Art. 1º, nº, § 1º)"
+          ]
+        }
+      ],
+      "numero": 3,
+      "localizacao": {
+        "TITULO": "TÍTULO I - DISPOSICÕES PRELIMINARES"
+      },
+      "paragrafos": [
+        {
+          "tipo": "paragrafo",
+          "rotulo_bruto": "Parágrafoúnico",
+          "pagina": 2,
+          "linha_inicio": 26,
+          "pendencias": [],
+          "revisao_humana": [],
+          "unico": true,
+          "numero": null,
+          "incisos": [
+            {
+              "tipo": "inciso",
+              "rotulo_bruto": "I",
+              "pagina": 2,
+              "linha_inicio": 27,
+              "pendencias": [],
+              "revisao_humana": [],
+              "alineas": [],
+              "texto_bruto": "atendimento preferencial imediato e individualizado\njunto aos órgãos públicos e privados prestadores de\nserviços à população;"
+            },
+            {
+              "tipo": "inciso",
+              "rotulo_bruto": "Il",
+              "pagina": 2,
+              "linha_inicio": 30,
+              "pendencias": [
+                "rótulo de inciso 'Il' não é algarismo romano válido (ex.: l/I, 1/I, marca de nota de rodapé)"
+              ],
+              "revisao_humana": [],
+              "alineas": [],
+              "texto_bruto": "preferência naformulação e na execução de políticas\nsociais públicas específicas;"
+            },
+            {
+              "tipo": "inciso",
+              "rotulo_bruto": "III",
+              "pagina": 2,
+              "linha_inicio": 32,
+              "pendencias": [],
+              "revisao_humana": [],
+              "alineas": [],
+              "texto_bruto": "destinação privilegiada de recursos públicos nas\náreas relacionadas com a proteção ao idoso;"
+            },
+            {
+              "tipo": "inciso",
+              "rotulo_bruto": "IV",
+              "pagina": 2,
+              "linha_inicio": 34,
+              "pendencias": [],
+              "revisao_humana": [],
+              "alineas": [],
+              "texto_bruto": "viabilização de formas alternativas de participação,\nocupação e convívio do idoso com as demais gerações;"
+            },
+            {
+              "tipo": "inciso",
+              "rotulo_bruto": "V",
+              "pagina": 2,
+              "linha_inicio": 36,
+              "pendencias": [],
+              "revisao_humana": [],
+              "alineas": [],
+              "texto_bruto": "priorização do atendimento do idoso porsua própria\nfamília, em detrimento do atendimento asilar, exceto\ndos que não a possuam ou careçam de condições de\nmanutenção da própria sobrevivência;"
+            },
+            {
+              "tipo": "inciso",
+              "rotulo_bruto": "VI",
+              "pagina": 2,
+              "linha_inicio": 40,
+              "pendencias": [],
+              "revisao_humana": [],
+              "alineas": [],
+              "texto_bruto": "capacitacão e reciclagem dos recursos humanos\nnas áreas de geriatria e gerontologia e na prestação\nde serviços aos idosos;"
+            },
+            {
+              "tipo": "inciso",
+              "rotulo_bruto": "VIl",
+              "pagina": 2,
+              "linha_inicio": 43,
+              "pendencias": [
+                "rótulo de inciso 'VIl' não é algarismo romano válido (ex.: l/I, 1/I, marca de nota de rodapé)"
+              ],
+              "revisao_humana": [],
+              "alineas": [],
+              "texto_bruto": "estabelecimento de mecanismos que favoreçam a\ndivulqação de informações de caráter educativo sobre\nos aspectos biopsicossociais de envelhecimento;"
+            },
+            {
+              "tipo": "inciso",
+              "rotulo_bruto": "VIll",
+              "pagina": 2,
+              "linha_inicio": 46,
+              "pendencias": [
+                "rótulo de inciso 'VIll' não é algarismo romano válido (ex.: l/I, 1/I, marca de nota de rodapé)"
+              ],
+              "revisao_humana": [],
+              "alineas": [],
+              "texto_bruto": "garantia de acesso à rede de servicos de saúde\ne de assistência social locais;"
+            },
+            {
+              "tipo": "inciso",
+              "rotulo_bruto": "2X",
+              "pagina": 2,
+              "linha_inicio": 49,
+              "pendencias": [
+                "rótulo de inciso '2X' não é algarismo romano válido (ex.: l/I, 1/I, marca de nota de rodapé)"
+              ],
+              "revisao_humana": [],
+              "alineas": [],
+              "texto_bruto": "prioridade no recebimento da restituição do im-\nposto de renda."
+            }
+          ],
+          "texto_bruto": "A garantia de prioridade compreende:"
+        }
+      ],
+      "incisos": [],
+      "texto_bruto": "É obrigação da familia, da comunidade, da so-\nciedade e do poder público assegurar ao idoso, com\nabsoluta prioridade, a efetivação do direito à vida, à\nsaúde, à alimentação, à e ducação, à cultura, ao esporte,\nao lazer, ao trabalho, à cidadania, à liberdade, à digni-\ndade, ao respeito e à convivênciafamiliare comunitária."
+    },
+    {
+      "tipo": "artigo",
+      "rotulo_bruto": "4°",
+      "pagina": 2,
+      "linha_inicio": 51,
+      "pendencias": [
+        "artigo '4°' usa o símbolo de grau '°' em vez do ordinal 'º'"
+      ],
+      "revisao_humana": [
+        {
+          "texto_bruto": "Art. 4° Nenhum idoso será objeto de qualquer tipo de",
+          "confianca": 0.9659469127655029,
+          "motivos": [
+            "símbolo de grau '°' em possível posição de ordinal 'º' (Art. 1º, nº, § 1º)"
+          ]
+        }
+      ],
+      "numero": 4,
+      "localizacao": {
+        "TITULO": "TÍTULO I - DISPOSICÕES PRELIMINARES"
+      },
+      "paragrafos": [
+        {
+          "tipo": "paragrafo",
+          "rotulo_bruto": "1°",
+          "pagina": 2,
+          "linha_inicio": 55,
+          "pendencias": [
+            "parágrafo '1°' usa o símbolo de grau '°' em vez do ordinal 'º'"
+          ],
+          "revisao_humana": [
+            {
+              "texto_bruto": "§ 1° É dever de todos prevenir a ameaça ou violação",
+              "confianca": 0.9889074563980103,
+              "motivos": [
+                "símbolo de grau '°' em possível posição de ordinal 'º' (Art. 1º, nº, § 1º)"
+              ]
+            }
+          ],
+          "unico": false,
+          "numero": 1,
+          "incisos": [],
+          "texto_bruto": "É dever de todos prevenir a ameaça ou violação\naos direitos do idoso."
+        },
+        {
+          "tipo": "paragrafo",
+          "rotulo_bruto": "2°",
+          "pagina": 2,
+          "linha_inicio": 57,
+          "pendencias": [
+            "parágrafo '2°' usa o símbolo de grau '°' em vez do ordinal 'º'"
+          ],
+          "revisao_humana": [
+            {
+              "texto_bruto": "§ 2° As obrigações previstas nesta lei não excluem da",
+              "confianca": 0.9762749671936035,
+              "motivos": [
+                "símbolo de grau '°' em possível posição de ordinal 'º' (Art. 1º, nº, § 1º)"
+              ]
+            }
+          ],
+          "unico": false,
+          "numero": 2,
+          "incisos": [],
+          "texto_bruto": "As obrigações previstas nesta lei não excluem da\nprevenção outras decorrentes dos princípios por ela\nadotados."
+        }
+      ],
+      "incisos": [],
+      "texto_bruto": "Nenhum idoso será objeto de qualquer tipo de\nnegligência, discriminação, violência, crueldade ou\nopressão, e todo atentado aos seus direitos, por ação\nou omissão, será punido na forma da lei."
+    },
+    {
+      "tipo": "artigo",
+      "rotulo_bruto": "5°",
+      "pagina": 2,
+      "linha_inicio": 60,
+      "pendencias": [
+        "artigo '5°' usa o símbolo de grau '°' em vez do ordinal 'º'"
+      ],
+      "revisao_humana": [
+        {
+          "texto_bruto": "Art. 5° A inobservância das normas de prevenção im-",
+          "confianca": 0.988814115524292,
+          "motivos": [
+            "símbolo de grau '°' em possível posição de ordinal 'º' (Art. 1º, nº, § 1º)"
+          ]
+        }
+      ],
+      "numero": 5,
+      "localizacao": {
+        "TITULO": "TÍTULO I - DISPOSICÕES PRELIMINARES"
+      },
+      "paragrafos": [],
+      "incisos": [],
+      "texto_bruto": "A inobservância das normas de prevenção im-\nportará em responsabilidade à pessoa física ou jurídica\nnos termos da lei."
+    },
+    {
+      "tipo": "artigo",
+      "rotulo_bruto": "6°",
+      "pagina": 2,
+      "linha_inicio": 63,
+      "pendencias": [
+        "artigo '6°' usa o símbolo de grau '°' em vez do ordinal 'º'"
+      ],
+      "revisao_humana": [
+        {
+          "texto_bruto": "Art. 6° Todo cidadão tem o dever de comunicar à",
+          "confianca": 0.9713472127914429,
+          "motivos": [
+            "símbolo de grau '°' em possível posição de ordinal 'º' (Art. 1º, nº, § 1º)"
+          ]
+        }
+      ],
+      "numero": 6,
+      "localizacao": {
+        "TITULO": "TÍTULO I - DISPOSICÕES PRELIMINARES"
+      },
+      "paragrafos": [],
+      "incisos": [],
+      "texto_bruto": "Todo cidadão tem o dever de comunicar à\nautoridade competente qualquer forma de violação\na esta lei que tenha testemunhado ou de que tenha\nconhecimento."
+    },
+    {
+      "tipo": "artigo",
+      "rotulo_bruto": "7°",
+      "pagina": 2,
+      "linha_inicio": 67,
+      "pendencias": [
+        "artigo '7°' usa o símbolo de grau '°' em vez do ordinal 'º'"
+      ],
+      "revisao_humana": [
+        {
+          "texto_bruto": "Art. 7° Os conselhos nacional, estaduais, do Distrito",
+          "confianca": 0.9799280762672424,
+          "motivos": [
+            "símbolo de grau '°' em possível posição de ordinal 'º' (Art. 1º, nº, § 1º)"
+          ]
+        },
+        {
+          "texto_bruto": "Federal e municipais do idoso, previstos na Lein°8 842",
+          "confianca": 0.9811099171638489,
+          "motivos": [
+            "mistura de letras e dígitos em 'Lein°8' (ex.: O/0, l/1, S/5)",
+            "símbolo de grau '°' em possível posição de ordinal 'º' (Art. 1º, nº, § 1º)"
+          ]
+        }
+      ],
+      "numero": 7,
+      "localizacao": {
+        "TITULO": "TÍTULO I - DISPOSICÕES PRELIMINARES"
+      },
+      "paragrafos": [],
+      "incisos": [],
+      "texto_bruto": "Os conselhos nacional, estaduais, do Distrito\nFederal e municipais do idoso, previstos na Lein°8 842\nde 4 de janeiro de 1994, zelarão pelo cumprimento dos\ndireitos do idoso, definidos nesta lei."
+    },
+    {
+      "tipo": "artigo",
+      "rotulo_bruto": "8°",
+      "pagina": 2,
+      "linha_inicio": 73,
+      "pendencias": [
+        "artigo '8°' usa o símbolo de grau '°' em vez do ordinal 'º'"
+      ],
+      "revisao_humana": [
+        {
+          "texto_bruto": "Art. 8° O envelhecimento é um direito personalissimo",
+          "confianca": 0.9667758345603943,
+          "motivos": [
+            "símbolo de grau '°' em possível posição de ordinal 'º' (Art. 1º, nº, § 1º)"
+          ]
+        }
+      ],
+      "numero": 8,
+      "localizacao": {
+        "TITULO": "TÍTULO II - DOS DIREITOS FUNDAMENTAIS",
+        "CAPITULO": "CAPÍTULO I - DO DIREITO À VIDA"
+      },
+      "paragrafos": [],
+      "incisos": [],
+      "texto_bruto": "O envelhecimento é um direito personalissimo\ne a sua proteção um direito social, nos termos desta\nlei e da legislação vigente."
+    },
+    {
+      "tipo": "artigo",
+      "rotulo_bruto": "9°",
+      "pagina": 2,
+      "linha_inicio": 76,
+      "pendencias": [
+        "artigo '9°' usa o símbolo de grau '°' em vez do ordinal 'º'"
+      ],
+      "revisao_humana": [
+        {
+          "texto_bruto": "Art. 9° É obrigação do Estado garantir à pessoa idosa",
+          "confianca": 0.9911559224128723,
+          "motivos": [
+            "símbolo de grau '°' em possível posição de ordinal 'º' (Art. 1º, nº, § 1º)"
+          ]
+        }
+      ],
+      "numero": 9,
+      "localizacao": {
+        "TITULO": "TÍTULO II - DOS DIREITOS FUNDAMENTAIS",
+        "CAPITULO": "CAPÍTULO I - DO DIREITO À VIDA"
+      },
+      "paragrafos": [],
+      "incisos": [],
+      "texto_bruto": "É obrigação do Estado garantir à pessoa idosa\na proteção à vida e à saúde, mediante efetivação de\npolíticas sociais públicas que permitam um envelheci-\nmento saudável e em condições de dignidade."
+    },
+    {
+      "tipo": "artigo",
+      "rotulo_bruto": "10",
+      "pagina": 2,
+      "linha_inicio": 82,
+      "pendencias": [],
+      "revisao_humana": [],
+      "numero": 10,
+      "localizacao": {
+        "TITULO": "TÍTULO II - DOS DIREITOS FUNDAMENTAIS",
+        "CAPITULO": "CAPÍTULO II - DO DIREITO À LIBERDADE, AO RESPEITO E À DIGNIDADE"
+      },
+      "paragrafos": [
+        {
+          "tipo": "paragrafo",
+          "rotulo_bruto": "1°",
+          "pagina": 2,
+          "linha_inicio": 87,
+          "pendencias": [
+            "parágrafo '1°' usa o símbolo de grau '°' em vez do ordinal 'º'"
+          ],
+          "revisao_humana": [
+            {
+              "texto_bruto": "§ 1° O direito à liberdade compreende, entre outros,",
+              "confianca": 0.9915698170661926,
+              "motivos": [
+                "símbolo de grau '°' em possível posição de ordinal 'º' (Art. 1º, nº, § 1º)"
+              ]
+            }
+          ],
+          "unico": false,
+          "numero": 1,
+          "incisos": [
+            {
+              "tipo": "inciso",
+              "rotulo_bruto": "I",
+              "pagina": 2,
+              "linha_inicio": 89,
+              "pendencias": [],
+              "revisao_humana": [],
+              "alineas": [],
+              "texto_bruto": "faculdade de ir, vir e estar nos logradouros públicos e\nespaços comunitários, ressalvadas as restrições legais;"
+            },
+            {
+              "tipo": "inciso",
+              "rotulo_bruto": "II",
+              "pagina": 2,
+              "linha_inicio": 91,
+              "pendencias": [],
+              "revisao_humana": [],
+              "alineas": [],
+              "texto_bruto": "opinião e expressão;"
+            },
+            {
+              "tipo": "inciso",
+              "rotulo_bruto": "III",
+              "pagina": 2,
+              "linha_inicio": 92,
+              "pendencias": [],
+              "revisao_humana": [],
+              "alineas": [],
+              "texto_bruto": "crença e culto religioso;"
+            },
+            {
+              "tipo": "inciso",
+              "rotulo_bruto": "IV",
+              "pagina": 2,
+              "linha_inicio": 93,
+              "pendencias": [],
+              "revisao_humana": [],
+              "alineas": [],
+              "texto_bruto": "prática de esportes e de diversões;"
+            },
+            {
+              "tipo": "inciso",
+              "rotulo_bruto": "V",
+              "pagina": 2,
+              "linha_inicio": 94,
+              "pendencias": [],
+              "revisao_humana": [],
+              "alineas": [],
+              "texto_bruto": "participação na vida familiar e comunitária;"
+            },
+            {
+              "tipo": "inciso",
+              "rotulo_bruto": "VI",
+              "pagina": 2,
+              "linha_inicio": 95,
+              "pendencias": [],
+              "revisao_humana": [],
+              "alineas": [],
+              "texto_bruto": "participação na vida política, na forma da lei;"
+            }
+          ],
+          "texto_bruto": "O direito à liberdade compreende, entre outros,\nos seguintes aspectos:"
+        }
+      ],
+      "incisos": [],
+      "texto_bruto": "É obrigação do Estado e da sociedade assegurar\nà pessoa idosa a liberdade, o respeito e a dignidade,\ncomo pessoa humana e sujeito de direitos civis, polí\nticos, individuais e sociais, garantidos na Constituição\ne nas leis."
+    },
+    {
+      "tipo": "artigo",
+      "rotulo_bruto": "1",
+      "pagina": 3,
+      "linha_inicio": 8,
+      "pendencias": [
+        "artigo '1' sem indicador ordinal 'º' (esperado para 1 a 9; possível perda no OCR)"
+      ],
+      "revisao_humana": [],
+      "numero": 1,
+      "localizacao": {
+        "TITULO": "TÍTULO I - DISPOSICÕES PRELIMINARES"
+      },
+      "paragrafos": [],
+      "incisos": [],
+      "texto_bruto": "É instituído o Estatuto do Idoso, destinado a re-\ngular os direitos assegurados às pessoas com idade igual ou\nsuperior a sessenta anos."
+    },
+    {
+      "tipo": "artigo",
+      "rotulo_bruto": "2",
+      "pagina": 3,
+      "linha_inicio": 11,
+      "pendencias": [
+        "artigo '2' sem indicador ordinal 'º' (esperado para 1 a 9; possível perda no OCR)"
+      ],
+      "revisao_humana": [],
+      "numero": 2,
+      "localizacao": {
+        "TITULO": "TÍTULO I - DISPOSICÕES PRELIMINARES"
+      },
+      "paragrafos": [],
+      "incisos": [],
+      "texto_bruto": "O idoso goza de todos os direitos fundamentais\ninerentes à pessoa humana, sem prejuízo da proteção integral\nde que trata esta lei, assegurando-se-lhe, por lei ou por outros\nmeios, todas as oportunidades e facilidades, para preservação\nde sua saúde física e mental e seu aperfeiçoamento moral,\nintelectual, espiritual e social, em condições de liberdade e\ndignidade."
+    },
+    {
+      "tipo": "artigo",
+      "rotulo_bruto": "3",
+      "pagina": 3,
+      "linha_inicio": 18,
+      "pendencias": [
+        "artigo '3' sem indicador ordinal 'º' (esperado para 1 a 9; possível perda no OCR)"
+      ],
+      "revisao_humana": [],
+      "numero": 3,
+      "localizacao": {
+        "TITULO": "TÍTULO I - DISPOSICÕES PRELIMINARES"
+      },
+      "paragrafos": [],
+      "incisos": [],
+      "texto_bruto": "É obrigação da família, da comunidade, da socie-\ndade e do poder público assegurar ao idoso, com absoluta\nprioridade, a efetivação do direito à vida, à saúde, à alimenta-\nção, à educação, à cultura, ao esporte, ao lazer, ao trabalho, à\ncidadania, à liberdade, à dignidade, ao respeito e à convivência\nfamiliar e comunitária."
+    }
+  ],
+  "leis_citadas": [
+    {
+      "texto_bruto": "Lein°8 842",
+      "pagina": 2,
+      "linha": 68
+    },
+    {
+      "texto_bruto": "Lei n² 11.765, de 5-8-2008",
+      "pagina": 2,
+      "linha": 96
+    }
+  ],
+  "datas_citadas": [
+    {
+      "texto_bruto": "1° DE OUTUBRO DE 2003",
+      "pagina": 2,
+      "linha": 2
+    },
+    {
+      "texto_bruto": "4 de janeiro de 1994",
+      "pagina": 2,
+      "linha": 69
+    },
+    {
+      "texto_bruto": "5-8-2008",
+      "pagina": 2,
+      "linha": 96
+    },
+    {
+      "texto_bruto": "1º DE 0UTUBRO DE 2003",
+      "pagina": 3,
+      "linha": 1
+    }
+  ],
+  "notas_rodape": [
+    {
+      "rotulo": "1",
+      "texto_bruto": "Publicada no Diário Oficial da União. Secão 1.de3-10-2003",
+      "pagina": 2,
+      "linha": 48
+    },
+    {
+      "rotulo": "2",
+      "texto_bruto": "Inciso acrescido pela Lei n² 11.765, de 5-8-2008.",
+      "pagina": 2,
+      "linha": 96
+    }
+  ],
+  "numeros_pagina_impressos": [
+    {
+      "pagina": 2,
+      "numero_impresso_bruto": "9"
+    },
+    {
+      "pagina": 3,
+      "numero_impresso_bruto": "12"
+    }
+  ],
+  "textos_nao_classificados": [
+    {
+      "texto_bruto": "ESTATUTO DO IDOSO EL",
+      "pagina": 1,
+      "linha": 1
+    },
+    {
+      "texto_bruto": "ESTATUTO DO IDOSO - 5° EDIÇÃO",
+      "pagina": 2,
+      "linha": 1
+    },
+    {
+      "texto_bruto": "O presidente da República",
+      "pagina": 2,
+      "linha": 6
+    },
+    {
+      "texto_bruto": "Faço saber que o Congresso Nacional decreta e eu",
+      "pagina": 2,
+      "linha": 7
+    },
+    {
+      "texto_bruto": "sanciono a seguinte lei:",
+      "pagina": 2,
+      "linha": 8
+    },
+    {
+      "texto_bruto": "O presidente da República",
+      "pagina": 3,
+      "linha": 4
+    },
+    {
+      "texto_bruto": "Faço saber que o Congresso Nacional decreta e eu sancio-",
+      "pagina": 3,
+      "linha": 5
+    },
+    {
+      "texto_bruto": "no a seguinte lei:",
+      "pagina": 3,
+      "linha": 6
+    }
+  ],
+  "pendencias": [
+    {
+      "onde": "LEI (pág. 3, linha 1)",
+      "motivo": "mês '0UTUBRO' não é um nome de mês válido (possível erro de OCR)"
+    },
+    {
+      "onde": "Art. 1° (pág. 2, linha 10)",
+      "motivo": "artigo '1°' usa o símbolo de grau '°' em vez do ordinal 'º'"
+    },
+    {
+      "onde": "Art. 2° (pág. 2, linha 13)",
+      "motivo": "artigo '2°' usa o símbolo de grau '°' em vez do ordinal 'º'"
+    },
+    {
+      "onde": "Art. 3° (pág. 2, linha 20)",
+      "motivo": "artigo '3°' usa o símbolo de grau '°' em vez do ordinal 'º'"
+    },
+    {
+      "onde": "Art. 3° > paragrafo Parágrafoúnico > inciso Il (pág. 2, linha 30)",
+      "motivo": "rótulo de inciso 'Il' não é algarismo romano válido (ex.: l/I, 1/I, marca de nota de rodapé)"
+    },
+    {
+      "onde": "Art. 3° > paragrafo Parágrafoúnico > inciso VIl (pág. 2, linha 43)",
+      "motivo": "rótulo de inciso 'VIl' não é algarismo romano válido (ex.: l/I, 1/I, marca de nota de rodapé)"
+    },
+    {
+      "onde": "Art. 3° > paragrafo Parágrafoúnico > inciso VIll (pág. 2, linha 46)",
+      "motivo": "rótulo de inciso 'VIll' não é algarismo romano válido (ex.: l/I, 1/I, marca de nota de rodapé)"
+    },
+    {
+      "onde": "Art. 3° > paragrafo Parágrafoúnico > inciso 2X (pág. 2, linha 49)",
+      "motivo": "rótulo de inciso '2X' não é algarismo romano válido (ex.: l/I, 1/I, marca de nota de rodapé)"
+    },
+    {
+      "onde": "Art. 4° (pág. 2, linha 51)",
+      "motivo": "artigo '4°' usa o símbolo de grau '°' em vez do ordinal 'º'"
+    },
+    {
+      "onde": "Art. 4° > paragrafo 1° (pág. 2, linha 55)",
+      "motivo": "parágrafo '1°' usa o símbolo de grau '°' em vez do ordinal 'º'"
+    },
+    {
+      "onde": "Art. 4° > paragrafo 2° (pág. 2, linha 57)",
+      "motivo": "parágrafo '2°' usa o símbolo de grau '°' em vez do ordinal 'º'"
+    },
+    {
+      "onde": "Art. 5° (pág. 2, linha 60)",
+      "motivo": "artigo '5°' usa o símbolo de grau '°' em vez do ordinal 'º'"
+    },
+    {
+      "onde": "Art. 6° (pág. 2, linha 63)",
+      "motivo": "artigo '6°' usa o símbolo de grau '°' em vez do ordinal 'º'"
+    },
+    {
+      "onde": "Art. 7° (pág. 2, linha 67)",
+      "motivo": "artigo '7°' usa o símbolo de grau '°' em vez do ordinal 'º'"
+    },
+    {
+      "onde": "Art. 8° (pág. 2, linha 73)",
+      "motivo": "artigo '8°' usa o símbolo de grau '°' em vez do ordinal 'º'"
+    },
+    {
+      "onde": "Art. 9° (pág. 2, linha 76)",
+      "motivo": "artigo '9°' usa o símbolo de grau '°' em vez do ordinal 'º'"
+    },
+    {
+      "onde": "Art. 10 > paragrafo 1° (pág. 2, linha 87)",
+      "motivo": "parágrafo '1°' usa o símbolo de grau '°' em vez do ordinal 'º'"
+    },
+    {
+      "onde": "Art. 1 (pág. 3, linha 8)",
+      "motivo": "artigo '1' sem indicador ordinal 'º' (esperado para 1 a 9; possível perda no OCR)"
+    },
+    {
+      "onde": "Art. 2 (pág. 3, linha 11)",
+      "motivo": "artigo '2' sem indicador ordinal 'º' (esperado para 1 a 9; possível perda no OCR)"
+    },
+    {
+      "onde": "Art. 3 (pág. 3, linha 18)",
+      "motivo": "artigo '3' sem indicador ordinal 'º' (esperado para 1 a 9; possível perda no OCR)"
+    }
+  ],
+  "estatisticas": {
+    "artigos": 13,
+    "paragrafos": 4,
+    "incisos": 15,
+    "divisoes": 5,
+    "artigos_com_revisao_humana": 10,
+    "pendencias": 20
+  }
+}

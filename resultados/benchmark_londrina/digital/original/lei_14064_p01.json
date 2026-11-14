@@ -1,0 +1,2742 @@
+{
+  "documento": "lei_14064_digital",
+  "pagina": 1,
+  "imagem_origem": "lei_14064_p01.png",
+  "perfil_preprocessamento": "original",
+  "etapas_preprocessamento": [],
+  "limiar_confianca_revisao": 0.8,
+  "parametros_paddleocr": {
+    "lang": "pt",
+    "device": "cpu",
+    "use_doc_orientation_classify": false,
+    "use_doc_unwarping": false,
+    "use_textline_orientation": false
+  },
+  "versoes": {
+    "paddleocr": "3.4.1",
+    "paddlepaddle": "3.2.2"
+  },
+  "tempo_preprocessamento_s": 0.1001,
+  "dimensoes_imagem": {
+    "largura": 2481,
+    "altura": 3508
+  },
+  "tempo_ocr_s": 36.1939,
+  "status": "ok",
+  "layout": {
+    "colunas": 1
+  },
+  "quantidade_caracteres": 2824,
+  "quantidade_palavras": 480,
+  "quantidade_fragmentos": 45,
+  "confianca_media": 0.9123,
+  "confianca_minima": 0.2473,
+  "necessita_revisao_humana": true,
+  "revisao_humana": [
+    {
+      "linha_txt": 2,
+      "indice_paddleocr": 2,
+      "texto_bruto": "te",
+      "confianca": 0.24732980132102966,
+      "motivos": [
+        "confiança 0.247 abaixo do limiar 0.8"
+      ]
+    },
+    {
+      "linha_txt": 2,
+      "indice_paddleocr": 4,
+      "texto_bruto": "6a2",
+      "confianca": 0.35299694538116455,
+      "motivos": [
+        "confiança 0.353 abaixo do limiar 0.8",
+        "mistura de letras e dígitos em '6a2' (ex.: O/0, l/1, S/5)"
+      ]
+    },
+    {
+      "linha_txt": 13,
+      "indice_paddleocr": 16,
+      "texto_bruto": "I - Área de S.P.L., do Jardim das Américas, com 1.166,86 m², com as seguintes",
+      "confianca": 0.9948588013648987,
+      "motivos": [
+        "mistura de letras e dígitos em 'm²,' (ex.: O/0, l/1, S/5)"
+      ]
+    },
+    {
+      "linha_txt": 14,
+      "indice_paddleocr": 14,
+      "texto_bruto": "2082200002/6220(2",
+      "confianca": 0.3047458827495575,
+      "motivos": [
+        "confiança 0.305 abaixo do limiar 0.8"
+      ]
+    },
+    {
+      "linha_txt": 17,
+      "indice_paddleocr": 27,
+      "texto_bruto": "Il - Área do Centro Comunitário do Jardim das Américas, com 512,26 m²,",
+      "confianca": 0.9751269817352295,
+      "motivos": [
+        "mistura de letras e dígitos em 'm²,' (ex.: O/0, l/1, S/5)"
+      ]
+    },
+    {
+      "linha_txt": 21,
+      "indice_paddleocr": 26,
+      "texto_bruto": "re  o onrr ctor ce rtr re ar",
+      "confianca": 0.26364943385124207,
+      "motivos": [
+        "confiança 0.264 abaixo do limiar 0.8"
+      ]
+    },
+    {
+      "linha_txt": 21,
+      "indice_paddleocr": 12,
+      "texto_bruto": "Elth cer e ee e c erdtre   e cee ",
+      "confianca": 0.28109973669052124,
+      "motivos": [
+        "confiança 0.281 abaixo do limiar 0.8"
+      ]
+    }
+  ],
+  "texto": "Prefeitura do Município de Londrina\nte 6a2 Estado do Paraná\nLONDRINA\nLEI N.º 14064, DE 19 DE DEZEMBRO DE 2025\nsúmuLA: Desafeta de uso comum do povo e/ou\nespecial áreas de terra de propriedade do Município\nde Londrina e autoriza sua permuta por área de\npropriedade particular.\nA CÂMARA MUNICIPAL DE LONDRINA, ESTADO DO PARANÁ, APROVOU E EU,\nPREFEITO DO MUNICÍPIO, SANCIONO A SEGUINTE LEI:\nArt. 1º Ficam desafetadas de uso comum do povo e/ou especial as áreas de terra, de\npropriedade do Município, abaixo descritas:\nI - Área de S.P.L., do Jardim das Américas, com 1.166,86 m², com as seguintes\n9,42 metros e raio de 6,00 metros; segue confrontando com a Rua Arcindo Sardo no rumo E-W, divisas e confrontações: \"Inicia-se num ponto comum de divisa, no alinhamento predial da Rua com 14,00 metros; deflete a direita e segue confrontando com a área de Escola no rumo S-N, Hisatsugo Miysaki, com a área do Centro Comunitário, segue confrontando com a Rua Hisatsugo Miysaki no rumo N-S, com 52,73 metros e segue em desenvolvimento de curva à direita com 2082200002/6220(2\ncom 58,73 metros; deflete a direita e segue confrontando com a área do Centro Comunitário no rumo W-E, com 20,00 metros, até o ponto inicial do perímetro\" (descrição conforme Memorial *** ***\nDescritivo Nº 920/2024).\nIl - Área do Centro Comunitário do Jardim das Américas, com 512,26 m²,\ncom as seguintes divisas e confrontações: \"Inicia-se num ponto comum de divisa, no\nalinhamento predial da Rua Terezinha de Jesus Carreri, com a área da Escola, segue\nconfrontando com a Rua Terezinha de Jesus Carreri no rumo W-E, com 14,00 metros e segue\nem desenvolvimento de curva à direita com 9,42 metros e raio de 6,00 metros; segue segue confrontando com a área da S.P.L. no rumo E-W, com 20,00 metros; deflete a direita e segue confrontando com a área da Escola no rumo S-N, com 26,00 metros, até o ponto inicial do confrontando com a Rua Hisatsugo Miyasaki no rumo N-S, com 20,00 metros; deflete a direita e perímetro\" (descrição conforme Memorial Descritivo Nº 921/2024). artigo 1º desta Lei pela área de propriedade particular denominada \"Data de terras sob o nº quadrados, situada no Jardim Honda II, neste Município e Comarca, com as divisas e confrontações de acordo com a matrícula nº 117.288 do 2º CRI\". vez incorporada aos bens de domínio do Município, será destinada à Secretaria Municipal de 1-4/13-16 (um-quatro/treze-dezesseis), da quadra nº 03 (três), com área de 2.145,58 metros Educação para implantação de uma unidade Proinfância Tipo 2. Art. 3º A área de terras de propriedade particular descrita no Art. 2º desta Lei, uma Art. 4º A diferença de valores dos imóveis a serem permutados, apurada por meio Art. 2º Fica o Executivo Municipal autorizado a permutar os imóveis descritos no re  o onrr ctor ce rtr re ar Elth cer e ee e c erdtre   e cee ",
+  "linhas_ordenadas": [
+    [
+      {
+        "indice_paddleocr": 0,
+        "texto": "Prefeitura do Município de Londrina",
+        "confianca": 0.9871575236320496,
+        "caixa": [
+          637.0,
+          184.0,
+          2088.0,
+          287.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 2,
+        "texto": "te",
+        "confianca": 0.24732980132102966,
+        "caixa": [
+          311.0,
+          340.0,
+          360.0,
+          364.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 4,
+        "texto": "6a2",
+        "confianca": 0.35299694538116455,
+        "caixa": [
+          475.0,
+          338.0,
+          524.0,
+          363.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 1,
+        "texto": "Estado do Paraná",
+        "confianca": 0.9943989515304565,
+        "caixa": [
+          1111.0,
+          294.0,
+          1617.0,
+          355.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 3,
+        "texto": "LONDRINA",
+        "confianca": 0.9908530712127686,
+        "caixa": [
+          357.0,
+          353.0,
+          476.0,
+          383.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 5,
+        "texto": "LEI N.º 14064, DE 19 DE DEZEMBRO DE 2025",
+        "confianca": 0.9989138841629028,
+        "caixa": [
+          288.0,
+          560.0,
+          1506.0,
+          623.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 6,
+        "texto": "súmuLA: Desafeta de uso comum do povo e/ou",
+        "confianca": 0.9719378352165222,
+        "caixa": [
+          1141.0,
+          704.0,
+          2189.0,
+          762.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 7,
+        "texto": "especial áreas de terra de propriedade do Município",
+        "confianca": 0.993171215057373,
+        "caixa": [
+          1141.0,
+          768.0,
+          2187.0,
+          818.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 8,
+        "texto": "de Londrina e autoriza sua permuta por área de",
+        "confianca": 0.9950226545333862,
+        "caixa": [
+          1139.0,
+          826.0,
+          2189.0,
+          876.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 9,
+        "texto": "propriedade particular.",
+        "confianca": 0.9994972944259644,
+        "caixa": [
+          1141.0,
+          886.0,
+          1583.0,
+          935.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 10,
+        "texto": "A CÂMARA MUNICIPAL DE LONDRINA, ESTADO DO PARANÁ, APROVOU E EU,",
+        "confianca": 0.999671995639801,
+        "caixa": [
+          401.0,
+          1109.0,
+          2075.0,
+          1167.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 11,
+        "texto": "PREFEITO DO MUNICÍPIO, SANCIONO A SEGUINTE LEI:",
+        "confianca": 0.9900055527687073,
+        "caixa": [
+          651.0,
+          1176.0,
+          1828.0,
+          1220.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 13,
+        "texto": "Art. 1º Ficam desafetadas de uso comum do povo e/ou especial as áreas de terra, de",
+        "confianca": 0.9850395917892456,
+        "caixa": [
+          486.0,
+          1350.0,
+          2188.0,
+          1400.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 15,
+        "texto": "propriedade do Município, abaixo descritas:",
+        "confianca": 0.9923617243766785,
+        "caixa": [
+          291.0,
+          1407.0,
+          1145.0,
+          1459.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 16,
+        "texto": "I - Área de S.P.L., do Jardim das Américas, com 1.166,86 m², com as seguintes",
+        "confianca": 0.9948588013648987,
+        "caixa": [
+          541.0,
+          1464.0,
+          2188.0,
+          1520.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 20,
+        "texto": "9,42 metros e raio de 6,00 metros; segue confrontando com a Rua Arcindo Sardo no rumo E-W,",
+        "confianca": 0.9795875549316406,
+        "caixa": [
+          287.0,
+          1697.0,
+          2189.0,
+          1748.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 17,
+        "texto": "divisas e confrontações: \"Inicia-se num ponto comum de divisa, no alinhamento predial da Rua",
+        "confianca": 0.9988939166069031,
+        "caixa": [
+          289.0,
+          1525.0,
+          2189.0,
+          1576.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 21,
+        "texto": "com 14,00 metros; deflete a direita e segue confrontando com a área de Escola no rumo S-N,",
+        "confianca": 0.9878692030906677,
+        "caixa": [
+          289.0,
+          1756.0,
+          2188.0,
+          1806.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 18,
+        "texto": "Hisatsugo Miysaki, com a área do Centro Comunitário, segue confrontando com a Rua Hisatsugo",
+        "confianca": 0.9899914860725403,
+        "caixa": [
+          290.0,
+          1583.0,
+          2188.0,
+          1634.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 19,
+        "texto": "Miysaki no rumo N-S, com 52,73 metros e segue em desenvolvimento de curva à direita com",
+        "confianca": 0.9959976077079773,
+        "caixa": [
+          291.0,
+          1643.0,
+          2188.0,
+          1690.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 14,
+        "texto": "2082200002/6220(2",
+        "confianca": 0.3047458827495575,
+        "caixa": [
+          2354.0,
+          1344.0,
+          2401.0,
+          1835.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 22,
+        "texto": "com 58,73 metros; deflete a direita e segue confrontando com a área do Centro Comunitário no",
+        "confianca": 0.9861477017402649,
+        "caixa": [
+          289.0,
+          1814.0,
+          2189.0,
+          1865.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 24,
+        "texto": "rumo W-E, com 20,00 metros, até o ponto inicial do perímetro\" (descrição conforme Memorial",
+        "confianca": 0.9914681315422058,
+        "caixa": [
+          289.0,
+          1871.0,
+          2190.0,
+          1922.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 23,
+        "texto": "*** ***",
+        "confianca": 0.9595058560371399,
+        "caixa": [
+          2350.0,
+          1815.0,
+          2389.0,
+          1940.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 25,
+        "texto": "Descritivo Nº 920/2024).",
+        "confianca": 0.9716519713401794,
+        "caixa": [
+          291.0,
+          1929.0,
+          767.0,
+          1978.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 27,
+        "texto": "Il - Área do Centro Comunitário do Jardim das Américas, com 512,26 m²,",
+        "confianca": 0.9751269817352295,
+        "caixa": [
+          700.0,
+          1983.0,
+          2186.0,
+          2039.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 28,
+        "texto": "com as seguintes divisas e confrontações: \"Inicia-se num ponto comum de divisa, no",
+        "confianca": 0.9959879517555237,
+        "caixa": [
+          288.0,
+          2047.0,
+          2190.0,
+          2098.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 29,
+        "texto": "alinhamento predial da Rua Terezinha de Jesus Carreri, com a área da Escola, segue",
+        "confianca": 0.9974177479743958,
+        "caixa": [
+          289.0,
+          2103.0,
+          2189.0,
+          2157.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 30,
+        "texto": "confrontando com a Rua Terezinha de Jesus Carreri no rumo W-E, com 14,00 metros e segue",
+        "confianca": 0.9872201681137085,
+        "caixa": [
+          288.0,
+          2159.0,
+          2189.0,
+          2214.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 31,
+        "texto": "em desenvolvimento de curva à direita com 9,42 metros e raio de 6,00 metros; segue",
+        "confianca": 0.9929109215736389,
+        "caixa": [
+          287.0,
+          2217.0,
+          2189.0,
+          2272.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 33,
+        "texto": "segue confrontando com a área da S.P.L. no rumo E-W, com 20,00 metros; deflete a direita e",
+        "confianca": 0.994358241558075,
+        "caixa": [
+          287.0,
+          2332.0,
+          2190.0,
+          2387.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 34,
+        "texto": "segue confrontando com a área da Escola no rumo S-N, com 26,00 metros, até o ponto inicial do",
+        "confianca": 0.9945114254951477,
+        "caixa": [
+          288.0,
+          2392.0,
+          2189.0,
+          2445.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 32,
+        "texto": "confrontando com a Rua Hisatsugo Miyasaki no rumo N-S, com 20,00 metros; deflete a direita e",
+        "confianca": 0.995537281036377,
+        "caixa": [
+          290.0,
+          2279.0,
+          2189.0,
+          2326.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 35,
+        "texto": "perímetro\" (descrição conforme Memorial Descritivo Nº 921/2024).",
+        "confianca": 0.9939968585968018,
+        "caixa": [
+          290.0,
+          2450.0,
+          1584.0,
+          2502.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 37,
+        "texto": "artigo 1º desta Lei pela área de propriedade particular denominada \"Data de terras sob o nº",
+        "confianca": 0.9935020208358765,
+        "caixa": [
+          290.0,
+          2624.0,
+          2191.0,
+          2676.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 39,
+        "texto": "quadrados, situada no Jardim Honda II, neste Município e Comarca, com as divisas e",
+        "confianca": 0.9862097501754761,
+        "caixa": [
+          290.0,
+          2739.0,
+          2192.0,
+          2791.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 40,
+        "texto": "confrontações de acordo com a matrícula nº 117.288 do 2º CRI\".",
+        "confianca": 0.987445592880249,
+        "caixa": [
+          290.0,
+          2796.0,
+          1553.0,
+          2847.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 42,
+        "texto": "vez incorporada aos bens de domínio do Município, será destinada à Secretaria Municipal de",
+        "confianca": 0.993837833404541,
+        "caixa": [
+          290.0,
+          2973.0,
+          2189.0,
+          3023.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 38,
+        "texto": "1-4/13-16 (um-quatro/treze-dezesseis), da quadra nº 03 (três), com área de 2.145,58 metros",
+        "confianca": 0.9982763528823853,
+        "caixa": [
+          293.0,
+          2684.0,
+          2190.0,
+          2734.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 43,
+        "texto": "Educação para implantação de uma unidade Proinfância Tipo 2.",
+        "confianca": 0.9878644943237305,
+        "caixa": [
+          293.0,
+          3032.0,
+          1543.0,
+          3078.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 41,
+        "texto": "Art. 3º A área de terras de propriedade particular descrita no Art. 2º desta Lei, uma",
+        "confianca": 0.9879800081253052,
+        "caixa": [
+          542.0,
+          2914.0,
+          2190.0,
+          2964.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 44,
+        "texto": "Art. 4º A diferença de valores dos imóveis a serem permutados, apurada por meio",
+        "confianca": 0.9936895370483398,
+        "caixa": [
+          543.0,
+          3147.0,
+          2187.0,
+          3196.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 36,
+        "texto": "Art. 2º Fica o Executivo Municipal autorizado a permutar os imóveis descritos no",
+        "confianca": 0.9947311282157898,
+        "caixa": [
+          556.0,
+          2566.0,
+          2189.0,
+          2615.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 26,
+        "texto": "re  o onrr ctor ce rtr re ar",
+        "confianca": 0.26364943385124207,
+        "caixa": [
+          2353.0,
+          1934.0,
+          2404.0,
+          3344.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 12,
+        "texto": "Elth cer e ee e c erdtre   e cee ",
+        "confianca": 0.28109973669052124,
+        "caixa": [
+          2397.0,
+          1235.0,
+          2452.0,
+          3347.0
+        ],
+        "coluna": 1
+      }
+    ]
+  ],
+  "resultado_bruto_paddleocr": {
+    "input_path": null,
+    "page_index": null,
+    "model_settings": {
+      "use_doc_preprocessor": false,
+      "use_textline_orientation": false
+    },
+    "dt_polys": [
+      [
+        [
+          637,
+          184
+        ],
+        [
+          2088,
+          186
+        ],
+        [
+          2088,
+          287
+        ],
+        [
+          637,
+          285
+        ]
+      ],
+      [
+        [
+          1111,
+          294
+        ],
+        [
+          1617,
+          294
+        ],
+        [
+          1617,
+          355
+        ],
+        [
+          1111,
+          355
+        ]
+      ],
+      [
+        [
+          314,
+          340
+        ],
+        [
+          360,
+          348
+        ],
+        [
+          357,
+          364
+        ],
+        [
+          311,
+          356
+        ]
+      ],
+      [
+        [
+          357,
+          353
+        ],
+        [
+          476,
+          355
+        ],
+        [
+          476,
+          383
+        ],
+        [
+          357,
+          381
+        ]
+      ],
+      [
+        [
+          475,
+          344
+        ],
+        [
+          521,
+          338
+        ],
+        [
+          524,
+          356
+        ],
+        [
+          478,
+          363
+        ]
+      ],
+      [
+        [
+          288,
+          562
+        ],
+        [
+          1506,
+          560
+        ],
+        [
+          1506,
+          621
+        ],
+        [
+          288,
+          623
+        ]
+      ],
+      [
+        [
+          1141,
+          704
+        ],
+        [
+          2189,
+          712
+        ],
+        [
+          2189,
+          762
+        ],
+        [
+          1141,
+          754
+        ]
+      ],
+      [
+        [
+          1141,
+          770
+        ],
+        [
+          2187,
+          768
+        ],
+        [
+          2187,
+          816
+        ],
+        [
+          1141,
+          818
+        ]
+      ],
+      [
+        [
+          1139,
+          826
+        ],
+        [
+          2189,
+          826
+        ],
+        [
+          2189,
+          876
+        ],
+        [
+          1139,
+          876
+        ]
+      ],
+      [
+        [
+          1141,
+          888
+        ],
+        [
+          1583,
+          886
+        ],
+        [
+          1583,
+          933
+        ],
+        [
+          1141,
+          935
+        ]
+      ],
+      [
+        [
+          401,
+          1109
+        ],
+        [
+          2075,
+          1113
+        ],
+        [
+          2075,
+          1167
+        ],
+        [
+          401,
+          1163
+        ]
+      ],
+      [
+        [
+          651,
+          1176
+        ],
+        [
+          1828,
+          1176
+        ],
+        [
+          1828,
+          1220
+        ],
+        [
+          651,
+          1220
+        ]
+      ],
+      [
+        [
+          2397,
+          1235
+        ],
+        [
+          2451,
+          1235
+        ],
+        [
+          2452,
+          3347
+        ],
+        [
+          2399,
+          3347
+        ]
+      ],
+      [
+        [
+          486,
+          1350
+        ],
+        [
+          2188,
+          1353
+        ],
+        [
+          2188,
+          1400
+        ],
+        [
+          486,
+          1397
+        ]
+      ],
+      [
+        [
+          2354,
+          1345
+        ],
+        [
+          2398,
+          1344
+        ],
+        [
+          2401,
+          1835
+        ],
+        [
+          2356,
+          1835
+        ]
+      ],
+      [
+        [
+          291,
+          1411
+        ],
+        [
+          1145,
+          1407
+        ],
+        [
+          1145,
+          1455
+        ],
+        [
+          291,
+          1459
+        ]
+      ],
+      [
+        [
+          541,
+          1464
+        ],
+        [
+          2188,
+          1470
+        ],
+        [
+          2188,
+          1520
+        ],
+        [
+          541,
+          1514
+        ]
+      ],
+      [
+        [
+          289,
+          1525
+        ],
+        [
+          2189,
+          1526
+        ],
+        [
+          2189,
+          1576
+        ],
+        [
+          289,
+          1575
+        ]
+      ],
+      [
+        [
+          290,
+          1583
+        ],
+        [
+          2188,
+          1584
+        ],
+        [
+          2188,
+          1634
+        ],
+        [
+          290,
+          1633
+        ]
+      ],
+      [
+        [
+          291,
+          1643
+        ],
+        [
+          2188,
+          1643
+        ],
+        [
+          2188,
+          1690
+        ],
+        [
+          291,
+          1690
+        ]
+      ],
+      [
+        [
+          287,
+          1698
+        ],
+        [
+          2189,
+          1697
+        ],
+        [
+          2189,
+          1747
+        ],
+        [
+          287,
+          1748
+        ]
+      ],
+      [
+        [
+          289,
+          1758
+        ],
+        [
+          2188,
+          1756
+        ],
+        [
+          2188,
+          1804
+        ],
+        [
+          289,
+          1806
+        ]
+      ],
+      [
+        [
+          289,
+          1817
+        ],
+        [
+          2189,
+          1814
+        ],
+        [
+          2189,
+          1862
+        ],
+        [
+          289,
+          1865
+        ]
+      ],
+      [
+        [
+          2357,
+          1815
+        ],
+        [
+          2389,
+          1817
+        ],
+        [
+          2382,
+          1940
+        ],
+        [
+          2350,
+          1938
+        ]
+      ],
+      [
+        [
+          289,
+          1872
+        ],
+        [
+          2190,
+          1871
+        ],
+        [
+          2190,
+          1921
+        ],
+        [
+          289,
+          1922
+        ]
+      ],
+      [
+        [
+          291,
+          1929
+        ],
+        [
+          767,
+          1931
+        ],
+        [
+          767,
+          1978
+        ],
+        [
+          291,
+          1976
+        ]
+      ],
+      [
+        [
+          2353,
+          1934
+        ],
+        [
+          2402,
+          1934
+        ],
+        [
+          2404,
+          3344
+        ],
+        [
+          2355,
+          3344
+        ]
+      ],
+      [
+        [
+          700,
+          1983
+        ],
+        [
+          2186,
+          1988
+        ],
+        [
+          2186,
+          2039
+        ],
+        [
+          700,
+          2034
+        ]
+      ],
+      [
+        [
+          288,
+          2048
+        ],
+        [
+          2190,
+          2047
+        ],
+        [
+          2190,
+          2097
+        ],
+        [
+          288,
+          2098
+        ]
+      ],
+      [
+        [
+          289,
+          2103
+        ],
+        [
+          2189,
+          2106
+        ],
+        [
+          2189,
+          2157
+        ],
+        [
+          289,
+          2154
+        ]
+      ],
+      [
+        [
+          288,
+          2159
+        ],
+        [
+          2189,
+          2164
+        ],
+        [
+          2189,
+          2214
+        ],
+        [
+          288,
+          2209
+        ]
+      ],
+      [
+        [
+          287,
+          2217
+        ],
+        [
+          2189,
+          2221
+        ],
+        [
+          2189,
+          2272
+        ],
+        [
+          287,
+          2268
+        ]
+      ],
+      [
+        [
+          290,
+          2279
+        ],
+        [
+          2189,
+          2279
+        ],
+        [
+          2189,
+          2326
+        ],
+        [
+          290,
+          2326
+        ]
+      ],
+      [
+        [
+          287,
+          2336
+        ],
+        [
+          2190,
+          2332
+        ],
+        [
+          2190,
+          2383
+        ],
+        [
+          287,
+          2387
+        ]
+      ],
+      [
+        [
+          288,
+          2394
+        ],
+        [
+          2189,
+          2392
+        ],
+        [
+          2189,
+          2443
+        ],
+        [
+          288,
+          2445
+        ]
+      ],
+      [
+        [
+          290,
+          2452
+        ],
+        [
+          1584,
+          2450
+        ],
+        [
+          1584,
+          2500
+        ],
+        [
+          290,
+          2502
+        ]
+      ],
+      [
+        [
+          556,
+          2566
+        ],
+        [
+          2189,
+          2568
+        ],
+        [
+          2189,
+          2615
+        ],
+        [
+          556,
+          2613
+        ]
+      ],
+      [
+        [
+          290,
+          2626
+        ],
+        [
+          2191,
+          2624
+        ],
+        [
+          2191,
+          2674
+        ],
+        [
+          290,
+          2676
+        ]
+      ],
+      [
+        [
+          293,
+          2684
+        ],
+        [
+          2190,
+          2684
+        ],
+        [
+          2190,
+          2734
+        ],
+        [
+          293,
+          2734
+        ]
+      ],
+      [
+        [
+          290,
+          2741
+        ],
+        [
+          2192,
+          2739
+        ],
+        [
+          2192,
+          2789
+        ],
+        [
+          290,
+          2791
+        ]
+      ],
+      [
+        [
+          290,
+          2799
+        ],
+        [
+          1553,
+          2796
+        ],
+        [
+          1553,
+          2844
+        ],
+        [
+          290,
+          2847
+        ]
+      ],
+      [
+        [
+          542,
+          2914
+        ],
+        [
+          2190,
+          2916
+        ],
+        [
+          2190,
+          2964
+        ],
+        [
+          542,
+          2962
+        ]
+      ],
+      [
+        [
+          290,
+          2973
+        ],
+        [
+          2189,
+          2973
+        ],
+        [
+          2189,
+          3023
+        ],
+        [
+          290,
+          3023
+        ]
+      ],
+      [
+        [
+          293,
+          3032
+        ],
+        [
+          1543,
+          3032
+        ],
+        [
+          1543,
+          3078
+        ],
+        [
+          293,
+          3078
+        ]
+      ],
+      [
+        [
+          543,
+          3147
+        ],
+        [
+          2187,
+          3148
+        ],
+        [
+          2187,
+          3196
+        ],
+        [
+          543,
+          3195
+        ]
+      ]
+    ],
+    "text_det_params": {
+      "limit_side_len": 64,
+      "limit_type": "min",
+      "thresh": 0.3,
+      "max_side_limit": 4000,
+      "box_thresh": 0.6,
+      "unclip_ratio": 1.5
+    },
+    "text_type": "general",
+    "textline_orientation_angles": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "text_rec_score_thresh": 0.0,
+    "return_word_box": false,
+    "rec_texts": [
+      "Prefeitura do Município de Londrina",
+      "Estado do Paraná",
+      "te",
+      "LONDRINA",
+      "6a2",
+      "LEI N.º 14064, DE 19 DE DEZEMBRO DE 2025",
+      "súmuLA: Desafeta de uso comum do povo e/ou",
+      "especial áreas de terra de propriedade do Município",
+      "de Londrina e autoriza sua permuta por área de",
+      "propriedade particular.",
+      "A CÂMARA MUNICIPAL DE LONDRINA, ESTADO DO PARANÁ, APROVOU E EU,",
+      "PREFEITO DO MUNICÍPIO, SANCIONO A SEGUINTE LEI:",
+      "Elth cer e ee e c erdtre   e cee ",
+      "Art. 1º Ficam desafetadas de uso comum do povo e/ou especial as áreas de terra, de",
+      "2082200002/6220(2",
+      "propriedade do Município, abaixo descritas:",
+      "I - Área de S.P.L., do Jardim das Américas, com 1.166,86 m², com as seguintes",
+      "divisas e confrontações: \"Inicia-se num ponto comum de divisa, no alinhamento predial da Rua",
+      "Hisatsugo Miysaki, com a área do Centro Comunitário, segue confrontando com a Rua Hisatsugo",
+      "Miysaki no rumo N-S, com 52,73 metros e segue em desenvolvimento de curva à direita com",
+      "9,42 metros e raio de 6,00 metros; segue confrontando com a Rua Arcindo Sardo no rumo E-W,",
+      "com 14,00 metros; deflete a direita e segue confrontando com a área de Escola no rumo S-N,",
+      "com 58,73 metros; deflete a direita e segue confrontando com a área do Centro Comunitário no",
+      "*** ***",
+      "rumo W-E, com 20,00 metros, até o ponto inicial do perímetro\" (descrição conforme Memorial",
+      "Descritivo Nº 920/2024).",
+      "re  o onrr ctor ce rtr re ar",
+      "Il - Área do Centro Comunitário do Jardim das Américas, com 512,26 m²,",
+      "com as seguintes divisas e confrontações: \"Inicia-se num ponto comum de divisa, no",
+      "alinhamento predial da Rua Terezinha de Jesus Carreri, com a área da Escola, segue",
+      "confrontando com a Rua Terezinha de Jesus Carreri no rumo W-E, com 14,00 metros e segue",
+      "em desenvolvimento de curva à direita com 9,42 metros e raio de 6,00 metros; segue",
+      "confrontando com a Rua Hisatsugo Miyasaki no rumo N-S, com 20,00 metros; deflete a direita e",
+      "segue confrontando com a área da S.P.L. no rumo E-W, com 20,00 metros; deflete a direita e",
+      "segue confrontando com a área da Escola no rumo S-N, com 26,00 metros, até o ponto inicial do",
+      "perímetro\" (descrição conforme Memorial Descritivo Nº 921/2024).",
+      "Art. 2º Fica o Executivo Municipal autorizado a permutar os imóveis descritos no",
+      "artigo 1º desta Lei pela área de propriedade particular denominada \"Data de terras sob o nº",
+      "1-4/13-16 (um-quatro/treze-dezesseis), da quadra nº 03 (três), com área de 2.145,58 metros",
+      "quadrados, situada no Jardim Honda II, neste Município e Comarca, com as divisas e",
+      "confrontações de acordo com a matrícula nº 117.288 do 2º CRI\".",
+      "Art. 3º A área de terras de propriedade particular descrita no Art. 2º desta Lei, uma",
+      "vez incorporada aos bens de domínio do Município, será destinada à Secretaria Municipal de",
+      "Educação para implantação de uma unidade Proinfância Tipo 2.",
+      "Art. 4º A diferença de valores dos imóveis a serem permutados, apurada por meio"
+    ],
+    "rec_scores": [
+      0.9871575236320496,
+      0.9943989515304565,
+      0.24732980132102966,
+      0.9908530712127686,
+      0.35299694538116455,
+      0.9989138841629028,
+      0.9719378352165222,
+      0.993171215057373,
+      0.9950226545333862,
+      0.9994972944259644,
+      0.999671995639801,
+      0.9900055527687073,
+      0.28109973669052124,
+      0.9850395917892456,
+      0.3047458827495575,
+      0.9923617243766785,
+      0.9948588013648987,
+      0.9988939166069031,
+      0.9899914860725403,
+      0.9959976077079773,
+      0.9795875549316406,
+      0.9878692030906677,
+      0.9861477017402649,
+      0.9595058560371399,
+      0.9914681315422058,
+      0.9716519713401794,
+      0.26364943385124207,
+      0.9751269817352295,
+      0.9959879517555237,
+      0.9974177479743958,
+      0.9872201681137085,
+      0.9929109215736389,
+      0.995537281036377,
+      0.994358241558075,
+      0.9945114254951477,
+      0.9939968585968018,
+      0.9947311282157898,
+      0.9935020208358765,
+      0.9982763528823853,
+      0.9862097501754761,
+      0.987445592880249,
+      0.9879800081253052,
+      0.993837833404541,
+      0.9878644943237305,
+      0.9936895370483398
+    ],
+    "rec_polys": [
+      [
+        [
+          637,
+          184
+        ],
+        [
+          2088,
+          186
+        ],
+        [
+          2088,
+          287
+        ],
+        [
+          637,
+          285
+        ]
+      ],
+      [
+        [
+          1111,
+          294
+        ],
+        [
+          1617,
+          294
+        ],
+        [
+          1617,
+          355
+        ],
+        [
+          1111,
+          355
+        ]
+      ],
+      [
+        [
+          314,
+          340
+        ],
+        [
+          360,
+          348
+        ],
+        [
+          357,
+          364
+        ],
+        [
+          311,
+          356
+        ]
+      ],
+      [
+        [
+          357,
+          353
+        ],
+        [
+          476,
+          355
+        ],
+        [
+          476,
+          383
+        ],
+        [
+          357,
+          381
+        ]
+      ],
+      [
+        [
+          475,
+          344
+        ],
+        [
+          521,
+          338
+        ],
+        [
+          524,
+          356
+        ],
+        [
+          478,
+          363
+        ]
+      ],
+      [
+        [
+          288,
+          562
+        ],
+        [
+          1506,
+          560
+        ],
+        [
+          1506,
+          621
+        ],
+        [
+          288,
+          623
+        ]
+      ],
+      [
+        [
+          1141,
+          704
+        ],
+        [
+          2189,
+          712
+        ],
+        [
+          2189,
+          762
+        ],
+        [
+          1141,
+          754
+        ]
+      ],
+      [
+        [
+          1141,
+          770
+        ],
+        [
+          2187,
+          768
+        ],
+        [
+          2187,
+          816
+        ],
+        [
+          1141,
+          818
+        ]
+      ],
+      [
+        [
+          1139,
+          826
+        ],
+        [
+          2189,
+          826
+        ],
+        [
+          2189,
+          876
+        ],
+        [
+          1139,
+          876
+        ]
+      ],
+      [
+        [
+          1141,
+          888
+        ],
+        [
+          1583,
+          886
+        ],
+        [
+          1583,
+          933
+        ],
+        [
+          1141,
+          935
+        ]
+      ],
+      [
+        [
+          401,
+          1109
+        ],
+        [
+          2075,
+          1113
+        ],
+        [
+          2075,
+          1167
+        ],
+        [
+          401,
+          1163
+        ]
+      ],
+      [
+        [
+          651,
+          1176
+        ],
+        [
+          1828,
+          1176
+        ],
+        [
+          1828,
+          1220
+        ],
+        [
+          651,
+          1220
+        ]
+      ],
+      [
+        [
+          2397,
+          1235
+        ],
+        [
+          2451,
+          1235
+        ],
+        [
+          2452,
+          3347
+        ],
+        [
+          2399,
+          3347
+        ]
+      ],
+      [
+        [
+          486,
+          1350
+        ],
+        [
+          2188,
+          1353
+        ],
+        [
+          2188,
+          1400
+        ],
+        [
+          486,
+          1397
+        ]
+      ],
+      [
+        [
+          2354,
+          1345
+        ],
+        [
+          2398,
+          1344
+        ],
+        [
+          2401,
+          1835
+        ],
+        [
+          2356,
+          1835
+        ]
+      ],
+      [
+        [
+          291,
+          1411
+        ],
+        [
+          1145,
+          1407
+        ],
+        [
+          1145,
+          1455
+        ],
+        [
+          291,
+          1459
+        ]
+      ],
+      [
+        [
+          541,
+          1464
+        ],
+        [
+          2188,
+          1470
+        ],
+        [
+          2188,
+          1520
+        ],
+        [
+          541,
+          1514
+        ]
+      ],
+      [
+        [
+          289,
+          1525
+        ],
+        [
+          2189,
+          1526
+        ],
+        [
+          2189,
+          1576
+        ],
+        [
+          289,
+          1575
+        ]
+      ],
+      [
+        [
+          290,
+          1583
+        ],
+        [
+          2188,
+          1584
+        ],
+        [
+          2188,
+          1634
+        ],
+        [
+          290,
+          1633
+        ]
+      ],
+      [
+        [
+          291,
+          1643
+        ],
+        [
+          2188,
+          1643
+        ],
+        [
+          2188,
+          1690
+        ],
+        [
+          291,
+          1690
+        ]
+      ],
+      [
+        [
+          287,
+          1698
+        ],
+        [
+          2189,
+          1697
+        ],
+        [
+          2189,
+          1747
+        ],
+        [
+          287,
+          1748
+        ]
+      ],
+      [
+        [
+          289,
+          1758
+        ],
+        [
+          2188,
+          1756
+        ],
+        [
+          2188,
+          1804
+        ],
+        [
+          289,
+          1806
+        ]
+      ],
+      [
+        [
+          289,
+          1817
+        ],
+        [
+          2189,
+          1814
+        ],
+        [
+          2189,
+          1862
+        ],
+        [
+          289,
+          1865
+        ]
+      ],
+      [
+        [
+          2357,
+          1815
+        ],
+        [
+          2389,
+          1817
+        ],
+        [
+          2382,
+          1940
+        ],
+        [
+          2350,
+          1938
+        ]
+      ],
+      [
+        [
+          289,
+          1872
+        ],
+        [
+          2190,
+          1871
+        ],
+        [
+          2190,
+          1921
+        ],
+        [
+          289,
+          1922
+        ]
+      ],
+      [
+        [
+          291,
+          1929
+        ],
+        [
+          767,
+          1931
+        ],
+        [
+          767,
+          1978
+        ],
+        [
+          291,
+          1976
+        ]
+      ],
+      [
+        [
+          2353,
+          1934
+        ],
+        [
+          2402,
+          1934
+        ],
+        [
+          2404,
+          3344
+        ],
+        [
+          2355,
+          3344
+        ]
+      ],
+      [
+        [
+          700,
+          1983
+        ],
+        [
+          2186,
+          1988
+        ],
+        [
+          2186,
+          2039
+        ],
+        [
+          700,
+          2034
+        ]
+      ],
+      [
+        [
+          288,
+          2048
+        ],
+        [
+          2190,
+          2047
+        ],
+        [
+          2190,
+          2097
+        ],
+        [
+          288,
+          2098
+        ]
+      ],
+      [
+        [
+          289,
+          2103
+        ],
+        [
+          2189,
+          2106
+        ],
+        [
+          2189,
+          2157
+        ],
+        [
+          289,
+          2154
+        ]
+      ],
+      [
+        [
+          288,
+          2159
+        ],
+        [
+          2189,
+          2164
+        ],
+        [
+          2189,
+          2214
+        ],
+        [
+          288,
+          2209
+        ]
+      ],
+      [
+        [
+          287,
+          2217
+        ],
+        [
+          2189,
+          2221
+        ],
+        [
+          2189,
+          2272
+        ],
+        [
+          287,
+          2268
+        ]
+      ],
+      [
+        [
+          290,
+          2279
+        ],
+        [
+          2189,
+          2279
+        ],
+        [
+          2189,
+          2326
+        ],
+        [
+          290,
+          2326
+        ]
+      ],
+      [
+        [
+          287,
+          2336
+        ],
+        [
+          2190,
+          2332
+        ],
+        [
+          2190,
+          2383
+        ],
+        [
+          287,
+          2387
+        ]
+      ],
+      [
+        [
+          288,
+          2394
+        ],
+        [
+          2189,
+          2392
+        ],
+        [
+          2189,
+          2443
+        ],
+        [
+          288,
+          2445
+        ]
+      ],
+      [
+        [
+          290,
+          2452
+        ],
+        [
+          1584,
+          2450
+        ],
+        [
+          1584,
+          2500
+        ],
+        [
+          290,
+          2502
+        ]
+      ],
+      [
+        [
+          556,
+          2566
+        ],
+        [
+          2189,
+          2568
+        ],
+        [
+          2189,
+          2615
+        ],
+        [
+          556,
+          2613
+        ]
+      ],
+      [
+        [
+          290,
+          2626
+        ],
+        [
+          2191,
+          2624
+        ],
+        [
+          2191,
+          2674
+        ],
+        [
+          290,
+          2676
+        ]
+      ],
+      [
+        [
+          293,
+          2684
+        ],
+        [
+          2190,
+          2684
+        ],
+        [
+          2190,
+          2734
+        ],
+        [
+          293,
+          2734
+        ]
+      ],
+      [
+        [
+          290,
+          2741
+        ],
+        [
+          2192,
+          2739
+        ],
+        [
+          2192,
+          2789
+        ],
+        [
+          290,
+          2791
+        ]
+      ],
+      [
+        [
+          290,
+          2799
+        ],
+        [
+          1553,
+          2796
+        ],
+        [
+          1553,
+          2844
+        ],
+        [
+          290,
+          2847
+        ]
+      ],
+      [
+        [
+          542,
+          2914
+        ],
+        [
+          2190,
+          2916
+        ],
+        [
+          2190,
+          2964
+        ],
+        [
+          542,
+          2962
+        ]
+      ],
+      [
+        [
+          290,
+          2973
+        ],
+        [
+          2189,
+          2973
+        ],
+        [
+          2189,
+          3023
+        ],
+        [
+          290,
+          3023
+        ]
+      ],
+      [
+        [
+          293,
+          3032
+        ],
+        [
+          1543,
+          3032
+        ],
+        [
+          1543,
+          3078
+        ],
+        [
+          293,
+          3078
+        ]
+      ],
+      [
+        [
+          543,
+          3147
+        ],
+        [
+          2187,
+          3148
+        ],
+        [
+          2187,
+          3196
+        ],
+        [
+          543,
+          3195
+        ]
+      ]
+    ],
+    "rec_boxes": [
+      [
+        637,
+        184,
+        2088,
+        287
+      ],
+      [
+        1111,
+        294,
+        1617,
+        355
+      ],
+      [
+        311,
+        340,
+        360,
+        364
+      ],
+      [
+        357,
+        353,
+        476,
+        383
+      ],
+      [
+        475,
+        338,
+        524,
+        363
+      ],
+      [
+        288,
+        560,
+        1506,
+        623
+      ],
+      [
+        1141,
+        704,
+        2189,
+        762
+      ],
+      [
+        1141,
+        768,
+        2187,
+        818
+      ],
+      [
+        1139,
+        826,
+        2189,
+        876
+      ],
+      [
+        1141,
+        886,
+        1583,
+        935
+      ],
+      [
+        401,
+        1109,
+        2075,
+        1167
+      ],
+      [
+        651,
+        1176,
+        1828,
+        1220
+      ],
+      [
+        2397,
+        1235,
+        2452,
+        3347
+      ],
+      [
+        486,
+        1350,
+        2188,
+        1400
+      ],
+      [
+        2354,
+        1344,
+        2401,
+        1835
+      ],
+      [
+        291,
+        1407,
+        1145,
+        1459
+      ],
+      [
+        541,
+        1464,
+        2188,
+        1520
+      ],
+      [
+        289,
+        1525,
+        2189,
+        1576
+      ],
+      [
+        290,
+        1583,
+        2188,
+        1634
+      ],
+      [
+        291,
+        1643,
+        2188,
+        1690
+      ],
+      [
+        287,
+        1697,
+        2189,
+        1748
+      ],
+      [
+        289,
+        1756,
+        2188,
+        1806
+      ],
+      [
+        289,
+        1814,
+        2189,
+        1865
+      ],
+      [
+        2350,
+        1815,
+        2389,
+        1940
+      ],
+      [
+        289,
+        1871,
+        2190,
+        1922
+      ],
+      [
+        291,
+        1929,
+        767,
+        1978
+      ],
+      [
+        2353,
+        1934,
+        2404,
+        3344
+      ],
+      [
+        700,
+        1983,
+        2186,
+        2039
+      ],
+      [
+        288,
+        2047,
+        2190,
+        2098
+      ],
+      [
+        289,
+        2103,
+        2189,
+        2157
+      ],
+      [
+        288,
+        2159,
+        2189,
+        2214
+      ],
+      [
+        287,
+        2217,
+        2189,
+        2272
+      ],
+      [
+        290,
+        2279,
+        2189,
+        2326
+      ],
+      [
+        287,
+        2332,
+        2190,
+        2387
+      ],
+      [
+        288,
+        2392,
+        2189,
+        2445
+      ],
+      [
+        290,
+        2450,
+        1584,
+        2502
+      ],
+      [
+        556,
+        2566,
+        2189,
+        2615
+      ],
+      [
+        290,
+        2624,
+        2191,
+        2676
+      ],
+      [
+        293,
+        2684,
+        2190,
+        2734
+      ],
+      [
+        290,
+        2739,
+        2192,
+        2791
+      ],
+      [
+        290,
+        2796,
+        1553,
+        2847
+      ],
+      [
+        542,
+        2914,
+        2190,
+        2964
+      ],
+      [
+        290,
+        2973,
+        2189,
+        3023
+      ],
+      [
+        293,
+        3032,
+        1543,
+        3078
+      ],
+      [
+        543,
+        3147,
+        2187,
+        3196
+      ]
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+[
+  {
+    "perfil": "original",
+    "etapas": [],
+    "paginas": 3,
+    "paginas_com_erro": 0,
+    "paginas_avaliadas": 0,
+    "cer_medio": null,
+    "wer_medio": null,
+    "tempo_ocr_total_s": 5.943,
+    "confianca_media": 0.9438,
+    "trechos_para_revisao": 19,
+    "caracteres_total": 5466
+  },
+  {
+    "perfil": "ampliado",
+    "etapas": [
+      "redimensionar"
+    ],
+    "paginas": 3,
+    "paginas_com_erro": 0,
+    "paginas_avaliadas": 0,
+    "cer_medio": null,
+    "wer_medio": null,
+    "tempo_ocr_total_s": 29.01,
+    "confianca_media": 0.8844,
+    "trechos_para_revisao": 16,
+    "caracteres_total": 5478
+  },
+  {
+    "perfil": "binarizado",
+    "etapas": [
+      "redimensionar",
+      "cinza",
+      "ruido",
+      "binarizar"
+    ],
+    "paginas": 3,
+    "paginas_com_erro": 0,
+    "paginas_avaliadas": 0,
+    "cer_medio": null,
+    "wer_medio": null,
+    "tempo_ocr_total_s": 28.581,
+    "confianca_media": 0.8689,
+    "trechos_para_revisao": 14,
+    "caracteres_total": 5386
+  },
+  {
+    "perfil": "cinza_contraste",
+    "etapas": [
+      "redimensionar",
+      "cinza",
+      "contraste"
+    ],
+    "paginas": 3,
+    "paginas_com_erro": 0,
+    "paginas_avaliadas": 0,
+    "cer_medio": null,
+    "wer_medio": null,
+    "tempo_ocr_total_s": 28.891,
+    "confianca_media": 0.9009,
+    "trechos_para_revisao": 18,
+    "caracteres_total": 5467
+  },
+  {
+    "perfil": "completo",
+    "etapas": [
+      "redimensionar",
+      "cinza",
+      "contraste",
+      "ruido",
+      "inclinacao",
+      "binarizar"
+    ],
+    "paginas": 3,
+    "paginas_com_erro": 0,
+    "paginas_avaliadas": 0,
+    "cer_medio": null,
+    "wer_medio": null,
+    "tempo_ocr_total_s": 27.544,
+    "confianca_media": 0.8742,
+    "trechos_para_revisao": 15,
+    "caracteres_total": 5399
+  },
+  {
+    "perfil": "deskew",
+    "etapas": [
+      "redimensionar",
+      "inclinacao"
+    ],
+    "paginas": 3,
+    "paginas_com_erro": 0,
+    "paginas_avaliadas": 0,
+    "cer_medio": null,
+    "wer_medio": null,
+    "tempo_ocr_total_s": 28.221,
+    "confianca_media": 0.8909,
+    "trechos_para_revisao": 16,
+    "caracteres_total": 5477
+  },
+  {
+    "perfil": "sem_ruido",
+    "etapas": [
+      "redimensionar",
+      "cinza",
+      "ruido"
+    ],
+    "paginas": 3,
+    "paginas_com_erro": 0,
+    "paginas_avaliadas": 0,
+    "cer_medio": null,
+    "wer_medio": null,
+    "tempo_ocr_total_s": 29.727,
+    "confianca_media": 0.909,
+    "trechos_para_revisao": 21,
+    "caracteres_total": 5443
+  }
+]

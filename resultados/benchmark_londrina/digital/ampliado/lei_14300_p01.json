@@ -1,0 +1,1513 @@
+{
+  "documento": "lei_14300_digital",
+  "pagina": 1,
+  "imagem_origem": "lei_14300_p01.png",
+  "perfil_preprocessamento": "ampliado",
+  "etapas_preprocessamento": [
+    "redimensionar"
+  ],
+  "limiar_confianca_revisao": 0.8,
+  "parametros_paddleocr": {
+    "lang": "pt",
+    "device": "cpu",
+    "use_doc_orientation_classify": false,
+    "use_doc_unwarping": false,
+    "use_textline_orientation": false
+  },
+  "versoes": {
+    "paddleocr": "3.4.1",
+    "paddlepaddle": "3.2.2"
+  },
+  "tempo_preprocessamento_s": 0.0684,
+  "dimensoes_imagem": {
+    "largura": 2481,
+    "altura": 3508
+  },
+  "tempo_ocr_s": 26.7878,
+  "status": "ok",
+  "layout": {
+    "colunas": 1
+  },
+  "quantidade_caracteres": 778,
+  "quantidade_palavras": 132,
+  "quantidade_fragmentos": 24,
+  "confianca_media": 0.8791,
+  "confianca_minima": 0.2318,
+  "necessita_revisao_humana": true,
+  "revisao_humana": [
+    {
+      "linha_txt": 2,
+      "indice_paddleocr": 2,
+      "texto_bruto": "te",
+      "confianca": 0.23182415962219238,
+      "motivos": [
+        "confiança 0.232 abaixo do limiar 0.8"
+      ]
+    },
+    {
+      "linha_txt": 2,
+      "indice_paddleocr": 4,
+      "texto_bruto": "62",
+      "confianca": 0.41501253843307495,
+      "motivos": [
+        "confiança 0.415 abaixo do limiar 0.8"
+      ]
+    },
+    {
+      "linha_txt": 18,
+      "indice_paddleocr": 22,
+      "texto_bruto": "ctte ro rrr orm or cerrntir re nro",
+      "confianca": 0.25392621755599976,
+      "motivos": [
+        "confiança 0.254 abaixo do limiar 0.8"
+      ]
+    },
+    {
+      "linha_txt": 18,
+      "indice_paddleocr": 11,
+      "texto_bruto": "Cl     c e  m   ",
+      "confianca": 0.39601150155067444,
+      "motivos": [
+        "confiança 0.396 abaixo do limiar 0.8"
+      ]
+    }
+  ],
+  "texto": "Prefeitura do Município de Londrina\nte 62 Estado do Paraná\nLONDRINA\nLEI N.º 14300, DE 11 DE NOVEMBRO DE 2026\nsúMuLA: Institui o Dia Municipal do Enfermeiro no\nCalendário de Comemorações Oficiais do Município\nde Londrina.\nA CÂMARA MUNICIPAL DE LONDRINA, ESTADO DO PARANÁ, APROVOU E EU,\nPREFEITO DO MUNICÍPIO, SANCIONO A SEGUINTE LEI:\nArt. 1º Fica incluído, no Calendário de Comemorações Oficiais do Município de Londrina, o Dia\nMunicipal do Enfermeiro, a ser celebrado anualmente no dia 12 de maio.\nArt. 2º Esta Lei entra em vigor na data de sua publicação.\nLondrina, 11 de novembro de 2026.\nJosé Tiago Camargo do Município\nPrefeito do Município (8-.\nRef.: *** ***\nPROJETO DE LEI N.º 275/2026\nAutoria: Michele Sireia Thomazinho ctte ro rrr orm or cerrntir re nro Cl     c e  m   ",
+  "linhas_ordenadas": [
+    [
+      {
+        "indice_paddleocr": 0,
+        "texto": "Prefeitura do Município de Londrina",
+        "confianca": 0.9880109429359436,
+        "caixa": [
+          637.0,
+          184.0,
+          2088.0,
+          287.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 2,
+        "texto": "te",
+        "confianca": 0.23182415962219238,
+        "caixa": [
+          311.0,
+          340.0,
+          360.0,
+          364.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 4,
+        "texto": "62",
+        "confianca": 0.41501253843307495,
+        "caixa": [
+          475.0,
+          338.0,
+          524.0,
+          363.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 1,
+        "texto": "Estado do Paraná",
+        "confianca": 0.986822247505188,
+        "caixa": [
+          1111.0,
+          294.0,
+          1617.0,
+          355.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 3,
+        "texto": "LONDRINA",
+        "confianca": 0.980044960975647,
+        "caixa": [
+          357.0,
+          353.0,
+          476.0,
+          383.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 5,
+        "texto": "LEI N.º 14300, DE 11 DE NOVEMBRO DE 2026",
+        "confianca": 0.9979904294013977,
+        "caixa": [
+          288.0,
+          560.0,
+          1516.0,
+          623.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 6,
+        "texto": "súMuLA: Institui o Dia Municipal do Enfermeiro no",
+        "confianca": 0.9741905927658081,
+        "caixa": [
+          1141.0,
+          707.0,
+          2188.0,
+          761.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 7,
+        "texto": "Calendário de Comemorações Oficiais do Município",
+        "confianca": 0.971871554851532,
+        "caixa": [
+          1141.0,
+          769.0,
+          2186.0,
+          818.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 8,
+        "texto": "de Londrina.",
+        "confianca": 0.9998528361320496,
+        "caixa": [
+          1142.0,
+          831.0,
+          1389.0,
+          873.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 9,
+        "texto": "A CÂMARA MUNICIPAL DE LONDRINA, ESTADO DO PARANÁ, APROVOU E EU,",
+        "confianca": 0.9991356134414673,
+        "caixa": [
+          402.0,
+          999.0,
+          2074.0,
+          1052.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 10,
+        "texto": "PREFEITO DO MUNICÍPIO, SANCIONO A SEGUINTE LEI:",
+        "confianca": 0.9930408000946045,
+        "caixa": [
+          651.0,
+          1062.0,
+          1830.0,
+          1109.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 12,
+        "texto": "Art. 1º Fica incluído, no Calendário de Comemorações Oficiais do Município de Londrina, o Dia",
+        "confianca": 0.9975021481513977,
+        "caixa": [
+          291.0,
+          1295.0,
+          2187.0,
+          1342.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 13,
+        "texto": "Municipal do Enfermeiro, a ser celebrado anualmente no dia 12 de maio.",
+        "confianca": 0.9909469485282898,
+        "caixa": [
+          291.0,
+          1354.0,
+          1706.0,
+          1399.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 14,
+        "texto": "Art. 2º Esta Lei entra em vigor na data de sua publicação.",
+        "confianca": 0.9825319647789001,
+        "caixa": [
+          290.0,
+          1468.0,
+          1420.0,
+          1521.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 15,
+        "texto": "Londrina, 11 de novembro de 2026.",
+        "confianca": 0.9937255382537842,
+        "caixa": [
+          1488.0,
+          1589.0,
+          2186.0,
+          1632.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 16,
+        "texto": "José Tiago Camargo do Município",
+        "confianca": 0.9996963143348694,
+        "caixa": [
+          879.0,
+          1700.0,
+          1598.0,
+          1753.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 17,
+        "texto": "Prefeito do Município",
+        "confianca": 0.9974845051765442,
+        "caixa": [
+          1014.0,
+          1761.0,
+          1464.0,
+          1812.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 18,
+        "texto": "(8-.",
+        "confianca": 0.9869515299797058,
+        "caixa": [
+          2361.0,
+          1753.0,
+          2403.0,
+          1830.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 20,
+        "texto": "Ref.:",
+        "confianca": 0.9998202323913574,
+        "caixa": [
+          292.0,
+          1876.0,
+          377.0,
+          1916.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 19,
+        "texto": "*** ***",
+        "confianca": 0.9762774109840393,
+        "caixa": [
+          2360.0,
+          1822.0,
+          2387.0,
+          1940.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 21,
+        "texto": "PROJETO DE LEI N.º 275/2026",
+        "confianca": 0.9864087104797363,
+        "caixa": [
+          294.0,
+          1926.0,
+          787.0,
+          1957.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 23,
+        "texto": "Autoria: Michele Sireia Thomazinho",
+        "confianca": 0.9981696009635925,
+        "caixa": [
+          293.0,
+          1973.0,
+          864.0,
+          2006.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 22,
+        "texto": "ctte ro rrr orm or cerrntir re nro",
+        "confianca": 0.25392621755599976,
+        "caixa": [
+          2360.0,
+          1936.0,
+          2407.0,
+          3344.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 11,
+        "texto": "Cl     c e  m   ",
+        "confianca": 0.39601150155067444,
+        "caixa": [
+          2400.0,
+          1242.0,
+          2453.0,
+          3348.0
+        ],
+        "coluna": 1
+      }
+    ]
+  ],
+  "resultado_bruto_paddleocr": {
+    "input_path": null,
+    "page_index": null,
+    "model_settings": {
+      "use_doc_preprocessor": false,
+      "use_textline_orientation": false
+    },
+    "dt_polys": [
+      [
+        [
+          637,
+          184
+        ],
+        [
+          2088,
+          186
+        ],
+        [
+          2088,
+          287
+        ],
+        [
+          637,
+          285
+        ]
+      ],
+      [
+        [
+          1111,
+          294
+        ],
+        [
+          1617,
+          294
+        ],
+        [
+          1617,
+          355
+        ],
+        [
+          1111,
+          355
+        ]
+      ],
+      [
+        [
+          314,
+          340
+        ],
+        [
+          360,
+          348
+        ],
+        [
+          357,
+          364
+        ],
+        [
+          311,
+          356
+        ]
+      ],
+      [
+        [
+          357,
+          353
+        ],
+        [
+          476,
+          355
+        ],
+        [
+          476,
+          383
+        ],
+        [
+          357,
+          381
+        ]
+      ],
+      [
+        [
+          475,
+          344
+        ],
+        [
+          521,
+          338
+        ],
+        [
+          524,
+          356
+        ],
+        [
+          478,
+          363
+        ]
+      ],
+      [
+        [
+          288,
+          562
+        ],
+        [
+          1516,
+          560
+        ],
+        [
+          1516,
+          621
+        ],
+        [
+          288,
+          623
+        ]
+      ],
+      [
+        [
+          1141,
+          707
+        ],
+        [
+          2188,
+          714
+        ],
+        [
+          2188,
+          761
+        ],
+        [
+          1141,
+          755
+        ]
+      ],
+      [
+        [
+          1141,
+          769
+        ],
+        [
+          2186,
+          771
+        ],
+        [
+          2186,
+          818
+        ],
+        [
+          1141,
+          816
+        ]
+      ],
+      [
+        [
+          1142,
+          831
+        ],
+        [
+          1389,
+          831
+        ],
+        [
+          1389,
+          873
+        ],
+        [
+          1142,
+          873
+        ]
+      ],
+      [
+        [
+          402,
+          999
+        ],
+        [
+          2074,
+          1002
+        ],
+        [
+          2074,
+          1052
+        ],
+        [
+          402,
+          1049
+        ]
+      ],
+      [
+        [
+          651,
+          1062
+        ],
+        [
+          1830,
+          1062
+        ],
+        [
+          1830,
+          1109
+        ],
+        [
+          651,
+          1109
+        ]
+      ],
+      [
+        [
+          2400,
+          1242
+        ],
+        [
+          2453,
+          1242
+        ],
+        [
+          2453,
+          3348
+        ],
+        [
+          2400,
+          3348
+        ]
+      ],
+      [
+        [
+          291,
+          1295
+        ],
+        [
+          2187,
+          1296
+        ],
+        [
+          2187,
+          1342
+        ],
+        [
+          291,
+          1341
+        ]
+      ],
+      [
+        [
+          291,
+          1355
+        ],
+        [
+          1706,
+          1354
+        ],
+        [
+          1706,
+          1398
+        ],
+        [
+          291,
+          1399
+        ]
+      ],
+      [
+        [
+          290,
+          1468
+        ],
+        [
+          1420,
+          1470
+        ],
+        [
+          1420,
+          1521
+        ],
+        [
+          290,
+          1519
+        ]
+      ],
+      [
+        [
+          1488,
+          1589
+        ],
+        [
+          2186,
+          1589
+        ],
+        [
+          2186,
+          1632
+        ],
+        [
+          1488,
+          1632
+        ]
+      ],
+      [
+        [
+          879,
+          1700
+        ],
+        [
+          1598,
+          1702
+        ],
+        [
+          1598,
+          1753
+        ],
+        [
+          879,
+          1751
+        ]
+      ],
+      [
+        [
+          1014,
+          1761
+        ],
+        [
+          1464,
+          1764
+        ],
+        [
+          1464,
+          1812
+        ],
+        [
+          1014,
+          1809
+        ]
+      ],
+      [
+        [
+          2361,
+          1753
+        ],
+        [
+          2403,
+          1753
+        ],
+        [
+          2403,
+          1830
+        ],
+        [
+          2361,
+          1830
+        ]
+      ],
+      [
+        [
+          2360,
+          1822
+        ],
+        [
+          2384,
+          1822
+        ],
+        [
+          2387,
+          1939
+        ],
+        [
+          2362,
+          1940
+        ]
+      ],
+      [
+        [
+          292,
+          1876
+        ],
+        [
+          377,
+          1876
+        ],
+        [
+          377,
+          1916
+        ],
+        [
+          292,
+          1916
+        ]
+      ],
+      [
+        [
+          294,
+          1926
+        ],
+        [
+          787,
+          1926
+        ],
+        [
+          787,
+          1957
+        ],
+        [
+          294,
+          1957
+        ]
+      ],
+      [
+        [
+          2360,
+          1936
+        ],
+        [
+          2406,
+          1936
+        ],
+        [
+          2407,
+          3344
+        ],
+        [
+          2361,
+          3344
+        ]
+      ],
+      [
+        [
+          293,
+          1973
+        ],
+        [
+          864,
+          1973
+        ],
+        [
+          864,
+          2006
+        ],
+        [
+          293,
+          2006
+        ]
+      ]
+    ],
+    "text_det_params": {
+      "limit_side_len": 64,
+      "limit_type": "min",
+      "thresh": 0.3,
+      "max_side_limit": 4000,
+      "box_thresh": 0.6,
+      "unclip_ratio": 1.5
+    },
+    "text_type": "general",
+    "textline_orientation_angles": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "text_rec_score_thresh": 0.0,
+    "return_word_box": false,
+    "rec_texts": [
+      "Prefeitura do Município de Londrina",
+      "Estado do Paraná",
+      "te",
+      "LONDRINA",
+      "62",
+      "LEI N.º 14300, DE 11 DE NOVEMBRO DE 2026",
+      "súMuLA: Institui o Dia Municipal do Enfermeiro no",
+      "Calendário de Comemorações Oficiais do Município",
+      "de Londrina.",
+      "A CÂMARA MUNICIPAL DE LONDRINA, ESTADO DO PARANÁ, APROVOU E EU,",
+      "PREFEITO DO MUNICÍPIO, SANCIONO A SEGUINTE LEI:",
+      "Cl     c e  m   ",
+      "Art. 1º Fica incluído, no Calendário de Comemorações Oficiais do Município de Londrina, o Dia",
+      "Municipal do Enfermeiro, a ser celebrado anualmente no dia 12 de maio.",
+      "Art. 2º Esta Lei entra em vigor na data de sua publicação.",
+      "Londrina, 11 de novembro de 2026.",
+      "José Tiago Camargo do Município",
+      "Prefeito do Município",
+      "(8-.",
+      "*** ***",
+      "Ref.:",
+      "PROJETO DE LEI N.º 275/2026",
+      "ctte ro rrr orm or cerrntir re nro",
+      "Autoria: Michele Sireia Thomazinho"
+    ],
+    "rec_scores": [
+      0.9880109429359436,
+      0.986822247505188,
+      0.23182415962219238,
+      0.980044960975647,
+      0.41501253843307495,
+      0.9979904294013977,
+      0.9741905927658081,
+      0.971871554851532,
+      0.9998528361320496,
+      0.9991356134414673,
+      0.9930408000946045,
+      0.39601150155067444,
+      0.9975021481513977,
+      0.9909469485282898,
+      0.9825319647789001,
+      0.9937255382537842,
+      0.9996963143348694,
+      0.9974845051765442,
+      0.9869515299797058,
+      0.9762774109840393,
+      0.9998202323913574,
+      0.9864087104797363,
+      0.25392621755599976,
+      0.9981696009635925
+    ],
+    "rec_polys": [
+      [
+        [
+          637,
+          184
+        ],
+        [
+          2088,
+          186
+        ],
+        [
+          2088,
+          287
+        ],
+        [
+          637,
+          285
+        ]
+      ],
+      [
+        [
+          1111,
+          294
+        ],
+        [
+          1617,
+          294
+        ],
+        [
+          1617,
+          355
+        ],
+        [
+          1111,
+          355
+        ]
+      ],
+      [
+        [
+          314,
+          340
+        ],
+        [
+          360,
+          348
+        ],
+        [
+          357,
+          364
+        ],
+        [
+          311,
+          356
+        ]
+      ],
+      [
+        [
+          357,
+          353
+        ],
+        [
+          476,
+          355
+        ],
+        [
+          476,
+          383
+        ],
+        [
+          357,
+          381
+        ]
+      ],
+      [
+        [
+          475,
+          344
+        ],
+        [
+          521,
+          338
+        ],
+        [
+          524,
+          356
+        ],
+        [
+          478,
+          363
+        ]
+      ],
+      [
+        [
+          288,
+          562
+        ],
+        [
+          1516,
+          560
+        ],
+        [
+          1516,
+          621
+        ],
+        [
+          288,
+          623
+        ]
+      ],
+      [
+        [
+          1141,
+          707
+        ],
+        [
+          2188,
+          714
+        ],
+        [
+          2188,
+          761
+        ],
+        [
+          1141,
+          755
+        ]
+      ],
+      [
+        [
+          1141,
+          769
+        ],
+        [
+          2186,
+          771
+        ],
+        [
+          2186,
+          818
+        ],
+        [
+          1141,
+          816
+        ]
+      ],
+      [
+        [
+          1142,
+          831
+        ],
+        [
+          1389,
+          831
+        ],
+        [
+          1389,
+          873
+        ],
+        [
+          1142,
+          873
+        ]
+      ],
+      [
+        [
+          402,
+          999
+        ],
+        [
+          2074,
+          1002
+        ],
+        [
+          2074,
+          1052
+        ],
+        [
+          402,
+          1049
+        ]
+      ],
+      [
+        [
+          651,
+          1062
+        ],
+        [
+          1830,
+          1062
+        ],
+        [
+          1830,
+          1109
+        ],
+        [
+          651,
+          1109
+        ]
+      ],
+      [
+        [
+          2400,
+          1242
+        ],
+        [
+          2453,
+          1242
+        ],
+        [
+          2453,
+          3348
+        ],
+        [
+          2400,
+          3348
+        ]
+      ],
+      [
+        [
+          291,
+          1295
+        ],
+        [
+          2187,
+          1296
+        ],
+        [
+          2187,
+          1342
+        ],
+        [
+          291,
+          1341
+        ]
+      ],
+      [
+        [
+          291,
+          1355
+        ],
+        [
+          1706,
+          1354
+        ],
+        [
+          1706,
+          1398
+        ],
+        [
+          291,
+          1399
+        ]
+      ],
+      [
+        [
+          290,
+          1468
+        ],
+        [
+          1420,
+          1470
+        ],
+        [
+          1420,
+          1521
+        ],
+        [
+          290,
+          1519
+        ]
+      ],
+      [
+        [
+          1488,
+          1589
+        ],
+        [
+          2186,
+          1589
+        ],
+        [
+          2186,
+          1632
+        ],
+        [
+          1488,
+          1632
+        ]
+      ],
+      [
+        [
+          879,
+          1700
+        ],
+        [
+          1598,
+          1702
+        ],
+        [
+          1598,
+          1753
+        ],
+        [
+          879,
+          1751
+        ]
+      ],
+      [
+        [
+          1014,
+          1761
+        ],
+        [
+          1464,
+          1764
+        ],
+        [
+          1464,
+          1812
+        ],
+        [
+          1014,
+          1809
+        ]
+      ],
+      [
+        [
+          2361,
+          1753
+        ],
+        [
+          2403,
+          1753
+        ],
+        [
+          2403,
+          1830
+        ],
+        [
+          2361,
+          1830
+        ]
+      ],
+      [
+        [
+          2360,
+          1822
+        ],
+        [
+          2384,
+          1822
+        ],
+        [
+          2387,
+          1939
+        ],
+        [
+          2362,
+          1940
+        ]
+      ],
+      [
+        [
+          292,
+          1876
+        ],
+        [
+          377,
+          1876
+        ],
+        [
+          377,
+          1916
+        ],
+        [
+          292,
+          1916
+        ]
+      ],
+      [
+        [
+          294,
+          1926
+        ],
+        [
+          787,
+          1926
+        ],
+        [
+          787,
+          1957
+        ],
+        [
+          294,
+          1957
+        ]
+      ],
+      [
+        [
+          2360,
+          1936
+        ],
+        [
+          2406,
+          1936
+        ],
+        [
+          2407,
+          3344
+        ],
+        [
+          2361,
+          3344
+        ]
+      ],
+      [
+        [
+          293,
+          1973
+        ],
+        [
+          864,
+          1973
+        ],
+        [
+          864,
+          2006
+        ],
+        [
+          293,
+          2006
+        ]
+      ]
+    ],
+    "rec_boxes": [
+      [
+        637,
+        184,
+        2088,
+        287
+      ],
+      [
+        1111,
+        294,
+        1617,
+        355
+      ],
+      [
+        311,
+        340,
+        360,
+        364
+      ],
+      [
+        357,
+        353,
+        476,
+        383
+      ],
+      [
+        475,
+        338,
+        524,
+        363
+      ],
+      [
+        288,
+        560,
+        1516,
+        623
+      ],
+      [
+        1141,
+        707,
+        2188,
+        761
+      ],
+      [
+        1141,
+        769,
+        2186,
+        818
+      ],
+      [
+        1142,
+        831,
+        1389,
+        873
+      ],
+      [
+        402,
+        999,
+        2074,
+        1052
+      ],
+      [
+        651,
+        1062,
+        1830,
+        1109
+      ],
+      [
+        2400,
+        1242,
+        2453,
+        3348
+      ],
+      [
+        291,
+        1295,
+        2187,
+        1342
+      ],
+      [
+        291,
+        1354,
+        1706,
+        1399
+      ],
+      [
+        290,
+        1468,
+        1420,
+        1521
+      ],
+      [
+        1488,
+        1589,
+        2186,
+        1632
+      ],
+      [
+        879,
+        1700,
+        1598,
+        1753
+      ],
+      [
+        1014,
+        1761,
+        1464,
+        1812
+      ],
+      [
+        2361,
+        1753,
+        2403,
+        1830
+      ],
+      [
+        2360,
+        1822,
+        2387,
+        1940
+      ],
+      [
+        292,
+        1876,
+        377,
+        1916
+      ],
+      [
+        294,
+        1926,
+        787,
+        1957
+      ],
+      [
+        2360,
+        1936,
+        2407,
+        3344
+      ],
+      [
+        293,
+        1973,
+        864,
+        2006
+      ]
+    ]
+  }
+}

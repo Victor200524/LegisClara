@@ -1,0 +1,2461 @@
+{
+  "documento": "lei_13921_digital",
+  "pagina": 1,
+  "imagem_origem": "lei_13921_p01.png",
+  "perfil_preprocessamento": "deskew",
+  "etapas_preprocessamento": [
+    "redimensionar",
+    "inclinacao"
+  ],
+  "limiar_confianca_revisao": 0.8,
+  "parametros_paddleocr": {
+    "lang": "pt",
+    "device": "cpu",
+    "use_doc_orientation_classify": false,
+    "use_doc_unwarping": false,
+    "use_textline_orientation": false
+  },
+  "versoes": {
+    "paddleocr": "3.4.1",
+    "paddlepaddle": "3.2.2"
+  },
+  "tempo_preprocessamento_s": 0.218,
+  "dimensoes_imagem": {
+    "largura": 2481,
+    "altura": 3508
+  },
+  "tempo_ocr_s": 26.206,
+  "status": "ok",
+  "layout": {
+    "colunas": 1
+  },
+  "quantidade_caracteres": 2058,
+  "quantidade_palavras": 341,
+  "quantidade_fragmentos": 40,
+  "confianca_media": 0.9212,
+  "confianca_minima": 0.231,
+  "necessita_revisao_humana": true,
+  "revisao_humana": [
+    {
+      "linha_txt": 2,
+      "indice_paddleocr": 2,
+      "texto_bruto": "te",
+      "confianca": 0.23182415962219238,
+      "motivos": [
+        "confiança 0.232 abaixo do limiar 0.8"
+      ]
+    },
+    {
+      "linha_txt": 2,
+      "indice_paddleocr": 4,
+      "texto_bruto": "62",
+      "confianca": 0.41501253843307495,
+      "motivos": [
+        "confiança 0.415 abaixo do limiar 0.8"
+      ]
+    },
+    {
+      "linha_txt": 14,
+      "indice_paddleocr": 16,
+      "texto_bruto": "de R$24.347,61 (vinte e quatro mil, trezentos e quarenta e sete reais e sessenta e um centavos);",
+      "confianca": 0.9981229305267334,
+      "motivos": [
+        "mistura de letras e dígitos em 'R$24.347,61' (ex.: O/0, l/1, S/5)"
+      ]
+    },
+    {
+      "linha_txt": 15,
+      "indice_paddleocr": 17,
+      "texto_bruto": "Il  Vice-Prefeito: R$21.900,00 (vinte e um mil e novecentos reais);",
+      "confianca": 0.9879662990570068,
+      "motivos": [
+        "mistura de letras e dígitos em 'R$21.900,00' (ex.: O/0, l/1, S/5)"
+      ]
+    },
+    {
+      "linha_txt": 16,
+      "indice_paddleocr": 18,
+      "texto_bruto": "III  Secretários Municipais: R$21.900,00 (vinte e um mil e novecentos reais);",
+      "confianca": 0.9862139821052551,
+      "motivos": [
+        "mistura de letras e dígitos em 'R$21.900,00' (ex.: O/0, l/1, S/5)"
+      ]
+    },
+    {
+      "linha_txt": 22,
+      "indice_paddleocr": 26,
+      "texto_bruto": "t snrmr drntirr r",
+      "confianca": 0.23102152347564697,
+      "motivos": [
+        "confiança 0.231 abaixo do limiar 0.8"
+      ]
+    },
+    {
+      "linha_txt": 22,
+      "indice_paddleocr": 11,
+      "texto_bruto": "Le  e   c ce  m  e ",
+      "confianca": 0.3567221760749817,
+      "motivos": [
+        "confiança 0.357 abaixo do limiar 0.8"
+      ]
+    }
+  ],
+  "texto": "Prefeitura do Município de Londrina\nte 62 Estado do Paraná\nLONDRINA\nLEI N.º 13921, DE 31 DE DEZEMBRO DE 2024\nsúMuLA: Fixa em parcela única os subsídios do\nPrefeito, do Vice-Prefeito e dos Secretários\nmunicipais do Município de Londrina.\nA CÂMARA MUNICIPAL DE LONDRINA, ESTADO DO PARANÁ, APROVOU E EU,\nPREFEITO DO MUNICÍPIO DE LONDRINA, SANCIONO A SEGUINTE LEI:\nArt. 1º Os subsídios do Prefeito, do Vice-Prefeito e dos Secretários do Município de\nLondrina serão fixados em parcela única, a partir de 1º de janeiro de 2025, conforme segue:\nI - Prefeito: fica mantido o valor fixado pela Lei Municipal nº 12.235, de 19 de\njaneiro de 2015, com as recomposições inflacionárias havidas até fevereiro de 2024, na ordem\nde R$24.347,61 (vinte e quatro mil, trezentos e quarenta e sete reais e sessenta e um centavos);\nIl  Vice-Prefeito: R$21.900,00 (vinte e um mil e novecentos reais);\nIII  Secretários Municipais: R$21.900,00 (vinte e um mil e novecentos reais);\n§ 1º A recomposição inflacionária dos subsídios fixados no inciso I deste artigo dar-\nse-á na mesma época e nos mesmos índices dos reajustes dos servidores municipais, a partir de\n2025. (16-\nartigo dar-se-á na mesma época e nos mesmos índices dos reajustes dos servidores municipais, § 2º A recomposição inflacionária dos subsídios fixados nos incisos Il e IIl deste *** ***\na partir de 2026.\nprojeções de despesa de pessoal e aos acréscimos dela decorrentes, devendo ser mantidos, para o início da realização desta despesa, os índice de gastos com pessoal até o limite previsto para dezembro de 2024. em contrário. Orçamentárias; dotações orçamentárias específicas. Art. 4º Esta Lei entra em vigor na data de sua publicação, revogadas as disposições ll - à existência de prévia dotação orçamentária suficiente para atender às Art. 2º As despesas decorrentes da aplicação desta lei correrão à conta de I - à existência de autorização específica na Lei 13.830/2024 - Lei de Diretrizes Art. 3º A eficácia desta Lei fica condicionada: Londrina, 31 de dezembro de 2024. t snrmr drntirr r Le  e   c ce  m  e ",
+  "linhas_ordenadas": [
+    [
+      {
+        "indice_paddleocr": 0,
+        "texto": "Prefeitura do Município de Londrina",
+        "confianca": 0.9897805452346802,
+        "caixa": [
+          637.0,
+          184.0,
+          2088.0,
+          287.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 2,
+        "texto": "te",
+        "confianca": 0.23182415962219238,
+        "caixa": [
+          311.0,
+          340.0,
+          360.0,
+          364.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 4,
+        "texto": "62",
+        "confianca": 0.41501253843307495,
+        "caixa": [
+          475.0,
+          338.0,
+          524.0,
+          363.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 1,
+        "texto": "Estado do Paraná",
+        "confianca": 0.9876279830932617,
+        "caixa": [
+          1111.0,
+          294.0,
+          1617.0,
+          355.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 3,
+        "texto": "LONDRINA",
+        "confianca": 0.980044960975647,
+        "caixa": [
+          357.0,
+          353.0,
+          476.0,
+          383.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 5,
+        "texto": "LEI N.º 13921, DE 31 DE DEZEMBRO DE 2024",
+        "confianca": 0.9982947111129761,
+        "caixa": [
+          289.0,
+          561.0,
+          1507.0,
+          623.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 6,
+        "texto": "súMuLA: Fixa em parcela única os subsídios do",
+        "confianca": 0.9726452231407166,
+        "caixa": [
+          1140.0,
+          704.0,
+          2190.0,
+          764.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 7,
+        "texto": "Prefeito, do Vice-Prefeito e dos Secretários",
+        "confianca": 0.9996845722198486,
+        "caixa": [
+          1141.0,
+          769.0,
+          2188.0,
+          817.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 8,
+        "texto": "municipais do Município de Londrina.",
+        "confianca": 0.9979174733161926,
+        "caixa": [
+          1143.0,
+          830.0,
+          1901.0,
+          877.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 9,
+        "texto": "A CÂMARA MUNICIPAL DE LONDRINA, ESTADO DO PARANÁ, APROVOU E EU,",
+        "confianca": 0.9925637245178223,
+        "caixa": [
+          401.0,
+          1109.0,
+          2076.0,
+          1167.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 10,
+        "texto": "PREFEITO DO MUNICÍPIO DE LONDRINA, SANCIONO A SEGUINTE LEI:",
+        "confianca": 0.9995884299278259,
+        "caixa": [
+          491.0,
+          1173.0,
+          1988.0,
+          1224.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 12,
+        "texto": "Art. 1º Os subsídios do Prefeito, do Vice-Prefeito e dos Secretários do Município de",
+        "confianca": 0.9918301701545715,
+        "caixa": [
+          541.0,
+          1294.0,
+          2186.0,
+          1343.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 13,
+        "texto": "Londrina serão fixados em parcela única, a partir de 1º de janeiro de 2025, conforme segue:",
+        "confianca": 0.9866095781326294,
+        "caixa": [
+          290.0,
+          1351.0,
+          2085.0,
+          1404.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 14,
+        "texto": "I - Prefeito: fica mantido o valor fixado pela Lei Municipal nº 12.235, de 19 de",
+        "confianca": 0.975685715675354,
+        "caixa": [
+          538.0,
+          1410.0,
+          2188.0,
+          1461.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 15,
+        "texto": "janeiro de 2015, com as recomposições inflacionárias havidas até fevereiro de 2024, na ordem",
+        "confianca": 0.9936497807502747,
+        "caixa": [
+          290.0,
+          1470.0,
+          2186.0,
+          1520.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 16,
+        "texto": "de R$24.347,61 (vinte e quatro mil, trezentos e quarenta e sete reais e sessenta e um centavos);",
+        "confianca": 0.9981229305267334,
+        "caixa": [
+          290.0,
+          1529.0,
+          2179.0,
+          1578.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 17,
+        "texto": "Il  Vice-Prefeito: R$21.900,00 (vinte e um mil e novecentos reais);",
+        "confianca": 0.9879662990570068,
+        "caixa": [
+          541.0,
+          1586.0,
+          1849.0,
+          1636.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 18,
+        "texto": "III  Secretários Municipais: R$21.900,00 (vinte e um mil e novecentos reais);",
+        "confianca": 0.9862139821052551,
+        "caixa": [
+          542.0,
+          1645.0,
+          2050.0,
+          1695.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 19,
+        "texto": "§ 1º A recomposição inflacionária dos subsídios fixados no inciso I deste artigo dar-",
+        "confianca": 0.9856154322624207,
+        "caixa": [
+          541.0,
+          1764.0,
+          2186.0,
+          1814.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 20,
+        "texto": "se-á na mesma época e nos mesmos índices dos reajustes dos servidores municipais, a partir de",
+        "confianca": 0.9962670803070068,
+        "caixa": [
+          290.0,
+          1822.0,
+          2187.0,
+          1870.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 21,
+        "texto": "2025.",
+        "confianca": 0.9999414682388306,
+        "caixa": [
+          288.0,
+          1879.0,
+          410.0,
+          1926.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 22,
+        "texto": "(16-",
+        "confianca": 0.9513759016990662,
+        "caixa": [
+          2361.0,
+          1892.0,
+          2405.0,
+          1976.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 25,
+        "texto": "artigo dar-se-á na mesma época e nos mesmos índices dos reajustes dos servidores municipais,",
+        "confianca": 0.9989267587661743,
+        "caixa": [
+          290.0,
+          2054.0,
+          2187.0,
+          2105.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 24,
+        "texto": "§ 2º A recomposição inflacionária dos subsídios fixados nos incisos Il e IIl deste",
+        "confianca": 0.9859988689422607,
+        "caixa": [
+          540.0,
+          1996.0,
+          2189.0,
+          2046.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 23,
+        "texto": "*** ***",
+        "confianca": 0.9264059662818909,
+        "caixa": [
+          2362.0,
+          1966.0,
+          2387.0,
+          2083.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 27,
+        "texto": "a partir de 2026.",
+        "confianca": 0.999187707901001,
+        "caixa": [
+          290.0,
+          2111.0,
+          615.0,
+          2163.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 34,
+        "texto": "projeções de despesa de pessoal e aos acréscimos dela decorrentes, devendo ser mantidos,",
+        "confianca": 0.9989015460014343,
+        "caixa": [
+          290.0,
+          2636.0,
+          2188.0,
+          2689.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 35,
+        "texto": "para o início da realização desta despesa, os índice de gastos com pessoal até o limite previsto",
+        "confianca": 0.9915840029716492,
+        "caixa": [
+          290.0,
+          2695.0,
+          2188.0,
+          2747.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 36,
+        "texto": "para dezembro de 2024.",
+        "confianca": 0.9998564124107361,
+        "caixa": [
+          290.0,
+          2750.0,
+          774.0,
+          2804.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 38,
+        "texto": "em contrário.",
+        "confianca": 0.9997485876083374,
+        "caixa": [
+          290.0,
+          2928.0,
+          553.0,
+          2975.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 32,
+        "texto": "Orçamentárias;",
+        "confianca": 0.9998083710670471,
+        "caixa": [
+          291.0,
+          2519.0,
+          598.0,
+          2570.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 29,
+        "texto": "dotações orçamentárias específicas.",
+        "confianca": 0.9995952248573303,
+        "caixa": [
+          292.0,
+          2286.0,
+          1006.0,
+          2336.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 37,
+        "texto": "Art. 4º Esta Lei entra em vigor na data de sua publicação, revogadas as disposições",
+        "confianca": 0.9937068819999695,
+        "caixa": [
+          536.0,
+          2869.0,
+          2188.0,
+          2918.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 33,
+        "texto": "ll - à existência de prévia dotação orçamentária suficiente para atender às",
+        "confianca": 0.9821634888648987,
+        "caixa": [
+          538.0,
+          2577.0,
+          2189.0,
+          2628.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 28,
+        "texto": "Art. 2º As despesas decorrentes da aplicação desta lei correrão à conta de",
+        "confianca": 0.9899507761001587,
+        "caixa": [
+          541.0,
+          2227.0,
+          2189.0,
+          2275.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 31,
+        "texto": "I - à existência de autorização específica na Lei 13.830/2024 - Lei de Diretrizes",
+        "confianca": 0.9823475480079651,
+        "caixa": [
+          541.0,
+          2460.0,
+          2190.0,
+          2511.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 30,
+        "texto": "Art. 3º A eficácia desta Lei fica condicionada:",
+        "confianca": 0.992893397808075,
+        "caixa": [
+          543.0,
+          2403.0,
+          1430.0,
+          2448.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 39,
+        "texto": "Londrina, 31 de dezembro de 2024.",
+        "confianca": 0.9995720386505127,
+        "caixa": [
+          1490.0,
+          3101.0,
+          2185.0,
+          3144.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 26,
+        "texto": "t snrmr drntirr r",
+        "confianca": 0.23102152347564697,
+        "caixa": [
+          2361.0,
+          2085.0,
+          2405.0,
+          3343.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 11,
+        "texto": "Le  e   c ce  m  e ",
+        "confianca": 0.3567221760749817,
+        "caixa": [
+          2400.0,
+          1233.0,
+          2453.0,
+          3347.0
+        ],
+        "coluna": 1
+      }
+    ]
+  ],
+  "resultado_bruto_paddleocr": {
+    "input_path": null,
+    "page_index": null,
+    "model_settings": {
+      "use_doc_preprocessor": false,
+      "use_textline_orientation": false
+    },
+    "dt_polys": [
+      [
+        [
+          637,
+          184
+        ],
+        [
+          2088,
+          186
+        ],
+        [
+          2088,
+          287
+        ],
+        [
+          637,
+          285
+        ]
+      ],
+      [
+        [
+          1111,
+          294
+        ],
+        [
+          1617,
+          294
+        ],
+        [
+          1617,
+          355
+        ],
+        [
+          1111,
+          355
+        ]
+      ],
+      [
+        [
+          314,
+          340
+        ],
+        [
+          360,
+          348
+        ],
+        [
+          357,
+          364
+        ],
+        [
+          311,
+          356
+        ]
+      ],
+      [
+        [
+          357,
+          353
+        ],
+        [
+          476,
+          355
+        ],
+        [
+          476,
+          383
+        ],
+        [
+          357,
+          381
+        ]
+      ],
+      [
+        [
+          475,
+          344
+        ],
+        [
+          521,
+          338
+        ],
+        [
+          524,
+          356
+        ],
+        [
+          478,
+          363
+        ]
+      ],
+      [
+        [
+          289,
+          563
+        ],
+        [
+          1507,
+          561
+        ],
+        [
+          1507,
+          621
+        ],
+        [
+          289,
+          623
+        ]
+      ],
+      [
+        [
+          1140,
+          704
+        ],
+        [
+          2190,
+          711
+        ],
+        [
+          2190,
+          764
+        ],
+        [
+          1140,
+          758
+        ]
+      ],
+      [
+        [
+          1141,
+          769
+        ],
+        [
+          2188,
+          770
+        ],
+        [
+          2188,
+          817
+        ],
+        [
+          1141,
+          816
+        ]
+      ],
+      [
+        [
+          1143,
+          832
+        ],
+        [
+          1900,
+          830
+        ],
+        [
+          1901,
+          875
+        ],
+        [
+          1143,
+          877
+        ]
+      ],
+      [
+        [
+          401,
+          1109
+        ],
+        [
+          2076,
+          1113
+        ],
+        [
+          2076,
+          1167
+        ],
+        [
+          401,
+          1163
+        ]
+      ],
+      [
+        [
+          491,
+          1173
+        ],
+        [
+          1988,
+          1177
+        ],
+        [
+          1988,
+          1224
+        ],
+        [
+          491,
+          1220
+        ]
+      ],
+      [
+        [
+          2400,
+          1233
+        ],
+        [
+          2453,
+          1233
+        ],
+        [
+          2453,
+          3347
+        ],
+        [
+          2400,
+          3347
+        ]
+      ],
+      [
+        [
+          541,
+          1294
+        ],
+        [
+          2186,
+          1297
+        ],
+        [
+          2186,
+          1343
+        ],
+        [
+          541,
+          1340
+        ]
+      ],
+      [
+        [
+          290,
+          1351
+        ],
+        [
+          2085,
+          1353
+        ],
+        [
+          2085,
+          1404
+        ],
+        [
+          290,
+          1402
+        ]
+      ],
+      [
+        [
+          538,
+          1410
+        ],
+        [
+          2188,
+          1411
+        ],
+        [
+          2188,
+          1461
+        ],
+        [
+          538,
+          1460
+        ]
+      ],
+      [
+        [
+          290,
+          1473
+        ],
+        [
+          2186,
+          1470
+        ],
+        [
+          2186,
+          1517
+        ],
+        [
+          290,
+          1520
+        ]
+      ],
+      [
+        [
+          290,
+          1529
+        ],
+        [
+          2179,
+          1531
+        ],
+        [
+          2179,
+          1578
+        ],
+        [
+          290,
+          1576
+        ]
+      ],
+      [
+        [
+          541,
+          1586
+        ],
+        [
+          1849,
+          1590
+        ],
+        [
+          1849,
+          1636
+        ],
+        [
+          541,
+          1632
+        ]
+      ],
+      [
+        [
+          542,
+          1645
+        ],
+        [
+          2050,
+          1648
+        ],
+        [
+          2050,
+          1695
+        ],
+        [
+          542,
+          1692
+        ]
+      ],
+      [
+        [
+          541,
+          1764
+        ],
+        [
+          2186,
+          1764
+        ],
+        [
+          2186,
+          1814
+        ],
+        [
+          541,
+          1814
+        ]
+      ],
+      [
+        [
+          290,
+          1822
+        ],
+        [
+          2187,
+          1823
+        ],
+        [
+          2187,
+          1870
+        ],
+        [
+          290,
+          1869
+        ]
+      ],
+      [
+        [
+          288,
+          1879
+        ],
+        [
+          410,
+          1879
+        ],
+        [
+          410,
+          1926
+        ],
+        [
+          288,
+          1926
+        ]
+      ],
+      [
+        [
+          2361,
+          1892
+        ],
+        [
+          2405,
+          1892
+        ],
+        [
+          2405,
+          1976
+        ],
+        [
+          2361,
+          1976
+        ]
+      ],
+      [
+        [
+          2362,
+          1966
+        ],
+        [
+          2387,
+          1966
+        ],
+        [
+          2387,
+          2083
+        ],
+        [
+          2362,
+          2083
+        ]
+      ],
+      [
+        [
+          540,
+          1996
+        ],
+        [
+          2189,
+          1996
+        ],
+        [
+          2189,
+          2046
+        ],
+        [
+          540,
+          2046
+        ]
+      ],
+      [
+        [
+          290,
+          2055
+        ],
+        [
+          2187,
+          2054
+        ],
+        [
+          2187,
+          2104
+        ],
+        [
+          290,
+          2105
+        ]
+      ],
+      [
+        [
+          2361,
+          2085
+        ],
+        [
+          2404,
+          2085
+        ],
+        [
+          2405,
+          3343
+        ],
+        [
+          2362,
+          3343
+        ]
+      ],
+      [
+        [
+          290,
+          2115
+        ],
+        [
+          615,
+          2111
+        ],
+        [
+          615,
+          2158
+        ],
+        [
+          291,
+          2163
+        ]
+      ],
+      [
+        [
+          541,
+          2227
+        ],
+        [
+          2189,
+          2228
+        ],
+        [
+          2189,
+          2275
+        ],
+        [
+          541,
+          2274
+        ]
+      ],
+      [
+        [
+          292,
+          2288
+        ],
+        [
+          1006,
+          2286
+        ],
+        [
+          1006,
+          2334
+        ],
+        [
+          292,
+          2336
+        ]
+      ],
+      [
+        [
+          543,
+          2403
+        ],
+        [
+          1430,
+          2404
+        ],
+        [
+          1430,
+          2448
+        ],
+        [
+          543,
+          2447
+        ]
+      ],
+      [
+        [
+          541,
+          2460
+        ],
+        [
+          2190,
+          2462
+        ],
+        [
+          2190,
+          2511
+        ],
+        [
+          541,
+          2509
+        ]
+      ],
+      [
+        [
+          291,
+          2519
+        ],
+        [
+          598,
+          2519
+        ],
+        [
+          598,
+          2570
+        ],
+        [
+          291,
+          2570
+        ]
+      ],
+      [
+        [
+          538,
+          2577
+        ],
+        [
+          2189,
+          2578
+        ],
+        [
+          2189,
+          2628
+        ],
+        [
+          538,
+          2627
+        ]
+      ],
+      [
+        [
+          290,
+          2639
+        ],
+        [
+          2188,
+          2636
+        ],
+        [
+          2188,
+          2686
+        ],
+        [
+          290,
+          2689
+        ]
+      ],
+      [
+        [
+          290,
+          2697
+        ],
+        [
+          2188,
+          2695
+        ],
+        [
+          2188,
+          2745
+        ],
+        [
+          290,
+          2747
+        ]
+      ],
+      [
+        [
+          290,
+          2757
+        ],
+        [
+          773,
+          2750
+        ],
+        [
+          774,
+          2797
+        ],
+        [
+          291,
+          2804
+        ]
+      ],
+      [
+        [
+          536,
+          2869
+        ],
+        [
+          2188,
+          2871
+        ],
+        [
+          2188,
+          2918
+        ],
+        [
+          536,
+          2916
+        ]
+      ],
+      [
+        [
+          290,
+          2931
+        ],
+        [
+          552,
+          2928
+        ],
+        [
+          553,
+          2972
+        ],
+        [
+          291,
+          2975
+        ]
+      ],
+      [
+        [
+          1490,
+          3103
+        ],
+        [
+          2185,
+          3101
+        ],
+        [
+          2185,
+          3142
+        ],
+        [
+          1490,
+          3144
+        ]
+      ]
+    ],
+    "text_det_params": {
+      "limit_side_len": 64,
+      "limit_type": "min",
+      "thresh": 0.3,
+      "max_side_limit": 4000,
+      "box_thresh": 0.6,
+      "unclip_ratio": 1.5
+    },
+    "text_type": "general",
+    "textline_orientation_angles": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "text_rec_score_thresh": 0.0,
+    "return_word_box": false,
+    "rec_texts": [
+      "Prefeitura do Município de Londrina",
+      "Estado do Paraná",
+      "te",
+      "LONDRINA",
+      "62",
+      "LEI N.º 13921, DE 31 DE DEZEMBRO DE 2024",
+      "súMuLA: Fixa em parcela única os subsídios do",
+      "Prefeito, do Vice-Prefeito e dos Secretários",
+      "municipais do Município de Londrina.",
+      "A CÂMARA MUNICIPAL DE LONDRINA, ESTADO DO PARANÁ, APROVOU E EU,",
+      "PREFEITO DO MUNICÍPIO DE LONDRINA, SANCIONO A SEGUINTE LEI:",
+      "Le  e   c ce  m  e ",
+      "Art. 1º Os subsídios do Prefeito, do Vice-Prefeito e dos Secretários do Município de",
+      "Londrina serão fixados em parcela única, a partir de 1º de janeiro de 2025, conforme segue:",
+      "I - Prefeito: fica mantido o valor fixado pela Lei Municipal nº 12.235, de 19 de",
+      "janeiro de 2015, com as recomposições inflacionárias havidas até fevereiro de 2024, na ordem",
+      "de R$24.347,61 (vinte e quatro mil, trezentos e quarenta e sete reais e sessenta e um centavos);",
+      "Il  Vice-Prefeito: R$21.900,00 (vinte e um mil e novecentos reais);",
+      "III  Secretários Municipais: R$21.900,00 (vinte e um mil e novecentos reais);",
+      "§ 1º A recomposição inflacionária dos subsídios fixados no inciso I deste artigo dar-",
+      "se-á na mesma época e nos mesmos índices dos reajustes dos servidores municipais, a partir de",
+      "2025.",
+      "(16-",
+      "*** ***",
+      "§ 2º A recomposição inflacionária dos subsídios fixados nos incisos Il e IIl deste",
+      "artigo dar-se-á na mesma época e nos mesmos índices dos reajustes dos servidores municipais,",
+      "t snrmr drntirr r",
+      "a partir de 2026.",
+      "Art. 2º As despesas decorrentes da aplicação desta lei correrão à conta de",
+      "dotações orçamentárias específicas.",
+      "Art. 3º A eficácia desta Lei fica condicionada:",
+      "I - à existência de autorização específica na Lei 13.830/2024 - Lei de Diretrizes",
+      "Orçamentárias;",
+      "ll - à existência de prévia dotação orçamentária suficiente para atender às",
+      "projeções de despesa de pessoal e aos acréscimos dela decorrentes, devendo ser mantidos,",
+      "para o início da realização desta despesa, os índice de gastos com pessoal até o limite previsto",
+      "para dezembro de 2024.",
+      "Art. 4º Esta Lei entra em vigor na data de sua publicação, revogadas as disposições",
+      "em contrário.",
+      "Londrina, 31 de dezembro de 2024."
+    ],
+    "rec_scores": [
+      0.9897805452346802,
+      0.9876279830932617,
+      0.23182415962219238,
+      0.980044960975647,
+      0.41501253843307495,
+      0.9982947111129761,
+      0.9726452231407166,
+      0.9996845722198486,
+      0.9979174733161926,
+      0.9925637245178223,
+      0.9995884299278259,
+      0.3567221760749817,
+      0.9918301701545715,
+      0.9866095781326294,
+      0.975685715675354,
+      0.9936497807502747,
+      0.9981229305267334,
+      0.9879662990570068,
+      0.9862139821052551,
+      0.9856154322624207,
+      0.9962670803070068,
+      0.9999414682388306,
+      0.9513759016990662,
+      0.9264059662818909,
+      0.9859988689422607,
+      0.9989267587661743,
+      0.23102152347564697,
+      0.999187707901001,
+      0.9899507761001587,
+      0.9995952248573303,
+      0.992893397808075,
+      0.9823475480079651,
+      0.9998083710670471,
+      0.9821634888648987,
+      0.9989015460014343,
+      0.9915840029716492,
+      0.9998564124107361,
+      0.9937068819999695,
+      0.9997485876083374,
+      0.9995720386505127
+    ],
+    "rec_polys": [
+      [
+        [
+          637,
+          184
+        ],
+        [
+          2088,
+          186
+        ],
+        [
+          2088,
+          287
+        ],
+        [
+          637,
+          285
+        ]
+      ],
+      [
+        [
+          1111,
+          294
+        ],
+        [
+          1617,
+          294
+        ],
+        [
+          1617,
+          355
+        ],
+        [
+          1111,
+          355
+        ]
+      ],
+      [
+        [
+          314,
+          340
+        ],
+        [
+          360,
+          348
+        ],
+        [
+          357,
+          364
+        ],
+        [
+          311,
+          356
+        ]
+      ],
+      [
+        [
+          357,
+          353
+        ],
+        [
+          476,
+          355
+        ],
+        [
+          476,
+          383
+        ],
+        [
+          357,
+          381
+        ]
+      ],
+      [
+        [
+          475,
+          344
+        ],
+        [
+          521,
+          338
+        ],
+        [
+          524,
+          356
+        ],
+        [
+          478,
+          363
+        ]
+      ],
+      [
+        [
+          289,
+          563
+        ],
+        [
+          1507,
+          561
+        ],
+        [
+          1507,
+          621
+        ],
+        [
+          289,
+          623
+        ]
+      ],
+      [
+        [
+          1140,
+          704
+        ],
+        [
+          2190,
+          711
+        ],
+        [
+          2190,
+          764
+        ],
+        [
+          1140,
+          758
+        ]
+      ],
+      [
+        [
+          1141,
+          769
+        ],
+        [
+          2188,
+          770
+        ],
+        [
+          2188,
+          817
+        ],
+        [
+          1141,
+          816
+        ]
+      ],
+      [
+        [
+          1143,
+          832
+        ],
+        [
+          1900,
+          830
+        ],
+        [
+          1901,
+          875
+        ],
+        [
+          1143,
+          877
+        ]
+      ],
+      [
+        [
+          401,
+          1109
+        ],
+        [
+          2076,
+          1113
+        ],
+        [
+          2076,
+          1167
+        ],
+        [
+          401,
+          1163
+        ]
+      ],
+      [
+        [
+          491,
+          1173
+        ],
+        [
+          1988,
+          1177
+        ],
+        [
+          1988,
+          1224
+        ],
+        [
+          491,
+          1220
+        ]
+      ],
+      [
+        [
+          2400,
+          1233
+        ],
+        [
+          2453,
+          1233
+        ],
+        [
+          2453,
+          3347
+        ],
+        [
+          2400,
+          3347
+        ]
+      ],
+      [
+        [
+          541,
+          1294
+        ],
+        [
+          2186,
+          1297
+        ],
+        [
+          2186,
+          1343
+        ],
+        [
+          541,
+          1340
+        ]
+      ],
+      [
+        [
+          290,
+          1351
+        ],
+        [
+          2085,
+          1353
+        ],
+        [
+          2085,
+          1404
+        ],
+        [
+          290,
+          1402
+        ]
+      ],
+      [
+        [
+          538,
+          1410
+        ],
+        [
+          2188,
+          1411
+        ],
+        [
+          2188,
+          1461
+        ],
+        [
+          538,
+          1460
+        ]
+      ],
+      [
+        [
+          290,
+          1473
+        ],
+        [
+          2186,
+          1470
+        ],
+        [
+          2186,
+          1517
+        ],
+        [
+          290,
+          1520
+        ]
+      ],
+      [
+        [
+          290,
+          1529
+        ],
+        [
+          2179,
+          1531
+        ],
+        [
+          2179,
+          1578
+        ],
+        [
+          290,
+          1576
+        ]
+      ],
+      [
+        [
+          541,
+          1586
+        ],
+        [
+          1849,
+          1590
+        ],
+        [
+          1849,
+          1636
+        ],
+        [
+          541,
+          1632
+        ]
+      ],
+      [
+        [
+          542,
+          1645
+        ],
+        [
+          2050,
+          1648
+        ],
+        [
+          2050,
+          1695
+        ],
+        [
+          542,
+          1692
+        ]
+      ],
+      [
+        [
+          541,
+          1764
+        ],
+        [
+          2186,
+          1764
+        ],
+        [
+          2186,
+          1814
+        ],
+        [
+          541,
+          1814
+        ]
+      ],
+      [
+        [
+          290,
+          1822
+        ],
+        [
+          2187,
+          1823
+        ],
+        [
+          2187,
+          1870
+        ],
+        [
+          290,
+          1869
+        ]
+      ],
+      [
+        [
+          288,
+          1879
+        ],
+        [
+          410,
+          1879
+        ],
+        [
+          410,
+          1926
+        ],
+        [
+          288,
+          1926
+        ]
+      ],
+      [
+        [
+          2361,
+          1892
+        ],
+        [
+          2405,
+          1892
+        ],
+        [
+          2405,
+          1976
+        ],
+        [
+          2361,
+          1976
+        ]
+      ],
+      [
+        [
+          2362,
+          1966
+        ],
+        [
+          2387,
+          1966
+        ],
+        [
+          2387,
+          2083
+        ],
+        [
+          2362,
+          2083
+        ]
+      ],
+      [
+        [
+          540,
+          1996
+        ],
+        [
+          2189,
+          1996
+        ],
+        [
+          2189,
+          2046
+        ],
+        [
+          540,
+          2046
+        ]
+      ],
+      [
+        [
+          290,
+          2055
+        ],
+        [
+          2187,
+          2054
+        ],
+        [
+          2187,
+          2104
+        ],
+        [
+          290,
+          2105
+        ]
+      ],
+      [
+        [
+          2361,
+          2085
+        ],
+        [
+          2404,
+          2085
+        ],
+        [
+          2405,
+          3343
+        ],
+        [
+          2362,
+          3343
+        ]
+      ],
+      [
+        [
+          290,
+          2115
+        ],
+        [
+          615,
+          2111
+        ],
+        [
+          615,
+          2158
+        ],
+        [
+          291,
+          2163
+        ]
+      ],
+      [
+        [
+          541,
+          2227
+        ],
+        [
+          2189,
+          2228
+        ],
+        [
+          2189,
+          2275
+        ],
+        [
+          541,
+          2274
+        ]
+      ],
+      [
+        [
+          292,
+          2288
+        ],
+        [
+          1006,
+          2286
+        ],
+        [
+          1006,
+          2334
+        ],
+        [
+          292,
+          2336
+        ]
+      ],
+      [
+        [
+          543,
+          2403
+        ],
+        [
+          1430,
+          2404
+        ],
+        [
+          1430,
+          2448
+        ],
+        [
+          543,
+          2447
+        ]
+      ],
+      [
+        [
+          541,
+          2460
+        ],
+        [
+          2190,
+          2462
+        ],
+        [
+          2190,
+          2511
+        ],
+        [
+          541,
+          2509
+        ]
+      ],
+      [
+        [
+          291,
+          2519
+        ],
+        [
+          598,
+          2519
+        ],
+        [
+          598,
+          2570
+        ],
+        [
+          291,
+          2570
+        ]
+      ],
+      [
+        [
+          538,
+          2577
+        ],
+        [
+          2189,
+          2578
+        ],
+        [
+          2189,
+          2628
+        ],
+        [
+          538,
+          2627
+        ]
+      ],
+      [
+        [
+          290,
+          2639
+        ],
+        [
+          2188,
+          2636
+        ],
+        [
+          2188,
+          2686
+        ],
+        [
+          290,
+          2689
+        ]
+      ],
+      [
+        [
+          290,
+          2697
+        ],
+        [
+          2188,
+          2695
+        ],
+        [
+          2188,
+          2745
+        ],
+        [
+          290,
+          2747
+        ]
+      ],
+      [
+        [
+          290,
+          2757
+        ],
+        [
+          773,
+          2750
+        ],
+        [
+          774,
+          2797
+        ],
+        [
+          291,
+          2804
+        ]
+      ],
+      [
+        [
+          536,
+          2869
+        ],
+        [
+          2188,
+          2871
+        ],
+        [
+          2188,
+          2918
+        ],
+        [
+          536,
+          2916
+        ]
+      ],
+      [
+        [
+          290,
+          2931
+        ],
+        [
+          552,
+          2928
+        ],
+        [
+          553,
+          2972
+        ],
+        [
+          291,
+          2975
+        ]
+      ],
+      [
+        [
+          1490,
+          3103
+        ],
+        [
+          2185,
+          3101
+        ],
+        [
+          2185,
+          3142
+        ],
+        [
+          1490,
+          3144
+        ]
+      ]
+    ],
+    "rec_boxes": [
+      [
+        637,
+        184,
+        2088,
+        287
+      ],
+      [
+        1111,
+        294,
+        1617,
+        355
+      ],
+      [
+        311,
+        340,
+        360,
+        364
+      ],
+      [
+        357,
+        353,
+        476,
+        383
+      ],
+      [
+        475,
+        338,
+        524,
+        363
+      ],
+      [
+        289,
+        561,
+        1507,
+        623
+      ],
+      [
+        1140,
+        704,
+        2190,
+        764
+      ],
+      [
+        1141,
+        769,
+        2188,
+        817
+      ],
+      [
+        1143,
+        830,
+        1901,
+        877
+      ],
+      [
+        401,
+        1109,
+        2076,
+        1167
+      ],
+      [
+        491,
+        1173,
+        1988,
+        1224
+      ],
+      [
+        2400,
+        1233,
+        2453,
+        3347
+      ],
+      [
+        541,
+        1294,
+        2186,
+        1343
+      ],
+      [
+        290,
+        1351,
+        2085,
+        1404
+      ],
+      [
+        538,
+        1410,
+        2188,
+        1461
+      ],
+      [
+        290,
+        1470,
+        2186,
+        1520
+      ],
+      [
+        290,
+        1529,
+        2179,
+        1578
+      ],
+      [
+        541,
+        1586,
+        1849,
+        1636
+      ],
+      [
+        542,
+        1645,
+        2050,
+        1695
+      ],
+      [
+        541,
+        1764,
+        2186,
+        1814
+      ],
+      [
+        290,
+        1822,
+        2187,
+        1870
+      ],
+      [
+        288,
+        1879,
+        410,
+        1926
+      ],
+      [
+        2361,
+        1892,
+        2405,
+        1976
+      ],
+      [
+        2362,
+        1966,
+        2387,
+        2083
+      ],
+      [
+        540,
+        1996,
+        2189,
+        2046
+      ],
+      [
+        290,
+        2054,
+        2187,
+        2105
+      ],
+      [
+        2361,
+        2085,
+        2405,
+        3343
+      ],
+      [
+        290,
+        2111,
+        615,
+        2163
+      ],
+      [
+        541,
+        2227,
+        2189,
+        2275
+      ],
+      [
+        292,
+        2286,
+        1006,
+        2336
+      ],
+      [
+        543,
+        2403,
+        1430,
+        2448
+      ],
+      [
+        541,
+        2460,
+        2190,
+        2511
+      ],
+      [
+        291,
+        2519,
+        598,
+        2570
+      ],
+      [
+        538,
+        2577,
+        2189,
+        2628
+      ],
+      [
+        290,
+        2636,
+        2188,
+        2689
+      ],
+      [
+        290,
+        2695,
+        2188,
+        2747
+      ],
+      [
+        290,
+        2750,
+        774,
+        2804
+      ],
+      [
+        536,
+        2869,
+        2188,
+        2918
+      ],
+      [
+        290,
+        2928,
+        553,
+        2975
+      ],
+      [
+        1490,
+        3101,
+        2185,
+        3144
+      ]
+    ]
+  }
+}

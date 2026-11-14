@@ -1,0 +1,3715 @@
+{
+  "descricao": "Acurácia real do PaddleOCR em leis de Londrina; referência = camada de texto do PDF oficial (texto horizontal; carimbo vertical da assinatura excluído).",
+  "paginas": [
+    {
+      "lei": "lei_13921",
+      "ano": "2024",
+      "pagina": 1,
+      "nome": "lei_13921_p01",
+      "caracteres_referencia": 1994,
+      "vertical_excluido": "Documento assinado digitalmente por Marcelo Belinati Martins (871.***.***-91)\nPara verificar sua autenticidade, acesse: https://www.cml.pr.gov.br/cer e informe o código: 241231160033A1C227"
+    },
+    {
+      "lei": "lei_13921",
+      "ano": "2024",
+      "pagina": 2,
+      "nome": "lei_13921_p02",
+      "caracteres_referencia": 332,
+      "vertical_excluido": "Documento assinado digitalmente por Marcelo Belinati Martins (871.***.***-91)\nPara verificar sua autenticidade, acesse: https://www.cml.pr.gov.br/cer e informe o código: 241231160033A1C227"
+    },
+    {
+      "lei": "lei_13990",
+      "ano": "2025",
+      "pagina": 1,
+      "nome": "lei_13990_p01",
+      "caracteres_referencia": 2147,
+      "vertical_excluido": "Para verificar sua autenticidade, acesse: https://www.cml.pr.gov.br/cer e informe o código: 250925123326CBA224\nDocumento assinado digitalmente por José Tiago Camargo do Amaral (054.***.***-84) em 29/09/2025 18:12"
+    },
+    {
+      "lei": "lei_13990",
+      "ano": "2025",
+      "pagina": 2,
+      "nome": "lei_13990_p02",
+      "caracteres_referencia": 169,
+      "vertical_excluido": "Para verificar sua autenticidade, acesse: https://www.cml.pr.gov.br/cer e informe o código: 250925123326CBA224\nDocumento assinado digitalmente por José Tiago Camargo do Amaral (054.***.***-84) em 29/09/2025 18:12"
+    },
+    {
+      "lei": "lei_14064",
+      "ano": "2025",
+      "pagina": 1,
+      "nome": "lei_14064_p01",
+      "caracteres_referencia": 2720,
+      "vertical_excluido": "Para verificar sua autenticidade, acesse: https://www.cml.pr.gov.br/cer e informe o código: 25121916582357E280\nDocumento assinado digitalmente por José Tiago Camargo do Amaral (054.***.***-84) em 19/12/2025 18:01"
+    },
+    {
+      "lei": "lei_14064",
+      "ano": "2025",
+      "pagina": 2,
+      "nome": "lei_14064_p02",
+      "caracteres_referencia": 1083,
+      "vertical_excluido": "Para verificar sua autenticidade, acesse: https://www.cml.pr.gov.br/cer e informe o código: 25121916582357E280\nDocumento assinado digitalmente por José Tiago Camargo do Amaral (054.***.***-84) em 19/12/2025 18:01"
+    },
+    {
+      "lei": "lei_14065",
+      "ano": "2026",
+      "pagina": 1,
+      "nome": "lei_14065_p01",
+      "caracteres_referencia": 2322,
+      "vertical_excluido": "Documento assinado digitalmente por José Tiago Camargo do Amaral (054.***.***-84) em 22/12/2025 16:26\nPara verificar sua autenticidade, acesse: https://www.cml.pr.gov.br/cer e informe o código: 251222113718F02280"
+    },
+    {
+      "lei": "lei_14065",
+      "ano": "2026",
+      "pagina": 2,
+      "nome": "lei_14065_p02",
+      "caracteres_referencia": 2365,
+      "vertical_excluido": "Documento assinado digitalmente por José Tiago Camargo do Amaral (054.***.***-84) em 22/12/2025 16:26\nPara verificar sua autenticidade, acesse: https://www.cml.pr.gov.br/cer e informe o código: 251222113718F02280"
+    },
+    {
+      "lei": "lei_14065",
+      "ano": "2026",
+      "pagina": 3,
+      "nome": "lei_14065_p03",
+      "caracteres_referencia": 1736,
+      "vertical_excluido": "Documento assinado digitalmente por José Tiago Camargo do Amaral (054.***.***-84) em 22/12/2025 16:26\nPara verificar sua autenticidade, acesse: https://www.cml.pr.gov.br/cer e informe o código: 251222113718F02280"
+    },
+    {
+      "lei": "lei_14065",
+      "ano": "2026",
+      "pagina": 4,
+      "nome": "lei_14065_p04",
+      "caracteres_referencia": 2385,
+      "vertical_excluido": "Documento assinado digitalmente por José Tiago Camargo do Amaral (054.***.***-84) em 22/12/2025 16:26\nPara verificar sua autenticidade, acesse: https://www.cml.pr.gov.br/cer e informe o código: 251222113718F02280"
+    },
+    {
+      "lei": "lei_14065",
+      "ano": "2026",
+      "pagina": 5,
+      "nome": "lei_14065_p05",
+      "caracteres_referencia": 298,
+      "vertical_excluido": "Documento assinado digitalmente por José Tiago Camargo do Amaral (054.***.***-84) em 22/12/2025 16:26\nPara verificar sua autenticidade, acesse: https://www.cml.pr.gov.br/cer e informe o código: 251222113718F02280"
+    },
+    {
+      "lei": "lei_14182",
+      "ano": "2026",
+      "pagina": 1,
+      "nome": "lei_14182_p01",
+      "caracteres_referencia": 2091,
+      "vertical_excluido": "Documento assinado digitalmente por José Tiago Camargo do Amaral (054.***.***-84)\nPara verificar sua autenticidade, acesse: https://www.cml.pr.gov.br/cer e informe o código: 260622160838CF6321"
+    },
+    {
+      "lei": "lei_14182",
+      "ano": "2026",
+      "pagina": 2,
+      "nome": "lei_14182_p02",
+      "caracteres_referencia": 209,
+      "vertical_excluido": "Documento assinado digitalmente por José Tiago Camargo do Amaral (054.***.***-84)\nPara verificar sua autenticidade, acesse: https://www.cml.pr.gov.br/cer e informe o código: 260622160838CF6321"
+    },
+    {
+      "lei": "lei_14300",
+      "ano": "2026",
+      "pagina": 1,
+      "nome": "lei_14300_p01",
+      "caracteres_referencia": 698,
+      "vertical_excluido": "Documento assinado digitalmente por José Tiago Camargo do Amaral (054.***.***-84)\nPara verificar sua autenticidade, acesse: https://www.cml.pr.gov.br/cer e informe o código: 2611111025141B2321"
+    }
+  ],
+  "resumo": {
+    "digital/original": {
+      "paginas": 14,
+      "falhas": 0,
+      "cer": 0.3089,
+      "wer": 0.3824,
+      "acuracia_caracteres": 0.6911,
+      "acuracia_palavras": 0.6176,
+      "f1_palavras": 0.9073,
+      "artigos_preservados": "45/45",
+      "leis_preservadas": "14/14",
+      "datas_preservadas": "16/16",
+      "confianca_media": 0.8714,
+      "tempo_medio_s": 29.12
+    },
+    "digital/ampliado": {
+      "paginas": 14,
+      "falhas": 0,
+      "cer": 0.3089,
+      "wer": 0.3824,
+      "acuracia_caracteres": 0.6911,
+      "acuracia_palavras": 0.6176,
+      "f1_palavras": 0.9073,
+      "artigos_preservados": "45/45",
+      "leis_preservadas": "14/14",
+      "datas_preservadas": "16/16",
+      "confianca_media": 0.8714,
+      "tempo_medio_s": 25.09
+    },
+    "digital/deskew": {
+      "paginas": 14,
+      "falhas": 0,
+      "cer": 0.3089,
+      "wer": 0.3824,
+      "acuracia_caracteres": 0.6911,
+      "acuracia_palavras": 0.6176,
+      "f1_palavras": 0.9073,
+      "artigos_preservados": "45/45",
+      "leis_preservadas": "14/14",
+      "datas_preservadas": "16/16",
+      "confianca_media": 0.8714,
+      "tempo_medio_s": 26.02
+    },
+    "digital/completo": {
+      "paginas": 7,
+      "falhas": 0,
+      "cer": 0.2475,
+      "wer": 0.3172,
+      "acuracia_caracteres": 0.7525,
+      "acuracia_palavras": 0.6828,
+      "f1_palavras": 0.9098,
+      "artigos_preservados": "22/22",
+      "leis_preservadas": "8/8",
+      "datas_preservadas": "10/10",
+      "confianca_media": 0.9163,
+      "tempo_medio_s": 28.64
+    }
+  },
+  "execucoes": [
+    {
+      "condicao": "digital",
+      "perfil": "original",
+      "pagina": "lei_13921_p01",
+      "status": "ok",
+      "caracteres_ref": 1994,
+      "dist_car": 651,
+      "palavras_ref": 327,
+      "dist_pal": 137,
+      "cer": 0.3265,
+      "wer": 0.419,
+      "palavras_precisao": 0.9267,
+      "palavras_revocacao": 0.9664,
+      "palavras_f1": 0.9461,
+      "artigos": [
+        4,
+        4
+      ],
+      "leis": [
+        1,
+        1
+      ],
+      "datas": [
+        4,
+        4
+      ],
+      "confianca_media": 0.9212,
+      "tempo_ocr_s": 23.2039,
+      "trechos_revisao": 7,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "te 62"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "LONDRINA"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "SÚMULA:",
+          "ocr": "súMuLA:"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "–",
+          "ocr": "-"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "II –",
+          "ocr": "Il"
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "–",
+          "ocr": ""
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "§ 2º A recomposição inflacionária dos subsídios fixados nos incisos II e III deste",
+          "ocr": "(16-"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "§ 2º A recomposição inflacionária dos subsídios fixados nos incisos Il e IIl deste *** ***"
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "Art. 2º As despesas decorrentes da aplicação desta lei correrão à conta de dotações orçamentárias específicas. Art. 3º A eficácia desta Lei fica condicionada: I – à existência de autorização específica na Lei 13.830/2024 – Lei de Diretrizes Orçamentárias; II – à existência de prévia dotação orçamentária suficiente para atender às",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "em contrário. Orçamentárias; dotações orçamentárias específicas."
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "em contrário.",
+          "ocr": "ll - à existência de prévia dotação orçamentária suficiente para atender às Art. 2º As despesas decorrentes da aplicação desta lei correrão à conta de I - à existência de autorização específica na Lei 13.830/2024 - Lei de Diretrizes Art. 3º A eficácia desta Lei fica condicionada:"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "t snrmr drntirr r Le e c ce m e"
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "original",
+      "pagina": "lei_13921_p02",
+      "status": "ok",
+      "caracteres_ref": 332,
+      "dist_car": 125,
+      "palavras_ref": 53,
+      "dist_pal": 27,
+      "cer": 0.3765,
+      "wer": 0.5094,
+      "palavras_precisao": 0.7794,
+      "palavras_revocacao": 1.0,
+      "palavras_f1": 0.876,
+      "artigos": [
+        0,
+        0
+      ],
+      "leis": [
+        1,
+        1
+      ],
+      "datas": [
+        0,
+        0
+      ],
+      "confianca_media": 0.8206,
+      "tempo_ocr_s": 24.5657,
+      "trechos_revisao": 4,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "ts 62 LONDRINA Ref. Projeto de Lei nº 191/2024"
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "Ref. Projeto de Lei nº 191/2024",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "(16- *** *** tsn mar d rnnirmeanr Le e c ce e"
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "original",
+      "pagina": "lei_13990_p01",
+      "status": "ok",
+      "caracteres_ref": 2147,
+      "dist_car": 711,
+      "palavras_ref": 328,
+      "dist_pal": 127,
+      "cer": 0.3312,
+      "wer": 0.3872,
+      "palavras_precisao": 0.9114,
+      "palavras_revocacao": 0.9726,
+      "palavras_f1": 0.941,
+      "artigos": [
+        5,
+        5
+      ],
+      "leis": [
+        1,
+        1
+      ],
+      "datas": [
+        2,
+        2
+      ],
+      "confianca_media": 0.9146,
+      "tempo_ocr_s": 28.4542,
+      "trechos_revisao": 5,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "te 62"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "LONDRINA"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "SÚMULA:",
+          "ocr": "súMuLA:"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "TEA, Transtorno de Déficit de Atenção com Hiperatividade - TDAH, Transtorno Opositivo"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "Desafiador - ToD), doenças raras, dislexia, entre outras condições que exijam cuidados"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "– TEA, Transtorno de Déficit de Atenção com Hiperatividade – TDAH, Transtorno Opositivo Desafiador – TOD), doenças raras, dislexia, entre outras condições que exijam cuidados",
+          "ocr": "-"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "***8 4000/60/642 (8-*******"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "II –",
+          "ocr": "Il -"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "suas famílias; III –",
+          "ocr": "II -"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "–",
+          "ocr": "-"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "4º As despesas decorrentes da execução desta Lei correrão por conta de dotações suas famílias; Art."
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "orçamentárias próprias, suplementadas se necessário. Art. 5º Esta Lei entra em vigor na data de sua publicação."
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "original",
+      "pagina": "lei_13990_p02",
+      "status": "ok",
+      "caracteres_ref": 169,
+      "dist_car": 148,
+      "palavras_ref": 27,
+      "dist_pal": 31,
+      "cer": 0.8757,
+      "wer": 1.1481,
+      "palavras_precisao": 0.5745,
+      "palavras_revocacao": 1.0,
+      "palavras_f1": 0.7297,
+      "artigos": [
+        0,
+        0
+      ],
+      "leis": [
+        1,
+        1
+      ],
+      "datas": [
+        0,
+        0
+      ],
+      "confianca_media": 0.7489,
+      "tempo_ocr_s": 26.6247,
+      "trechos_revisao": 5,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "tu-s 6a2 LONDRINA Ref. Projeto de Lei nº 111/2025 Autoria: Sidnei Matias dos Santos"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "Ref. Projeto de Lei nº 111/2025 Autoria: Sidnei Matias dos Santos",
+          "ocr": "13:84 5000/60/6820 (8-******* tre e tr onrtor ce rtr o a Cle tee cee : m em"
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "original",
+      "pagina": "lei_14064_p01",
+      "status": "ok",
+      "caracteres_ref": 2719,
+      "dist_car": 979,
+      "palavras_ref": 457,
+      "dist_pal": 195,
+      "cer": 0.3601,
+      "wer": 0.4267,
+      "palavras_precisao": 0.9479,
+      "palavras_revocacao": 0.9956,
+      "palavras_f1": 0.9712,
+      "artigos": [
+        5,
+        5
+      ],
+      "leis": [
+        1,
+        1
+      ],
+      "datas": [
+        2,
+        2
+      ],
+      "confianca_media": 0.9123,
+      "tempo_ocr_s": 36.1939,
+      "trechos_revisao": 7,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "te 6a2"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "LONDRINA"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "SÚMULA:",
+          "ocr": "súmuLA:"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "9,42 metros e raio de 6,00 metros; segue confrontando com a Rua Arcindo Sardo no rumo E-W,"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "com 14,00 metros; deflete a direita e segue confrontando com a área de Escola no rumo S-N,"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "9,42 metros e raio de 6,00 metros; segue confrontando com a Rua Arcindo Sardo no rumo E-W, com 14,00 metros; deflete a direita e segue confrontando com a área de Escola no rumo S-N,",
+          "ocr": "2082200002/6220(2"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "*** ***"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "II",
+          "ocr": "Il"
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "confrontando com a Rua Hisatsugo Miyasaki no rumo N-S, com 20,00 metros; deflete a direita e",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "confrontando com a Rua Hisatsugo Miyasaki no rumo N-S, com 20,00 metros; deflete a direita e"
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "Art. 2º Fica o Executivo Municipal autorizado a permutar os imóveis descritos no",
+          "ocr": ""
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "1-4/13-16 (um-quatro/treze-dezesseis), da quadra nº 03 (três), com área de 2.145,58 metros",
+          "ocr": ""
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "original",
+      "pagina": "lei_14064_p02",
+      "status": "ok",
+      "caracteres_ref": 1083,
+      "dist_car": 189,
+      "palavras_ref": 177,
+      "dist_pal": 34,
+      "cer": 0.1745,
+      "wer": 0.1921,
+      "palavras_precisao": 0.8844,
+      "palavras_revocacao": 0.9944,
+      "palavras_f1": 0.9362,
+      "artigos": [
+        3,
+        3
+      ],
+      "leis": [
+        1,
+        1
+      ],
+      "datas": [
+        1,
+        1
+      ],
+      "confianca_media": 0.8695,
+      "tempo_ocr_s": 47.2188,
+      "trechos_revisao": 6,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "-n g2 LONDRINA"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "118.000,00",
+          "ocr": "118.0oo,00"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "Cltll cer e ete c erdtre e cem"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "*0:84 *000/01/64 20 (8-*******"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "Ref. Projeto de Lei nº 218/2025 Autoria: Executivo Municipal"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "Ref. Projeto de Lei nº 218/2025 Autoria: Executivo Municipal",
+          "ocr": "tre r cr rrrtrorcr rntr o r"
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "original",
+      "pagina": "lei_14065_p01",
+      "status": "ok",
+      "caracteres_ref": 2322,
+      "dist_car": 1058,
+      "palavras_ref": 368,
+      "dist_pal": 207,
+      "cer": 0.4556,
+      "wer": 0.5625,
+      "palavras_precisao": 0.9388,
+      "palavras_revocacao": 1.0,
+      "palavras_f1": 0.9684,
+      "artigos": [
+        5,
+        5
+      ],
+      "leis": [
+        2,
+        2
+      ],
+      "datas": [
+        1,
+        1
+      ],
+      "confianca_media": 0.9127,
+      "tempo_ocr_s": 46.2075,
+      "trechos_revisao": 8,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "te 62"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "LONDRINA"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "2026 - 2029, em cumprimento ao disposto no § 1º, do art. 165, da Constituição Federal. orientados para o alcance dos objetivos estratégicos definidos para o período do Plano."
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "2026 - 2029, em cumprimento ao disposto no § 1º, do art. 165, da Constituição Federal.",
+          "ocr": ""
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "orientados para o alcance dos objetivos estratégicos definidos para o período do Plano.",
+          "ocr": "20.62 200002/2820 (8"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "*** ***"
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "Municipal para o período de 2026-2029.",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "Municipal para o período de 2026-2029. IV. III. as ações que promovam a atração e a consolidação de investimentos em setores II. as ações que assegurem o direito à educação pública de qualidade, inclusiva e equitativa, I."
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "I.",
+          "ocr": "formação de valores e acesso à cultura como instrumento de expressão e participação"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "desde a creche até o ensino fundamental, promovendo aprendizagem significativa, social; estratégicos como indústria de base tecnológica, agro, turismo e comércio, visando foco na formação cidadã, na inclusão social, na ocupação qualificada dos espaços"
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "as ações que assegurem o direito à educação pública de qualidade, inclusiva e equitativa, II. desde a creche até o ensino fundamental, promovendo aprendizagem significativa, formação de valores e acesso à cultura como instrumento de expressão e participação social; as ações que promovam a atração e a consolidação de investimentos em setores III. estratégicos como indústria de base tecnológica, agro, turismo e comércio, visando",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "urbanos e no fortalecimento do desenvolvimento humano como base para uma cultura de"
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "original",
+      "pagina": "lei_14065_p02",
+      "status": "ok",
+      "caracteres_ref": 2365,
+      "dist_car": 469,
+      "palavras_ref": 365,
+      "dist_pal": 91,
+      "cer": 0.1983,
+      "wer": 0.2493,
+      "palavras_precisao": 0.9332,
+      "palavras_revocacao": 0.9945,
+      "palavras_f1": 0.9629,
+      "artigos": [
+        2,
+        2
+      ],
+      "leis": [
+        0,
+        0
+      ],
+      "datas": [
+        0,
+        0
+      ],
+      "confianca_media": 0.9097,
+      "tempo_ocr_s": 25.7679,
+      "trechos_revisao": 7,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "6a2"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "LONDRINA"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "V."
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "V.",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "VI."
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "VI.",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "VIl."
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "VII.",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "VIII."
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "VIII.",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "IX."
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "IX.",
+          "ocr": ""
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "original",
+      "pagina": "lei_14065_p03",
+      "status": "ok",
+      "caracteres_ref": 1736,
+      "dist_car": 419,
+      "palavras_ref": 281,
+      "dist_pal": 75,
+      "cer": 0.2414,
+      "wer": 0.2669,
+      "palavras_precisao": 0.9145,
+      "palavras_revocacao": 0.9893,
+      "palavras_f1": 0.9504,
+      "artigos": [
+        4,
+        4
+      ],
+      "leis": [
+        0,
+        0
+      ],
+      "datas": [
+        0,
+        0
+      ],
+      "confianca_media": 0.8973,
+      "tempo_ocr_s": 25.822,
+      "trechos_revisao": 5,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "- 62"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "LONDRINA"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "–",
+          "ocr": "-"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "*89 2400/11/24 * (8-******"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "DA GESTÃO DO PLANO Sessão",
+          "ocr": "populacionais mais vulneráveis, buscando o aperfeiçoamento:"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "Aspectos Gerais",
+          "ocr": "- dos mecanismos de implementação e integração das políticas públicas; Il - dos mecanismos de monitoramento, avaliação e revisão do PPA 2026 - 2029"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "–",
+          "ocr": "-"
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "populacionais mais vulneráveis, buscando o aperfeiçoamento: I - dos mecanismos de implementação e integração das políticas públicas; II - dos mecanismos de monitoramento, avaliação e revisão do PPA 2026 - 2029 Seção II",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "DA GESTÃO DO PLANO Aspectos Gerais Sessão I Seção II tte io crr cr or ce rnir r nr El ce e e c cdtme c"
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "original",
+      "pagina": "lei_14065_p04",
+      "status": "ok",
+      "caracteres_ref": 2385,
+      "dist_car": 699,
+      "palavras_ref": 375,
+      "dist_pal": 131,
+      "cer": 0.2931,
+      "wer": 0.3493,
+      "palavras_precisao": 0.9348,
+      "palavras_revocacao": 0.9947,
+      "palavras_f1": 0.9638,
+      "artigos": [
+        10,
+        10
+      ],
+      "leis": [
+        1,
+        1
+      ],
+      "datas": [
+        1,
+        1
+      ],
+      "confianca_media": 0.9145,
+      "tempo_ocr_s": 26.5376,
+      "trechos_revisao": 7,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "U 62"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "LONDRINA"
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "Art. 15. Para fins de atendimento ao disposto no parágrafo 1° do art. 167 da Constituição",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "15. Para fins de atendimento ao disposto no parágrafo 1° do art. 167 da Constituição 28.14 200002/2820 (80 Art."
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "*** ***"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "II",
+          "ocr": "Il"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "III",
+          "ocr": "IIl"
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "orçamentárias e financeiras; IV - incluir, excluir ou alterar as iniciativas gerenciais, limitadas às disponibilidades orçamentárias e financeiras;",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "IV - incluir, excluir ou alterar as iniciativas gerenciais, limitadas às disponibilidades orçamentárias contrário. e financeiras;"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "créditos adicionais ou por leis que alterem o Plano Plurianual.",
+          "ocr": "orçamentárias e financeiras;"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "LDO/2026. Art. 19 Esta Lei entra em vigor no dia 1º de janeiro de 2026, revogadas as disposições com créditos adicionais ou por leis que alterem o Plano Plurianual."
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "LDO/2026. Art. 19 Esta Lei entra em vigor no dia 1º de janeiro de 2026, revogadas as disposições com contrário.",
+          "ocr": "tte io crr cr or ce rnir r nr El ce e t cctdte m c"
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "original",
+      "pagina": "lei_14065_p05",
+      "status": "ok",
+      "caracteres_ref": 298,
+      "dist_car": 96,
+      "palavras_ref": 50,
+      "dist_pal": 21,
+      "cer": 0.3221,
+      "wer": 0.42,
+      "palavras_precisao": 0.7042,
+      "palavras_revocacao": 1.0,
+      "palavras_f1": 0.8264,
+      "artigos": [
+        0,
+        0
+      ],
+      "leis": [
+        1,
+        1
+      ],
+      "datas": [
+        1,
+        1
+      ],
+      "confianca_media": 0.7823,
+      "tempo_ocr_s": 24.408,
+      "trechos_revisao": 5,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "myan 6a2"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "LONDRINA"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "*81 2400/12/24 *0 (8-******* tte e crrrrmor co rtie o a El ceb e t cctdte m c"
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "original",
+      "pagina": "lei_14182_p01",
+      "status": "ok",
+      "caracteres_ref": 2091,
+      "dist_car": 524,
+      "palavras_ref": 305,
+      "dist_pal": 113,
+      "cer": 0.2506,
+      "wer": 0.3705,
+      "palavras_precisao": 0.9172,
+      "palavras_revocacao": 0.9803,
+      "palavras_f1": 0.9477,
+      "artigos": [
+        5,
+        5
+      ],
+      "leis": [
+        1,
+        1
+      ],
+      "datas": [
+        2,
+        2
+      ],
+      "confianca_media": 0.923,
+      "tempo_ocr_s": 24.9541,
+      "trechos_revisao": 4,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "te 62"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "LONDRINA"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "(8-"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "I –",
+          "ocr": "*** *** I-"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "II –",
+          "ocr": "Il -"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "–",
+          "ocr": "-"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "–",
+          "ocr": "-"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "Art. 3º O Poder Executivo regulamentará o previsto nesta Lei, no que couber, no prazo de até Art. 4º As despesas decorrentes da aplicação desta Lei correrão por conta de dotações Art. 5º Esta Lei entra em vigor na data de sua publicação, revogadas as disposições contrárias."
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "Art. 3º O Poder Executivo regulamentará o previsto nesta Lei, no que couber, no prazo de até",
+          "ocr": "educacional. orçamentárias próprias, podendo ser suplementadas, se necessário."
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "educacional. Art. 4º As despesas decorrentes da aplicação desta Lei correrão por conta de dotações orçamentárias próprias, podendo ser suplementadas, se necessário. Art. 5º Esta Lei entra em vigor na data de sua publicação, revogadas as disposições contrárias.",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "tte ro orr crm or co rnnie a aro Ctteae cer e e cecorderrte m ce"
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "original",
+      "pagina": "lei_14182_p02",
+      "status": "ok",
+      "caracteres_ref": 209,
+      "dist_car": 204,
+      "palavras_ref": 34,
+      "dist_pal": 39,
+      "cer": 0.9761,
+      "wer": 1.1471,
+      "palavras_precisao": 0.6182,
+      "palavras_revocacao": 1.0,
+      "palavras_f1": 0.764,
+      "artigos": [
+        0,
+        0
+      ],
+      "leis": [
+        1,
+        1
+      ],
+      "datas": [
+        0,
+        0
+      ],
+      "confianca_media": 0.7936,
+      "tempo_ocr_s": 24.0637,
+      "trechos_revisao": 5,
+      "erros_exemplo": [
+        {
+          "tipo": "trocado",
+          "referencia": "Estado do Paraná José Tiago Camargo do Amaral Prefeito do Município",
+          "ocr": "ts 62 LONDRINA"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "Estado do Paraná José Tiago Camargo do Amaral Prefeito do Município (8-. *** *** ctte ro rrr orm or cerrntir re nr Ceee ere e et co coerre cem"
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "original",
+      "pagina": "lei_14300_p01",
+      "status": "ok",
+      "caracteres_ref": 698,
+      "dist_car": 75,
+      "palavras_ref": 114,
+      "dist_pal": 19,
+      "cer": 0.1074,
+      "wer": 0.1667,
+      "palavras_precisao": 0.8561,
+      "palavras_revocacao": 0.9912,
+      "palavras_f1": 0.9187,
+      "artigos": [
+        2,
+        2
+      ],
+      "leis": [
+        2,
+        2
+      ],
+      "datas": [
+        2,
+        2
+      ],
+      "confianca_media": 0.8791,
+      "tempo_ocr_s": 23.7177,
+      "trechos_revisao": 4,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "te 62"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "LONDRINA"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "SÚMULA:",
+          "ocr": "súMuLA:"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "(8-."
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "*** ***"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "ctte ro rrr orm or cerrntir re nro Cl c e m"
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "ampliado",
+      "pagina": "lei_13921_p01",
+      "status": "ok",
+      "caracteres_ref": 1994,
+      "dist_car": 651,
+      "palavras_ref": 327,
+      "dist_pal": 137,
+      "cer": 0.3265,
+      "wer": 0.419,
+      "palavras_precisao": 0.9267,
+      "palavras_revocacao": 0.9664,
+      "palavras_f1": 0.9461,
+      "artigos": [
+        4,
+        4
+      ],
+      "leis": [
+        1,
+        1
+      ],
+      "datas": [
+        4,
+        4
+      ],
+      "confianca_media": 0.9212,
+      "tempo_ocr_s": 26.0862,
+      "trechos_revisao": 7,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "te 62"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "LONDRINA"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "SÚMULA:",
+          "ocr": "súMuLA:"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "–",
+          "ocr": "-"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "II –",
+          "ocr": "Il"
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "–",
+          "ocr": ""
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "§ 2º A recomposição inflacionária dos subsídios fixados nos incisos II e III deste",
+          "ocr": "(16-"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "§ 2º A recomposição inflacionária dos subsídios fixados nos incisos Il e IIl deste *** ***"
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "Art. 2º As despesas decorrentes da aplicação desta lei correrão à conta de dotações orçamentárias específicas. Art. 3º A eficácia desta Lei fica condicionada: I – à existência de autorização específica na Lei 13.830/2024 – Lei de Diretrizes Orçamentárias; II – à existência de prévia dotação orçamentária suficiente para atender às",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "em contrário. Orçamentárias; dotações orçamentárias específicas."
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "em contrário.",
+          "ocr": "ll - à existência de prévia dotação orçamentária suficiente para atender às Art. 2º As despesas decorrentes da aplicação desta lei correrão à conta de I - à existência de autorização específica na Lei 13.830/2024 - Lei de Diretrizes Art. 3º A eficácia desta Lei fica condicionada:"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "t snrmr drntirr r Le e c ce m e"
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "ampliado",
+      "pagina": "lei_13921_p02",
+      "status": "ok",
+      "caracteres_ref": 332,
+      "dist_car": 125,
+      "palavras_ref": 53,
+      "dist_pal": 27,
+      "cer": 0.3765,
+      "wer": 0.5094,
+      "palavras_precisao": 0.7794,
+      "palavras_revocacao": 1.0,
+      "palavras_f1": 0.876,
+      "artigos": [
+        0,
+        0
+      ],
+      "leis": [
+        1,
+        1
+      ],
+      "datas": [
+        0,
+        0
+      ],
+      "confianca_media": 0.8206,
+      "tempo_ocr_s": 23.3631,
+      "trechos_revisao": 4,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "ts 62 LONDRINA Ref. Projeto de Lei nº 191/2024"
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "Ref. Projeto de Lei nº 191/2024",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "(16- *** *** tsn mar d rnnirmeanr Le e c ce e"
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "ampliado",
+      "pagina": "lei_13990_p01",
+      "status": "ok",
+      "caracteres_ref": 2147,
+      "dist_car": 711,
+      "palavras_ref": 328,
+      "dist_pal": 127,
+      "cer": 0.3312,
+      "wer": 0.3872,
+      "palavras_precisao": 0.9114,
+      "palavras_revocacao": 0.9726,
+      "palavras_f1": 0.941,
+      "artigos": [
+        5,
+        5
+      ],
+      "leis": [
+        1,
+        1
+      ],
+      "datas": [
+        2,
+        2
+      ],
+      "confianca_media": 0.9146,
+      "tempo_ocr_s": 25.1599,
+      "trechos_revisao": 5,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "te 62"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "LONDRINA"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "SÚMULA:",
+          "ocr": "súMuLA:"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "TEA, Transtorno de Déficit de Atenção com Hiperatividade - TDAH, Transtorno Opositivo"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "Desafiador - ToD), doenças raras, dislexia, entre outras condições que exijam cuidados"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "– TEA, Transtorno de Déficit de Atenção com Hiperatividade – TDAH, Transtorno Opositivo Desafiador – TOD), doenças raras, dislexia, entre outras condições que exijam cuidados",
+          "ocr": "-"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "***8 4000/60/642 (8-*******"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "II –",
+          "ocr": "Il -"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "suas famílias; III –",
+          "ocr": "II -"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "–",
+          "ocr": "-"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "4º As despesas decorrentes da execução desta Lei correrão por conta de dotações suas famílias; Art."
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "orçamentárias próprias, suplementadas se necessário. Art. 5º Esta Lei entra em vigor na data de sua publicação."
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "ampliado",
+      "pagina": "lei_13990_p02",
+      "status": "ok",
+      "caracteres_ref": 169,
+      "dist_car": 148,
+      "palavras_ref": 27,
+      "dist_pal": 31,
+      "cer": 0.8757,
+      "wer": 1.1481,
+      "palavras_precisao": 0.5745,
+      "palavras_revocacao": 1.0,
+      "palavras_f1": 0.7297,
+      "artigos": [
+        0,
+        0
+      ],
+      "leis": [
+        1,
+        1
+      ],
+      "datas": [
+        0,
+        0
+      ],
+      "confianca_media": 0.7489,
+      "tempo_ocr_s": 25.2561,
+      "trechos_revisao": 5,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "tu-s 6a2 LONDRINA Ref. Projeto de Lei nº 111/2025 Autoria: Sidnei Matias dos Santos"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "Ref. Projeto de Lei nº 111/2025 Autoria: Sidnei Matias dos Santos",
+          "ocr": "13:84 5000/60/6820 (8-******* tre e tr onrtor ce rtr o a Cle tee cee : m em"
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "ampliado",
+      "pagina": "lei_14064_p01",
+      "status": "ok",
+      "caracteres_ref": 2719,
+      "dist_car": 979,
+      "palavras_ref": 457,
+      "dist_pal": 195,
+      "cer": 0.3601,
+      "wer": 0.4267,
+      "palavras_precisao": 0.9479,
+      "palavras_revocacao": 0.9956,
+      "palavras_f1": 0.9712,
+      "artigos": [
+        5,
+        5
+      ],
+      "leis": [
+        1,
+        1
+      ],
+      "datas": [
+        2,
+        2
+      ],
+      "confianca_media": 0.9123,
+      "tempo_ocr_s": 26.1761,
+      "trechos_revisao": 7,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "te 6a2"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "LONDRINA"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "SÚMULA:",
+          "ocr": "súmuLA:"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "9,42 metros e raio de 6,00 metros; segue confrontando com a Rua Arcindo Sardo no rumo E-W,"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "com 14,00 metros; deflete a direita e segue confrontando com a área de Escola no rumo S-N,"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "9,42 metros e raio de 6,00 metros; segue confrontando com a Rua Arcindo Sardo no rumo E-W, com 14,00 metros; deflete a direita e segue confrontando com a área de Escola no rumo S-N,",
+          "ocr": "2082200002/6220(2"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "*** ***"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "II",
+          "ocr": "Il"
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "confrontando com a Rua Hisatsugo Miyasaki no rumo N-S, com 20,00 metros; deflete a direita e",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "confrontando com a Rua Hisatsugo Miyasaki no rumo N-S, com 20,00 metros; deflete a direita e"
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "Art. 2º Fica o Executivo Municipal autorizado a permutar os imóveis descritos no",
+          "ocr": ""
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "1-4/13-16 (um-quatro/treze-dezesseis), da quadra nº 03 (três), com área de 2.145,58 metros",
+          "ocr": ""
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "ampliado",
+      "pagina": "lei_14064_p02",
+      "status": "ok",
+      "caracteres_ref": 1083,
+      "dist_car": 189,
+      "palavras_ref": 177,
+      "dist_pal": 34,
+      "cer": 0.1745,
+      "wer": 0.1921,
+      "palavras_precisao": 0.8844,
+      "palavras_revocacao": 0.9944,
+      "palavras_f1": 0.9362,
+      "artigos": [
+        3,
+        3
+      ],
+      "leis": [
+        1,
+        1
+      ],
+      "datas": [
+        1,
+        1
+      ],
+      "confianca_media": 0.8695,
+      "tempo_ocr_s": 24.3518,
+      "trechos_revisao": 6,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "-n g2 LONDRINA"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "118.000,00",
+          "ocr": "118.0oo,00"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "Cltll cer e ete c erdtre e cem"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "*0:84 *000/01/64 20 (8-*******"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "Ref. Projeto de Lei nº 218/2025 Autoria: Executivo Municipal"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "Ref. Projeto de Lei nº 218/2025 Autoria: Executivo Municipal",
+          "ocr": "tre r cr rrrtrorcr rntr o r"
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "ampliado",
+      "pagina": "lei_14065_p01",
+      "status": "ok",
+      "caracteres_ref": 2322,
+      "dist_car": 1058,
+      "palavras_ref": 368,
+      "dist_pal": 207,
+      "cer": 0.4556,
+      "wer": 0.5625,
+      "palavras_precisao": 0.9388,
+      "palavras_revocacao": 1.0,
+      "palavras_f1": 0.9684,
+      "artigos": [
+        5,
+        5
+      ],
+      "leis": [
+        2,
+        2
+      ],
+      "datas": [
+        1,
+        1
+      ],
+      "confianca_media": 0.9127,
+      "tempo_ocr_s": 25.5475,
+      "trechos_revisao": 8,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "te 62"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "LONDRINA"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "2026 - 2029, em cumprimento ao disposto no § 1º, do art. 165, da Constituição Federal. orientados para o alcance dos objetivos estratégicos definidos para o período do Plano."
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "2026 - 2029, em cumprimento ao disposto no § 1º, do art. 165, da Constituição Federal.",
+          "ocr": ""
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "orientados para o alcance dos objetivos estratégicos definidos para o período do Plano.",
+          "ocr": "20.62 200002/2820 (8"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "*** ***"
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "Municipal para o período de 2026-2029.",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "Municipal para o período de 2026-2029. IV. III. as ações que promovam a atração e a consolidação de investimentos em setores II. as ações que assegurem o direito à educação pública de qualidade, inclusiva e equitativa, I."
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "I.",
+          "ocr": "formação de valores e acesso à cultura como instrumento de expressão e participação"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "desde a creche até o ensino fundamental, promovendo aprendizagem significativa, social; estratégicos como indústria de base tecnológica, agro, turismo e comércio, visando foco na formação cidadã, na inclusão social, na ocupação qualificada dos espaços"
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "as ações que assegurem o direito à educação pública de qualidade, inclusiva e equitativa, II. desde a creche até o ensino fundamental, promovendo aprendizagem significativa, formação de valores e acesso à cultura como instrumento de expressão e participação social; as ações que promovam a atração e a consolidação de investimentos em setores III. estratégicos como indústria de base tecnológica, agro, turismo e comércio, visando",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "urbanos e no fortalecimento do desenvolvimento humano como base para uma cultura de"
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "ampliado",
+      "pagina": "lei_14065_p02",
+      "status": "ok",
+      "caracteres_ref": 2365,
+      "dist_car": 469,
+      "palavras_ref": 365,
+      "dist_pal": 91,
+      "cer": 0.1983,
+      "wer": 0.2493,
+      "palavras_precisao": 0.9332,
+      "palavras_revocacao": 0.9945,
+      "palavras_f1": 0.9629,
+      "artigos": [
+        2,
+        2
+      ],
+      "leis": [
+        0,
+        0
+      ],
+      "datas": [
+        0,
+        0
+      ],
+      "confianca_media": 0.9097,
+      "tempo_ocr_s": 26.4783,
+      "trechos_revisao": 7,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "6a2"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "LONDRINA"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "V."
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "V.",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "VI."
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "VI.",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "VIl."
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "VII.",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "VIII."
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "VIII.",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "IX."
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "IX.",
+          "ocr": ""
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "ampliado",
+      "pagina": "lei_14065_p03",
+      "status": "ok",
+      "caracteres_ref": 1736,
+      "dist_car": 419,
+      "palavras_ref": 281,
+      "dist_pal": 75,
+      "cer": 0.2414,
+      "wer": 0.2669,
+      "palavras_precisao": 0.9145,
+      "palavras_revocacao": 0.9893,
+      "palavras_f1": 0.9504,
+      "artigos": [
+        4,
+        4
+      ],
+      "leis": [
+        0,
+        0
+      ],
+      "datas": [
+        0,
+        0
+      ],
+      "confianca_media": 0.8973,
+      "tempo_ocr_s": 24.8332,
+      "trechos_revisao": 5,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "- 62"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "LONDRINA"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "–",
+          "ocr": "-"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "*89 2400/11/24 * (8-******"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "DA GESTÃO DO PLANO Sessão",
+          "ocr": "populacionais mais vulneráveis, buscando o aperfeiçoamento:"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "Aspectos Gerais",
+          "ocr": "- dos mecanismos de implementação e integração das políticas públicas; Il - dos mecanismos de monitoramento, avaliação e revisão do PPA 2026 - 2029"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "–",
+          "ocr": "-"
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "populacionais mais vulneráveis, buscando o aperfeiçoamento: I - dos mecanismos de implementação e integração das políticas públicas; II - dos mecanismos de monitoramento, avaliação e revisão do PPA 2026 - 2029 Seção II",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "DA GESTÃO DO PLANO Aspectos Gerais Sessão I Seção II tte io crr cr or ce rnir r nr El ce e e c cdtme c"
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "ampliado",
+      "pagina": "lei_14065_p04",
+      "status": "ok",
+      "caracteres_ref": 2385,
+      "dist_car": 699,
+      "palavras_ref": 375,
+      "dist_pal": 131,
+      "cer": 0.2931,
+      "wer": 0.3493,
+      "palavras_precisao": 0.9348,
+      "palavras_revocacao": 0.9947,
+      "palavras_f1": 0.9638,
+      "artigos": [
+        10,
+        10
+      ],
+      "leis": [
+        1,
+        1
+      ],
+      "datas": [
+        1,
+        1
+      ],
+      "confianca_media": 0.9145,
+      "tempo_ocr_s": 25.7147,
+      "trechos_revisao": 7,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "U 62"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "LONDRINA"
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "Art. 15. Para fins de atendimento ao disposto no parágrafo 1° do art. 167 da Constituição",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "15. Para fins de atendimento ao disposto no parágrafo 1° do art. 167 da Constituição 28.14 200002/2820 (80 Art."
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "*** ***"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "II",
+          "ocr": "Il"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "III",
+          "ocr": "IIl"
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "orçamentárias e financeiras; IV - incluir, excluir ou alterar as iniciativas gerenciais, limitadas às disponibilidades orçamentárias e financeiras;",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "IV - incluir, excluir ou alterar as iniciativas gerenciais, limitadas às disponibilidades orçamentárias contrário. e financeiras;"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "créditos adicionais ou por leis que alterem o Plano Plurianual.",
+          "ocr": "orçamentárias e financeiras;"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "LDO/2026. Art. 19 Esta Lei entra em vigor no dia 1º de janeiro de 2026, revogadas as disposições com créditos adicionais ou por leis que alterem o Plano Plurianual."
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "LDO/2026. Art. 19 Esta Lei entra em vigor no dia 1º de janeiro de 2026, revogadas as disposições com contrário.",
+          "ocr": "tte io crr cr or ce rnir r nr El ce e t cctdte m c"
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "ampliado",
+      "pagina": "lei_14065_p05",
+      "status": "ok",
+      "caracteres_ref": 298,
+      "dist_car": 96,
+      "palavras_ref": 50,
+      "dist_pal": 21,
+      "cer": 0.3221,
+      "wer": 0.42,
+      "palavras_precisao": 0.7042,
+      "palavras_revocacao": 1.0,
+      "palavras_f1": 0.8264,
+      "artigos": [
+        0,
+        0
+      ],
+      "leis": [
+        1,
+        1
+      ],
+      "datas": [
+        1,
+        1
+      ],
+      "confianca_media": 0.7823,
+      "tempo_ocr_s": 23.0432,
+      "trechos_revisao": 5,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "myan 6a2"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "LONDRINA"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "*81 2400/12/24 *0 (8-******* tte e crrrrmor co rtie o a El ceb e t cctdte m c"
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "ampliado",
+      "pagina": "lei_14182_p01",
+      "status": "ok",
+      "caracteres_ref": 2091,
+      "dist_car": 524,
+      "palavras_ref": 305,
+      "dist_pal": 113,
+      "cer": 0.2506,
+      "wer": 0.3705,
+      "palavras_precisao": 0.9172,
+      "palavras_revocacao": 0.9803,
+      "palavras_f1": 0.9477,
+      "artigos": [
+        5,
+        5
+      ],
+      "leis": [
+        1,
+        1
+      ],
+      "datas": [
+        2,
+        2
+      ],
+      "confianca_media": 0.923,
+      "tempo_ocr_s": 25.7338,
+      "trechos_revisao": 4,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "te 62"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "LONDRINA"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "(8-"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "I –",
+          "ocr": "*** *** I-"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "II –",
+          "ocr": "Il -"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "–",
+          "ocr": "-"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "–",
+          "ocr": "-"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "Art. 3º O Poder Executivo regulamentará o previsto nesta Lei, no que couber, no prazo de até Art. 4º As despesas decorrentes da aplicação desta Lei correrão por conta de dotações Art. 5º Esta Lei entra em vigor na data de sua publicação, revogadas as disposições contrárias."
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "Art. 3º O Poder Executivo regulamentará o previsto nesta Lei, no que couber, no prazo de até",
+          "ocr": "educacional. orçamentárias próprias, podendo ser suplementadas, se necessário."
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "educacional. Art. 4º As despesas decorrentes da aplicação desta Lei correrão por conta de dotações orçamentárias próprias, podendo ser suplementadas, se necessário. Art. 5º Esta Lei entra em vigor na data de sua publicação, revogadas as disposições contrárias.",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "tte ro orr crm or co rnnie a aro Ctteae cer e e cecorderrte m ce"
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "ampliado",
+      "pagina": "lei_14182_p02",
+      "status": "ok",
+      "caracteres_ref": 209,
+      "dist_car": 204,
+      "palavras_ref": 34,
+      "dist_pal": 39,
+      "cer": 0.9761,
+      "wer": 1.1471,
+      "palavras_precisao": 0.6182,
+      "palavras_revocacao": 1.0,
+      "palavras_f1": 0.764,
+      "artigos": [
+        0,
+        0
+      ],
+      "leis": [
+        1,
+        1
+      ],
+      "datas": [
+        0,
+        0
+      ],
+      "confianca_media": 0.7936,
+      "tempo_ocr_s": 22.7234,
+      "trechos_revisao": 5,
+      "erros_exemplo": [
+        {
+          "tipo": "trocado",
+          "referencia": "Estado do Paraná José Tiago Camargo do Amaral Prefeito do Município",
+          "ocr": "ts 62 LONDRINA"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "Estado do Paraná José Tiago Camargo do Amaral Prefeito do Município (8-. *** *** ctte ro rrr orm or cerrntir re nr Ceee ere e et co coerre cem"
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "ampliado",
+      "pagina": "lei_14300_p01",
+      "status": "ok",
+      "caracteres_ref": 698,
+      "dist_car": 75,
+      "palavras_ref": 114,
+      "dist_pal": 19,
+      "cer": 0.1074,
+      "wer": 0.1667,
+      "palavras_precisao": 0.8561,
+      "palavras_revocacao": 0.9912,
+      "palavras_f1": 0.9187,
+      "artigos": [
+        2,
+        2
+      ],
+      "leis": [
+        2,
+        2
+      ],
+      "datas": [
+        2,
+        2
+      ],
+      "confianca_media": 0.8791,
+      "tempo_ocr_s": 26.7878,
+      "trechos_revisao": 4,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "te 62"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "LONDRINA"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "SÚMULA:",
+          "ocr": "súMuLA:"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "(8-."
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "*** ***"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "ctte ro rrr orm or cerrntir re nro Cl c e m"
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "deskew",
+      "pagina": "lei_13921_p01",
+      "status": "ok",
+      "caracteres_ref": 1994,
+      "dist_car": 651,
+      "palavras_ref": 327,
+      "dist_pal": 137,
+      "cer": 0.3265,
+      "wer": 0.419,
+      "palavras_precisao": 0.9267,
+      "palavras_revocacao": 0.9664,
+      "palavras_f1": 0.9461,
+      "artigos": [
+        4,
+        4
+      ],
+      "leis": [
+        1,
+        1
+      ],
+      "datas": [
+        4,
+        4
+      ],
+      "confianca_media": 0.9212,
+      "tempo_ocr_s": 26.206,
+      "trechos_revisao": 7,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "te 62"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "LONDRINA"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "SÚMULA:",
+          "ocr": "súMuLA:"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "–",
+          "ocr": "-"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "II –",
+          "ocr": "Il"
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "–",
+          "ocr": ""
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "§ 2º A recomposição inflacionária dos subsídios fixados nos incisos II e III deste",
+          "ocr": "(16-"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "§ 2º A recomposição inflacionária dos subsídios fixados nos incisos Il e IIl deste *** ***"
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "Art. 2º As despesas decorrentes da aplicação desta lei correrão à conta de dotações orçamentárias específicas. Art. 3º A eficácia desta Lei fica condicionada: I – à existência de autorização específica na Lei 13.830/2024 – Lei de Diretrizes Orçamentárias; II – à existência de prévia dotação orçamentária suficiente para atender às",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "em contrário. Orçamentárias; dotações orçamentárias específicas."
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "em contrário.",
+          "ocr": "ll - à existência de prévia dotação orçamentária suficiente para atender às Art. 2º As despesas decorrentes da aplicação desta lei correrão à conta de I - à existência de autorização específica na Lei 13.830/2024 - Lei de Diretrizes Art. 3º A eficácia desta Lei fica condicionada:"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "t snrmr drntirr r Le e c ce m e"
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "deskew",
+      "pagina": "lei_13921_p02",
+      "status": "ok",
+      "caracteres_ref": 332,
+      "dist_car": 125,
+      "palavras_ref": 53,
+      "dist_pal": 27,
+      "cer": 0.3765,
+      "wer": 0.5094,
+      "palavras_precisao": 0.7794,
+      "palavras_revocacao": 1.0,
+      "palavras_f1": 0.876,
+      "artigos": [
+        0,
+        0
+      ],
+      "leis": [
+        1,
+        1
+      ],
+      "datas": [
+        0,
+        0
+      ],
+      "confianca_media": 0.8206,
+      "tempo_ocr_s": 25.7636,
+      "trechos_revisao": 4,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "ts 62 LONDRINA Ref. Projeto de Lei nº 191/2024"
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "Ref. Projeto de Lei nº 191/2024",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "(16- *** *** tsn mar d rnnirmeanr Le e c ce e"
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "deskew",
+      "pagina": "lei_13990_p01",
+      "status": "ok",
+      "caracteres_ref": 2147,
+      "dist_car": 711,
+      "palavras_ref": 328,
+      "dist_pal": 127,
+      "cer": 0.3312,
+      "wer": 0.3872,
+      "palavras_precisao": 0.9114,
+      "palavras_revocacao": 0.9726,
+      "palavras_f1": 0.941,
+      "artigos": [
+        5,
+        5
+      ],
+      "leis": [
+        1,
+        1
+      ],
+      "datas": [
+        2,
+        2
+      ],
+      "confianca_media": 0.9146,
+      "tempo_ocr_s": 25.7689,
+      "trechos_revisao": 5,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "te 62"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "LONDRINA"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "SÚMULA:",
+          "ocr": "súMuLA:"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "TEA, Transtorno de Déficit de Atenção com Hiperatividade - TDAH, Transtorno Opositivo"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "Desafiador - ToD), doenças raras, dislexia, entre outras condições que exijam cuidados"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "– TEA, Transtorno de Déficit de Atenção com Hiperatividade – TDAH, Transtorno Opositivo Desafiador – TOD), doenças raras, dislexia, entre outras condições que exijam cuidados",
+          "ocr": "-"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "***8 4000/60/642 (8-*******"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "II –",
+          "ocr": "Il -"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "suas famílias; III –",
+          "ocr": "II -"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "–",
+          "ocr": "-"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "4º As despesas decorrentes da execução desta Lei correrão por conta de dotações suas famílias; Art."
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "orçamentárias próprias, suplementadas se necessário. Art. 5º Esta Lei entra em vigor na data de sua publicação."
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "deskew",
+      "pagina": "lei_13990_p02",
+      "status": "ok",
+      "caracteres_ref": 169,
+      "dist_car": 148,
+      "palavras_ref": 27,
+      "dist_pal": 31,
+      "cer": 0.8757,
+      "wer": 1.1481,
+      "palavras_precisao": 0.5745,
+      "palavras_revocacao": 1.0,
+      "palavras_f1": 0.7297,
+      "artigos": [
+        0,
+        0
+      ],
+      "leis": [
+        1,
+        1
+      ],
+      "datas": [
+        0,
+        0
+      ],
+      "confianca_media": 0.7489,
+      "tempo_ocr_s": 23.4978,
+      "trechos_revisao": 5,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "tu-s 6a2 LONDRINA Ref. Projeto de Lei nº 111/2025 Autoria: Sidnei Matias dos Santos"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "Ref. Projeto de Lei nº 111/2025 Autoria: Sidnei Matias dos Santos",
+          "ocr": "13:84 5000/60/6820 (8-******* tre e tr onrtor ce rtr o a Cle tee cee : m em"
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "deskew",
+      "pagina": "lei_14064_p01",
+      "status": "ok",
+      "caracteres_ref": 2719,
+      "dist_car": 979,
+      "palavras_ref": 457,
+      "dist_pal": 195,
+      "cer": 0.3601,
+      "wer": 0.4267,
+      "palavras_precisao": 0.9479,
+      "palavras_revocacao": 0.9956,
+      "palavras_f1": 0.9712,
+      "artigos": [
+        5,
+        5
+      ],
+      "leis": [
+        1,
+        1
+      ],
+      "datas": [
+        2,
+        2
+      ],
+      "confianca_media": 0.9123,
+      "tempo_ocr_s": 27.3945,
+      "trechos_revisao": 7,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "te 6a2"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "LONDRINA"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "SÚMULA:",
+          "ocr": "súmuLA:"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "9,42 metros e raio de 6,00 metros; segue confrontando com a Rua Arcindo Sardo no rumo E-W,"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "com 14,00 metros; deflete a direita e segue confrontando com a área de Escola no rumo S-N,"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "9,42 metros e raio de 6,00 metros; segue confrontando com a Rua Arcindo Sardo no rumo E-W, com 14,00 metros; deflete a direita e segue confrontando com a área de Escola no rumo S-N,",
+          "ocr": "2082200002/6220(2"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "*** ***"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "II",
+          "ocr": "Il"
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "confrontando com a Rua Hisatsugo Miyasaki no rumo N-S, com 20,00 metros; deflete a direita e",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "confrontando com a Rua Hisatsugo Miyasaki no rumo N-S, com 20,00 metros; deflete a direita e"
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "Art. 2º Fica o Executivo Municipal autorizado a permutar os imóveis descritos no",
+          "ocr": ""
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "1-4/13-16 (um-quatro/treze-dezesseis), da quadra nº 03 (três), com área de 2.145,58 metros",
+          "ocr": ""
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "deskew",
+      "pagina": "lei_14064_p02",
+      "status": "ok",
+      "caracteres_ref": 1083,
+      "dist_car": 189,
+      "palavras_ref": 177,
+      "dist_pal": 34,
+      "cer": 0.1745,
+      "wer": 0.1921,
+      "palavras_precisao": 0.8844,
+      "palavras_revocacao": 0.9944,
+      "palavras_f1": 0.9362,
+      "artigos": [
+        3,
+        3
+      ],
+      "leis": [
+        1,
+        1
+      ],
+      "datas": [
+        1,
+        1
+      ],
+      "confianca_media": 0.8695,
+      "tempo_ocr_s": 24.3694,
+      "trechos_revisao": 6,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "-n g2 LONDRINA"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "118.000,00",
+          "ocr": "118.0oo,00"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "Cltll cer e ete c erdtre e cem"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "*0:84 *000/01/64 20 (8-*******"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "Ref. Projeto de Lei nº 218/2025 Autoria: Executivo Municipal"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "Ref. Projeto de Lei nº 218/2025 Autoria: Executivo Municipal",
+          "ocr": "tre r cr rrrtrorcr rntr o r"
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "deskew",
+      "pagina": "lei_14065_p01",
+      "status": "ok",
+      "caracteres_ref": 2322,
+      "dist_car": 1058,
+      "palavras_ref": 368,
+      "dist_pal": 207,
+      "cer": 0.4556,
+      "wer": 0.5625,
+      "palavras_precisao": 0.9388,
+      "palavras_revocacao": 1.0,
+      "palavras_f1": 0.9684,
+      "artigos": [
+        5,
+        5
+      ],
+      "leis": [
+        2,
+        2
+      ],
+      "datas": [
+        1,
+        1
+      ],
+      "confianca_media": 0.9127,
+      "tempo_ocr_s": 25.6578,
+      "trechos_revisao": 8,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "te 62"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "LONDRINA"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "2026 - 2029, em cumprimento ao disposto no § 1º, do art. 165, da Constituição Federal. orientados para o alcance dos objetivos estratégicos definidos para o período do Plano."
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "2026 - 2029, em cumprimento ao disposto no § 1º, do art. 165, da Constituição Federal.",
+          "ocr": ""
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "orientados para o alcance dos objetivos estratégicos definidos para o período do Plano.",
+          "ocr": "20.62 200002/2820 (8"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "*** ***"
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "Municipal para o período de 2026-2029.",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "Municipal para o período de 2026-2029. IV. III. as ações que promovam a atração e a consolidação de investimentos em setores II. as ações que assegurem o direito à educação pública de qualidade, inclusiva e equitativa, I."
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "I.",
+          "ocr": "formação de valores e acesso à cultura como instrumento de expressão e participação"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "desde a creche até o ensino fundamental, promovendo aprendizagem significativa, social; estratégicos como indústria de base tecnológica, agro, turismo e comércio, visando foco na formação cidadã, na inclusão social, na ocupação qualificada dos espaços"
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "as ações que assegurem o direito à educação pública de qualidade, inclusiva e equitativa, II. desde a creche até o ensino fundamental, promovendo aprendizagem significativa, formação de valores e acesso à cultura como instrumento de expressão e participação social; as ações que promovam a atração e a consolidação de investimentos em setores III. estratégicos como indústria de base tecnológica, agro, turismo e comércio, visando",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "urbanos e no fortalecimento do desenvolvimento humano como base para uma cultura de"
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "deskew",
+      "pagina": "lei_14065_p02",
+      "status": "ok",
+      "caracteres_ref": 2365,
+      "dist_car": 469,
+      "palavras_ref": 365,
+      "dist_pal": 91,
+      "cer": 0.1983,
+      "wer": 0.2493,
+      "palavras_precisao": 0.9332,
+      "palavras_revocacao": 0.9945,
+      "palavras_f1": 0.9629,
+      "artigos": [
+        2,
+        2
+      ],
+      "leis": [
+        0,
+        0
+      ],
+      "datas": [
+        0,
+        0
+      ],
+      "confianca_media": 0.9097,
+      "tempo_ocr_s": 27.3466,
+      "trechos_revisao": 7,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "6a2"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "LONDRINA"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "V."
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "V.",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "VI."
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "VI.",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "VIl."
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "VII.",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "VIII."
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "VIII.",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "IX."
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "IX.",
+          "ocr": ""
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "deskew",
+      "pagina": "lei_14065_p03",
+      "status": "ok",
+      "caracteres_ref": 1736,
+      "dist_car": 419,
+      "palavras_ref": 281,
+      "dist_pal": 75,
+      "cer": 0.2414,
+      "wer": 0.2669,
+      "palavras_precisao": 0.9145,
+      "palavras_revocacao": 0.9893,
+      "palavras_f1": 0.9504,
+      "artigos": [
+        4,
+        4
+      ],
+      "leis": [
+        0,
+        0
+      ],
+      "datas": [
+        0,
+        0
+      ],
+      "confianca_media": 0.8973,
+      "tempo_ocr_s": 25.658,
+      "trechos_revisao": 5,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "- 62"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "LONDRINA"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "–",
+          "ocr": "-"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "*89 2400/11/24 * (8-******"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "DA GESTÃO DO PLANO Sessão",
+          "ocr": "populacionais mais vulneráveis, buscando o aperfeiçoamento:"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "Aspectos Gerais",
+          "ocr": "- dos mecanismos de implementação e integração das políticas públicas; Il - dos mecanismos de monitoramento, avaliação e revisão do PPA 2026 - 2029"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "–",
+          "ocr": "-"
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "populacionais mais vulneráveis, buscando o aperfeiçoamento: I - dos mecanismos de implementação e integração das políticas públicas; II - dos mecanismos de monitoramento, avaliação e revisão do PPA 2026 - 2029 Seção II",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "DA GESTÃO DO PLANO Aspectos Gerais Sessão I Seção II tte io crr cr or ce rnir r nr El ce e e c cdtme c"
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "deskew",
+      "pagina": "lei_14065_p04",
+      "status": "ok",
+      "caracteres_ref": 2385,
+      "dist_car": 699,
+      "palavras_ref": 375,
+      "dist_pal": 131,
+      "cer": 0.2931,
+      "wer": 0.3493,
+      "palavras_precisao": 0.9348,
+      "palavras_revocacao": 0.9947,
+      "palavras_f1": 0.9638,
+      "artigos": [
+        10,
+        10
+      ],
+      "leis": [
+        1,
+        1
+      ],
+      "datas": [
+        1,
+        1
+      ],
+      "confianca_media": 0.9145,
+      "tempo_ocr_s": 27.8197,
+      "trechos_revisao": 7,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "U 62"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "LONDRINA"
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "Art. 15. Para fins de atendimento ao disposto no parágrafo 1° do art. 167 da Constituição",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "15. Para fins de atendimento ao disposto no parágrafo 1° do art. 167 da Constituição 28.14 200002/2820 (80 Art."
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "*** ***"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "II",
+          "ocr": "Il"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "III",
+          "ocr": "IIl"
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "orçamentárias e financeiras; IV - incluir, excluir ou alterar as iniciativas gerenciais, limitadas às disponibilidades orçamentárias e financeiras;",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "IV - incluir, excluir ou alterar as iniciativas gerenciais, limitadas às disponibilidades orçamentárias contrário. e financeiras;"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "créditos adicionais ou por leis que alterem o Plano Plurianual.",
+          "ocr": "orçamentárias e financeiras;"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "LDO/2026. Art. 19 Esta Lei entra em vigor no dia 1º de janeiro de 2026, revogadas as disposições com créditos adicionais ou por leis que alterem o Plano Plurianual."
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "LDO/2026. Art. 19 Esta Lei entra em vigor no dia 1º de janeiro de 2026, revogadas as disposições com contrário.",
+          "ocr": "tte io crr cr or ce rnir r nr El ce e t cctdte m c"
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "deskew",
+      "pagina": "lei_14065_p05",
+      "status": "ok",
+      "caracteres_ref": 298,
+      "dist_car": 96,
+      "palavras_ref": 50,
+      "dist_pal": 21,
+      "cer": 0.3221,
+      "wer": 0.42,
+      "palavras_precisao": 0.7042,
+      "palavras_revocacao": 1.0,
+      "palavras_f1": 0.8264,
+      "artigos": [
+        0,
+        0
+      ],
+      "leis": [
+        1,
+        1
+      ],
+      "datas": [
+        1,
+        1
+      ],
+      "confianca_media": 0.7823,
+      "tempo_ocr_s": 24.3102,
+      "trechos_revisao": 5,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "myan 6a2"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "LONDRINA"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "*81 2400/12/24 *0 (8-******* tte e crrrrmor co rtie o a El ceb e t cctdte m c"
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "deskew",
+      "pagina": "lei_14182_p01",
+      "status": "ok",
+      "caracteres_ref": 2091,
+      "dist_car": 524,
+      "palavras_ref": 305,
+      "dist_pal": 113,
+      "cer": 0.2506,
+      "wer": 0.3705,
+      "palavras_precisao": 0.9172,
+      "palavras_revocacao": 0.9803,
+      "palavras_f1": 0.9477,
+      "artigos": [
+        5,
+        5
+      ],
+      "leis": [
+        1,
+        1
+      ],
+      "datas": [
+        2,
+        2
+      ],
+      "confianca_media": 0.923,
+      "tempo_ocr_s": 25.4882,
+      "trechos_revisao": 4,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "te 62"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "LONDRINA"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "(8-"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "I –",
+          "ocr": "*** *** I-"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "II –",
+          "ocr": "Il -"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "–",
+          "ocr": "-"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "–",
+          "ocr": "-"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "Art. 3º O Poder Executivo regulamentará o previsto nesta Lei, no que couber, no prazo de até Art. 4º As despesas decorrentes da aplicação desta Lei correrão por conta de dotações Art. 5º Esta Lei entra em vigor na data de sua publicação, revogadas as disposições contrárias."
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "Art. 3º O Poder Executivo regulamentará o previsto nesta Lei, no que couber, no prazo de até",
+          "ocr": "educacional. orçamentárias próprias, podendo ser suplementadas, se necessário."
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "educacional. Art. 4º As despesas decorrentes da aplicação desta Lei correrão por conta de dotações orçamentárias próprias, podendo ser suplementadas, se necessário. Art. 5º Esta Lei entra em vigor na data de sua publicação, revogadas as disposições contrárias.",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "tte ro orr crm or co rnnie a aro Ctteae cer e e cecorderrte m ce"
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "deskew",
+      "pagina": "lei_14182_p02",
+      "status": "ok",
+      "caracteres_ref": 209,
+      "dist_car": 204,
+      "palavras_ref": 34,
+      "dist_pal": 39,
+      "cer": 0.9761,
+      "wer": 1.1471,
+      "palavras_precisao": 0.6182,
+      "palavras_revocacao": 1.0,
+      "palavras_f1": 0.764,
+      "artigos": [
+        0,
+        0
+      ],
+      "leis": [
+        1,
+        1
+      ],
+      "datas": [
+        0,
+        0
+      ],
+      "confianca_media": 0.7936,
+      "tempo_ocr_s": 25.534,
+      "trechos_revisao": 5,
+      "erros_exemplo": [
+        {
+          "tipo": "trocado",
+          "referencia": "Estado do Paraná José Tiago Camargo do Amaral Prefeito do Município",
+          "ocr": "ts 62 LONDRINA"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "Estado do Paraná José Tiago Camargo do Amaral Prefeito do Município (8-. *** *** ctte ro rrr orm or cerrntir re nr Ceee ere e et co coerre cem"
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "deskew",
+      "pagina": "lei_14300_p01",
+      "status": "ok",
+      "caracteres_ref": 698,
+      "dist_car": 75,
+      "palavras_ref": 114,
+      "dist_pal": 19,
+      "cer": 0.1074,
+      "wer": 0.1667,
+      "palavras_precisao": 0.8561,
+      "palavras_revocacao": 0.9912,
+      "palavras_f1": 0.9187,
+      "artigos": [
+        2,
+        2
+      ],
+      "leis": [
+        2,
+        2
+      ],
+      "datas": [
+        2,
+        2
+      ],
+      "confianca_media": 0.8791,
+      "tempo_ocr_s": 29.4209,
+      "trechos_revisao": 4,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "te 62"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "LONDRINA"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "SÚMULA:",
+          "ocr": "súMuLA:"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "(8-."
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "*** ***"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "ctte ro rrr orm or cerrntir re nro Cl c e m"
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "completo",
+      "pagina": "lei_13921_p01",
+      "status": "ok",
+      "caracteres_ref": 1994,
+      "dist_car": 536,
+      "palavras_ref": 327,
+      "dist_pal": 116,
+      "cer": 0.2688,
+      "wer": 0.3547,
+      "palavras_precisao": 0.9324,
+      "palavras_revocacao": 0.9694,
+      "palavras_f1": 0.9505,
+      "artigos": [
+        4,
+        4
+      ],
+      "leis": [
+        1,
+        1
+      ],
+      "datas": [
+        4,
+        4
+      ],
+      "confianca_media": 0.9467,
+      "tempo_ocr_s": 27.0008,
+      "trechos_revisao": 6,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "LONDRINA"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "SÚMULA:",
+          "ocr": "súMULA:"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "–",
+          "ocr": "-"
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "–",
+          "ocr": ""
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "–",
+          "ocr": ""
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "II",
+          "ocr": "Il"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "III",
+          "ocr": "IIl"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "Art. 2º As despesas decorrentes da aplicação desta lei correrão à conta de dotações orçamentárias específicas. Art. 3º A eficácia desta Lei fica condicionada: I – à existência de autorização específica na Lei 13.830/2024 – Lei de Diretrizes Orçamentárias; II – à existência de prévia dotação orçamentária suficiente para atender às projeções de despesa de pessoal e aos acréscimos dela decorrentes, devendo ser mantidos,",
+          "ocr": "em contrário."
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "projeções de despesa de pessoal e aos acréscimos dela decorrentes, devendo ser mantidos,"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "dotações orçamentárias específicas. Orçamentárias;"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "em contrário.",
+          "ocr": "Il - à existência de prévia dotação orçamentária suficiente para atender às I - à existência de autorização específica na Lei 13.830/2024 - Lei de Diretrizes Art. 2º As despesas decorrentes da aplicação desta lei correrão à conta de Art. 3º A eficácia desta Lei fica condicionada:"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "smnn ma ce rnte e an Ca et e c ce c me c"
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "completo",
+      "pagina": "lei_13921_p02",
+      "status": "ok",
+      "caracteres_ref": 332,
+      "dist_car": 58,
+      "palavras_ref": 53,
+      "dist_pal": 13,
+      "cer": 0.1747,
+      "wer": 0.2453,
+      "palavras_precisao": 0.803,
+      "palavras_revocacao": 1.0,
+      "palavras_f1": 0.8908,
+      "artigos": [
+        0,
+        0
+      ],
+      "leis": [
+        1,
+        1
+      ],
+      "datas": [
+        0,
+        0
+      ],
+      "confianca_media": 0.8588,
+      "tempo_ocr_s": 29.1096,
+      "trechos_revisao": 3,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "CONDRIHA"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "(16-******* t s maer rntr oa Ce cer e ceecea c c"
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "completo",
+      "pagina": "lei_13990_p01",
+      "status": "ok",
+      "caracteres_ref": 2147,
+      "dist_car": 416,
+      "palavras_ref": 328,
+      "dist_pal": 82,
+      "cer": 0.1938,
+      "wer": 0.25,
+      "palavras_precisao": 0.9167,
+      "palavras_revocacao": 0.9726,
+      "palavras_f1": 0.9438,
+      "artigos": [
+        5,
+        5
+      ],
+      "leis": [
+        1,
+        1
+      ],
+      "datas": [
+        2,
+        2
+      ],
+      "confianca_media": 0.9483,
+      "tempo_ocr_s": 25.0863,
+      "trechos_revisao": 3,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "LONDRIHA"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "SÚMULA:",
+          "ocr": "súMuLA:"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "–",
+          "ocr": "-"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "–",
+          "ocr": "-"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "– TOD),",
+          "ocr": "- ToD),"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "II –",
+          "ocr": "Il"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "suas famílias; III –",
+          "ocr": "II -"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "–",
+          "ocr": "-"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "suas famílias; Art. 4º As despesas decorrentes da execução desta Lei correrão por conta de dotações"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "orçamentárias próprias, suplementadas se necessário. Art. 5º Esta Lei entra em vigor na data de sua publicação."
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "Art. 4º As despesas decorrentes da execução desta Lei correrão por conta de dotações orçamentárias próprias, suplementadas se necessário. Art. 5º Esta Lei entra em vigor na data de sua publicação.",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "tl l0/e/ te l*e*tl0 e te tr tte le ted rtr tr Cle re e ce eceae : m cme"
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "completo",
+      "pagina": "lei_13990_p02",
+      "status": "ok",
+      "caracteres_ref": 169,
+      "dist_car": 75,
+      "palavras_ref": 27,
+      "dist_pal": 22,
+      "cer": 0.4438,
+      "wer": 0.8148,
+      "palavras_precisao": 0.551,
+      "palavras_revocacao": 1.0,
+      "palavras_f1": 0.7105,
+      "artigos": [
+        0,
+        0
+      ],
+      "leis": [
+        1,
+        1
+      ],
+      "datas": [
+        0,
+        0
+      ],
+      "confianca_media": 0.8348,
+      "tempo_ocr_s": 23.8935,
+      "trechos_revisao": 2,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "LONDRIHA"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "trr le/re te le e tr ttr tre e ce te t tr Cle r e ce ceae : m cme"
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "completo",
+      "pagina": "lei_14064_p01",
+      "status": "ok",
+      "caracteres_ref": 2719,
+      "dist_car": 653,
+      "palavras_ref": 457,
+      "dist_pal": 134,
+      "cer": 0.2402,
+      "wer": 0.2932,
+      "palavras_precisao": 0.9499,
+      "palavras_revocacao": 0.9956,
+      "palavras_f1": 0.9722,
+      "artigos": [
+        5,
+        5
+      ],
+      "leis": [
+        1,
+        1
+      ],
+      "datas": [
+        2,
+        2
+      ],
+      "confianca_media": 0.9517,
+      "tempo_ocr_s": 29.0817,
+      "trechos_revisao": 4,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "LONDRIHA"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "SÚMULA:",
+          "ocr": "súMuLA:"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "II",
+          "ocr": "Il"
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "confrontando com a Rua Hisatsugo Miyasaki no rumo N-S, com 20,00 metros; deflete a direita e",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "confrontando com a Rua Hisatsugo Miyasaki no rumo N-S, com 20,00 metros; deflete a direita e"
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "Art. 2º Fica o Executivo Municipal autorizado a permutar os imóveis descritos no",
+          "ocr": ""
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "1-4/13-16 (um-quatro/treze-dezesseis), da quadra nº 03 (três), com área de 2.145,58 metros",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "vez incorporada aos bens de domínio do Município, será destinada à Secretaria Municipal de"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "1-4/13-16 (um-quatro/treze-dezesseis), da quadra nº 03 (três), com área de 2.145,58 metros Educação para implantação de uma unidade Proinfância Tipo 2."
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "vez incorporada aos bens de domínio do Município, será destinada à Secretaria Municipal de Educação para implantação de uma unidade Proinfância Tipo 2.",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "Art. 2º Fica o Executivo Municipal autorizado a permutar os imóveis descritos no Le. let/6r te (8etl0 e tr ohrt le ce emtie t tr Eltr cere e see e c cerre e cem"
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "completo",
+      "pagina": "lei_14064_p02",
+      "status": "ok",
+      "caracteres_ref": 1083,
+      "dist_car": 207,
+      "palavras_ref": 177,
+      "dist_pal": 44,
+      "cer": 0.1911,
+      "wer": 0.2486,
+      "palavras_precisao": 0.8713,
+      "palavras_revocacao": 0.9944,
+      "palavras_f1": 0.9288,
+      "artigos": [
+        3,
+        3
+      ],
+      "leis": [
+        1,
+        1
+      ],
+      "datas": [
+        1,
+        1
+      ],
+      "confianca_media": 0.9228,
+      "tempo_ocr_s": 33.3235,
+      "trechos_revisao": 4,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "LONDRIHA"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "118.000,00",
+          "ocr": "118.0o0,00"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "Cllal cere e e e ce eere : m e cem"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "Ce.r le/6r l (laertle er tr trrr tr er ce mtr t tr"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "Ref. Projeto de Lei nº 218/2025 Autoria: Executivo Municipal"
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "Ref. Projeto de Lei nº 218/2025 Autoria: Executivo Municipal",
+          "ocr": ""
+        }
+      ]
+    },
+    {
+      "condicao": "digital",
+      "perfil": "completo",
+      "pagina": "lei_14065_p01",
+      "status": "ok",
+      "caracteres_ref": 2322,
+      "dist_car": 720,
+      "palavras_ref": 368,
+      "dist_pal": 140,
+      "cer": 0.3101,
+      "wer": 0.3804,
+      "palavras_precisao": 0.946,
+      "palavras_revocacao": 1.0,
+      "palavras_f1": 0.9723,
+      "artigos": [
+        5,
+        5
+      ],
+      "leis": [
+        2,
+        2
+      ],
+      "datas": [
+        1,
+        1
+      ],
+      "confianca_media": 0.9512,
+      "tempo_ocr_s": 32.9593,
+      "trechos_revisao": 6,
+      "erros_exemplo": [
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "LONDRIHA"
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "IV. III. as ações que promovam a atração e a consolidação de investimentos em setores II. as ações que assegurem o direito à educação pública de qualidade, inclusiva e equitativa, I."
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "I.",
+          "ocr": "formação de valores e acesso à cultura como instrumento de expressão e participação desde a creche até o ensino fundamental, promovendo aprendizagem significativa, social; estratégicos como indústria de base tecnológica, agro, turismo e comércio, visando foco na formação cidadã, na inclusão social, na ocupação qualificada dos espaços"
+        },
+        {
+          "tipo": "faltou",
+          "referencia": "as ações que assegurem o direito à educação pública de qualidade, inclusiva e equitativa, II. desde a creche até o ensino fundamental, promovendo aprendizagem significativa, formação de valores e acesso à cultura como instrumento de expressão e participação social; as ações que promovam a atração e a consolidação de investimentos em setores III. estratégicos como indústria de base tecnológica, agro, turismo e comércio, visando",
+          "ocr": ""
+        },
+        {
+          "tipo": "sobrou",
+          "referencia": "",
+          "ocr": "urbanos e no fortalecimento do desenvolvimento humano como base para uma cultura de"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "IV. foco na formação cidadã, na inclusão social, na ocupação qualificada dos espaços urbanos",
+          "ocr": "L.er Ce/t/t t (etl0"
+        },
+        {
+          "tipo": "trocado",
+          "referencia": "no fortalecimento do desenvolvimento humano como base para uma cultura de",
+          "ocr": "er trr tte e ce tr e or El cer e e c cadte c"
+        }
+      ]
+    }
+  ]
+}

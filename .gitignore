@@ -1,0 +1,6 @@
+.venv/
+resultados_web/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+resultados/benchmark_londrina/execucao.log

@@ -1,0 +1,18 @@
+As imagens deste documento NÃO foram baixadas automaticamente.
+
+Fonte: https://pt.scribd.com/document/728096225/Exposicao-de-Motivos-Projeto-de-Lei-de-Criacao-Dos-Juizados-Especiais-de-Pequenas-Causas-1983
+
+O Scribd protege a página com um desafio anti-robô ("Client Challenge") e o
+download exige conta. Para adicionar as páginas manualmente:
+
+1. Acesse o link acima com sua conta e baixe o documento (PDF), se o seu
+   acesso permitir; ou salve cada página como imagem (PNG/JPG).
+2. Copie os arquivos para esta pasta. Formatos aceitos:
+   .pdf .png .jpg .jpeg .tif .tiff .bmp .webp
+3. Nomeie as imagens em ordem (pagina_001.png, pagina_002.png, ...). A ordem
+   das páginas segue a ordenação natural dos nomes. Um PDF é dividido em
+   páginas automaticamente (300 DPI).
+4. Execute, na raiz do projeto:
+       .venv/bin/python main.py --documento 01_exposicao_motivos_1983
+
+Este arquivo (.txt) é ignorado pelo OCR.

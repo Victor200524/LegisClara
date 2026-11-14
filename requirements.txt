@@ -1,0 +1,31 @@
+# Python 3.11 — execução somente em CPU (não requer GPU NVIDIA)
+
+# PaddlePaddle fixado em 3.2.2: a série 3.3.x apresenta erro no oneDNN da CPU
+# (ConvertPirAttribute2RuntimeAttribute) ao executar os modelos PP-OCRv5.
+paddlepaddle==3.2.2
+paddleocr>=3.0,<4
+
+# O PaddleX (dependência do PaddleOCR) exige o opencv-contrib-python.
+# Não instale também o opencv-python/opencv-python-headless: os pacotes conflitam.
+opencv-contrib-python==4.10.0.84
+
+pillow>=10
+pymupdf>=1.24   # rasterização de PDFs (apenas se houver PDFs em imagens_do_documento/)
+
+# Notebook passo a passo (pipeline_passo_a_passo.ipynb) — opcional
+jupyterlab>=4
+ipykernel>=6
+matplotlib>=3.8
+
+# Aplicação web (webapp/) — opcional
+fastapi>=0.110
+uvicorn>=0.29
+python-multipart>=0.0.9
+
+# Correção pós-OCR (scripts/correcao.py) — opcional
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch>=2.3
+transformers>=4.44,<5
+spylls>=0.1.7
+pyspellchecker>=0.8
+symspellpy>=6.7

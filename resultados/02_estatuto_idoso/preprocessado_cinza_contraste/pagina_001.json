@@ -1,0 +1,202 @@
+{
+  "documento": "02_estatuto_idoso",
+  "pagina": 1,
+  "imagem_origem": "pagina_001_estatuto-do-idoso-exemplar.jpg",
+  "perfil_preprocessamento": "cinza_contraste",
+  "etapas_preprocessamento": [
+    "redimensionar",
+    "cinza",
+    "contraste"
+  ],
+  "limiar_confianca_revisao": 0.8,
+  "parametros_paddleocr": {
+    "lang": "pt",
+    "device": "cpu",
+    "use_doc_orientation_classify": false,
+    "use_doc_unwarping": false,
+    "use_textline_orientation": false
+  },
+  "versoes": {
+    "paddleocr": "3.4.1",
+    "paddlepaddle": "3.2.2"
+  },
+  "tempo_preprocessamento_s": 0.0089,
+  "dimensoes_imagem": {
+    "largura": 1600,
+    "altura": 1144
+  },
+  "tempo_ocr_s": 5.0454,
+  "status": "ok",
+  "layout": {
+    "colunas": 1
+  },
+  "quantidade_caracteres": 31,
+  "quantidade_palavras": 4,
+  "quantidade_fragmentos": 2,
+  "confianca_media": 0.7406,
+  "confianca_minima": 0.5059,
+  "necessita_revisao_humana": true,
+  "revisao_humana": [
+    {
+      "linha_txt": 2,
+      "indice_paddleocr": 1,
+      "texto_bruto": "OSOOIOOOLNLLS",
+      "confianca": 0.5059083700180054,
+      "motivos": [
+        "confiança 0.506 abaixo do limiar 0.8"
+      ]
+    }
+  ],
+  "texto": "ESTATUTO DO IDOSO\nOSOOIOOOLNLLS",
+  "linhas_ordenadas": [
+    [
+      {
+        "indice_paddleocr": 0,
+        "texto": "ESTATUTO DO IDOSO",
+        "confianca": 0.9753265380859375,
+        "caixa": [
+          395.0,
+          337.0,
+          911.0,
+          619.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 1,
+        "texto": "OSOOIOOOLNLLS",
+        "confianca": 0.5059083700180054,
+        "caixa": [
+          454.0,
+          814.0,
+          644.0,
+          1048.0
+        ],
+        "coluna": 1
+      }
+    ]
+  ],
+  "resultado_bruto_paddleocr": {
+    "input_path": null,
+    "page_index": null,
+    "model_settings": {
+      "use_doc_preprocessor": false,
+      "use_textline_orientation": false
+    },
+    "dt_polys": [
+      [
+        [
+          395,
+          572
+        ],
+        [
+          888,
+          337
+        ],
+        [
+          911,
+          385
+        ],
+        [
+          418,
+          619
+        ]
+      ],
+      [
+        [
+          475,
+          814
+        ],
+        [
+          644,
+          1031
+        ],
+        [
+          623,
+          1048
+        ],
+        [
+          454,
+          831
+        ]
+      ]
+    ],
+    "text_det_params": {
+      "limit_side_len": 64,
+      "limit_type": "min",
+      "thresh": 0.3,
+      "max_side_limit": 4000,
+      "box_thresh": 0.6,
+      "unclip_ratio": 1.5
+    },
+    "text_type": "general",
+    "textline_orientation_angles": [
+      -1,
+      -1
+    ],
+    "text_rec_score_thresh": 0.0,
+    "return_word_box": false,
+    "rec_texts": [
+      "ESTATUTO DO IDOSO",
+      "OSOOIOOOLNLLS"
+    ],
+    "rec_scores": [
+      0.9753265380859375,
+      0.5059083700180054
+    ],
+    "rec_polys": [
+      [
+        [
+          395,
+          572
+        ],
+        [
+          888,
+          337
+        ],
+        [
+          911,
+          385
+        ],
+        [
+          418,
+          619
+        ]
+      ],
+      [
+        [
+          475,
+          814
+        ],
+        [
+          644,
+          1031
+        ],
+        [
+          623,
+          1048
+        ],
+        [
+          454,
+          831
+        ]
+      ]
+    ],
+    "rec_boxes": [
+      [
+        395,
+        337,
+        911,
+        619
+      ],
+      [
+        454,
+        814,
+        644,
+        1048
+      ]
+    ]
+  }
+}

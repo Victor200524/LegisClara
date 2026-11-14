@@ -1,0 +1,1052 @@
+{
+  "documento": "lei_13921_digital",
+  "pagina": 1,
+  "imagem_origem": "lei_13921_p02.png",
+  "perfil_preprocessamento": "deskew",
+  "etapas_preprocessamento": [
+    "redimensionar",
+    "inclinacao"
+  ],
+  "limiar_confianca_revisao": 0.8,
+  "parametros_paddleocr": {
+    "lang": "pt",
+    "device": "cpu",
+    "use_doc_orientation_classify": false,
+    "use_doc_unwarping": false,
+    "use_textline_orientation": false
+  },
+  "versoes": {
+    "paddleocr": "3.4.1",
+    "paddlepaddle": "3.2.2"
+  },
+  "tempo_preprocessamento_s": 0.2071,
+  "dimensoes_imagem": {
+    "largura": 2481,
+    "altura": 3508
+  },
+  "tempo_ocr_s": 25.7636,
+  "status": "ok",
+  "layout": {
+    "colunas": 2,
+    "divisoria_x": [
+      744.0,
+      1006.0
+    ]
+  },
+  "quantidade_caracteres": 400,
+  "quantidade_palavras": 68,
+  "quantidade_fragmentos": 16,
+  "confianca_media": 0.8206,
+  "confianca_minima": 0.2064,
+  "necessita_revisao_humana": true,
+  "revisao_humana": [
+    {
+      "linha_txt": 2,
+      "indice_paddleocr": 2,
+      "texto_bruto": "ts",
+      "confianca": 0.29834792017936707,
+      "motivos": [
+        "confiança 0.298 abaixo do limiar 0.8"
+      ]
+    },
+    {
+      "linha_txt": 2,
+      "indice_paddleocr": 3,
+      "texto_bruto": "62",
+      "confianca": 0.41501253843307495,
+      "motivos": [
+        "confiança 0.415 abaixo do limiar 0.8"
+      ]
+    },
+    {
+      "linha_txt": 13,
+      "indice_paddleocr": 15,
+      "texto_bruto": "tsn mar d rnnirmeanr",
+      "confianca": 0.20636174082756042,
+      "motivos": [
+        "confiança 0.206 abaixo do limiar 0.8"
+      ]
+    },
+    {
+      "linha_txt": 13,
+      "indice_paddleocr": 12,
+      "texto_bruto": "Le  e   c ce    e ",
+      "confianca": 0.36660000681877136,
+      "motivos": [
+        "confiança 0.367 abaixo do limiar 0.8"
+      ]
+    }
+  ],
+  "texto": "Prefeitura do Município de Londrina\nts 62\nLONDRINA\nRef.\nProjeto de Lei nº 191/2024\nEstado do Paraná\nMarcelo Belinati Martins\nPREFEITO DO MUNICÍPIO\nAutoria: Mesa Diretora (Egberto Celeste Lazari, Emanoel Edson de Oliveira\nGomes, Fernando Madureira da Silva e Flavia Adriane Sant Ana Cabral)\nAprovado na forma do Substitutivo nº 1 com a Emenda nº 1.\n(16-\n*** *** tsn mar d rnnirmeanr Le  e   c ce    e ",
+  "linhas_ordenadas": [
+    [
+      {
+        "indice_paddleocr": 0,
+        "texto": "Prefeitura do Município de Londrina",
+        "confianca": 0.9986250996589661,
+        "caixa": [
+          636.0,
+          183.0,
+          2088.0,
+          287.0
+        ],
+        "coluna": 0
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 2,
+        "texto": "ts",
+        "confianca": 0.29834792017936707,
+        "caixa": [
+          310.0,
+          338.0,
+          361.0,
+          365.0
+        ],
+        "coluna": 1
+      },
+      {
+        "indice_paddleocr": 3,
+        "texto": "62",
+        "confianca": 0.41501253843307495,
+        "caixa": [
+          475.0,
+          338.0,
+          524.0,
+          363.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 4,
+        "texto": "LONDRINA",
+        "confianca": 0.9623288512229919,
+        "caixa": [
+          358.0,
+          354.0,
+          474.0,
+          379.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 7,
+        "texto": "Ref.",
+        "confianca": 0.9996599555015564,
+        "caixa": [
+          289.0,
+          964.0,
+          381.0,
+          1014.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 8,
+        "texto": "Projeto de Lei nº 191/2024",
+        "confianca": 0.998820424079895,
+        "caixa": [
+          291.0,
+          1022.0,
+          837.0,
+          1074.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 1,
+        "texto": "Estado do Paraná",
+        "confianca": 0.9819366335868835,
+        "caixa": [
+          1111.0,
+          294.0,
+          1617.0,
+          355.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 5,
+        "texto": "Marcelo Belinati Martins",
+        "confianca": 0.9997246265411377,
+        "caixa": [
+          1007.0,
+          740.0,
+          1473.0,
+          777.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 6,
+        "texto": "PREFEITO DO MUNICÍPIO",
+        "confianca": 0.998047411441803,
+        "caixa": [
+          966.0,
+          787.0,
+          1511.0,
+          839.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 9,
+        "texto": "Autoria: Mesa Diretora (Egberto Celeste Lazari, Emanoel Edson de Oliveira",
+        "confianca": 0.9916603565216064,
+        "caixa": [
+          290.0,
+          1085.0,
+          1837.0,
+          1132.0
+        ],
+        "coluna": 0
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 10,
+        "texto": "Gomes, Fernando Madureira da Silva e Flavia Adriane Sant Ana Cabral)",
+        "confianca": 0.994665801525116,
+        "caixa": [
+          291.0,
+          1143.0,
+          1779.0,
+          1192.0
+        ],
+        "coluna": 0
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 11,
+        "texto": "Aprovado na forma do Substitutivo nº 1 com a Emenda nº 1.",
+        "confianca": 0.9907096028327942,
+        "caixa": [
+          293.0,
+          1202.0,
+          1465.0,
+          1251.0
+        ],
+        "coluna": 0
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 13,
+        "texto": "(16-",
+        "confianca": 0.9635360240936279,
+        "caixa": [
+          2361.0,
+          1892.0,
+          2405.0,
+          1979.0
+        ],
+        "coluna": 2
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 14,
+        "texto": "*** ***",
+        "confianca": 0.9637910723686218,
+        "caixa": [
+          2359.0,
+          1960.0,
+          2389.0,
+          2086.0
+        ],
+        "coluna": 2
+      },
+      {
+        "indice_paddleocr": 15,
+        "texto": "tsn mar d rnnirmeanr",
+        "confianca": 0.20636174082756042,
+        "caixa": [
+          2361.0,
+          2077.0,
+          2405.0,
+          3343.0
+        ],
+        "coluna": 2
+      },
+      {
+        "indice_paddleocr": 12,
+        "texto": "Le  e   c ce    e ",
+        "confianca": 0.36660000681877136,
+        "caixa": [
+          2400.0,
+          1233.0,
+          2453.0,
+          3348.0
+        ],
+        "coluna": 2
+      }
+    ]
+  ],
+  "resultado_bruto_paddleocr": {
+    "input_path": null,
+    "page_index": null,
+    "model_settings": {
+      "use_doc_preprocessor": false,
+      "use_textline_orientation": false
+    },
+    "dt_polys": [
+      [
+        [
+          636,
+          183
+        ],
+        [
+          2088,
+          186
+        ],
+        [
+          2088,
+          287
+        ],
+        [
+          636,
+          284
+        ]
+      ],
+      [
+        [
+          1111,
+          294
+        ],
+        [
+          1617,
+          294
+        ],
+        [
+          1617,
+          355
+        ],
+        [
+          1111,
+          355
+        ]
+      ],
+      [
+        [
+          313,
+          338
+        ],
+        [
+          361,
+          347
+        ],
+        [
+          358,
+          365
+        ],
+        [
+          310,
+          356
+        ]
+      ],
+      [
+        [
+          475,
+          344
+        ],
+        [
+          521,
+          338
+        ],
+        [
+          524,
+          356
+        ],
+        [
+          478,
+          363
+        ]
+      ],
+      [
+        [
+          358,
+          354
+        ],
+        [
+          474,
+          354
+        ],
+        [
+          474,
+          379
+        ],
+        [
+          358,
+          379
+        ]
+      ],
+      [
+        [
+          1007,
+          740
+        ],
+        [
+          1473,
+          740
+        ],
+        [
+          1473,
+          777
+        ],
+        [
+          1007,
+          777
+        ]
+      ],
+      [
+        [
+          966,
+          792
+        ],
+        [
+          1511,
+          787
+        ],
+        [
+          1511,
+          834
+        ],
+        [
+          966,
+          839
+        ]
+      ],
+      [
+        [
+          289,
+          964
+        ],
+        [
+          381,
+          964
+        ],
+        [
+          381,
+          1014
+        ],
+        [
+          289,
+          1014
+        ]
+      ],
+      [
+        [
+          291,
+          1025
+        ],
+        [
+          837,
+          1022
+        ],
+        [
+          837,
+          1072
+        ],
+        [
+          291,
+          1074
+        ]
+      ],
+      [
+        [
+          290,
+          1085
+        ],
+        [
+          1837,
+          1085
+        ],
+        [
+          1837,
+          1132
+        ],
+        [
+          290,
+          1132
+        ]
+      ],
+      [
+        [
+          291,
+          1143
+        ],
+        [
+          1779,
+          1145
+        ],
+        [
+          1779,
+          1192
+        ],
+        [
+          291,
+          1190
+        ]
+      ],
+      [
+        [
+          293,
+          1203
+        ],
+        [
+          1465,
+          1202
+        ],
+        [
+          1465,
+          1250
+        ],
+        [
+          293,
+          1251
+        ]
+      ],
+      [
+        [
+          2400,
+          1233
+        ],
+        [
+          2453,
+          1233
+        ],
+        [
+          2453,
+          3348
+        ],
+        [
+          2400,
+          3348
+        ]
+      ],
+      [
+        [
+          2361,
+          1892
+        ],
+        [
+          2405,
+          1892
+        ],
+        [
+          2405,
+          1979
+        ],
+        [
+          2361,
+          1979
+        ]
+      ],
+      [
+        [
+          2361,
+          1960
+        ],
+        [
+          2389,
+          1961
+        ],
+        [
+          2386,
+          2086
+        ],
+        [
+          2359,
+          2086
+        ]
+      ],
+      [
+        [
+          2361,
+          2077
+        ],
+        [
+          2404,
+          2077
+        ],
+        [
+          2405,
+          3343
+        ],
+        [
+          2362,
+          3343
+        ]
+      ]
+    ],
+    "text_det_params": {
+      "limit_side_len": 64,
+      "limit_type": "min",
+      "thresh": 0.3,
+      "max_side_limit": 4000,
+      "box_thresh": 0.6,
+      "unclip_ratio": 1.5
+    },
+    "text_type": "general",
+    "textline_orientation_angles": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "text_rec_score_thresh": 0.0,
+    "return_word_box": false,
+    "rec_texts": [
+      "Prefeitura do Município de Londrina",
+      "Estado do Paraná",
+      "ts",
+      "62",
+      "LONDRINA",
+      "Marcelo Belinati Martins",
+      "PREFEITO DO MUNICÍPIO",
+      "Ref.",
+      "Projeto de Lei nº 191/2024",
+      "Autoria: Mesa Diretora (Egberto Celeste Lazari, Emanoel Edson de Oliveira",
+      "Gomes, Fernando Madureira da Silva e Flavia Adriane Sant Ana Cabral)",
+      "Aprovado na forma do Substitutivo nº 1 com a Emenda nº 1.",
+      "Le  e   c ce    e ",
+      "(16-",
+      "*** ***",
+      "tsn mar d rnnirmeanr"
+    ],
+    "rec_scores": [
+      0.9986250996589661,
+      0.9819366335868835,
+      0.29834792017936707,
+      0.41501253843307495,
+      0.9623288512229919,
+      0.9997246265411377,
+      0.998047411441803,
+      0.9996599555015564,
+      0.998820424079895,
+      0.9916603565216064,
+      0.994665801525116,
+      0.9907096028327942,
+      0.36660000681877136,
+      0.9635360240936279,
+      0.9637910723686218,
+      0.20636174082756042
+    ],
+    "rec_polys": [
+      [
+        [
+          636,
+          183
+        ],
+        [
+          2088,
+          186
+        ],
+        [
+          2088,
+          287
+        ],
+        [
+          636,
+          284
+        ]
+      ],
+      [
+        [
+          1111,
+          294
+        ],
+        [
+          1617,
+          294
+        ],
+        [
+          1617,
+          355
+        ],
+        [
+          1111,
+          355
+        ]
+      ],
+      [
+        [
+          313,
+          338
+        ],
+        [
+          361,
+          347
+        ],
+        [
+          358,
+          365
+        ],
+        [
+          310,
+          356
+        ]
+      ],
+      [
+        [
+          475,
+          344
+        ],
+        [
+          521,
+          338
+        ],
+        [
+          524,
+          356
+        ],
+        [
+          478,
+          363
+        ]
+      ],
+      [
+        [
+          358,
+          354
+        ],
+        [
+          474,
+          354
+        ],
+        [
+          474,
+          379
+        ],
+        [
+          358,
+          379
+        ]
+      ],
+      [
+        [
+          1007,
+          740
+        ],
+        [
+          1473,
+          740
+        ],
+        [
+          1473,
+          777
+        ],
+        [
+          1007,
+          777
+        ]
+      ],
+      [
+        [
+          966,
+          792
+        ],
+        [
+          1511,
+          787
+        ],
+        [
+          1511,
+          834
+        ],
+        [
+          966,
+          839
+        ]
+      ],
+      [
+        [
+          289,
+          964
+        ],
+        [
+          381,
+          964
+        ],
+        [
+          381,
+          1014
+        ],
+        [
+          289,
+          1014
+        ]
+      ],
+      [
+        [
+          291,
+          1025
+        ],
+        [
+          837,
+          1022
+        ],
+        [
+          837,
+          1072
+        ],
+        [
+          291,
+          1074
+        ]
+      ],
+      [
+        [
+          290,
+          1085
+        ],
+        [
+          1837,
+          1085
+        ],
+        [
+          1837,
+          1132
+        ],
+        [
+          290,
+          1132
+        ]
+      ],
+      [
+        [
+          291,
+          1143
+        ],
+        [
+          1779,
+          1145
+        ],
+        [
+          1779,
+          1192
+        ],
+        [
+          291,
+          1190
+        ]
+      ],
+      [
+        [
+          293,
+          1203
+        ],
+        [
+          1465,
+          1202
+        ],
+        [
+          1465,
+          1250
+        ],
+        [
+          293,
+          1251
+        ]
+      ],
+      [
+        [
+          2400,
+          1233
+        ],
+        [
+          2453,
+          1233
+        ],
+        [
+          2453,
+          3348
+        ],
+        [
+          2400,
+          3348
+        ]
+      ],
+      [
+        [
+          2361,
+          1892
+        ],
+        [
+          2405,
+          1892
+        ],
+        [
+          2405,
+          1979
+        ],
+        [
+          2361,
+          1979
+        ]
+      ],
+      [
+        [
+          2361,
+          1960
+        ],
+        [
+          2389,
+          1961
+        ],
+        [
+          2386,
+          2086
+        ],
+        [
+          2359,
+          2086
+        ]
+      ],
+      [
+        [
+          2361,
+          2077
+        ],
+        [
+          2404,
+          2077
+        ],
+        [
+          2405,
+          3343
+        ],
+        [
+          2362,
+          3343
+        ]
+      ]
+    ],
+    "rec_boxes": [
+      [
+        636,
+        183,
+        2088,
+        287
+      ],
+      [
+        1111,
+        294,
+        1617,
+        355
+      ],
+      [
+        310,
+        338,
+        361,
+        365
+      ],
+      [
+        475,
+        338,
+        524,
+        363
+      ],
+      [
+        358,
+        354,
+        474,
+        379
+      ],
+      [
+        1007,
+        740,
+        1473,
+        777
+      ],
+      [
+        966,
+        787,
+        1511,
+        839
+      ],
+      [
+        289,
+        964,
+        381,
+        1014
+      ],
+      [
+        291,
+        1022,
+        837,
+        1074
+      ],
+      [
+        290,
+        1085,
+        1837,
+        1132
+      ],
+      [
+        291,
+        1143,
+        1779,
+        1192
+      ],
+      [
+        293,
+        1202,
+        1465,
+        1251
+      ],
+      [
+        2400,
+        1233,
+        2453,
+        3348
+      ],
+      [
+        2361,
+        1892,
+        2405,
+        1979
+      ],
+      [
+        2359,
+        1960,
+        2389,
+        2086
+      ],
+      [
+        2361,
+        2077,
+        2405,
+        3343
+      ]
+    ]
+  }
+}

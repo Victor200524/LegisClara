@@ -1,0 +1,1497 @@
+{
+  "documento": "02_estatuto_idoso",
+  "pagina": 3,
+  "imagem_origem": "pagina_003_estatuto-do-idoso-pagina-interna.jpg",
+  "perfil_preprocessamento": "original",
+  "etapas_preprocessamento": [],
+  "limiar_confianca_revisao": 0.8,
+  "parametros_paddleocr": {
+    "lang": "pt",
+    "device": "cpu",
+    "use_doc_orientation_classify": false,
+    "use_doc_unwarping": false,
+    "use_textline_orientation": false
+  },
+  "versoes": {
+    "paddleocr": "3.4.1",
+    "paddlepaddle": "3.2.2"
+  },
+  "tempo_preprocessamento_s": 0.0014,
+  "dimensoes_imagem": {
+    "largura": 385,
+    "altura": 542
+  },
+  "tempo_ocr_s": 1.1686,
+  "status": "ok",
+  "layout": {
+    "colunas": 1
+  },
+  "quantidade_caracteres": 1110,
+  "quantidade_palavras": 185,
+  "quantidade_fragmentos": 24,
+  "confianca_media": 0.9867,
+  "confianca_minima": 0.9454,
+  "necessita_revisao_humana": true,
+  "revisao_humana": [
+    {
+      "linha_txt": 1,
+      "indice_paddleocr": 0,
+      "texto_bruto": "LEI N° 10.741, DE 1º DE 0UTUBRO DE 2003",
+      "confianca": 0.9624240398406982,
+      "motivos": [
+        "mistura de letras e dígitos em '0UTUBRO' (ex.: O/0, l/1, S/5)",
+        "símbolo de grau '°' em possível posição de ordinal 'º' (Art. 1º, nº, § 1º)"
+      ]
+    }
+  ],
+  "texto": "LEI N° 10.741, DE 1º DE 0UTUBRO DE 2003\n(ESTATUTO DO IDOSO)\nDispõe sobre o Estatuto do Idoso e dá outras providências.\nO presidente da República\nFaço saber que o Congresso Nacional decreta e eu sancio-\nno a seguinte lei:\nTÍTULO I - DISPOSICÕES PRELIMINARES\nArt. 1. É instituído o Estatuto do Idoso, destinado a re-\ngular os direitos assegurados às pessoas com idade igual ou\nsuperior a sessenta anos.\nArt. 2. O idoso goza de todos os direitos fundamentais\ninerentes à pessoa humana, sem prejuízo da proteção integral\nde que trata esta lei, assegurando-se-lhe, por lei ou por outros\nmeios, todas as oportunidades e facilidades, para preservação\nde sua saúde física e mental e seu aperfeiçoamento moral,\nintelectual, espiritual e social, em condições de liberdade e\ndignidade.\nArt. 3. É obrigação da família, da comunidade, da socie-\ndade e do poder público assegurar ao idoso, com absoluta\nprioridade, a efetivação do direito à vida, à saúde, à alimenta-\nção, à educação, à cultura, ao esporte, ao lazer, ao trabalho, à\ncidadania, à liberdade, à dignidade, ao respeito e à convivência\nfamiliar e comunitária.\n12",
+  "linhas_ordenadas": [
+    [
+      {
+        "indice_paddleocr": 0,
+        "texto": "LEI N° 10.741, DE 1º DE 0UTUBRO DE 2003",
+        "confianca": 0.9624240398406982,
+        "caixa": [
+          68.0,
+          44.0,
+          309.0,
+          57.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 1,
+        "texto": "(ESTATUTO DO IDOSO)",
+        "confianca": 0.9454482197761536,
+        "caixa": [
+          133.0,
+          60.0,
+          243.0,
+          74.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 2,
+        "texto": "Dispõe sobre o Estatuto do Idoso e dá outras providências.",
+        "confianca": 0.9836501479148865,
+        "caixa": [
+          106.0,
+          106.0,
+          327.0,
+          119.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 3,
+        "texto": "O presidente da República",
+        "confianca": 0.9987487196922302,
+        "caixa": [
+          64.0,
+          144.0,
+          184.0,
+          158.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 4,
+        "texto": "Faço saber que o Congresso Nacional decreta e eu sancio-",
+        "confianca": 0.9930143356323242,
+        "caixa": [
+          65.0,
+          166.0,
+          326.0,
+          179.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 5,
+        "texto": "no a seguinte lei:",
+        "confianca": 0.9964621067047119,
+        "caixa": [
+          50.0,
+          182.0,
+          131.0,
+          195.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 6,
+        "texto": "TÍTULO I - DISPOSICÕES PRELIMINARES",
+        "confianca": 0.9720328450202942,
+        "caixa": [
+          90.0,
+          202.0,
+          288.0,
+          215.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 7,
+        "texto": "Art. 1. É instituído o Estatuto do Idoso, destinado a re-",
+        "confianca": 0.9747899174690247,
+        "caixa": [
+          64.0,
+          222.0,
+          326.0,
+          237.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 8,
+        "texto": "gular os direitos assegurados às pessoas com idade igual ou",
+        "confianca": 0.9826136827468872,
+        "caixa": [
+          51.0,
+          240.0,
+          327.0,
+          253.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 9,
+        "texto": "superior a sessenta anos.",
+        "confianca": 0.995083749294281,
+        "caixa": [
+          49.0,
+          255.0,
+          165.0,
+          270.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 10,
+        "texto": "Art. 2. O idoso goza de todos os direitos fundamentais",
+        "confianca": 0.9900657534599304,
+        "caixa": [
+          64.0,
+          276.0,
+          327.0,
+          290.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 11,
+        "texto": "inerentes à pessoa humana, sem prejuízo da proteção integral",
+        "confianca": 0.9827944040298462,
+        "caixa": [
+          50.0,
+          293.0,
+          327.0,
+          306.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 12,
+        "texto": "de que trata esta lei, assegurando-se-lhe, por lei ou por outros",
+        "confianca": 0.9976831078529358,
+        "caixa": [
+          50.0,
+          309.0,
+          328.0,
+          322.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 13,
+        "texto": "meios, todas as oportunidades e facilidades, para preservação",
+        "confianca": 0.9917317628860474,
+        "caixa": [
+          49.0,
+          324.0,
+          327.0,
+          339.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 14,
+        "texto": "de sua saúde física e mental e seu aperfeiçoamento moral,",
+        "confianca": 0.9867668747901917,
+        "caixa": [
+          49.0,
+          341.0,
+          327.0,
+          354.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 15,
+        "texto": "intelectual, espiritual e social, em condições de liberdade e",
+        "confianca": 0.9992309808731079,
+        "caixa": [
+          50.0,
+          357.0,
+          327.0,
+          370.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 16,
+        "texto": "dignidade.",
+        "confianca": 0.9997893571853638,
+        "caixa": [
+          50.0,
+          372.0,
+          100.0,
+          386.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 17,
+        "texto": "Art. 3. É obrigação da família, da comunidade, da socie-",
+        "confianca": 0.9914413094520569,
+        "caixa": [
+          66.0,
+          394.0,
+          326.0,
+          406.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 18,
+        "texto": "dade e do poder público assegurar ao idoso, com absoluta",
+        "confianca": 0.9790068864822388,
+        "caixa": [
+          51.0,
+          410.0,
+          326.0,
+          423.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 19,
+        "texto": "prioridade, a efetivação do direito à vida, à saúde, à alimenta-",
+        "confianca": 0.9870020747184753,
+        "caixa": [
+          52.0,
+          426.0,
+          326.0,
+          439.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 20,
+        "texto": "ção, à educação, à cultura, ao esporte, ao lazer, ao trabalho, à",
+        "confianca": 0.9905110597610474,
+        "caixa": [
+          51.0,
+          442.0,
+          327.0,
+          455.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 21,
+        "texto": "cidadania, à liberdade, à dignidade, ao respeito e à convivência",
+        "confianca": 0.9846721887588501,
+        "caixa": [
+          51.0,
+          458.0,
+          326.0,
+          471.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 22,
+        "texto": "familiar e comunitária.",
+        "confianca": 0.9964951872825623,
+        "caixa": [
+          51.0,
+          474.0,
+          157.0,
+          487.0
+        ],
+        "coluna": 1
+      }
+    ],
+    [
+      {
+        "indice_paddleocr": 23,
+        "texto": "12",
+        "confianca": 0.999927282333374,
+        "caixa": [
+          313.0,
+          497.0,
+          329.0,
+          511.0
+        ],
+        "coluna": 1
+      }
+    ]
+  ],
+  "resultado_bruto_paddleocr": {
+    "input_path": null,
+    "page_index": null,
+    "model_settings": {
+      "use_doc_preprocessor": false,
+      "use_textline_orientation": false
+    },
+    "dt_polys": [
+      [
+        [
+          68,
+          44
+        ],
+        [
+          309,
+          44
+        ],
+        [
+          309,
+          57
+        ],
+        [
+          68,
+          57
+        ]
+      ],
+      [
+        [
+          133,
+          60
+        ],
+        [
+          243,
+          60
+        ],
+        [
+          243,
+          74
+        ],
+        [
+          133,
+          74
+        ]
+      ],
+      [
+        [
+          106,
+          106
+        ],
+        [
+          327,
+          106
+        ],
+        [
+          327,
+          119
+        ],
+        [
+          106,
+          119
+        ]
+      ],
+      [
+        [
+          64,
+          144
+        ],
+        [
+          184,
+          144
+        ],
+        [
+          184,
+          158
+        ],
+        [
+          64,
+          158
+        ]
+      ],
+      [
+        [
+          65,
+          166
+        ],
+        [
+          326,
+          166
+        ],
+        [
+          326,
+          179
+        ],
+        [
+          65,
+          179
+        ]
+      ],
+      [
+        [
+          50,
+          182
+        ],
+        [
+          131,
+          182
+        ],
+        [
+          131,
+          195
+        ],
+        [
+          50,
+          195
+        ]
+      ],
+      [
+        [
+          90,
+          202
+        ],
+        [
+          288,
+          202
+        ],
+        [
+          288,
+          215
+        ],
+        [
+          90,
+          215
+        ]
+      ],
+      [
+        [
+          64,
+          222
+        ],
+        [
+          326,
+          223
+        ],
+        [
+          326,
+          237
+        ],
+        [
+          64,
+          236
+        ]
+      ],
+      [
+        [
+          51,
+          240
+        ],
+        [
+          327,
+          240
+        ],
+        [
+          327,
+          253
+        ],
+        [
+          51,
+          253
+        ]
+      ],
+      [
+        [
+          49,
+          256
+        ],
+        [
+          165,
+          255
+        ],
+        [
+          165,
+          269
+        ],
+        [
+          49,
+          270
+        ]
+      ],
+      [
+        [
+          64,
+          276
+        ],
+        [
+          327,
+          277
+        ],
+        [
+          327,
+          290
+        ],
+        [
+          64,
+          289
+        ]
+      ],
+      [
+        [
+          50,
+          293
+        ],
+        [
+          327,
+          293
+        ],
+        [
+          327,
+          306
+        ],
+        [
+          50,
+          306
+        ]
+      ],
+      [
+        [
+          50,
+          309
+        ],
+        [
+          328,
+          309
+        ],
+        [
+          328,
+          322
+        ],
+        [
+          50,
+          322
+        ]
+      ],
+      [
+        [
+          49,
+          324
+        ],
+        [
+          327,
+          325
+        ],
+        [
+          327,
+          339
+        ],
+        [
+          49,
+          338
+        ]
+      ],
+      [
+        [
+          49,
+          341
+        ],
+        [
+          327,
+          341
+        ],
+        [
+          327,
+          354
+        ],
+        [
+          49,
+          354
+        ]
+      ],
+      [
+        [
+          50,
+          357
+        ],
+        [
+          327,
+          357
+        ],
+        [
+          327,
+          370
+        ],
+        [
+          50,
+          370
+        ]
+      ],
+      [
+        [
+          50,
+          372
+        ],
+        [
+          100,
+          372
+        ],
+        [
+          100,
+          386
+        ],
+        [
+          50,
+          386
+        ]
+      ],
+      [
+        [
+          66,
+          394
+        ],
+        [
+          326,
+          394
+        ],
+        [
+          326,
+          406
+        ],
+        [
+          66,
+          406
+        ]
+      ],
+      [
+        [
+          51,
+          410
+        ],
+        [
+          326,
+          410
+        ],
+        [
+          326,
+          423
+        ],
+        [
+          51,
+          423
+        ]
+      ],
+      [
+        [
+          52,
+          426
+        ],
+        [
+          326,
+          426
+        ],
+        [
+          326,
+          439
+        ],
+        [
+          52,
+          439
+        ]
+      ],
+      [
+        [
+          51,
+          442
+        ],
+        [
+          327,
+          442
+        ],
+        [
+          327,
+          455
+        ],
+        [
+          51,
+          455
+        ]
+      ],
+      [
+        [
+          51,
+          458
+        ],
+        [
+          326,
+          458
+        ],
+        [
+          326,
+          471
+        ],
+        [
+          51,
+          471
+        ]
+      ],
+      [
+        [
+          51,
+          474
+        ],
+        [
+          157,
+          474
+        ],
+        [
+          157,
+          487
+        ],
+        [
+          51,
+          487
+        ]
+      ],
+      [
+        [
+          313,
+          497
+        ],
+        [
+          329,
+          497
+        ],
+        [
+          329,
+          511
+        ],
+        [
+          313,
+          511
+        ]
+      ]
+    ],
+    "text_det_params": {
+      "limit_side_len": 64,
+      "limit_type": "min",
+      "thresh": 0.3,
+      "max_side_limit": 4000,
+      "box_thresh": 0.6,
+      "unclip_ratio": 1.5
+    },
+    "text_type": "general",
+    "textline_orientation_angles": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "text_rec_score_thresh": 0.0,
+    "return_word_box": false,
+    "rec_texts": [
+      "LEI N° 10.741, DE 1º DE 0UTUBRO DE 2003",
+      "(ESTATUTO DO IDOSO)",
+      "Dispõe sobre o Estatuto do Idoso e dá outras providências.",
+      "O presidente da República",
+      "Faço saber que o Congresso Nacional decreta e eu sancio-",
+      "no a seguinte lei:",
+      "TÍTULO I - DISPOSICÕES PRELIMINARES",
+      "Art. 1. É instituído o Estatuto do Idoso, destinado a re-",
+      "gular os direitos assegurados às pessoas com idade igual ou",
+      "superior a sessenta anos.",
+      "Art. 2. O idoso goza de todos os direitos fundamentais",
+      "inerentes à pessoa humana, sem prejuízo da proteção integral",
+      "de que trata esta lei, assegurando-se-lhe, por lei ou por outros",
+      "meios, todas as oportunidades e facilidades, para preservação",
+      "de sua saúde física e mental e seu aperfeiçoamento moral,",
+      "intelectual, espiritual e social, em condições de liberdade e",
+      "dignidade.",
+      "Art. 3. É obrigação da família, da comunidade, da socie-",
+      "dade e do poder público assegurar ao idoso, com absoluta",
+      "prioridade, a efetivação do direito à vida, à saúde, à alimenta-",
+      "ção, à educação, à cultura, ao esporte, ao lazer, ao trabalho, à",
+      "cidadania, à liberdade, à dignidade, ao respeito e à convivência",
+      "familiar e comunitária.",
+      "12"
+    ],
+    "rec_scores": [
+      0.9624240398406982,
+      0.9454482197761536,
+      0.9836501479148865,
+      0.9987487196922302,
+      0.9930143356323242,
+      0.9964621067047119,
+      0.9720328450202942,
+      0.9747899174690247,
+      0.9826136827468872,
+      0.995083749294281,
+      0.9900657534599304,
+      0.9827944040298462,
+      0.9976831078529358,
+      0.9917317628860474,
+      0.9867668747901917,
+      0.9992309808731079,
+      0.9997893571853638,
+      0.9914413094520569,
+      0.9790068864822388,
+      0.9870020747184753,
+      0.9905110597610474,
+      0.9846721887588501,
+      0.9964951872825623,
+      0.999927282333374
+    ],
+    "rec_polys": [
+      [
+        [
+          68,
+          44
+        ],
+        [
+          309,
+          44
+        ],
+        [
+          309,
+          57
+        ],
+        [
+          68,
+          57
+        ]
+      ],
+      [
+        [
+          133,
+          60
+        ],
+        [
+          243,
+          60
+        ],
+        [
+          243,
+          74
+        ],
+        [
+          133,
+          74
+        ]
+      ],
+      [
+        [
+          106,
+          106
+        ],
+        [
+          327,
+          106
+        ],
+        [
+          327,
+          119
+        ],
+        [
+          106,
+          119
+        ]
+      ],
+      [
+        [
+          64,
+          144
+        ],
+        [
+          184,
+          144
+        ],
+        [
+          184,
+          158
+        ],
+        [
+          64,
+          158
+        ]
+      ],
+      [
+        [
+          65,
+          166
+        ],
+        [
+          326,
+          166
+        ],
+        [
+          326,
+          179
+        ],
+        [
+          65,
+          179
+        ]
+      ],
+      [
+        [
+          50,
+          182
+        ],
+        [
+          131,
+          182
+        ],
+        [
+          131,
+          195
+        ],
+        [
+          50,
+          195
+        ]
+      ],
+      [
+        [
+          90,
+          202
+        ],
+        [
+          288,
+          202
+        ],
+        [
+          288,
+          215
+        ],
+        [
+          90,
+          215
+        ]
+      ],
+      [
+        [
+          64,
+          222
+        ],
+        [
+          326,
+          223
+        ],
+        [
+          326,
+          237
+        ],
+        [
+          64,
+          236
+        ]
+      ],
+      [
+        [
+          51,
+          240
+        ],
+        [
+          327,
+          240
+        ],
+        [
+          327,
+          253
+        ],
+        [
+          51,
+          253
+        ]
+      ],
+      [
+        [
+          49,
+          256
+        ],
+        [
+          165,
+          255
+        ],
+        [
+          165,
+          269
+        ],
+        [
+          49,
+          270
+        ]
+      ],
+      [
+        [
+          64,
+          276
+        ],
+        [
+          327,
+          277
+        ],
+        [
+          327,
+          290
+        ],
+        [
+          64,
+          289
+        ]
+      ],
+      [
+        [
+          50,
+          293
+        ],
+        [
+          327,
+          293
+        ],
+        [
+          327,
+          306
+        ],
+        [
+          50,
+          306
+        ]
+      ],
+      [
+        [
+          50,
+          309
+        ],
+        [
+          328,
+          309
+        ],
+        [
+          328,
+          322
+        ],
+        [
+          50,
+          322
+        ]
+      ],
+      [
+        [
+          49,
+          324
+        ],
+        [
+          327,
+          325
+        ],
+        [
+          327,
+          339
+        ],
+        [
+          49,
+          338
+        ]
+      ],
+      [
+        [
+          49,
+          341
+        ],
+        [
+          327,
+          341
+        ],
+        [
+          327,
+          354
+        ],
+        [
+          49,
+          354
+        ]
+      ],
+      [
+        [
+          50,
+          357
+        ],
+        [
+          327,
+          357
+        ],
+        [
+          327,
+          370
+        ],
+        [
+          50,
+          370
+        ]
+      ],
+      [
+        [
+          50,
+          372
+        ],
+        [
+          100,
+          372
+        ],
+        [
+          100,
+          386
+        ],
+        [
+          50,
+          386
+        ]
+      ],
+      [
+        [
+          66,
+          394
+        ],
+        [
+          326,
+          394
+        ],
+        [
+          326,
+          406
+        ],
+        [
+          66,
+          406
+        ]
+      ],
+      [
+        [
+          51,
+          410
+        ],
+        [
+          326,
+          410
+        ],
+        [
+          326,
+          423
+        ],
+        [
+          51,
+          423
+        ]
+      ],
+      [
+        [
+          52,
+          426
+        ],
+        [
+          326,
+          426
+        ],
+        [
+          326,
+          439
+        ],
+        [
+          52,
+          439
+        ]
+      ],
+      [
+        [
+          51,
+          442
+        ],
+        [
+          327,
+          442
+        ],
+        [
+          327,
+          455
+        ],
+        [
+          51,
+          455
+        ]
+      ],
+      [
+        [
+          51,
+          458
+        ],
+        [
+          326,
+          458
+        ],
+        [
+          326,
+          471
+        ],
+        [
+          51,
+          471
+        ]
+      ],
+      [
+        [
+          51,
+          474
+        ],
+        [
+          157,
+          474
+        ],
+        [
+          157,
+          487
+        ],
+        [
+          51,
+          487
+        ]
+      ],
+      [
+        [
+          313,
+          497
+        ],
+        [
+          329,
+          497
+        ],
+        [
+          329,
+          511
+        ],
+        [
+          313,
+          511
+        ]
+      ]
+    ],
+    "rec_boxes": [
+      [
+        68,
+        44,
+        309,
+        57
+      ],
+      [
+        133,
+        60,
+        243,
+        74
+      ],
+      [
+        106,
+        106,
+        327,
+        119
+      ],
+      [
+        64,
+        144,
+        184,
+        158
+      ],
+      [
+        65,
+        166,
+        326,
+        179
+      ],
+      [
+        50,
+        182,
+        131,
+        195
+      ],
+      [
+        90,
+        202,
+        288,
+        215
+      ],
+      [
+        64,
+        222,
+        326,
+        237
+      ],
+      [
+        51,
+        240,
+        327,
+        253
+      ],
+      [
+        49,
+        255,
+        165,
+        270
+      ],
+      [
+        64,
+        276,
+        327,
+        290
+      ],
+      [
+        50,
+        293,
+        327,
+        306
+      ],
+      [
+        50,
+        309,
+        328,
+        322
+      ],
+      [
+        49,
+        324,
+        327,
+        339
+      ],
+      [
+        49,
+        341,
+        327,
+        354
+      ],
+      [
+        50,
+        357,
+        327,
+        370
+      ],
+      [
+        50,
+        372,
+        100,
+        386
+      ],
+      [
+        66,
+        394,
+        326,
+        406
+      ],
+      [
+        51,
+        410,
+        326,
+        423
+      ],
+      [
+        52,
+        426,
+        326,
+        439
+      ],
+      [
+        51,
+        442,
+        327,
+        455
+      ],
+      [
+        51,
+        458,
+        326,
+        471
+      ],
+      [
+        51,
+        474,
+        157,
+        487
+      ],
+      [
+        313,
+        497,
+        329,
+        511
+      ]
+    ]
+  }
+}
