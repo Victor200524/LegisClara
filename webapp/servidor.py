@@ -365,4 +365,42 @@ def apagar_execucao(id_execucao: str):
     return {"apagado": id_execucao}
 
 
+_base_leis = None
+
+
+def base_leis():
+    global _base_leis
+    if _base_leis is None:
+        from scripts.busca_leis import BaseDeLeis
+        _base_leis = BaseDeLeis()
+    return _base_leis
+
+
+@app.get("/api/leis/info")
+def leis_info():
+    return base_leis().info()
+
+
+@app.get("/api/leis/buscar")
+def leis_buscar(q: str = "", limite: int = 10, tipo: str | None = None, tema: str | None = None,
+                ano_de: int | None = None, ano_ate: int | None = None):
+    return base_leis().buscar(q, min(limite, 50), tipo, tema, ano_de, ano_ate)
+
+
+@app.get("/api/leis/{lei_id}")
+def leis_detalhe(lei_id: int):
+    d = base_leis().detalhe(lei_id)
+    if not d:
+        raise HTTPException(404, "lei inexistente")
+    return d
+
+
+@app.post("/api/execucoes/{id_execucao}/indexar")
+def indexar_execucao(id_execucao: str):
+    """Adiciona o texto (corrigido, se houver) de uma execução de OCR à base pesquisável."""
+    r = _montar_resposta(_pasta_execucao(id_execucao))
+    texto = "\n".join((p.get("correcao") or {}).get("texto_corrigido") or p.get("texto") or "" for p in r["paginas"])
+    return base_leis().adicionar(r["arquivo"], texto)
+
+
 app.mount("/", StaticFiles(directory=PASTA_ESTATICA, html=True), name="estatico")
