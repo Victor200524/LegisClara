@@ -17,6 +17,7 @@ Rodar:  .venv/bin/python -m uvicorn webapp.servidor:app --port 8000
 from __future__ import annotations
 
 import json
+import os
 import re
 import shutil
 import sys
@@ -42,6 +43,7 @@ PASTA_EXECUCOES = RAIZ / "resultados_web"
 PASTA_ESTATICA = Path(__file__).parent / "static"
 LIMITE_BYTES = 30 * 1024 * 1024
 MAX_PAGINAS_PDF = 20
+USAR_CONTEXTO = os.environ.get("LEGIS_CONTEXTO", "1") != "0"  # 0 = sem BERTimbau (economiza ~1 GB de RAM)
 
 _motor: ocr.MotorOCR | None = None
 _trava = threading.Lock()  # o PaddleOCR não é thread-safe: uma página por vez
@@ -50,7 +52,11 @@ _trava = threading.Lock()  # o PaddleOCR não é thread-safe: uma página por ve
 def motor() -> ocr.MotorOCR:
     global _motor
     if _motor is None:
-        _motor = ocr.MotorOCR()
+        extras = {}
+        # máquinas com pouca memória: OCR_MODELO_DETECCAO=PP-OCRv5_mobile_det
+        if os.environ.get("OCR_MODELO_DETECCAO"):
+            extras["text_detection_model_name"] = os.environ["OCR_MODELO_DETECCAO"]
+        _motor = ocr.MotorOCR(**extras)
     return _motor
 
 
@@ -65,7 +71,7 @@ async def ciclo_de_vida(_app: FastAPI):
     def _carregar_corretor():
         from scripts import correcao
         with _trava:
-            correcao.obter_corretor()
+            correcao.obter_corretor(usar_contexto=USAR_CONTEXTO)
         print("[webapp] corretor (dicionário + BERTimbau) pronto", flush=True)
 
     threading.Thread(target=_carregar_corretor, daemon=True).start()
@@ -258,7 +264,7 @@ def executar_ocr(
             from scripts import correcao
             ok = [r for r in registros if r.get("status") == "ok"]
             with _trava:
-                resultados = correcao.obter_corretor().corrigir_documento(ok)
+                resultados = correcao.obter_corretor(usar_contexto=USAR_CONTEXTO).corrigir_documento(ok)
             for reg, cor in zip(ok, resultados):
                 (pasta / f"{ocr.nome_pagina(reg['pagina'])}_correcao.json").write_text(
                     json.dumps(cor, ensure_ascii=False, indent=2), encoding="utf-8")
