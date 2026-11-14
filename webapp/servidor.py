@@ -43,6 +43,17 @@ PASTA_EXECUCOES = RAIZ / "resultados_web"
 PASTA_ESTATICA = Path(__file__).parent / "static"
 LIMITE_BYTES = 30 * 1024 * 1024
 MAX_PAGINAS_PDF = 20
+LARGURA_MAXIMA = int(os.environ.get("OCR_LARGURA_MAXIMA", "0"))  # 0 = sem limite
+
+
+def _limitar_largura(img):
+    import cv2
+    if img.shape[1] <= LARGURA_MAXIMA:
+        return img
+    f = LARGURA_MAXIMA / img.shape[1]
+    return cv2.resize(img, None, fx=f, fy=f, interpolation=cv2.INTER_AREA)
+
+
 USAR_CORRECAO = os.environ.get("LEGIS_CORRECAO", "1") != "0"  # 0 = sem correção (máquinas com ~1 GB de RAM)
 USAR_CONTEXTO = os.environ.get("LEGIS_CONTEXTO", "1") != "0"  # 0 = sem BERTimbau (economiza ~1 GB de RAM)
 
@@ -255,6 +266,9 @@ def executar_ocr(
         registros = []
         with _trava:
             for pagina in paginas:
+                if LARGURA_MAXIMA:  # máquinas com pouca memória: reduz imagens grandes antes do OCR
+                    pagina = ocr.Pagina(pagina.numero, pagina.origem,
+                                        lambda c=pagina.carregar: _limitar_largura(c()))
                 # força salvar a imagem que entrou no OCR (inclusive no perfil "original"),
                 # pois as caixas da interface são desenhadas sobre ela
                 imagem = pre.aplicar_perfil(pagina.carregar(), perfil)

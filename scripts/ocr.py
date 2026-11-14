@@ -34,7 +34,7 @@ os.environ.setdefault("PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK", "True")
 EXTENSOES_IMAGEM = {".jpg", ".jpeg", ".png", ".bmp", ".tif", ".tiff", ".webp"}
 EXTENSOES_PDF = {".pdf"}
 SUBPASTA_IMAGENS = "imagens_do_documento"
-DPI_PDF = 300  # resolução usada para rasterizar páginas de PDF
+DPI_PDF = int(os.environ.get("OCR_DPI_PDF", "300"))  # resolução para rasterizar PDFs (menor = menos memória)
 
 
 # ---------------------------------------------------------------------------
