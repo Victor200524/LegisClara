@@ -47,6 +47,7 @@ USAR_CONTEXTO = os.environ.get("LEGIS_CONTEXTO", "1") != "0"  # 0 = sem BERTimba
 
 _motor: ocr.MotorOCR | None = None
 _trava = threading.Lock()  # o PaddleOCR não é thread-safe: uma página por vez
+_trava_corretor = threading.Lock()  # carregar/usar o corretor não pode bloquear o OCR
 
 
 def motor() -> ocr.MotorOCR:
@@ -70,7 +71,7 @@ async def ciclo_de_vida(_app: FastAPI):
 
     def _carregar_corretor():
         from scripts import correcao
-        with _trava:
+        with _trava_corretor:
             correcao.obter_corretor(usar_contexto=USAR_CONTEXTO)
         print("[webapp] corretor (dicionário + BERTimbau) pronto", flush=True)
 
@@ -263,7 +264,7 @@ def executar_ocr(
         if corrigir and any(r.get("status") == "ok" for r in registros):
             from scripts import correcao
             ok = [r for r in registros if r.get("status") == "ok"]
-            with _trava:
+            with _trava_corretor:
                 resultados = correcao.obter_corretor(usar_contexto=USAR_CONTEXTO).corrigir_documento(ok)
             for reg, cor in zip(ok, resultados):
                 (pasta / f"{ocr.nome_pagina(reg['pagina'])}_correcao.json").write_text(
